@@ -76,14 +76,14 @@ test('source fetch refuses an off-allowlist redirect before following it',async(
  globalThis.fetch=async(input)=>{calls.push(String(input));return new Response(null,{status:302,headers:{location:'http://127.0.0.1/private'}});};
  try {const record=await fetchArticle('https://outcomeschool.com/blog/test-security');assert.equal(record.status,'failed');assert.match(record.error??'',/allowlist/);assert.deepEqual(calls,['https://outcomeschool.com/blog/test-security']);assert.equal('text' in record,false);} finally {globalThis.fetch=originalFetch;}
 });
-test('generator persists a rejected output for retry, then saves valid grounded output and skips unchanged work',async()=>{
+for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates ${model} requests, retries rejected output, and skips unchanged work`,async()=>{
  const {mkdtemp,mkdir,writeFile,readFile,rm}=await import('node:fs/promises');
  const {tmpdir}=await import('node:os');const {join,resolve}=await import('node:path');
  const {createServer}=await import('node:http');const {execFile}=await import('node:child_process');const {promisify}=await import('node:util');
  const dir=await mkdtemp(join(tmpdir(),'recall-pipeline-'));
- const q={...reconcile([],parseReadme(md,context))[0],id:'Q0002',number:2};let calls=0,valid=false;
+ const q={...reconcile([],parseReadme(md,context))[0],id:'Q0002',number:2};let calls=0,valid=false,finishReason='stop',refusal:string|null=null;let contentOverride:string|null|undefined;const requests:any[]=[];
  const text={title:'Title',intent:'Intent',hint:['Hint'],principle:'Principle',tradeoff:'Tradeoff',implementation:'Implementation',production:'Production',supplementNote:'Additional advice is distinguished from source explanation.'};
- const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{message:{content:JSON.stringify({sourceUrls:[q.source.url,q.source.repo,valid?q.links[0].url:'https://invented.test'],locales:{en:text,'zh-TW':text,ja:text}})}}]}));});});
+ const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);requests.push(input);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{finish_reason:finishReason,message:{refusal,content:contentOverride!==undefined?contentOverride:JSON.stringify({sourceUrls:[q.source.url,q.source.repo,valid?q.links[0].url:'https://invented.test'],locales:{en:text,'zh-TW':text,ja:text}})}}]}));});});
  await new Promise<void>(r=>server.listen(0,'127.0.0.1',r));
  const port=(server.address() as any).port;
  try {
@@ -94,8 +94,20 @@ test('generator persists a rejected output for retry, then saves valid grounded 
   const contentHash=hash('Grounded article text.');const url=q.links[0].url;
   await writeFile(join(dir,`data/sources/${hash(url)}.json`),JSON.stringify({url,title:'Article',status:'ok',checkedAt:new Date().toISOString(),contentHash}));
   await writeFile(join(dir,`.private/sources/${hash(url)}.json`),JSON.stringify({url,contentHash,text:'Grounded article text.'}));
-  const run=(args:string[]=[],env:Record<string,string>={})=>promisify(execFile)(process.execPath,[resolve('node_modules/tsx/dist/cli.mjs'),resolve('scripts/generate.ts'),...args],{cwd:dir,env:{...process.env,GENERATION_LIMIT:'1',LLM_API_KEY:'test-local-key',LLM_MODEL:'test-local-model',LLM_BASE_URL:`http://127.0.0.1:${port}/v1`,...env}});
+  const run=(args:string[]=[],env:Record<string,string>={})=>promisify(execFile)(process.execPath,[resolve('node_modules/tsx/dist/cli.mjs'),resolve('scripts/generate.ts'),...args],{cwd:dir,env:{...process.env,GENERATION_LIMIT:'1',LLM_API_KEY:'test-local-key',LLM_MODEL:model,LLM_MAX_TOKENS:'7000',LLM_BASE_URL:`http://127.0.0.1:${port}/v1`,...env}});
   await run();const failed=JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8'));assert.equal(failed.Q0002.status,'failed');assert.match(failed.Q0002.error,/source/i);
+  assert.equal(requests[0].model,model);
+  assert.deepEqual(requests[0].response_format,{type:'json_object'});
+  if(model==='gpt-6-astra'){
+   assert.equal('temperature' in requests[0],false,'Astra rejects temperature');
+   assert.equal('max_tokens' in requests[0],false,'Astra uses completion token budget');
+   assert.equal(requests[0].max_completion_tokens,7000);
+   assert.equal(requests[0].reasoning_effort,'low');
+  }else{
+   assert.equal(requests[0].max_tokens,7000);
+   assert.equal(requests[0].temperature,0.2);
+   assert.equal('reasoning_effort' in requests[0],false);
+  }
   await assert.rejects(readFile(join(dir,'data/answers/Q0002.json')));
   valid=true;await run(['--force']);const saved=JSON.parse(await readFile(join(dir,'data/answers/Q0002.json'),'utf8'));assert.equal(saved.status,'ready');assert.equal(saved.locales.ja.title,'Title');
   await run();assert.equal(calls,2,'unchanged valid answers must not spend another model request');
@@ -114,6 +126,24 @@ test('generator persists a rejected output for retry, then saves valid grounded 
   const retryFailure=JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8')).Q0002;
   assert.equal(retryFailure.status,'failed');assert.equal(retryFailure.sourceHash,baseline,'provider failures must retain the last successful source baseline');
   valid=true;await run(['--force']);assert.equal(calls,4,'stale seed must retry once credentials return');
+  const lastGood=JSON.parse(await readFile(join(dir,'data/answers/Q0002.json'),'utf8'));
+  for(const [reason,declined,body,error] of [
+   ['length',null,undefined,/token|truncat/i],
+   ['stop','Declined',undefined,/refus/i],
+   ['content_filter',null,undefined,/finish|filter/i],
+   ['stop',null,null,/no answer text/i],
+   ['stop',null,'{unfinished',/invalid JSON/i],
+   ['stop',null,'[]',/invalid answer object/i]
+  ] as const){
+   finishReason=reason;refusal=declined;contentOverride=body;
+   await run(['--force']);
+   const job=JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8')).Q0002;
+   assert.equal(job.status,'failed');assert.match(job.error,error);
+   const kept=JSON.parse(await readFile(join(dir,'data/answers/Q0002.json'),'utf8'));
+   assert.equal(kept.generatedAt,lastGood.generatedAt,'incomplete response must not replace the last successful answer');
+   assert.deepEqual(kept.locales,lastGood.locales);
+   assert.ok(Date.parse(job.nextRetryAt)>Date.now());
+  }
  }finally {server.close();await rm(dir,{recursive:true,force:true});}
 });
 

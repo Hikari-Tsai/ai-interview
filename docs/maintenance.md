@@ -65,6 +65,10 @@ Articles are deduplicated by URL, refreshed after a seven-day TTL and checked us
 
 Set **LLM_API_KEY** (or OPENAI_API_KEY) and **LLM_MODEL** in the job environment. **LLM_BASE_URL** optionally selects an OpenAI-compatible Chat Completions provider; default is `https://api.openai.com/v1`. The chosen model must support JSON output and the configured request parameters. No paid provider was called to create this project; live-provider compatibility remains to be verified after configuration.
 
+For **GPT-6 Astra**, set `LLM_MODEL=gpt-6-astra` and `LLM_BASE_URL=https://api.openai.com/v1`. The generator uses `max_completion_tokens` and `reasoning_effort: low`, omitting `temperature`, according to the [official Astra migration guide](https://developers.openai.com/api/docs/guides/latest-model#update-api-and-model-parameters). Other model names retain the existing `max_tokens` and `temperature: 0.2` request format. Your OpenAI API project must have access to Astra and available quota; selecting a model in Codex does not configure the workflow's API credentials.
+
+For Astra, `LLM_MAX_TOKENS` covers both reasoning and visible output tokens. The default remains 7,000 and the maximum is 16,000. Truncated responses, refusals, empty responses, and invalid JSON are recorded as failed jobs for later retry; they do not replace the last successful answer. These cases are tested against a local simulated Chat Completions endpoint. Repository Variables are passed to a job only when explicitly mapped in the workflow; to override this token limit in Actions, add `LLM_MAX_TOKENS` to the generation step's environment.
+
 For local jobs, copy `.env.example` to `.env`, edit it locally, then load it with your preferred environment manager. Alternatively Node supports:
 
 ```sh

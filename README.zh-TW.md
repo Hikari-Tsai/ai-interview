@@ -39,7 +39,7 @@ npm run dev
 
 網頁頁尾以 **UTC+8** 顯示題庫最近同步或答案最近生成中較新的時間，重新整理頁面不會改變此紀錄。Push 觸發的流程會驗證及建置網站，跳過來源同步與答案生成。
 
-請依[維護指南](docs/maintenance.md) 在 Actions Secrets 設定 API Key、在 Actions Variables 設定模型參數，並啟用 GitHub Pages。答案自動生成需要相容的模型設定；目前生成程式仍需調整參數才能使用 GPT-6 Astra。
+請依[維護指南](docs/maintenance.md) 在 Actions Secrets 設定 API Key、在 Actions Variables 設定模型參數，並啟用 GitHub Pages。使用 GPT-6 Astra 時，設定 `LLM_MODEL=gpt-6-astra`、`LLM_BASE_URL=https://api.openai.com/v1`，並將 OpenAI API Key 放入 `LLM_API_KEY` Secret。生成程式會自動使用 Astra 相容參數；你的 API 專案需具備模型存取權及可用額度。
 
 ## 資料來源與致謝
 

@@ -56,9 +56,20 @@ async function main(){
    const endpoint=new URL(process.env.LLM_BASE_URL||'https://api.openai.com/v1');
    if(endpoint.protocol!=='https:'&&!(endpoint.protocol==='http:'&&['localhost','127.0.0.1'].includes(endpoint.hostname)))throw new Error('LLM_BASE_URL must use HTTPS (except local providers)');
    endpoint.pathname=endpoint.pathname.replace(/\/$/,'')+'/chat/completions';
-   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))}],response_format:{type:'json_object'},max_tokens:maxTokens,temperature:0.2}),signal:AbortSignal.timeout(120000)});
+   // Astra's completion budget includes reasoning; sampling controls are unsupported.
+   const parameters=/^gpt-6-astra(?:-|$)/.test(model)
+    ?{max_completion_tokens:maxTokens,reasoning_effort:'low'}
+    :{max_tokens:maxTokens,temperature:0.2};
+   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(120000)});
    if(!response.ok)throw new Error(`Model HTTP ${response.status}`);
-   const result:any=await response.json();const payload=JSON.parse(result.choices?.[0]?.message?.content??'');
+   const result:any=await response.json();const choice=result.choices?.[0];
+   if(choice?.message?.refusal)throw new Error('Model refused to generate this answer.');
+   if(choice?.finish_reason==='length')throw new Error('Model output reached the token limit; review LLM_MAX_TOKENS before retrying.');
+   if(choice?.finish_reason!=='stop')throw new Error('Model did not finish normally; no answer saved.');
+   if(typeof choice.message?.content!=='string'||!choice.message.content.trim())throw new Error('Model returned no answer text.');
+   let payload:unknown;
+   try{payload=JSON.parse(choice.message.content);}catch{throw new Error('Model returned invalid JSON; no answer saved.');}
+   if(!payload||typeof payload!=='object'||Array.isArray(payload))throw new Error('Model returned an invalid answer object.');
    const answer=validateAnswer({...payload,questionId:q.id,inputHash,status:'ready',generatedAt:new Date().toISOString(),model,promptVersion:PROMPT_VERSION},q,sources.map(s=>s.url));
    await writeJson(answerFile,answer);
    state[q.id]={status:'ready',attempts:(previous?.attempts??0)+1,inputHash,sourceHash:dependencyHash,updatedAt:new Date().toISOString()};generated++;

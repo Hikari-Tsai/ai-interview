@@ -39,7 +39,7 @@ The [GitHub Actions workflow](.github/workflows/update-and-deploy.yml) runs dail
 
 The page footer shows the latest recorded question sync or answer generation time in **UTC+8**. Reloading the page does not change this timestamp. Push-triggered runs validate and build the site; they skip source synchronization and answer generation.
 
-Configure an API key in Actions Secrets, model settings in Actions Variables, and GitHub Pages as described in the [maintenance guide](docs/maintenance.md). Automatic answer generation requires a compatible model configuration; the current generator still needs parameter changes for GPT-6 Astra.
+Configure an API key in Actions Secrets, model settings in Actions Variables, and GitHub Pages as described in the [maintenance guide](docs/maintenance.md). For GPT-6 Astra, set `LLM_MODEL=gpt-6-astra` and `LLM_BASE_URL=https://api.openai.com/v1`, with your OpenAI API key in the `LLM_API_KEY` secret. The generator selects Astra-compatible parameters automatically; your API project must have model access and available quota.
 
 ## Sources and acknowledgments
 

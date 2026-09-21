@@ -56,3 +56,10 @@ main{padding:43px 56px 24px;min-width:0;max-width:1130px;width:100%;margin:0 aut
 .community-prose ul,.community-prose ol{padding-left:24px}.community-prose a{text-decoration:underline;color:var(--accent-dark)}.community-prose img{max-width:100%;height:auto}
 .community-prose pre{max-width:100%;overflow-x:auto;background:#eff1eb;padding:14px;border-radius:6px;font-size:12px;line-height:1.7}.community-prose code{font-size:.9em}.community-prose blockquote{border-left:3px solid #b3c5b1;padding-left:15px;color:#526157}
 @media(max-width:760px){.contribute{padding:20px 23px}.contribute-heading{align-items:start}.contribute-actions{display:grid;grid-template-columns:1fr;width:100%}.contribute-actions>a,.discussion-options>summary{justify-content:flex-start;width:100%}.discussion-links{position:static;margin-top:5px;min-width:0;box-shadow:none}.community-prose{font-size:13px}}
+
+.share-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:8px 11px;border:1px solid #dce1d7;border-radius:6px;background:#fafbf8;color:#63765e;font-size:12px;white-space:nowrap}
+.share-button:hover{background:#edf3e8;border-color:#a8b7a7}
+.share-button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.share-status{font-size:11px;color:var(--accent);text-align:right;padding:8px 33px 0}
+.share-status:empty{display:none}
+@media(max-width:600px){.share-status{padding-right:23px}.card-topline{gap:9px}.card-topic{min-width:0;overflow-wrap:anywhere}.share-button{padding:8px}}

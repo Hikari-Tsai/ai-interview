@@ -105,5 +105,9 @@
   "communityNeedsReview": "問題または参照資料が更新されています。この解答を保持したまま、再レビューを待っています。",
   "communityReferences": "コミュニティ解答の参考資料",
   "communityUpdated": "最終改訂",
-  "communityAdvanced": "発展的な解説"
+  "communityAdvanced": "発展的な解説",
+  "share": "共有",
+  "shareQuestion": "この問題を共有",
+  "shareCopied": "リンクをコピーしました",
+  "shareCopyPrompt": "この問題のリンクをコピーしてください："
 }

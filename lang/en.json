@@ -105,5 +105,9 @@
   "communityNeedsReview": "The question or its sources changed. This community answer is kept available and needs another review.",
   "communityReferences": "Community references",
   "communityUpdated": "Last revised",
-  "communityAdvanced": "Advanced explanation"
+  "communityAdvanced": "Advanced explanation",
+  "share": "Share",
+  "shareQuestion": "Share this question",
+  "shareCopied": "Link copied",
+  "shareCopyPrompt": "Copy this question link:"
 }

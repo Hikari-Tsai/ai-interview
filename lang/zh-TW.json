@@ -105,5 +105,9 @@
   "communityNeedsReview": "原題或來源已有更新，這份社群答案需要重新複核；目前保留原有內容。",
   "communityReferences": "社群答案參考來源",
   "communityUpdated": "最後修訂",
-  "communityAdvanced": "進階解析"
+  "communityAdvanced": "進階解析",
+  "share": "分享",
+  "shareQuestion": "分享這道題目",
+  "shareCopied": "已複製連結",
+  "shareCopyPrompt": "請複製這道題目的連結："
 }

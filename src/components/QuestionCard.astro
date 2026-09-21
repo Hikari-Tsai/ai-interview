@@ -2,6 +2,8 @@
 import type { Card, Locale } from '../lib/types';
 import {type Messages,tagLabel} from '../lib/i18n';
 import Icon from './Icon.astro';
+import site from '../config/site.json';
+import {pathFor} from '../lib/i18n';
 import Sources from './Sources.astro';
 import Contribute from './Contribute.astro';
 import CommunityCredit from './CommunityCredit.astro';
@@ -14,10 +16,13 @@ const community=card.community?.[locale];
 const answerDate=community?.updatedAt??card.aiGeneratedAt??card.answer?.generatedAt;
 const steps=['principle','tradeoff','implementation','production'] as const;
 const title=answer?.title||card.original;
+const publicSite=Astro.site&&!['localhost','127.0.0.1','[::1]'].includes(Astro.site.hostname);
+const shareUrl=publicSite?new URL(pathFor(locale,card.id),Astro.site).href:new URL(`${locale}/questions/${card.id}/`,site.websiteUrl).href;
 
 ---
 <article class="question-card" data-question={card.id}>
- <div class="card-topline"><span class="question-id">{card.id}</span><span class="card-topic">{tagLabel(t,card.tags[0]||'other')}</span><span class="card-corner"><Icon name="layers" size={20}/></span></div>
+ <div class="card-topline"><span class="question-id">{card.id}</span><span class="card-topic">{tagLabel(t,card.tags[0]||'other')}</span><div class="card-corner"><button type="button" id="share-button" class="share-button" disabled aria-label={t.shareQuestion} title={t.shareQuestion} data-url={shareUrl} data-title={`${card.id} · ${title}`} data-copied={t.shareCopied} data-copy-prompt={t.shareCopyPrompt}><Icon name="share" size={18}/><span>{t.share}</span></button></div></div>
+ <p id="share-status" class="share-status" role="status" aria-live="polite"></p>
  <div class="question-body">
   <h2 id="question-title" set:html={renderQuestionTitle(title)}/>
   {!answer&&locale!=='en'&&<p class="translation-status">{t.translationPending}</p>}

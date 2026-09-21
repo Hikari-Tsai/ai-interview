@@ -2,7 +2,7 @@
   "appName": "Recall",
   "appDescriptor": "AI 面接カード",
   "pageTitle": "AI企業の面接問題集",
-  "pageSubtitle": "公開の問題集をもとに、各社のAI職の面接問題をまとめました。まず自分で答えてから、ヒントや解説を確認できます。",
+  "pageSubtitle": "Outcome School の公開問題集から、各社の AI 職種の面接問題をまとめています。主な解答は Outcome School の公式資料を参考に AI が書き直したものです。各分野の専門家による改善を歓迎します。各問題の下にあるリンクからご参加ください。",
   "practice": "練習",
   "sourceRepo": "元の Repo",
   "lastUpdated": "データ最終更新",

@@ -2,7 +2,7 @@
   "appName": "Recall",
   "appDescriptor": "AI 面試題卡",
   "pageTitle": "AI 公司面試題庫",
-  "pageSubtitle": "整理自公開題庫，收錄各家公司 AI 職缺的面試題。先試著回答，再看提示與解說。",
+  "pageSubtitle": "整理自 Outcome School 公開題庫，收錄各家公司 AI 職缺的面試題。主要解答由 AI 參考 Outcome School 官方資料後改寫。歡迎領域專家一起完善解答，可從每題下方的入口參與。",
   "practice": "開始練習",
   "sourceRepo": "原始 Repo",
   "lastUpdated": "資料最後更新",

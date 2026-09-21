@@ -7,6 +7,7 @@ const tags=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.tags))];
 const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].sort();
 ---
 <aside class="sidebar" id="filter-panel" inert aria-label={t.filters}>
+ <div class="deck-note"><Icon name="layers" size={21}/><h3>{t.filterSummary}</h3><p>{t.filterHelp}</p><span><strong id="deck-count">{cards.filter(c=>c.active).length}</strong> {t.questionCount}</span></div>
  <div class="sidebar-heading"><h2>{t.filters}</h2><div class="filter-heading-actions"><button type="button" class="text-button" data-reset>{t.clearFilters}</button><button type="button" id="filter-close" class="mobile-close" aria-label={t.closeFilters}><Icon name="close" size={18}/></button></div></div>
  <form id="filter-form">
   <label class="field-label" for="search">{t.search}</label>
@@ -18,5 +19,4 @@ const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].
   </fieldset>
   <div class="filter-section status-filter"><label class="tag-option"><input type="checkbox" name="ready" id="ready" value="1"/><span class="custom-check"><Icon name="check" size={11}/></span><span>{t.ready}</span><span class="tag-count">{cards.filter(c=>c.active&&c.answer?.status==='ready'&&c.answer.locales[locale]).length}</span></label></div>
  </form>
- <div class="deck-note"><Icon name="layers" size={21}/><h3>{t.filterSummary}</h3><p>{t.filterHelp}</p><span><strong id="deck-count">{cards.filter(c=>c.active).length}</strong> {t.questionCount}</span></div>
 </aside>

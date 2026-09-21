@@ -13,14 +13,14 @@ const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies.map
  <form id="filter-form">
   <label class="field-label" for="search">{t.search}</label>
   <div class="search-field"><input type="search" name="search" id="search" placeholder={t.searchPlaceholder} autocomplete="off"/><button type="submit" aria-label={t.search}><Icon name="search" size={17}/></button></div>
-  <fieldset class="filter-section company-filter"><legend>{t.company}</legend><div class="company-options">
-   <label class="company-option"><input type="radio" name="company" value="" checked/><span class="company-tag">{t.allCompanies}</span></label>
-   {companies.map(company=><label class="company-option"><input type="radio" name="company" value={company}/><span class="company-tag" style={companyStyle(company)}><span>{company}</span><span class="company-count">{cards.filter(c=>c.active&&c.companies.some(name=>companyName(name)===company)).length}</span></span></label>)}
-  </div></fieldset>
   <fieldset class="filter-section"><legend>{t.topics}</legend>
    <div class="match-control"><span>{t.match}</span><div class="small-segment"><button type="button" data-match="any" aria-pressed="true">{t.any}</button><button type="button" data-match="all" aria-pressed="false">{t.all}</button></div></div>
    <div class="tag-options">{tags.map(tag=><label class="tag-option"><input type="checkbox" name="tag" value={tag}/><span class="custom-check"><Icon name="check" size={11}/></span><span>{tagLabel(t,tag)}</span><span class="tag-count">{cards.filter(c=>c.active&&c.tags.includes(tag)).length}</span></label>)}</div>
   </fieldset>
   <div class="filter-section status-filter"><label class="tag-option"><input type="checkbox" name="ready" id="ready" value="1"/><span class="custom-check"><Icon name="check" size={11}/></span><span>{t.ready}</span><span class="tag-count">{cards.filter(c=>c.active&&c.answer?.status==='ready'&&c.answer.locales[locale]).length}</span></label></div>
+  <fieldset class="filter-section company-filter"><legend>{t.company}</legend><div class="company-options">
+   <label class="company-option"><input type="radio" name="company" value="" checked/><span class="company-tag">{t.allCompanies}</span></label>
+   {companies.map(company=><label class="company-option"><input type="radio" name="company" value={company}/><span class="company-tag" style={companyStyle(company)}><span>{company}</span><span class="company-count">{cards.filter(c=>c.active&&c.companies.some(name=>companyName(name)===company)).length}</span></span></label>)}
+  </div></fieldset>
  </form>
 </aside>

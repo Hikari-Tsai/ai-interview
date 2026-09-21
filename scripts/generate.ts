@@ -61,7 +61,9 @@ async function main(){
    const parameters=/^gpt-6-astra(?:-|$)/.test(model)
     ?{max_completion_tokens:maxTokens,reasoning_effort:'low'}
     :{max_tokens:maxTokens,temperature:0.2};
-   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(300000)});
+   const lengthFeedback=previous?.error?.startsWith('Long-form length')
+    ?`\nA previous attempt failed the length check: ${previous.error} Regenerate from the supplied original sources. Aim for the middle of each language's requested range. Add missing explanations, assumptions and concrete examples when short; remove repetition when long. Do not merely pad the text.`:'';
+   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))+lengthFeedback}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(300000)});
    if(!response.ok)throw new Error(`Model HTTP ${response.status}`);
    const result:any=await response.json();const choice=result.choices?.[0];
    if(choice?.message?.refusal)throw new Error('Model refused to generate this answer.');
@@ -71,7 +73,10 @@ async function main(){
    let payload:unknown;
    try{payload=JSON.parse(choice.message.content);}catch{throw new Error('Model returned invalid JSON; no answer saved.');}
    if(!payload||typeof payload!=='object'||Array.isArray(payload))throw new Error('Model returned an invalid answer object.');
-   const answer=validateAnswer({...payload,questionId:q.id,inputHash,status:'ready',generatedAt:new Date().toISOString(),model,promptVersion:PROMPT_VERSION},q,sources.map(s=>s.url));
+   // Original-question provenance is deterministic; article citations remain model-selected and validated.
+   const cited=(payload as {sourceUrls?:unknown}).sourceUrls;
+   const sourceUrls=Array.isArray(cited)?[...new Set([...cited,q.source.url,q.source.repo])]:cited;
+   const answer=validateAnswer({...payload,sourceUrls,questionId:q.id,inputHash,status:'ready',generatedAt:new Date().toISOString(),model,promptVersion:PROMPT_VERSION},q,sources.map(s=>s.url));
    await writeJson(answerFile,answer);
    state[q.id]={status:'ready',attempts:(previous?.attempts??0)+1,inputHash,sourceHash:dependencyHash,updatedAt:new Date().toISOString()};generated++;
    console.log(`${q.id}: generated ${PROMPT_VERSION} (${generated}/${cap})`);

@@ -85,7 +85,7 @@ for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates
  const text={title:'Title',intent:'Intent',hint:['Hint'],principle:'Principle',tradeoff:'Tradeoff',implementation:'Implementation',production:'Production',supplementNote:'Additional advice is distinguished from source explanation.'};
  const longText=(body:string)=>({...text,principle:body,tradeoff:body,implementation:body,production:body});
  const contentLocales={en:longText('Engineering example explains the mechanism with explicit assumptions and checks. '.repeat(20)),'zh-TW':longText('這是測試用的原理說明與工程檢查。'.repeat(30)),ja:longText('仕組みと前提条件を説明し、運用時に確認します。'.repeat(25))};
- const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);requests.push(input);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{finish_reason:finishReason,message:{refusal,content:contentOverride!==undefined?contentOverride:JSON.stringify({sourceUrls:[q.source.url,q.source.repo,valid?q.links[0].url:'https://invented.test'],locales:contentLocales})}}]}));});});
+ const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);requests.push(input);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{finish_reason:finishReason,message:{refusal,content:contentOverride!==undefined?contentOverride:JSON.stringify({sourceUrls:[valid?q.links[0].url:'https://invented.test'],locales:contentLocales})}}]}));});});
  await new Promise<void>(r=>server.listen(0,'127.0.0.1',r));
  const port=(server.address() as any).port;
  try {
@@ -111,7 +111,7 @@ for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates
    assert.equal('reasoning_effort' in requests[0],false);
   }
   await assert.rejects(readFile(join(dir,'data/answers/Q0002.json')));
-  valid=true;await run(['--force']);const saved=JSON.parse(await readFile(join(dir,'data/answers/Q0002.json'),'utf8'));assert.equal(saved.status,'ready');assert.equal(saved.locales.ja.title,'Title');
+  valid=true;await run(['--force']);assert.equal(JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8')).Q0002.status,'ready','canonical source links must be supplied from the question record');const saved=JSON.parse(await readFile(join(dir,'data/answers/Q0002.json'),'utf8'));assert.equal(saved.status,'ready');assert.equal(saved.locales.ja.title,'Title');assert.ok(saved.sourceUrls.includes(q.source.url));assert.ok(saved.sourceUrls.includes(q.source.repo));
   await run();assert.equal(calls,2,'unchanged valid answers must not spend another model request');
   const baseline=JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8')).Q0002.sourceHash;
   await writeFile(join(dir,'data/answers/Q0002.json'),JSON.stringify({...saved,model:'codex-source-reviewed',promptVersion:'seed-v1',inputHash:answerContentHash(q)}));

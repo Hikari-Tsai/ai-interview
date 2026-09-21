@@ -2,6 +2,7 @@
 import type { Card, Locale } from '../lib/types';
 import {type Messages,tagLabel} from '../lib/i18n';
 import Icon from './Icon.astro';
+import {companyName,companyStyle} from '../lib/companies';
 import site from '../config/site.json';
 import {pathFor} from '../lib/i18n';
 import Sources from './Sources.astro';
@@ -30,7 +31,7 @@ const shareUrl=publicSite?new URL(pathFor(locale,card.id),Astro.site).href:new U
   {card.answer?.status==='stale'&&<p class="notice">{t.stale}</p>}
   <div class="question-tags">{card.tags.map(tag=><button class="tag-pill" type="button" disabled data-hydrate data-add-tag={tag}>{tagLabel(t,tag)}</button>)}</div>
   {locale!=='en'&&answer&&<details class="original-question"><summary>{t.original}<Icon name="chevron" size={14}/></summary><p lang="en">{card.original}</p></details>}
-  {card.companies.length>0&&<p class="company-note">{card.companies.join(' · ')}</p>}
+  {card.companies.length>0&&<div class="company-tags" role="group" aria-label={t.company}>{[...new Set(card.companies.map(companyName))].map(company=><button type="button" class="company-tag" style={companyStyle(company)} disabled data-hydrate data-filter-company={company} aria-pressed="false">{company}</button>)}</div>}
  </div>
  <div class="reveal-controls">
   <button type="button" class="button button-quiet" id="hint-button" disabled aria-expanded="false" aria-controls="hint-panel"><Icon name="bulb" size={18}/><span>{t.hint}</span></button>

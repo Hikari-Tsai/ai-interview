@@ -1,10 +1,11 @@
 ---
 import Icon from './Icon.astro';
+import {companyName,companyStyle} from '../lib/companies';
 import {type Messages,tagLabel} from '../lib/i18n';
 import type {Card,Locale} from '../lib/types';
 const {cards,t,locale}=Astro.props as {cards:Card[];t:Messages;locale:Locale};
 const tags=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.tags))];
-const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].sort();
+const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies.map(companyName)))].sort();
 ---
 <aside class="sidebar" id="filter-panel" inert aria-label={t.filters}>
  <div class="deck-note"><Icon name="layers" size={21}/><h3>{t.filterSummary}</h3><p>{t.filterHelp}</p><span><strong id="deck-count">{cards.filter(c=>c.active).length}</strong> {t.questionCount}</span></div>
@@ -12,7 +13,10 @@ const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].
  <form id="filter-form">
   <label class="field-label" for="search">{t.search}</label>
   <div class="search-field"><input type="search" name="search" id="search" placeholder={t.searchPlaceholder} autocomplete="off"/><button type="submit" aria-label={t.search}><Icon name="search" size={17}/></button></div>
-  <div class="filter-section"><label class="field-label" for="company">{t.company}</label><div class="select-wrap"><select id="company" name="company"><option value="">{t.allCompanies}</option>{companies.map(company=><option value={company}>{company}</option>)}</select><Icon name="chevron" size={14}/></div></div>
+  <fieldset class="filter-section company-filter"><legend>{t.company}</legend><div class="company-options">
+   <label class="company-option"><input type="radio" name="company" value="" checked/><span class="company-tag">{t.allCompanies}</span></label>
+   {companies.map(company=><label class="company-option"><input type="radio" name="company" value={company}/><span class="company-tag" style={companyStyle(company)}><span>{company}</span><span class="company-count">{cards.filter(c=>c.active&&c.companies.some(name=>companyName(name)===company)).length}</span></span></label>)}
+  </div></fieldset>
   <fieldset class="filter-section"><legend>{t.topics}</legend>
    <div class="match-control"><span>{t.match}</span><div class="small-segment"><button type="button" data-match="any" aria-pressed="true">{t.any}</button><button type="button" data-match="all" aria-pressed="false">{t.all}</button></div></div>
    <div class="tag-options">{tags.map(tag=><label class="tag-option"><input type="checkbox" name="tag" value={tag}/><span class="custom-check"><Icon name="check" size={11}/></span><span>{tagLabel(t,tag)}</span><span class="tag-count">{cards.filter(c=>c.active&&c.tags.includes(tag)).length}</span></label>)}</div>

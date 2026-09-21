@@ -6,8 +6,9 @@ import Icon from './Icon.astro';
 import Sidebar from './Sidebar.astro';
 import QuestionCard from './QuestionCard.astro';
 import '../styles/app.css';
-const {cards,card,locale}=Astro.props as {cards:Card[];card:Card;locale:Locale};
+const {cards,card,locale,updatedAt}=Astro.props as {cards:Card[];card:Card;locale:Locale;updatedAt?:string};
 const t=messages[locale];
+const updatedLabel=updatedAt?new Intl.DateTimeFormat(locale,{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(updatedAt)):undefined;
 const meta={locale,id:card.id,base:import.meta.env.BASE_URL,labels:{hint:t.hint,hideHint:t.hideHint,reveal:t.reveal,hideAnswer:t.hideAnswer,position:t.position,reshuffle:t.reshuffle,next:t.next,roundComplete:t.roundComplete}};
 const json=(x:unknown)=>JSON.stringify(x).replace(/</g,'\\u003c');
 ---
@@ -27,7 +28,7 @@ const json=(x:unknown)=>JSON.stringify(x).replace(/</g,'\\u003c');
    <div class="keyboard-note"><span><kbd>←</kbd><kbd>→</kbd>{t.keyboard}</span><span class="practice-line"></span><span>{t.learningPath}</span></div>
   </div>
   <section id="empty-state" class="empty-state" hidden><Icon name="search" size={36}/><h2>{t.emptyTitle}</h2><p>{t.emptyDescription}</p><button class="button button-primary" data-reset>{t.clearFilters}</button></section>
-  <footer class="page-footer"><p>{t.sourceNote}</p><div class="footer-repositories">{projectRepoUrl && <a class="project-repo-link" href={projectRepoUrl} target="_blank" rel="noopener noreferrer">{t.projectRepo}<Icon name="external" size={12}/></a>}<a class="source-repo-link" href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}<Icon name="external" size={12}/></a></div></footer>
+  <footer class="page-footer"><div class="footer-details"><p>{t.sourceNote}</p>{updatedAt && <p class="data-updated">{t.lastUpdated}: <time datetime={updatedAt}>{updatedLabel} (UTC+8)</time></p>}</div><div class="footer-repositories">{projectRepoUrl && <a class="project-repo-link" href={projectRepoUrl} target="_blank" rel="noopener noreferrer">{t.projectRepo}<Icon name="external" size={12}/></a>}<a class="source-repo-link" href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}<Icon name="external" size={12}/></a></div></footer>
  </main></div>
  <script type="application/json" id="study-meta" set:html={json(meta)}/>
 

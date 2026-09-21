@@ -1,10 +1,11 @@
 ---
 import StudyPage from '../../../components/StudyPage.astro';
-import { loadCards } from '../../../lib/catalog';
+import { loadCards, dataUpdatedAt } from '../../../lib/catalog';
 import {locales} from '../../../lib/types';
 export function getStaticPaths() {
  const cards=loadCards();
- return locales.flatMap(locale=>cards.map(card=>({params:{locale,id:card.id},props:{locale,card,cards}})));
+ const updatedAt=dataUpdatedAt(cards);
+ return locales.flatMap(locale=>cards.map(card=>({params:{locale,id:card.id},props:{locale,card,cards,updatedAt}})));
 }
 ---
 <StudyPage {...Astro.props}/>

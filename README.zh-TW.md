@@ -29,6 +29,18 @@ npm run dev
 
 設定、同步與 GitHub Pages 部署方式，請參閱[維護與部署指南（英文）](docs/maintenance.md)。
 
+## 自動更新
+
+[GitHub Actions 工作流程](.github/workflows/update-and-deploy.yml) 每天於 **UTC 02:17／台灣時間 10:17** 執行，也可在 Actions 分頁手動啟動。
+
+- 追蹤上游 repo，僅在 README 內容變更或解析器需要重新處理時下載。
+- 依每週快取週期更新到期的外部來源，並重試待生成答案；每次最多嘗試呼叫模型 10 次。
+- 驗證資料、執行測試並提交更新。網站內容有變更且已啟用部署時，重新建置並發布至 GitHub Pages。
+
+網頁頁尾以 **UTC+8** 顯示題庫最近同步或答案最近生成中較新的時間，重新整理頁面不會改變此紀錄。Push 觸發的流程會驗證及建置網站，跳過來源同步與答案生成。
+
+請依[維護指南](docs/maintenance.md) 在 Actions Secrets 設定 API Key、在 Actions Variables 設定模型參數，並啟用 GitHub Pages。答案自動生成需要相容的模型設定；目前生成程式仍需調整參數才能使用 GPT-6 Astra。
+
 ## 資料來源
 
 題目來自 Outcome School 維護的 [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)。每張題卡皆連結至原始 repo 與可用的解答資源。AI 輔助筆記是補充學習資料，並非經來源作者認可的官方答案。

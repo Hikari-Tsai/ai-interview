@@ -30,3 +30,11 @@ export function publicIndex(cards:Card[]) {
  return cards.map(c=>({id:c.id,number:c.number,original:c.original,topic:c.topic,tags:c.tags,companies:c.companies,active:c.active,
  answer:c.answer?{status:c.answer.status,locales:Object.fromEntries(Object.entries(c.answer.locales).map(([l,a])=>[l,{title:a?.title}]))}:undefined}));
 }
+export function dataUpdatedAt(cards:Card[]):string|undefined {
+ const statePath=resolve('data/state/upstream.json');
+ const syncedAt=existsSync(statePath)?read(statePath).syncedAt:undefined;
+ const timestamps=[syncedAt,...cards.map(c=>c.answer?.generatedAt)]
+  .filter((value):value is string=>typeof value==='string')
+  .map(value=>Date.parse(value)).filter(Number.isFinite);
+ return timestamps.length?new Date(Math.max(...timestamps)).toISOString():undefined;
+}

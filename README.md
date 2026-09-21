@@ -29,6 +29,18 @@ The starter dataset contains **598 questions** and **8 complete trilingual answe
 
 See the [maintenance and deployment guide](docs/maintenance.md) for setup, synchronization, and GitHub Pages deployment.
 
+## Automatic updates
+
+The [GitHub Actions workflow](.github/workflows/update-and-deploy.yml) runs daily at **02:17 UTC / 10:17 Taiwan time** and can also be started manually from the Actions tab.
+
+- Tracks the upstream repository and downloads its README only when its content changes or the parser requires a refresh.
+- Refreshes due external sources on a weekly cache cycle and retries pending answer generation, with at most 10 model attempts per run.
+- Validates data, runs tests, and commits updated records. When site content changes, it rebuilds and deploys to GitHub Pages if deployment is enabled.
+
+The page footer shows the latest recorded question sync or answer generation time in **UTC+8**. Reloading the page does not change this timestamp. Push-triggered runs validate and build the site; they skip source synchronization and answer generation.
+
+Configure an API key in Actions Secrets, model settings in Actions Variables, and GitHub Pages as described in the [maintenance guide](docs/maintenance.md). Automatic answer generation requires a compatible model configuration; the current generator still needs parameter changes for GPT-6 Astra.
+
 ## Sources
 
 Questions come from [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise), maintained by Outcome School. Each card links to the original repository and available explanations. AI-assisted notes are supplementary study material, not official answers endorsed by the source authors.

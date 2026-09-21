@@ -1,9 +1,12 @@
 ---
-import {locales} from '../../lib/types';
+import {locales,type Locale} from '../../lib/types';
 import {loadCards} from '../../lib/catalog';
-import {pathFor} from '../../lib/i18n';
+import {pathFor,messages} from '../../lib/i18n';
+import SocialMeta from '../../components/SocialMeta.astro';
 export function getStaticPaths(){return locales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale as Locale;
+const t=messages[locale];
 const first=loadCards().find(c=>c.active);
 const target=pathFor(Astro.params.locale!,first?.id);
 ---
-<html lang={Astro.params.locale}><head><meta charset="utf-8"/><meta http-equiv="refresh" content={`0;url=${target}`}/><title>Recall</title></head><body><a href={target}>Recall</a><script is:inline>location.replace(document.querySelector('a').href+location.search);</script></body></html>
+<html lang={Astro.params.locale}><head><meta charset="utf-8"/><meta http-equiv="refresh" content={`0;url=${target}`}/><title>{t.pageTitle} — Recall</title><SocialMeta locale={locale} title={`${t.pageTitle} — Recall`} description={t.pageSubtitle} url={new URL(pathFor(locale),Astro.site)}/></head><body><a href={target}>Recall</a><script is:inline>location.replace(document.querySelector('a').href+location.search);</script></body></html>

@@ -1,0 +1,10 @@
+Use case: ads-marketing
+Asset type: Open Graph social-sharing cover for Recall, an AI company interview question flashcard website.
+Primary request: Create a polished editorial cover with highly legible typography and a tactile illustration of interview flashcards. This is the final complete social image, not a screenshot or website mockup.
+Scene/backdrop: warm ivory paper (#f5f4ef), very subtle fine paper grain, calm and spacious.
+Subject: on the right, an elegant small stack of off-white study cards, with one forest-green accent card and a subtle printed network of connected nodes on the front card, suggesting AI concepts and structured learning. Fine charcoal lines, quiet shadows, tasteful perspective. No robots, brains, people, company logos, or glowing sci-fi effects.
+Style/medium: refined editorial graphic design, clean Swiss typography with softly dimensional paper cards; professional, precise, approachable.
+Composition/framing: wide landscape, roughly 1.9:1. Left side contains a small Recall wordmark and large headline; right side contains the card illustration. Generous margins. Keep all text and important illustration at least 65 pixels away from every edge, allowing a small vertical crop.
+Color palette: ivory #f5f4ef, charcoal #202a29, muted forest green #456956, restrained pale sage accents.
+Text (verbatim): "recall." at top left. Large left-aligned headline on three lines: "AI company" / "interview" / "questions". Under it, smaller readable text: "One question at a time.". Across the bottom, a compact clear line: "Principles / Trade-offs / Implementation / Production".
+Constraints: Exact spelling, no other text, no watermark, no placeholder words, no numeric claims, no rounded dashboard panels. Flat full-bleed cover, not a cover displayed inside another device or frame. Balance clear information and generous whitespace. The headline must remain easy to read as a small link preview.

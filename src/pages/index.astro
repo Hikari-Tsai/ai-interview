@@ -1,8 +1,9 @@
 ---
 import {loadCards} from '../lib/catalog';
-import {pathFor} from '../lib/i18n';
+import {pathFor,messages} from '../lib/i18n';
+import SocialMeta from '../components/SocialMeta.astro';
 const target=pathFor('zh-TW',loadCards().find(c=>c.active)?.id);
 ---
-<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Recall · AI 面試題卡</title></head><body><a href={target}>開始練習 / Start practice / 練習を始める</a><script is:inline>
+<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Recall · AI 面試題卡</title><SocialMeta locale="zh-TW" title={`${messages['zh-TW'].pageTitle} — Recall`} description={messages['zh-TW'].pageSubtitle} url={new URL(import.meta.env.BASE_URL,Astro.site)}/></head><body><a href={target}>開始練習 / Start practice / 練習を始める</a><script is:inline>
  const link=document.querySelector('a');let saved='zh-TW';try{saved=localStorage.getItem('recall-locale')||'zh-TW';}catch{}if(!['zh-TW','en','ja'].includes(saved))saved='zh-TW';location.replace(link.href.replace('/zh-TW/','/'+saved+'/')+location.search);
 </script></body></html>

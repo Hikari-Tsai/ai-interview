@@ -62,6 +62,8 @@ test('answer contract requires three locales, four sections and grounded allowed
  assert.doesNotThrow(()=>validateAnswer(a,q,[q.links[0].url]));
  assert.throws(()=>validateAnswer({...a,sourceUrls:[q.source.url,'https://invented.test']},q,[q.links[0].url]),/source/i);
  assert.throws(()=>validateAnswer({...a,locales:{en:text}},q,[q.links[0].url]));
+ const invalidMath={...text,principle:'An invalid formula $\\notARealCommand{x}$ must not be saved.'};
+ assert.throws(()=>validateAnswer({...a,locales:{...a.locales,en:invalidMath}},q,[q.links[0].url]),/formula/);
 });
 test('removal guard also catches wholesale replacement at unchanged total count',()=>{
  const item=parseReadme(md,context)[0];

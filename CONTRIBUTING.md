@@ -50,6 +50,28 @@ All four main sections must be nonempty. `Advanced` is optional and appears coll
 
 Community contributions do not have the AI generator's 2,000-character target. Prioritize depth and clarity. A small correction can be submitted as an Issue instead of rewriting the whole answer.
 
+### Formulas
+
+The four answer sections and the community-only Advanced section support KaTeX math. Use `$...$` for inline notation and `$$` on separate lines for a display equation:
+
+```markdown
+Divide by $\sqrt{d_k}$ to control the score scale.
+
+$$
+\operatorname{Attention}(Q,K,V)=\operatorname{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+$$
+```
+
+Explain each symbol and the assumptions in the surrounding text. Keep titles, hints, and other metadata as plain text. Put literal dollar-containing code in backticks in Markdown; escape currency dollar signs as `\$` in Markdown.
+
+Generated JSON uses the same formula delimiters within the existing section strings. JSON requires doubled backslashes and escaped newlines, for example:
+
+```json
+{"principle": "Divide by $\\sqrt{d_k}$.\n\n$$\nx^2\n$$"}
+```
+
+Use JSON serialization when writing these files programmatically. Generated prose remains plain text outside formulas; Markdown formatting is reserved for community answers. Math is rendered during the static build with local fonts and CSS. Invalid LaTeX fails the build; HTML and trusted LaTeX commands are disabled. Long display equations scroll horizontally on small screens.
+
 Distinguish source-backed facts, your own reasoning, and personal experience. Explain formula assumptions, identify illustrative numbers as examples, and provide evidence for benchmark claims. Do not copy full third-party articles or claim to represent a company's undisclosed internal implementation. Original contributions follow the project's Apache-2.0 license; preserve third-party attribution and applicable rights.
 
 ## Review and maintenance

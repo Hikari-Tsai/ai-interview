@@ -4,9 +4,6 @@ import {parse,stringify} from 'yaml';
 import {z} from 'zod';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';
-import remarkRehype from 'remark-rehype';
-import rehypeSanitize from 'rehype-sanitize';
-import rehypeStringify from 'rehype-stringify';
 import {toString} from 'mdast-util-to-string';
 import {answerInputHash} from '../../scripts/lib/answers';
 import {locales,type Locale,type Question,type SourceRecord,type CommunityAnswer} from './types';
@@ -55,8 +52,7 @@ export function validateCommunityPaths(questions:Question[]){
   if(entry.isDirectory()&&!ids.has(entry.name))throw new Error(`Unknown community question directory: ${entry.name}`);
  }
 }
-const markdown=unified().use(remarkParse).use(remarkRehype).use(rehypeSanitize).use(rehypeStringify);
-export function renderCommunityMarkdown(value:string){return String(markdown.processSync(value));}
+export {renderCommunityMarkdown} from './prose';
 export function communityStarter(q:Question,locale:Locale,reviewedAgainst:string){
  const meta={questionId:q.id,locale,title:q.original.slice(0,180),intent:'',hint:[''],authors:[],updatedAt:new Date().toISOString(),reviewedAgainst,sourceUrls:[q.source.repo,q.source.url]};
  return `---\n${stringify(meta)}---\n\n<!-- Complete the metadata above. Write in ${locale}. See CONTRIBUTING.md. -->\n\n## Principle\n\n## Trade-off\n\n## Implementation\n\n## Production\n\n## Advanced\n`;

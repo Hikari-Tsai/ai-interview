@@ -14,3 +14,18 @@ test('math typography keeps a subscript smaller and attached to its base on mobi
  expect(dimensions.subFont).toBeLessThan(dimensions.baseFont);
  expect(Math.abs(dimensions.subTop-dimensions.baseTop)).toBeLessThan(dimensions.baseFont);
 });
+
+for(const locale of ['zh-TW','en','ja']){
+ test(`question title formulas fit mobile headings (${locale})`,async({page})=>{
+  await page.setViewportSize({width:320,height:960});
+  for(const id of ['Q0001','Q0113','Q0210','Q0389']){
+   await page.goto(`/${locale}/questions/${id}/`);
+   await expect(page.locator('#question-title .katex')).toHaveCount(1);
+   await expect(page.locator('#question-title p, #question-title .katex-error')).toHaveCount(0);
+   await page.evaluate(()=>document.fonts.ready);
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  }
+  await page.goto(`/${locale}/questions/Q0494/`);
+  await expect(page.locator('#question-title .katex')).toHaveCount(0);
+ });
+}

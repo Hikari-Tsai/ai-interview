@@ -47,6 +47,7 @@ main{padding:43px 56px 24px;min-width:0;max-width:1130px;width:100%;margin:0 aut
 .community-credit{padding:18px;margin-bottom:24px;border:1px solid #cbd8c9;border-radius:7px;background:var(--accent-wash);font-size:12px;line-height:1.8;overflow-wrap:anywhere}
 .community-credit p,.community-credit details{margin-top:6px}.community-credit a{text-decoration:underline;text-underline-offset:3px}.community-credit ul{padding-left:18px}
 .answer-section>div{min-width:0}.answer-prose{font-size:13px;color:#59665b}
+.question-body h2 .katex{font-size:1em;overflow-wrap:normal}
 .answer-body .katex{font-size:1.08em;white-space:normal;overflow-wrap:normal}
 .answer-body .katex-display{overflow-x:auto;overflow-y:hidden;max-width:100%;padding:14px 10px;margin:18px 0;background:#f5f7f1;border-radius:6px}
 .answer-body .katex-display>.katex{white-space:nowrap;text-align:center;min-width:max-content}

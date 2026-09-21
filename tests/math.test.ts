@@ -44,3 +44,17 @@ test('existing currency examples remain literal and may coexist with math',()=>{
  assert.equal(document.querySelector('p')?.textContent,'Prices are US$1、US$4, NT$120 and NT$110.');
  assert.match(document.querySelectorAll('p')[1].textContent!,/Cost \$2 per million: \$0.068 and \$0.016\./);
 });
+
+test('question titles render formulas without changing code, currencies or technical names',async()=>{
+ const {renderQuestionTitle}=await import('../src/lib/prose');
+ for(const title of ['Scale 1/sqrt(d_k).','An O(1) cache','Integers where n > 1','Latency <100 ms','Explicit $x^2$']){
+  const html=renderQuestionTitle(title);
+  assert.equal(parseHTML(html).document.querySelectorAll('.katex').length,1,title);
+  assert.doesNotMatch(html,/<p>|katex-display|katex-error/);
+ }
+ const literal='FP16, top-k, y_pred, _admit_requests, <|fim_prefix|>, $200 and log(msg).';
+ assert.equal(parseHTML(`<h2>${renderQuestionTitle(literal)}</h2>`).document.querySelector('h2')?.textContent,literal);
+ assert.doesNotMatch(renderQuestionTitle(literal),/class="katex"/);
+ assert.equal(parseHTML(renderQuestionTitle('$\\frac{1}{\\sqrt{d_k}}$')).document.querySelectorAll('.katex').length,1);
+ assert.doesNotMatch(renderQuestionTitle('<img src=x onerror=alert(1)>'),/<img/);
+});

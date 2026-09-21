@@ -62,7 +62,7 @@ $$
 $$
 ```
 
-Explain each symbol and the assumptions in the surrounding text. Keep titles, hints, and other metadata as plain text. Put literal dollar-containing code in backticks in Markdown; escape currency dollar signs as `\$` in Markdown.
+Explain each symbol and the assumptions in the surrounding text. Question titles also support inline `$...$` formulas; keep them short and avoid display equations in headings. Existing plain-text title notation (`1/sqrt(d_k)`, `O(1)`, `n > 1`, and `<100 ms`) is formatted automatically at build time without modifying source data. Keep hints and other metadata as plain text. Put literal dollar-containing code in backticks in Markdown; escape currency dollar signs as `\$` in Markdown.
 
 Generated JSON uses the same formula delimiters within the existing section strings. JSON requires doubled backslashes and escaped newlines, for example:
 

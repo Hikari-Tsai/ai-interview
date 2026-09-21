@@ -36,3 +36,25 @@ test('card badges use the same company color as sidebar and aliases',async({page
  await expect(page.locator('[data-filter-company=Meta]')).toHaveAttribute('style',color!);
  await expect(page.locator('input[name=company][value=Meta]')).toBeChecked();
 });
+
+test('clicking a selected company again clears only that company filter',async({page})=>{
+ await page.goto('/en/questions/Q0003/?company=Meta&tag=llm&ready=1');
+ await expect(page.locator('body')).toHaveAttribute('data-ready','true');
+ const company=page.locator('input[name=company][value=Meta]');
+ await company.click();
+ expect(new URL(page.url()).searchParams.has('company')).toBe(false);
+ await expect(page.locator('input[name=company][value=""]')).toBeChecked();
+ await expect(page.locator('input[name=tag][value=llm]')).toBeChecked();
+ await expect(page.locator('#ready')).toBeChecked();
+ await company.click();
+ await expect(company).toBeChecked();
+ const badge=page.locator('[data-filter-company=Meta]');
+ await expect(badge).toHaveAttribute('aria-pressed','true');
+ expect(await badge.evaluate(el=>getComputedStyle(el).outlineStyle)).toBe('none');
+ expect(await page.locator('input[name=company][value=Meta] + span').evaluate(el=>getComputedStyle(el).outlineStyle)).toBe('none');
+ await badge.click();
+ expect(new URL(page.url()).searchParams.has('company')).toBe(false);
+ await expect(badge).toHaveAttribute('aria-pressed','false');
+ await expect(page.locator('input[name=tag][value=llm]')).toBeChecked();
+ await expect(page.locator('#ready')).toBeChecked();
+});

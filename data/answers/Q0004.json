@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0004",
+  "inputHash": "5d6f3077a040173cbe6861470922bd3ad6f04d89cc4e845dd32b31bf1bf21c58",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:15:24.923Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L126-L128",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/kv-cache-compression"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "什麼是 Multi-head Latent Attention（MLA），DeepSeek 為什麼引入它？",
+      "intent": "評估你是否理解自回歸推論的 KV Cache 瓶頸、MLA 的潛在表示壓縮原理，以及模型架構選擇對記憶體、運算與部署的影響。",
+      "hint": [
+        "先解釋 KV Cache 為什麼隨上下文長度與並行請求增加。",
+        "區分潛在向量壓縮、MQA／GQA 的 KV 共享，以及量化。",
+        "說明壓縮是模型訓練時納入的設計，不只是推論時的開關。",
+        "將記憶體節省與實際延遲、品質驗證分開討論。"
+      ],
+      "principle": "Multi-head Latent Attention（MLA）是透過學習低維潛在表示來壓縮 KV Cache 的注意力架構。依據文章的高階說明，它不是為每個 token 儲存所有注意力頭的完整 Key 和 Value，而是在每層快取一個較小的聯合潛在向量，再透過訓練學得的投影取得注意力所需的 K／V 資訊。文章指出，DeepSeek 在 DeepSeek-V2 引入 MLA，並在 DeepSeek-V3 繼續使用。其動機是降低 KV Cache 的記憶體占用與讀取負擔：生成時會反覆使用先前 token 的 K／V，而快取會隨序列長度及並行請求數增加。縮小每個 token 的快取，有助於在有限 GPU 記憶體下支援更長的上下文與更多請求。",
+      "tradeoff": "文章將 MLA 描述為不丟棄 token、且能大幅節省記憶體的方法，但也指出它需要在模型訓練時納入，並有還原潛在表示的額外運算。它不像 MQA／GQA 直接讓多個 Query 頭共享相同的 K／V，也不是以較少位元儲存數值的量化。MLA 降低每個 token 的儲存成本，卻不會讓快取大小與序列長度無關。工程上不應把文章對品質保留的概括描述視為無損保證；品質與速度都必須以實際模型、工作負載和執行後端驗證。",
+      "implementation": "文章支持的概念流程是：訓練模型將 K／V 資訊編碼成較小的潛在向量，快取該表示，並利用學得的投影供注意力計算使用。這是概念說明，不是完整的 MLA 實作規格。建議工程實務：採用原生支援 MLA 的模型與相容的推論後端，而不是將一般模型的 KV Cache 直接替換成任意壓縮向量。確認後端正確處理模型的位置編碼、快取格式與注意力運算，並檢查是否因不必要地展開完整 K／V 而抵銷記憶體效益。",
+      "production": "建議工程實務，而非文章提供的部署結果：以代表性的上下文長度與並行請求量測試，量測 KV Cache 記憶體、峰值 GPU 記憶體、每 token 延遲、吞吐量及任務品質。特別測試長上下文資訊檢索，因為保留所有 token 並不等於保證精確回憶。若考慮再加上快取量化，應獨立驗證它帶來的誤差與效能變化；只有任務容許遺忘時，才考慮 token eviction。依量測結果設定上下文與並行上限，不要僅憑壓縮比例推估容量。",
+      "supplementNote": "來源支持 MLA 的高階壓縮原理、在 DeepSeek-V2／DeepSeek-V3 的使用，以及記憶體與運算的基本取捨。後端相容性檢查、位置編碼驗證、效能評估與容量規劃是額外的工程建議，不是作者提供的完整實作細節或實測結論。來源未提供完整 MLA 方程式，也未提供足以支持通用品質保證或數值效能承諾的證據。"
+    },
+    "en": {
+      "title": "What is Multi-head Latent Attention (MLA) and why did DeepSeek introduce it?",
+      "intent": "Assess understanding of the KV Cache bottleneck in autoregressive inference, MLA's latent compression mechanism, and how architectural choices affect memory, computation, and deployment.",
+      "hint": [
+        "Start with why KV Cache grows with context length and concurrent requests.",
+        "Distinguish latent compression from MQA/GQA sharing and quantization.",
+        "Explain why compression is incorporated during training, not just enabled at inference.",
+        "Separate memory savings from measured latency and quality."
+      ],
+      "principle": "Multi-head Latent Attention (MLA) is an attention architecture that compresses the KV Cache through a learned low-dimensional latent representation. In the article's high-level explanation, instead of caching full Keys and Values for every attention head, it caches a smaller joint latent vector per token per layer and uses learned projections to obtain the K/V information needed for attention. The article identifies DeepSeek-V2 as its introduction and DeepSeek-V3 as another user. DeepSeek's motivation was to reduce the memory footprint and reading burden of the KV Cache: generation repeatedly uses earlier tokens' K/V, and the cache grows with sequence length and concurrent requests. Reducing the cache cost per token helps accommodate longer contexts and more requests within limited GPU memory.",
+      "tradeoff": "The article describes substantial memory savings without discarding tokens, but notes that MLA must be incorporated into model training and involves additional computation to expand the latent representation. Unlike MQA/GQA, it does not simply share the same K/V across multiple Query heads; unlike quantization, its core mechanism is not storing numbers in fewer bits. MLA reduces storage per token, but does not make cache size independent of sequence length. As an engineering qualification, the article's broad quality-preservation language should not be treated as a losslessness guarantee: quality and speed must be validated for the actual model, workload, and execution backend.",
+      "implementation": "The source-supported conceptual flow is to train the model to encode K/V information into a smaller latent vector, cache that representation, and use learned projections for attention computation. This is a conceptual explanation, not a complete MLA implementation specification. Recommended engineering practice: use a model with native MLA support and a compatible inference backend rather than replacing an ordinary model's KV Cache with arbitrary compressed vectors. Verify that the backend correctly handles the model's positional encoding, cache layout, and attention operations, and check whether unnecessary materialization of full K/V undermines the memory benefit.",
+      "production": "Recommended engineering practice, not deployment results supplied by the article: test representative context lengths and concurrency levels, measuring KV Cache memory, peak GPU memory, per-token latency, throughput, and task quality. Include long-context retrieval tests, because retaining every token does not guarantee exact recall. If adding cache quantization, validate its incremental error and performance effects separately; consider token eviction only when the task tolerates forgetting. Set context and concurrency limits from measurements rather than inferring serving capacity solely from a compression ratio.",
+      "supplementNote": "The source supports the high-level MLA mechanism, its use in DeepSeek-V2/DeepSeek-V3, and basic memory/computation tradeoffs. Backend compatibility checks, positional-encoding validation, performance evaluation, and capacity planning are additional engineering recommendations, not complete implementation details or measured conclusions supplied by the author. The source does not provide full MLA equations or evidence sufficient for universal quality guarantees or numerical performance promises."
+    },
+    "ja": {
+      "title": "Multi-head Latent Attention（MLA）とは何ですか。また、DeepSeek はなぜ導入したのですか？",
+      "intent": "自己回帰推論における KV Cache のボトルネック、MLA の潜在表現による圧縮原理、そしてアーキテクチャの選択がメモリ、計算、運用に与える影響を理解しているかを評価する。",
+      "hint": [
+        "まず、文脈長と同時リクエスト数に応じて KV Cache が増える理由を説明する。",
+        "潜在表現の圧縮を、MQA／GQA の共有や量子化と区別する。",
+        "推論時の設定だけでなく、学習に組み込む設計であることを説明する。",
+        "メモリ削減と、実測によるレイテンシ・品質評価を分けて考える。"
+      ],
+      "principle": "Multi-head Latent Attention（MLA）は、学習された低次元の潜在表現によって KV Cache を圧縮する注意機構のアーキテクチャです。記事の概念的な説明では、各注意ヘッドの完全な Key と Value を保存する代わりに、各層でトークンごとの小さな共通潜在ベクトルをキャッシュし、学習された射影によって注意計算に必要な K／V 情報を得ます。記事によると、DeepSeek-V2 で導入され、DeepSeek-V3 でも使用されています。導入の目的は、KV Cache のメモリ使用量と読み出し負荷を減らすことです。生成では過去のトークンの K／V を繰り返し使用し、キャッシュは系列長と同時リクエスト数に応じて増大します。トークン当たりのキャッシュを小さくすることで、限られた GPU メモリで、より長い文脈や多くのリクエストを扱いやすくなります。",
+      "tradeoff": "記事は、トークンを捨てずに大きなメモリ削減が可能と説明する一方、モデルの学習に組み込む必要と、潜在表現の展開に伴う追加計算を挙げています。MQA／GQA のように複数の Query ヘッドで同じ K／V を単純に共有する方式でも、量子化のように数値のビット数を減らす方式でもありません。MLA はトークン当たりの保存量を減らしますが、キャッシュサイズが系列長に依存しなくなるわけではありません。工学的な注意点として、記事の品質維持に関する概括的な説明を無損失の保証と捉えるべきではなく、実際のモデル、ワークロード、実行バックエンドで品質と速度を検証する必要があります。",
+      "implementation": "資料が支持する概念的な流れは、K／V 情報を小さな潜在ベクトルへ符号化するようモデルを学習し、その表現をキャッシュして、学習された射影を注意計算に利用するというものです。これは完全な MLA の実装仕様ではありません。推奨するエンジニアリング実務として、通常のモデルの KV Cache を任意の圧縮ベクトルに置き換えるのではなく、MLA を備えたモデルと対応する推論バックエンドを使用します。位置エンコーディング、キャッシュ形式、注意計算が正しく処理されることを確認し、完全な K／V を不必要に展開してメモリ上の利点を損なっていないかも調べます。",
+      "production": "以下は記事が示した運用結果ではなく、推奨するエンジニアリング実務です。代表的な文脈長と同時リクエスト数で、KV Cache のメモリ使用量、GPU メモリのピーク、トークン当たりのレイテンシ、スループット、タスク品質を測定します。全トークンを保持しても正確な想起が保証されるわけではないため、長文脈からの情報検索も検証します。キャッシュ量子化を追加する場合は、その追加的な誤差と性能への影響を個別に評価し、token eviction は情報の忘却を許容するタスクに限って検討します。文脈長と同時実行数の上限は、圧縮率だけから推定せず、測定結果に基づいて設定します。",
+      "supplementNote": "資料は、MLA の概念的な圧縮原理、DeepSeek-V2／DeepSeek-V3 での使用、基本的なメモリと計算のトレードオフを支持しています。バックエンド互換性の確認、位置エンコーディングの検証、性能評価、容量計画は追加の工学的助言であり、著者が提示した完全な実装詳細や実測結果ではありません。資料には完全な MLA の数式や、普遍的な品質保証・数値的な性能保証を裏付ける十分な証拠はありません。"
+    }
+  }
+}

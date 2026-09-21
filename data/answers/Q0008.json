@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0008",
+  "inputHash": "175a02eeadac3b0424f1ddebaac0dc444fdb42577448f3545a15664ad1b26ecc",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:17:42.183Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L137-L139",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "解釋 RoPE，以及 position interpolation / YaRN 如何將上下文延伸至超過訓練長度。",
+      "intent": "評估你是否理解 RoPE 的相對位置數學、位置縮放如何支援上下文延伸，以及可接受更長輸入與可靠運用長上下文之間的差別。",
+      "hint": [
+        "從 Q、K 的二維旋轉與 R_m^T R_n 開始。",
+        "以 s = L_target / L_train 說明位置壓縮。",
+        "比較均勻插值與 YaRN 的分頻段處理。",
+        "區分位置編碼、模型品質與服務成本。"
+      ],
+      "principle": "文章支持的核心：RoPE 將每個 attention head 的 Q、K 維度配成二維向量，對位置 m 的第 i 組施加角度 mθ_i 的旋轉；V 不做此旋轉。以零起算索引表示，典型頻率為 θ_i = 10000^(-2i/d)，其中 d 為 head 維度。旋轉保留向量長度，且 (R_m Q)^T(R_n K) = Q^T R_(n-m) K，因此位置造成的影響取決於相對位移 n-m。這不代表分數只由距離決定：Q、K 的內容仍然重要。文章指出 Position Interpolation 與 YaRN 利用 RoPE 結構延伸上下文，但未完整推導其機制。",
+      "tradeoff": "補充技術說明，非文章中的詳細主張：RoPE 能計算訓練範圍外的位置，但不保證模型在那些距離上仍有良好表現。Position Interpolation 以 s = L_target / L_train 將 m 替換成 m/s，等價於將所有 θ_i 除以 s，使更長序列的旋轉角度範圍壓回訓練尺度；代價是相鄰位置的角度差也一起縮小。YaRN 採用分頻段調整，通常保留高頻旋轉、對低頻做插值，並在中間頻段平滑混合，兼顧局部位置辨識與長距離涵蓋；它也調整 attention 的尺度或溫度。這比均勻插值需要更多設定，且兩者都不會自動消除長序列的計算成本或保證品質。",
+      "implementation": "建議工程實務，非作者提供的實作流程：先確認 checkpoint 的 RoPE base、旋轉維度、維度配對方式與既有縮放設定。Position Interpolation 可用 angle(m,i) = (m/s)θ_i 實作；對應位置的 Q、K 必須使用同一套規則。YaRN 則應使用經驗證且與模型相容的實作，依原始上下文長度與各頻率在其中的旋轉圈數，設定頻段邊界、混合權重及 attention scaling，而不是只增大位置上限。保留 checkpoint 的維度排列，並檢查 prefill 與逐 token decoding 的 position IDs、KV cache 位移及旋轉是否一致。依所選方法與模型規劃長上下文微調及驗證，不要假設只修改設定就足夠。",
+      "production": "建議工程實務，非文章的部署主張：在原始、目標及中間長度測試 perplexity、不同位置的資訊檢索與跨段推理，並檢查短上下文是否退化。驗證模型是否真的使用遠處資訊，而不只是能接受長輸入。另量測 prefill 延遲、解碼速度與 KV cache 記憶體；位置縮放本身不改變一般 dense attention 對序列長度的二次方計算成長，也不消除 KV cache 隨長度增加的成本。固定並版本化 RoPE 設定，避免在同一份 KV cache 生命週期內切換旋轉規則，且只對外提供品質與資源都已驗證的上下文上限。",
+      "supplementNote": "來源直接支持 RoPE 的旋轉公式、Q/K 相對位置性質，以及長上下文方法會利用其結構的概念。Position Interpolation 的具體公式、YaRN 的分頻段與 attention scaling 說明屬補充技術背景，並非本文提供的詳細推導；實作、微調、評測與部署部分是建議工程實務，不應歸因於作者。"
+    },
+    "en": {
+      "title": "Explain RoPE and how position interpolation / YaRN extend context beyond the trained length.",
+      "intent": "Assess whether you understand RoPE's relative-position mathematics, how position scaling supports context extension, and the difference between accepting longer inputs and reliably using long context.",
+      "hint": [
+        "Start with two-dimensional rotations of Q and K and R_m^T R_n.",
+        "Explain position compression using s = L_target / L_train.",
+        "Contrast uniform interpolation with YaRN's frequency-dependent treatment.",
+        "Separate positional encoding, model quality, and serving costs."
+      ],
+      "principle": "Source-supported core: RoPE groups each attention head's Q and K dimensions into two-dimensional pairs and rotates pair i at position m by mθ_i; V is not rotated. With zero-based indexing, a typical frequency schedule is θ_i = 10000^(-2i/d), where d is the head dimension. Rotation preserves vector length, and (R_m Q)^T(R_n K) = Q^T R_(n-m) K, so the positional contribution depends on the relative displacement n-m. This does not mean the score depends on distance alone: Q and K still carry content. The article identifies Position Interpolation and YaRN as extensions built on RoPE, but does not fully derive their mechanisms.",
+      "tradeoff": "Additional technical background, not detailed claims from the article: RoPE can compute positions outside the training range without guaranteeing good behavior at those distances. Position Interpolation replaces m with m/s, where s = L_target / L_train, equivalently dividing every θ_i by s. This compresses the longer sequence's rotation-angle range back to the training scale, but also shrinks angular differences between neighboring positions. YaRN uses frequency-dependent adjustment, typically preserving high-frequency rotations, interpolating low frequencies, and blending smoothly in the middle to balance local positional discrimination with long-range coverage; it also adjusts attention scale or temperature. This requires more configuration than uniform interpolation, and neither method automatically removes long-sequence computation costs or guarantees quality.",
+      "implementation": "Recommended engineering practice, not an implementation procedure supplied by the author: First inspect the checkpoint's RoPE base, rotary dimensions, dimension-pairing convention, and existing scaling configuration. Implement Position Interpolation as angle(m,i) = (m/s)θ_i, applying the same rule to Q and K at their respective positions. For YaRN, use a validated, model-compatible implementation that sets frequency boundaries, blending weights, and attention scaling based on the original context length and how many rotations each frequency makes over that range, rather than merely raising a position limit. Preserve the checkpoint's dimension layout and check consistency of position IDs, KV cache offsets, and rotations between prefill and token-by-token decoding. Plan long-context fine-tuning and validation according to the method and model instead of assuming a configuration change alone is sufficient.",
+      "production": "Recommended engineering practice, not deployment claims from the article: Evaluate perplexity, retrieval across different positions, and cross-passage reasoning at original, target, and intermediate lengths, while checking for short-context regressions. Verify that the model actually uses distant information rather than merely accepting long inputs. Separately measure prefill latency, decoding speed, and KV cache memory: positional scaling itself does not change the quadratic sequence-length computation growth of ordinary dense attention or eliminate KV cache growth with length. Pin and version the RoPE configuration, avoid switching rotation rules within the lifetime of a KV cache, and expose only context limits validated for both quality and resource use.",
+      "supplementNote": "The source directly supports RoPE's rotation formulas, the relative-position property of Q/K, and the general idea that context-extension methods exploit this structure. The specific Position Interpolation formula and YaRN's frequency-band and attention-scaling explanations are additional technical background, not detailed derivations provided by the article. Implementation, fine-tuning, evaluation, and deployment guidance are recommended engineering practices and should not be attributed to the author."
+    },
+    "ja": {
+      "title": "RoPE と、position interpolation / YaRN が学習時の長さを超えてコンテキストを拡張する仕組みを説明してください。",
+      "intent": "RoPE の相対位置に関する数学、位置のスケーリングによるコンテキスト拡張、そして長い入力を受け付けることと長いコンテキストを確実に活用することの違いを理解しているかを評価します。",
+      "hint": [
+        "Q、K の二次元回転と R_m^T R_n から説明する。",
+        "s = L_target / L_train を使って位置の圧縮を示す。",
+        "一様な補間と YaRN の周波数別の処理を比較する。",
+        "位置表現、モデル品質、サービングコストを分けて考える。"
+      ],
+      "principle": "記事に基づく基本原理：RoPE は各 attention head の Q、K の次元を二次元のペアに分け、位置 m のペア i を角度 mθ_i だけ回転させます。V は回転させません。ゼロ始まりの添字では、代表的な周波数は θ_i = 10000^(-2i/d) で、d は head の次元数です。回転はベクトルの長さを保ち、(R_m Q)^T(R_n K) = Q^T R_(n-m) K が成り立つため、位置による寄与は相対変位 n-m に依存します。ただし、スコアが距離だけで決まるわけではなく、Q、K の内容にも依存します。記事は Position Interpolation と YaRN が RoPE を基盤とする拡張手法だと述べていますが、その仕組みを詳しく導出してはいません。",
+      "tradeoff": "記事の詳細な主張ではない補足技術知識：RoPE は学習範囲外の位置も計算できますが、その距離での良好な動作を保証しません。Position Interpolation は s = L_target / L_train として m を m/s に置き換えます。これはすべての θ_i を s で割ることと同じです。長い系列の回転角の範囲を学習時のスケールに圧縮できる一方、隣接位置の角度差も小さくなります。YaRN は周波数に応じて調整し、通常は高周波の回転を維持し、低周波を補間し、中間帯域では滑らかに混合することで、局所的な位置の識別と長距離への対応を両立させます。また、attention のスケールや温度も調整します。一様な補間より設定項目が増え、どちらの方法も長い系列の計算コストを自動的に解消したり、品質を保証したりするものではありません。",
+      "implementation": "著者が提示した手順ではなく、推奨するエンジニアリング実務：まず checkpoint の RoPE base、回転対象の次元、次元のペアリング方式、既存のスケーリング設定を確認します。Position Interpolation は angle(m,i) = (m/s)θ_i として実装し、それぞれの位置の Q、K に同じ規則を適用します。YaRN では位置の上限を増やすだけでなく、元のコンテキスト長と、その範囲で各周波数が何回転するかに基づいて帯域境界、混合重み、attention scaling を設定する、検証済みでモデル互換性のある実装を使います。checkpoint の次元配置を維持し、prefill と token 単位の decoding で position IDs、KV cache のオフセット、回転が一致することを確認します。設定変更だけで十分とは考えず、手法とモデルに応じて長いコンテキストでの fine-tuning と検証を計画します。",
+      "production": "記事の運用上の主張ではなく、推奨するエンジニアリング実務：元の長さ、目標の長さ、中間の長さで perplexity、さまざまな位置からの情報検索、段落をまたぐ推論を評価し、短いコンテキストでの性能低下も確認します。単に長い入力を受け付けるだけでなく、遠くの情報を実際に利用できるかを検証します。別途、prefill のレイテンシ、decoding の速度、KV cache のメモリを測定します。位置のスケーリング自体は、通常の dense attention の計算量が系列長に対して二次的に増える性質を変えず、長さに伴う KV cache の増大も解消しません。RoPE 設定を固定してバージョン管理し、同じ KV cache の使用中に回転規則を切り替えず、品質とリソース使用量の両方を検証した長さだけを提供します。",
+      "supplementNote": "出典が直接裏付けるのは、RoPE の回転式、Q/K の相対位置特性、およびコンテキスト拡張手法がその構造を利用するという概念です。Position Interpolation の具体的な式と、YaRN の周波数帯域別処理・attention scaling の説明は補足技術知識であり、記事中の詳細な導出ではありません。実装、fine-tuning、評価、運用に関する内容は推奨するエンジニアリング実務であり、著者の主張として扱うべきではありません。"
+    }
+  }
+}

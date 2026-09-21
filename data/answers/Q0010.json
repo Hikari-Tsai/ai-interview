@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0010",
+  "inputHash": "9f83a329095f48abc87c8b6245dc957f8c52ecee4dd41ed3ce6e4d889617c9fe",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:18:39.506Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L142-L144",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/mixture-of-experts"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "什麼是 Mixture of Experts 架構？它如何在不同比例增加 FLOPs 的情況下擴充容量？",
+      "intent": "評估你是否理解條件式計算、總參數與每個 token 的啟用參數之差異，以及為何較低的理論運算量不一定代表較低的實際延遲。",
+      "hint": [
+        "從 Transformer 的前饋網路與 top-k 路由說起。",
+        "區分專家總數 E 與每個 token 啟用的專家數 k。",
+        "說明固定的是專家計算量，而非所有系統成本。",
+        "補充負載平衡、記憶體與跨 GPU 通訊。"
+      ],
+      "principle": "Mixture of Experts（MoE）以多個專家前饋網路和 router，取代 Transformer 中部分或全部層的稠密前饋子層；注意力等共用元件仍然保留。router 根據每個 token 的表示選擇 top-k 專家，只執行被選中的專家，再將輸出加權合併。專家分工是在訓練中學到的，不是預先指定的領域標籤。因此，增加專家總數可以增加參數容量，而不必讓每個 token 使用所有專家。",
+      "tradeoff": "根據文章的稀疏啟用機制，可作以下簡化推導：若有 E 個同等大小的專家，每個專家有 P 個參數、執行成本為 F FLOPs，則專家總參數約為 E × P，每個 token 的專家計算量約為 k × F。固定 k 與專家大小時，增加 E 不會同比例增加專家 FLOPs；但這不代表整個模型的 FLOPs 完全不變，因為還有 router 和共用層的計算。文章也指出，儲存全部權重的記憶體需求、負載不均與跨 GPU 通訊仍是成本。額外工程判斷是：容量增加不保證品質提升，較少 FLOPs 也不保證較低延遲。",
+      "implementation": "依文章描述，每個 MoE 層有自己的 router，可用線性投影與 softmax 計算專家分數，再選擇 top-k、分派 token、執行專家並合併輸出。文章採用在選中專家之間正規化的權重。訓練時加入輔助負載平衡損失，避免少數專家壟斷流量；也需處理每個專家的批次容量限制。建議工程實務：明確定義容量溢位時要重新路由、丟棄或採用其他處理方式，並驗證輸出合併後的 token 順序與權重是否正確，避免把路由錯誤誤認為模型品質問題。",
+      "production": "建議工程實務，而非文章提供的部署流程：依全部權重的儲存需求規劃記憶體，不要只看啟用參數；若採用跨 GPU 專家分片，應把分派與回收結果的通訊成本納入配置決策。以具代表性的批次與序列長度，量測品質、延遲、吞吐量、記憶體和通訊時間，並監控各專家 token 數與容量溢位。與滿足相同品質要求的稠密模型比較實際服務成本；微調後重新檢查路由分布，因為文章指出 router 行為可能改變。",
+      "supplementNote": "來源支持 MoE 的架構、top-k 稀疏啟用、加權合併、負載平衡，以及記憶體、通訊與微調挑戰。E、P、F、k 的公式是基於該機制的簡化推導，不是原文公式；實作驗證、部署量測與比較方法則是額外工程建議。「不增加 FLOPs」應理解為固定 k 和專家大小時，主要專家計算量不隨專家總數同比例成長，而非總運算量或延遲完全不變。"
+    },
+    "en": {
+      "title": "What is a mixture-of-experts architecture and how does it scale capacity without scaling FLOPs?",
+      "intent": "Assess understanding of conditional computation, total versus active parameters per token, and why lower theoretical compute does not necessarily mean lower real-world latency.",
+      "hint": [
+        "Start with Transformer feed-forward networks and top-k routing.",
+        "Distinguish total experts E from active experts k per token.",
+        "Explain what stays fixed: expert computation, not every system cost.",
+        "Cover load balancing, memory, and cross-GPU communication."
+      ],
+      "principle": "Mixture of Experts (MoE) replaces the dense feed-forward sublayer in some or all Transformer layers with multiple expert feed-forward networks and a router; shared components such as attention remain. For each token representation, the router selects top-k experts, executes only those experts, and combines their outputs with weights. Expert specialization is learned during training rather than assigned through predefined subject labels. Increasing the number of experts therefore increases parameter capacity without requiring every token to use every expert.",
+      "tradeoff": "A simplified derivation from the article's sparse-activation mechanism is: with E equally sized experts, P parameters per expert, and F FLOPs per expert execution, total expert parameters are approximately E × P, while expert computation per token is approximately k × F. Holding k and expert size fixed lets E grow without proportionally increasing expert FLOPs. This does not make whole-model FLOPs exactly constant: routing and shared-layer computation still matter. The article also identifies memory for all weights, load imbalance, and cross-GPU communication as costs. An additional engineering judgment is that more capacity does not guarantee better quality, and fewer FLOPs do not guarantee lower latency.",
+      "implementation": "Following the article, give each MoE layer its own router, using a linear projection and softmax to score experts, then select top-k, dispatch tokens, execute experts, and combine outputs. The article describes normalizing combination weights over the selected experts. During training, add an auxiliary load-balancing loss to discourage concentration on a few experts, and handle per-expert batch capacity limits. Recommended engineering practice: explicitly define whether overflow is rerouted, dropped, or handled another way, and test token ordering and combination weights after gathering outputs so routing bugs are not mistaken for model-quality problems.",
+      "production": "Recommended engineering practice, rather than a deployment procedure supplied by the article: plan memory around storage for all weights, not just active parameters. If experts are sharded across GPUs, include token dispatch and result-gathering communication in placement decisions. Measure quality, latency, throughput, memory, and communication time under representative batch sizes and sequence lengths, while monitoring per-expert token counts and capacity overflow. Compare actual serving cost against a dense model meeting the same quality requirements. Recheck routing distributions after fine-tuning, since the article notes that router behavior can shift.",
+      "supplementNote": "The source supports the MoE architecture, top-k sparse activation, weighted combination, load balancing, and memory, communication, and fine-tuning challenges. The E, P, F, k formulas are simplified derivations from that mechanism, not formulas quoted from the author; implementation checks, deployment measurements, and comparison methods are additional engineering advice. 'Without scaling FLOPs' means that, with fixed k and expert size, the main expert computation does not grow proportionally with the total expert count—not that total computation or latency is completely unchanged."
+    },
+    "ja": {
+      "title": "Mixture of Experts アーキテクチャとは何ですか。また、FLOPs を比例的に増やさずに容量を拡大する仕組みを説明してください。",
+      "intent": "条件付き計算、総パラメータ数と token ごとの有効パラメータ数の違い、および理論上の計算量削減が実際のレイテンシ削減を必ずしも意味しない理由を理解しているかを評価する。",
+      "hint": [
+        "Transformer のフィードフォワードネットワークと top-k ルーティングから説明する。",
+        "専門家の総数 E と token ごとに実行する専門家数 k を区別する。",
+        "一定に保てるのは専門家の計算量であり、すべてのシステムコストではない。",
+        "負荷分散、メモリ、GPU 間通信にも触れる。"
+      ],
+      "principle": "Mixture of Experts（MoE）は、Transformer の一部またはすべての層で、密なフィードフォワードサブレイヤーを複数の専門家ネットワークと router に置き換える。注意機構などの共有部分は残る。router は各 token の表現から top-k の専門家を選び、選択された専門家だけを実行して、出力を重み付きで合成する。専門家の役割分担は事前に分野を割り当てるのではなく、訓練で学習される。このため、各 token がすべての専門家を使わなくても、専門家数を増やしてパラメータ容量を拡大できる。",
+      "tradeoff": "記事の疎な活性化の仕組みから簡略化して導くと、同じサイズの専門家が E 個あり、各専門家のパラメータ数が P、実行コストが F FLOPs なら、専門家の総パラメータ数は約 E × P、token ごとの専門家計算量は約 k × F となる。k と専門家サイズを固定すれば、E を増やしても専門家 FLOPs は比例して増えない。ただし、router と共有層の計算があるため、モデル全体の FLOPs が厳密に一定になるわけではない。記事は全重みのメモリ、負荷の偏り、GPU 間通信もコストとして挙げている。追加の工学的判断として、容量増加は品質向上を保証せず、FLOPs 削減も低レイテンシを保証しない。",
+      "implementation": "記事に沿った構成では、各 MoE 層に独自の router を設け、線形射影と softmax で専門家を採点し、top-k 選択、token の振り分け、専門家の実行、出力の合成を行う。記事では、選択された専門家の間で合成重みを正規化する。訓練時には補助的な負荷分散損失で少数の専門家への集中を抑え、専門家ごとのバッチ処理容量も扱う。推奨する実装実務として、容量超過時に再ルーティングするか、破棄するか、別の方法を使うかを明確にし、出力回収後の token 順序と合成重みを検証する。これにより、ルーティングの不具合をモデル品質の問題と取り違えにくくなる。",
+      "production": "以下は記事が提示した運用手順ではなく、推奨するエンジニアリング実務である。有効パラメータ数だけでなく、全重みの保存に必要なメモリを見積もる。専門家を複数 GPU に分割する場合は、token の転送と結果回収の通信コストを配置判断に含める。代表的なバッチサイズと系列長で、品質、レイテンシ、スループット、メモリ、通信時間を測定し、専門家ごとの token 数と容量超過を監視する。同じ品質要件を満たす密なモデルと実際の配信コストを比較する。記事が指摘するように微調整で router の挙動が変わり得るため、微調整後はルーティング分布を再確認する。",
+      "supplementNote": "出典が説明しているのは、MoE の構造、top-k による疎な活性化、重み付き合成、負荷分散、およびメモリ・通信・微調整の課題である。E、P、F、k の式はその仕組みからの簡略化した導出であり、著者の式の引用ではない。実装検証、運用時の測定、比較方法は追加の工学的助言である。「FLOPs を増やさない」とは、k と専門家サイズを固定した場合に主要な専門家計算量が専門家総数に比例して増えないという意味であり、総計算量やレイテンシが完全に一定という意味ではない。"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "questionId": "Q0011",
+  "inputHash": "f9f1758dcac539e4585f3ce07f772321edef5aa3a837585c4b596c795bd48e2b",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:19:44.233Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L145-L147",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/decoding-instructgpt",
+    "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "說明預訓練、監督式微調與偏好最佳化之間的差異。",
+      "intent": "評估你是否能區分三者的資料、學習目標與用途，並說明示範學習、偏好比較，以及 PPO-based RLHF 和 DPO 的差異。",
+      "hint": [
+        "依資料、目標與行為效果比較三個階段。",
+        "區分「模仿好答案」與「學習哪個答案更好」。",
+        "以 PPO-based RLHF 說明流程，再補充 DPO。",
+        "提及 reward hacking 與能力退化風險。"
+      ],
+      "principle": "在文章討論的自回歸 LLM 情境中，預訓練以大量文本進行下一個 token 預測，建立廣泛的語言能力，但不直接教模型遵循指令。監督式微調（SFT）使用高品質的提示與回答配對，讓模型模仿理想回答，學習指令遵循與回答格式。偏好最佳化則利用同一提示下回答之間的相對偏好，讓模型更傾向產生人類偏好的輸出。簡言之：預訓練學習文本規律，SFT 學習示範，偏好最佳化學習比較判斷。文章中的 InstructGPT 沿用 GPT-3 架構，主要改變的是訓練，而非生成模型的架構。",
+      "tradeoff": "文章指出，SFT 能建立良好的起始行為，但人工示範無法涵蓋所有情境；偏好比較能提供另一種訓練訊號。PPO-based RLHF 需要獎勵模型、生成與更新迴圈，以及額外的訓練元件，因此較複雜。DPO 直接使用偏好配對，不需要獨立的獎勵模型或 RL 迴圈。偏好最佳化也可能讓模型利用獎勵模型的漏洞，或降低部分原有任務的表現，也就是 alignment tax。KL penalty 可限制模型偏離 SFT 參考模型的程度，但不應視為正確性或安全性的保證。工程建議：應根據資料品質、評估結果與維運成本選方法，而不是假設更複雜的訓練必然更好。",
+      "implementation": "文章描述的流程是：先取得預訓練模型，再以提示與理想回答進行 SFT；接著收集同一提示下的多個回答及人工排序，轉為偏好配對。訓練獎勵模型時，可用 loss = -log(sigmoid(r_w - r_l))，其中 r_w 與 r_l 分別是偏好與非偏好回答的分數。之後用 PPO 更新生成模型，大致最大化獎勵減去 beta 乘以相對於固定 SFT 參考模型的 KL divergence。獎勵模型訓練是在學習評分器；PPO 才是在這條流程中更新生成策略。另一條路徑是 DPO，直接從偏好配對學習。工程建議：實作 SFT 時，可對目標回答 token 使用交叉熵損失，遮罩提示 token；並依提示切分訓練與評估資料，避免相關回答跨集合洩漏。",
+      "production": "以下是建議的工程實務，而非文章提供的部署流程：保留預訓練、SFT 與偏好最佳化後的檢查點，使用相同的保留測試集比較指令遵循、事實正確性、安全性及原有能力。以獨立人工審查補充獎勵分數，因為學到的偏好分數不是正確性的客觀證明。PPO 訓練期間監控獎勵與 KL，並檢查高分是否伴隨重複、偏題或能力退化。先評估 SFT 是否已達需求，再決定是否加入偏好最佳化；採取分階段上線並保留回復機制。部署時提供服務的是生成模型，不必把訓練用的評分器當作必要的線上依賴。",
+      "supplementNote": "來源支持的內容包括三種訓練的概念差異、InstructGPT 的 SFT／獎勵模型／PPO 流程、KL penalty、alignment tax，以及 DPO 的直接偏好學習方式。明確標示為工程建議的選型、損失遮罩、資料切分、評估與部署措施是補充建議，不是作者的實作或經驗陳述。本文不將來源中的改進描述視為普遍保證。"
+    },
+    "en": {
+      "title": "Explain the difference between pre-training, supervised fine-tuning and preference optimisation.",
+      "intent": "Assess whether you can distinguish their data, objectives and purposes, and explain demonstrations versus preference comparisons and PPO-based RLHF versus DPO.",
+      "hint": [
+        "Compare the stages by data, objective and behavioral effect.",
+        "Distinguish imitating good answers from learning which answer is better.",
+        "Explain PPO-based RLHF, then mention DPO.",
+        "Discuss reward hacking and capability regressions."
+      ],
+      "principle": "For the autoregressive LLM setting discussed in the articles, pre-training predicts the next token over a large text corpus, building broad language capabilities without directly teaching instruction following. Supervised fine-tuning (SFT) uses high-quality prompt–response demonstrations to teach the model to imitate desired answers, including instruction following and response format. Preference optimisation uses relative judgments between responses to the same prompt to favor outputs people prefer. In short: pre-training learns text patterns, SFT learns demonstrations, and preference optimisation learns comparative judgments. In the articles’ InstructGPT example, the GPT-3 architecture is retained; the main change is training, not the generator’s architecture.",
+      "tradeoff": "The articles explain that SFT establishes useful starting behavior, but handwritten demonstrations cannot cover every situation; comparisons provide another training signal. PPO-based RLHF adds a reward model, a generation-and-update loop and supporting training components, increasing complexity. DPO learns directly from preference pairs without a separate reward model or RL loop. Preference optimisation can also exploit weaknesses in the reward model or reduce performance on existing tasks—the alignment tax. A KL penalty constrains drift from the SFT reference model, but should not be treated as a correctness or safety guarantee. Engineering recommendation: choose based on data quality, measured outcomes and operational cost, rather than assuming more complex training is always better.",
+      "implementation": "The source-described pipeline starts with a pre-trained model, applies SFT using prompts and ideal responses, then collects multiple responses per prompt and human rankings, converted into preference pairs. The reward model can use loss = -log(sigmoid(r_w - r_l)), where r_w and r_l score the preferred and rejected responses. PPO then updates the generator to approximately maximize reward minus beta times KL divergence from a frozen SFT reference model. Reward-model training learns a scorer; PPO is what updates the generating policy in this pipeline. An alternative is DPO, which learns directly from preference pairs. Engineering recommendations: implement SFT with cross-entropy on target response tokens while masking prompt tokens, and split training and evaluation data by prompt to prevent related responses leaking across sets.",
+      "production": "The following is recommended engineering practice, not a deployment procedure supplied by the articles: retain pre-trained, SFT and preference-optimised checkpoints and compare them on the same held-out tests for instruction following, factuality, safety and retained capabilities. Supplement reward scores with independent human review because learned preference scores are not objective proof of correctness. During PPO training, monitor reward and KL and check whether higher scores accompany repetition, off-topic answers or capability regressions. Evaluate whether SFT already meets requirements before adding preference optimisation; use staged rollout and retain rollback capability. Serve the generator without making its training-time scorer a mandatory online dependency.",
+      "supplementNote": "Source-supported material covers the conceptual distinctions, the InstructGPT SFT/reward-model/PPO pipeline, KL penalties, alignment tax and DPO’s direct preference learning. Method selection, loss masking, data splitting, evaluation and deployment measures explicitly marked as engineering recommendations are additional advice, not claims about the authors’ implementation or experience. Reported improvements are not treated as universal guarantees."
+    },
+    "ja": {
+      "title": "事前学習、教師ありファインチューニング、選好最適化の違いを説明してください。",
+      "intent": "各手法のデータ、学習目的、用途を区別し、模範回答による学習と選好比較、さらに PPO-based RLHF と DPO の違いを説明できるかを評価します。",
+      "hint": [
+        "データ、目的、振る舞いへの効果で比較する。",
+        "良い回答の模倣と、どちらが良いかの学習を区別する。",
+        "PPO-based RLHF を説明し、DPO も補足する。",
+        "reward hacking と能力低下のリスクに触れる。"
+      ],
+      "principle": "記事が扱う自己回帰型 LLM では、事前学習は大量のテキストから次の token を予測し、幅広い言語能力を獲得する段階です。指示への追従を直接教えるものではありません。教師ありファインチューニング（SFT）は、高品質なプロンプトと模範回答のペアを使い、望ましい回答を模倣させることで、指示追従や回答形式を学習させます。選好最適化は、同じプロンプトに対する回答間の相対的な評価を使い、人が好む出力を生成しやすくします。要するに、事前学習はテキストの規則性、SFT は模範例、選好最適化は比較評価から学びます。記事の InstructGPT の例では GPT-3 のアーキテクチャを維持し、主に変更するのは生成モデルの構造ではなく訓練方法です。",
+      "tradeoff": "記事では、SFT は良い初期動作を作る一方、人手の模範回答だけでは全状況を網羅できず、比較評価が別の学習信号になると説明されています。PPO-based RLHF は報酬モデル、生成と更新のループ、補助的な訓練要素を必要とするため複雑になります。DPO は独立した報酬モデルや RL ループを使わず、選好ペアから直接学習します。選好最適化には、報酬モデルの弱点を利用するリスクや、既存タスクの性能が下がる alignment tax もあります。KL penalty は SFT 参照モデルからの逸脱を抑えますが、正確性や安全性の保証ではありません。工学的な推奨として、複雑な訓練ほど良いと考えず、データ品質、評価結果、運用コストに基づいて選択します。",
+      "implementation": "記事の手順では、事前学習済みモデルにプロンプトと模範回答で SFT を行い、次に同じプロンプトへの複数回答と人による順位付けを収集して選好ペアに変換します。報酬モデルには loss = -log(sigmoid(r_w - r_l)) を使えます。r_w と r_l はそれぞれ選ばれた回答と選ばれなかった回答のスコアです。その後 PPO で生成モデルを更新し、概念的には報酬から、固定した SFT 参照モデルとの KL divergence に beta を掛けた値を引いた目的を最大化します。報酬モデルの訓練は評価器の学習であり、この流れで生成方策を更新するのは PPO です。別の方法である DPO は選好ペアから直接学習します。工学的な推奨として、SFT ではプロンプト token をマスクし、回答 token に交差エントロピー損失を適用します。また、関連する回答が学習用と評価用に混在しないよう、プロンプト単位でデータを分割します。",
+      "production": "以下は記事に記載された導入手順ではなく、推奨する工学的実務です。事前学習、SFT、選好最適化後のチェックポイントを保持し、共通のホールドアウトテストで指示追従、事実の正確性、安全性、既存能力の維持を比較します。学習された選好スコアは正しさの客観的証明ではないため、独立した人手評価も行います。PPO の訓練中は報酬と KL を監視し、スコア上昇とともに反復、脱線、能力低下が起きていないか確認します。選好最適化を追加する前に SFT だけで要件を満たせるか評価し、段階的に公開してロールバック手段を確保します。推論サービスでは生成モデルを提供し、訓練用の評価器を必須のオンライン依存関係にする必要はありません。",
+      "supplementNote": "出典に基づく内容は、各手法の概念的な違い、InstructGPT の SFT／報酬モデル／PPO の流れ、KL penalty、alignment tax、DPO の直接的な選好学習です。工学的な推奨と明示した手法選択、損失のマスク、データ分割、評価、導入施策は補足的な助言であり、著者の実装や経験についての主張ではありません。出典の改善説明を普遍的な保証とは扱っていません。"
+    }
+  }
+}

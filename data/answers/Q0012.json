@@ -1,0 +1,61 @@
+{
+  "questionId": "Q0012",
+  "inputHash": "5a325b712f50ab67f0525a1be35021ed0ae3c52ef5d5b55c090a048397e6df1f",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:21:02.964Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L148-L150",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/how-does-temperature-control-llm-output",
+    "https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "比較 greedy、beam search、top-k、top-p 與 temperature sampling。各自在什麼情況下會失效？",
+      "intent": "評估你是否能區分搜尋策略、候選 token 篩選與機率分布調整，解釋各方法的失敗模式，並依品質、多樣性與運算成本選擇解碼方式。",
+      "hint": [
+        "區分局部 argmax、多路徑搜尋與隨機取樣。",
+        "比較固定候選數量與固定累積機率門檻。",
+        "說明 temperature 如何影響分布，而非直接保證正確性。",
+        "涵蓋每種方法的失敗模式與正式環境驗證。"
+      ],
+      "principle": "文章支持的核心：LLM 每一步產生 logits，再依解碼規則選出下一個 token。Greedy 直接選擇機率最高的 token。Top-k 保留機率最高的 k 個 token，重新正規化後取樣；top-p（nucleus sampling）保留依機率排序後、累積機率至少達到 p 的最小前綴，再重新正規化取樣。Temperature 在 T > 0 時使用 q_i = softmax(z / T)_i：較低的 T 使分布集中，較高的 T 使分布平坦；T = 1 不改變分布，正值 T 不改變 logits 的排序。Temperature 是分布調整方式，可與候選篩選結合，不是另一種搜尋寬度。\n補充工程背景，非文章內容：標準 beam search 在每一步擴展多個部分序列，依累積 log probability 保留 B 個最佳候選，最後選出分數最佳的完成序列；它是有限寬度的近似搜尋，而非隨機取樣。",
+      "tradeoff": "Greedy：簡單、解碼額外成本低，但早期的局部選擇無法回頭，可能重複，也不保證得到整體機率最高的序列。Temperature：低 T 犧牲多樣性，仍可能反覆產生錯誤答案；高 T 增加弱候選被選中的機會，錯誤可能隨後續生成擴散。Top-k：固定 k 在分布集中時可能保留多餘的弱候選，在分布分散時又會排除合理選項。Top-p：候選數量能隨分布調整，但低 p 可能過度限縮，高 p 在平坦分布中可能保留大量弱候選；若模型對錯誤 token 很有信心，它仍會保留該 token。\n補充工程分析：beam search 能探索 greedy 忽略的路徑，但增加計算與記憶體需求；被剪枝的好路徑無法恢復。單純累積 log probability 可能偏好較短輸出，而且高模型機率不等於高任務品質，因此加寬 beam 不保證答案更好。低 temperature 不保證正確，以及 top-p 的上述限制，也是超出文章直接說明的工程判斷。",
+      "implementation": "依文章機制，並加入建議工程實務：明確分開 greedy、beam search 與 sampling 模式。Greedy 使用 argmax，並定義同分處理；不要真的以 T = 0 做除法。Sampling 使用數值穩定的 softmax(z / T)，套用選定的 top-k 或 top-p 篩選，再重新正規化取樣。Top-p 必須保留使累積機率首次達到或超過 p 的 token。驗證 T > 0、1 <= k <= 詞彙表大小、0 < p <= 1，並確認套件對停用篩選的特殊值定義。\n建議工程實務，非作者主張：若同時使用 temperature 與篩選，記錄套用順序；temperature 會改變 top-p 的候選集合，同時使用 top-k 與 top-p 時，順序也可能改變結果。Beam search 應追蹤序列分數與完成狀態，明確定義 EOS、停止條件及任何長度正規化，避免在未說明的情況下改變搜尋目標。",
+      "production": "建議工程實務，非文章提供的正式環境方案：對重視穩定性的擷取或結構化輸出，先評估 greedy 或低 temperature，並搭配 schema 驗證、受限解碼或任務測試；低隨機性不能取代驗證。對開放式寫作，可評估 temperature 搭配 top-p；需要明確限制候選數量時可考慮 top-k。只有在序列分數與任務品質有合理關聯、且成本可接受時，才評估 beam search。\n使用代表性提示與多次取樣，比較正確性、格式遵循、重複、多樣性、延遲與記憶體。先隔離單一參數的效果，再測試交互作用，並記錄模型版本、解碼設定與可用的 random seed。文章提醒 T = 0 仍可能受執行環境的數值差異影響；因此不要承諾跨環境逐位元重現。解碼只能改變模型如何選擇輸出，不能修復缺失的知識。",
+      "supplementNote": "README 提供題目與延伸閱讀；兩篇文章支持 greedy、temperature、top-k、top-p 的機制，以及重複、取樣偏離與固定 k 的限制。提供的文章摘錄未涵蓋 beam search。Beam search 說明、top-p 的延伸失敗分析、正確性警語與實作及正式環境建議，均為補充工程背景或建議實務，不是作者的主張。本文不將較低隨機性或較高 token 機率視為事實正確性的保證。"
+    },
+    "en": {
+      "title": "Compare greedy, beam search, top-k, top-p and temperature sampling. When does each fail?",
+      "intent": "Assess whether you can distinguish search strategies, candidate-token filtering and probability reshaping, explain failure modes, and choose decoding methods based on quality, diversity and computational cost.",
+      "hint": [
+        "Separate local argmax, multi-path search and random sampling.",
+        "Contrast a fixed candidate count with a cumulative probability threshold.",
+        "Explain how temperature changes the distribution without guaranteeing correctness.",
+        "Cover failures for every method and validation in production."
+      ],
+      "principle": "Source-supported core: An LLM produces logits at each step and selects its next token using a decoding rule. Greedy selects the highest-probability token. Top-k retains the k highest-probability tokens, renormalizes and samples; top-p, or nucleus sampling, retains the smallest probability-sorted prefix with cumulative probability at least p, then renormalizes and samples. For T > 0, temperature uses q_i = softmax(z / T)_i: lower T sharpens the distribution, higher T flattens it, and T = 1 leaves it unchanged. Positive T does not change logit rankings. Temperature reshapes probabilities and can be combined with candidate filtering; it is not another search width.\nAdditional engineering background, not covered by the articles: Standard beam search expands multiple partial sequences at each step, retains the best B candidates by cumulative log probability, and ultimately selects the best-scoring completed sequence. It is finite-width approximate search rather than random sampling.",
+      "tradeoff": "Greedy: Simple and low in decoding overhead, but early local choices cannot be reconsidered, repetition can occur, and the highest-probability complete sequence is not guaranteed. Temperature: Low T sacrifices diversity and can repeatedly produce a wrong answer; high T gives weak candidates more probability, and mistakes can propagate through subsequent generation. Top-k: A fixed k can retain unnecessary weak candidates in a peaked distribution and exclude reasonable alternatives in a diffuse one. Top-p: Its candidate count adapts, but low p can overconstrain generation, while high p can retain many weak candidates in a flat distribution. It still retains a wrong token if the model assigns it high confidence.\nAdditional engineering analysis: Beam search explores paths greedy misses, but requires more computation and memory; good paths lost through pruning cannot be recovered. Raw cumulative log probability can favor shorter outputs, and model likelihood is not task quality, so wider beams do not guarantee better answers. The correctness caveat for low temperature and the top-p limitations above are also engineering deductions beyond the articles' direct explanations.",
+      "implementation": "Using the articles' mechanisms with recommended engineering safeguards: Separate greedy, beam-search and sampling modes explicitly. Use argmax for greedy with defined tie handling; do not literally divide by T = 0. For sampling, use numerically stable softmax(z / T), apply the selected top-k or top-p filter, renormalize and sample. Top-p must retain the token that first reaches or crosses the cumulative threshold. Validate T > 0, 1 <= k <= vocabulary size and 0 < p <= 1, and check library-specific sentinel values for disabled filtering.\nRecommended engineering practice, not an author claim: When combining temperature and filtering, record their order. Temperature changes top-p membership, and combining top-k with top-p can also make order matter. For beam search, track sequence scores and completion status, and specify EOS handling, stopping criteria and any length normalization so that the search objective is not changed implicitly.",
+      "production": "Recommended engineering practice, not a production recipe supplied by the articles: For consistency-sensitive extraction or structured output, evaluate greedy or low temperature first, with schema validation, constrained decoding or task tests; low randomness is not a substitute for validation. For open-ended writing, evaluate temperature with top-p; consider top-k when an explicit candidate-count limit is useful. Evaluate beam search only when sequence scoring reasonably aligns with task quality and its cost is acceptable.\nUse representative prompts and repeated samples to compare correctness, format adherence, repetition, diversity, latency and memory. Isolate individual parameter effects before testing interactions, and record model versions, decoding settings and random seeds when available. The temperature article cautions that T = 0 can still vary because of numerical execution differences, so do not promise bitwise reproducibility across environments. Decoding changes how the model selects output; it cannot repair missing knowledge.",
+      "supplementNote": "The README supplies the question and reading links. The two articles support the mechanics of greedy, temperature, top-k and top-p, plus repetition, sampling drift and fixed-k limitations. The supplied excerpts do not cover beam search. Beam-search explanations, extended top-p failure analysis, correctness caveats, and implementation and production recommendations are additional engineering background or recommended practice, not claims attributed to the author. Lower randomness and higher token probability are not treated as guarantees of factual correctness."
+    },
+    "ja": {
+      "title": "greedy、beam search、top-k、top-p、temperature sampling を比較してください。それぞれ、どのような場合にうまく機能しませんか？",
+      "intent": "探索戦略、候補 token の絞り込み、確率分布の調整を区別し、失敗パターンを説明したうえで、品質・多様性・計算コストに応じてデコード方式を選べるかを評価する。",
+      "hint": [
+        "局所的な argmax、複数経路の探索、ランダムサンプリングを区別する。",
+        "候補数の固定と累積確率のしきい値を比較する。",
+        "temperature は分布を変えるが、正しさを保証しないと説明する。",
+        "各方式の失敗と本番環境での検証に触れる。"
+      ],
+      "principle": "記事に基づく基本事項：LLM は各ステップで logits を生成し、デコード規則に従って次の token を選ぶ。Greedy は確率が最大の token を選択する。Top-k は確率上位 k 個を残し、再正規化してサンプリングする。Top-p（nucleus sampling）は確率順に並べた先頭部分のうち、累積確率が p 以上になる最小の集合を残し、再正規化してサンプリングする。Temperature は T > 0 で q_i = softmax(z / T)_i を用いる。T が低いほど分布は集中し、高いほど平坦になる。T = 1 では変化せず、正の T は logits の順位を変えない。Temperature は確率の調整であり、候補の絞り込みと組み合わせられるが、探索幅ではない。\n記事にない補足的なエンジニアリング知識：標準的な beam search は各ステップで複数の部分系列を展開し、累積 log probability に基づいて上位 B 個を残し、最終的に最高スコアの完了系列を選ぶ。ランダムサンプリングではなく、有限幅の近似探索である。",
+      "tradeoff": "Greedy：単純でデコードの追加負荷が小さい一方、初期の局所的な選択を取り消せず、反復が起こり得る。系列全体の確率最大化も保証しない。Temperature：低い T は多様性を損ない、同じ誤答を繰り返すこともある。高い T は弱い候補の選択確率を増やし、その誤りが後続の生成に波及し得る。Top-k：固定の k は、集中した分布では不要な弱い候補を残し、広がった分布では妥当な選択肢を除外し得る。Top-p：候補数は適応するが、低い p は生成を制限しすぎ、高い p は平坦な分布で多くの弱い候補を残し得る。モデルが誤った token に高い確率を与えれば、それも残る。\n補足的なエンジニアリング分析：beam search は greedy が見逃す経路を探索できるが、計算とメモリの負担が増える。枝刈りで失った良い経路は復元できない。単純な累積 log probability は短い出力を優遇し得るうえ、モデルの尤度はタスク品質とは異なるため、beam を広げても品質向上は保証されない。低 temperature の正確性に関する注意と上記の top-p の限界も、記事の直接的な説明を超える工学的な考察である。",
+      "implementation": "記事の仕組みに推奨実務を加えると、greedy、beam search、sampling のモードを明確に分ける。Greedy は同点時の扱いを定義して argmax を使い、T = 0 で実際に除算しない。Sampling では数値的に安定した softmax(z / T) を用い、選択した top-k または top-p のフィルタを適用して再正規化し、サンプリングする。Top-p は累積確率が初めて p に到達する、または超える token を必ず残す。T > 0、1 <= k <= 語彙数、0 < p <= 1 を検証し、フィルタ無効化を表す特殊値はライブラリごとに確認する。\n著者の主張ではなく推奨実務：temperature とフィルタを併用する場合は適用順序を記録する。Temperature は top-p の候補集合を変え、top-k と top-p の併用でも順序が結果に影響し得る。Beam search では系列スコアと完了状態を追跡し、EOS、停止条件、長さ正規化の有無を明示して、探索目的が暗黙に変わらないようにする。",
+      "production": "記事が提示する本番構成ではなく推奨実務：一貫性が重要な抽出や構造化出力では、まず greedy または低 temperature を評価し、schema 検証、制約付きデコード、タスクテストを併用する。ランダム性の低さは検証の代わりにならない。自由度の高い文章生成では temperature と top-p を評価し、候補数の明示的な上限が必要なら top-k を検討する。Beam search は、系列スコアとタスク品質に妥当な関連があり、コストを許容できる場合に評価する。\n代表的なプロンプトと繰り返しサンプリングを使い、正確性、形式遵守、反復、多様性、レイテンシ、メモリを比較する。個々のパラメータの効果を切り分けた後で相互作用を検証し、モデルのバージョン、デコード設定、利用可能なら random seed を記録する。Temperature の記事は、T = 0 でも実行時の数値差により出力が変わり得ると注意しているため、環境をまたぐビット単位の再現性は約束しない。デコードは出力の選び方を変えるだけで、知識の欠落を修復するものではない。",
+      "supplementNote": "README は質問と参考記事へのリンクを提供している。2 本の記事は greedy、temperature、top-k、top-p の仕組みと、反復、サンプリングによる逸脱、固定 k の限界を説明している。提供された抜粋には beam search の説明はない。Beam search の説明、top-p の追加的な失敗分析、正確性への注意、実装・本番運用の提案は、補足的なエンジニアリング知識または推奨実務であり、著者の主張ではない。ランダム性の低さや token 確率の高さを、事実としての正しさの保証とは扱っていない。"
+    }
+  }
+}

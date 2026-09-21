@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0006",
+  "inputHash": "269cf3b5ae0854e068ef0a6f3eeeea91dd324f1650bdf32a2207f346378b7458",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:16:37.343Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L132-L134",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/bpe-in-llms"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "Byte Pair Encoding 如何運作？它在數字、程式碼與非拉丁文字上有哪些失效模式？",
+      "intent": "評估你是否理解 BPE 的訓練與推論流程，能否區分文字可表示性與語意理解能力，並能說明 tokenizer 的選擇如何影響正確性、效率與多語言涵蓋程度。",
+      "hint": [
+        "分開說明訓練時的配對頻率與推論時的 merge rank。",
+        "區分字元層級 BPE 與 byte-level BPE 的涵蓋保證。",
+        "逐一分析數字、程式碼、非拉丁文字的切分風險。",
+        "提出使用實際 tokenizer 的測試，而非猜測 token 邊界。"
+      ],
+      "principle": "文章說明，BPE 從基本符號開始，反覆統計相鄰符號配對的出現頻率，合併最常見的配對並更新計數，直到達到設定的詞彙量或停止條件。結果包含常見完整詞、子詞與基本符號。訓練後保存詞彙表與有順序的合併規則；編碼新文字時依學得的 merge rank 合併符合條件的相鄰配對，再映射為 token ID，而不是重新計算新文字中的頻率或只採最長子字串匹配。補充技術釐清：文章使用字元層級範例；byte-level BPE 則以位元組為基礎。字元版本需要涵蓋輸入字元或提供 fallback；完整位元組字母表可表示有效編碼文字，但前處理仍可能影響原文還原。",
+      "tradeoff": "文章支持的核心取捨是：相較於單詞級切分，子詞能以較小詞彙表處理更多新詞；相較於字元級切分，常見片段的合併可縮短序列。以下是額外工程分析，不是文章列出的失效模式。數字：切分可能形成不一致的多位數片段，且不對齊位值，使精確複製、比較或算術更難學習；實際行為取決於 tokenizer 的前置切分規則。程式碼：識別字、運算子、空白與縮排可能跨越多個 token；頻率導向的切分不理解語法或作用域，因此表示得出程式碼不代表能正確推理。非拉丁文字：若訓練資料代表性不足，同樣內容可能需要更多 token，壓縮有效上下文並提高處理成本；byte-level 切分也可能落在 Unicode 字元內部。這些是風險，不表示 BPE 必然破壞文字或直接造成所有模型錯誤。較大詞彙表可能縮短序列，但也會增加 embedding 與輸出層的參數量。",
+      "implementation": "建議工程實務：使用與模型完全相符的 tokenizer、詞彙表、merge rank、正規化、前置切分與 special token 設定。若自行訓練，使用具代表性的多語言與程式碼資料，明確設定基本字母表或 byte fallback，並採用可重現的同頻配對決策規則。檢查整數、小數、負號、前導零、長識別字、混合文字、組合字元與縮排的實際 token ID 和解碼結果；不要把示意切分當成所有模型的固定行為。若要限制數字合併或改善特定文字的涵蓋，應在 tokenizer 設計與模型訓練階段評估，不要在部署時直接替換既有模型的 tokenizer。",
+      "production": "建議工程實務：依語言與工作負載分別量測 token 數量、截斷情形、延遲、成本與任務正確性。對承諾無損的流程加入 round-trip 測試；若正規化會改變原文，應記錄並測試該行為。對數字加入精確複製與運算驗證，必要時使用計算器或結構化驗證；對程式碼使用 parser、compiler 與測試，而非把 tokenization 成功視為正確性證明。以 token 預算規劃分塊，但盡量保留語意或語法邊界。串流解碼時使用能處理不完整 UTF-8 位元組序列的 decoder。固定 tokenizer 版本，並在升級時執行跨語言與程式碼回歸測試。",
+      "supplementNote": "README 提供題目與延伸閱讀連結；所附文章支持 BPE 的頻率合併、子詞取捨與有序規則編碼流程。數字、程式碼、非拉丁文字的詳細風險、位元組涵蓋條件、模型大小取捨，以及 implementation 和 production 建議均為額外工程分析，不應歸因於作者。未使用連結影片的內容，因為未提供其逐字稿。"
+    },
+    "en": {
+      "title": "How does Byte Pair Encoding work, and what are its failure modes (numbers, code, non-Latin scripts)?",
+      "intent": "Assess whether you understand BPE training and inference, distinguish text representability from semantic understanding, and explain how tokenizer choices affect correctness, efficiency, and multilingual coverage.",
+      "hint": [
+        "Separate training-time pair frequencies from inference-time merge ranks.",
+        "Distinguish the coverage guarantees of character-level and byte-level BPE.",
+        "Analyze segmentation risks for numbers, code, and non-Latin scripts separately.",
+        "Propose tests using the actual tokenizer rather than guessing token boundaries."
+      ],
+      "principle": "The article explains BPE as starting with basic symbols, repeatedly counting adjacent symbol pairs, merging the most frequent pair, and updating counts until a vocabulary target or stopping condition is reached. The resulting vocabulary contains common whole words, subwords, and base symbols. Training saves the vocabulary and ordered merge rules; encoding new text merges eligible adjacent pairs according to learned merge ranks and maps the result to token IDs. It does not relearn frequencies on the input or simply perform longest-substring matching. Additional technical clarification: the article illustrates character-level BPE; byte-level BPE instead starts from bytes. A character-based version needs input-character coverage or fallback. A complete byte alphabet can represent valid encoded text, although preprocessing can still affect exact recovery.",
+      "tradeoff": "The article supports the central tradeoff: subwords handle novel words with a smaller vocabulary than word-level tokenization, while merging frequent pieces shortens sequences compared with character-level tokenization. The following is additional engineering analysis, not failure modes enumerated in the article. Numbers: segmentation may create inconsistent multi-digit chunks that do not align with place value, making exact copying, comparison, or arithmetic harder to learn; actual behavior depends on pre-tokenization rules. Code: identifiers, operators, whitespace, and indentation may span multiple tokens. Frequency-based segmentation does not understand syntax or scope, so representability does not guarantee correct reasoning. Non-Latin scripts: underrepresentation in training data can produce more tokens for comparable content, reducing effective context capacity and increasing processing cost; byte-level boundaries can also fall inside Unicode characters. These are risks, not proof that BPE necessarily corrupts text or causes every model error. A larger vocabulary may shorten sequences but increases embedding and output-layer parameter counts.",
+      "implementation": "Recommended engineering practice: use the exact tokenizer, vocabulary, merge ranks, normalization, pre-tokenization, and special-token configuration expected by the model. If training a tokenizer, use representative multilingual and code data, define the base alphabet or byte fallback explicitly, and make frequency-tie decisions reproducible. Inspect actual token IDs and decoded outputs for integers, decimals, signs, leading zeros, long identifiers, mixed scripts, combining characters, and indentation. Do not present illustrative splits as universal model behavior. Evaluate digit-merge restrictions or improved script coverage during tokenizer design and model training rather than swapping the tokenizer of an existing model at deployment.",
+      "production": "Recommended engineering practice: measure token counts, truncation, latency, cost, and task correctness separately by language and workload. Add round-trip tests wherever losslessness is promised; document and test any normalization that changes the input. Validate numeric copying and calculations, using a calculator or structured validation when appropriate. Validate code with parsers, compilers, and tests rather than treating successful tokenization as evidence of correctness. Chunk within token budgets while preserving semantic or syntactic boundaries where possible. For streaming, use a decoder that handles incomplete UTF-8 byte sequences. Pin tokenizer versions and run multilingual and code regression tests on upgrades.",
+      "supplementNote": "The README supplies the question and reading links; the supplied article supports frequency-based merging, the subword tradeoff, and ordered-rule encoding. Detailed number, code, and non-Latin-script risks, byte-coverage conditions, model-size tradeoffs, and the implementation and production recommendations are additional engineering analysis, not claims attributed to the author. The linked video's contents were not used because no transcript was supplied."
+    },
+    "ja": {
+      "title": "Byte Pair Encoding はどのように動作し、数値・コード・非ラテン文字ではどのような失敗モードがありますか？",
+      "intent": "BPE の学習と推論を理解し、テキストの表現可能性と意味理解を区別したうえで、tokenizer の選択が正確性、効率、多言語対応に与える影響を説明できるかを評価します。",
+      "hint": [
+        "学習時のペア頻度と推論時の merge rank を分けて説明する。",
+        "文字単位 BPE と byte-level BPE のカバレッジ保証を区別する。",
+        "数値、コード、非ラテン文字の分割リスクを個別に分析する。",
+        "境界を推測せず、実際の tokenizer を使ったテストを提案する。"
+      ],
+      "principle": "記事では、BPE は基本記号から開始し、隣接する記号ペアの頻度を数え、最頻ペアを結合して頻度を更新する処理を、目標語彙数または停止条件に達するまで繰り返すと説明しています。語彙には頻出単語、サブワード、基本記号が含まれます。学習後は語彙と順序付き結合規則を保存し、新しい入力では学習済み merge rank に従って適用可能な隣接ペアを結合し、token ID に変換します。入力から頻度を学び直したり、単純な最長部分文字列一致を行ったりするわけではありません。追加の技術的補足として、記事の例は文字単位 BPE ですが、byte-level BPE はバイトから開始します。文字単位では入力文字のカバレッジまたは fallback が必要です。全バイトを含む基本集合なら有効に符号化されたテキストを表現できますが、前処理によっては原文を完全に復元できない場合があります。",
+      "tradeoff": "記事が説明する中心的なトレードオフは、単語単位より小さな語彙で新語に対応しつつ、文字単位よりも頻出部分をまとめて系列を短くできることです。以下は記事が列挙した失敗モードではなく、追加の工学的分析です。数値では、桁の位取りと一致しない不均一な複数桁の断片に分かれることがあり、正確な転記、比較、計算の学習を難しくし得ます。実際の挙動は事前分割規則に依存します。コードでは、識別子、演算子、空白、インデントが複数 token にまたがる場合があります。頻度に基づく分割は構文やスコープを理解しないため、表現できることは正しい推論を保証しません。非ラテン文字では、学習データでの代表性が低いと同程度の内容に多くの token が必要となり、実効的なコンテキスト容量が減って処理コストが増え得ます。byte-level の境界は Unicode 文字の途中に入る場合もあります。これらはリスクであり、BPE が必ずテキストを破壊する、あるいはすべてのモデル誤りを引き起こすという意味ではありません。語彙を大きくすると系列を短縮できる可能性がありますが、embedding と出力層のパラメータ数は増えます。",
+      "implementation": "推奨するエンジニアリング実務：モデルが想定する tokenizer、語彙、merge rank、正規化、事前分割、special token 設定を厳密に使用します。tokenizer を学習する場合は、多言語とコードを適切に代表するデータを用い、基本文字集合または byte fallback を明示し、同頻度ペアの選択を再現可能にします。整数、小数、符号、先頭ゼロ、長い識別子、混在する文字体系、結合文字、インデントについて、実際の token ID と復号結果を確認します。説明用の分割例を全モデル共通の挙動として扱ってはいけません。数字の結合制限や文字体系のカバレッジ改善は tokenizer 設計とモデル学習の段階で評価し、既存モデルの tokenizer をデプロイ時に単純交換しないようにします。",
+      "production": "推奨するエンジニアリング実務：言語とワークロードごとに token 数、切り捨て、レイテンシ、コスト、タスクの正確性を測定します。可逆性を保証する経路には round-trip テストを追加し、入力を変更する正規化は文書化して検証します。数値の転記と計算は検証し、必要に応じて計算ツールや構造化された検証を使います。コードは parser、compiler、テストで確認し、tokenization の成功を正しさの証拠とはみなしません。token 予算内で分割しつつ、可能な限り意味や構文の境界を維持します。ストリーミングには不完全な UTF-8 バイト列を扱える decoder を使います。tokenizer のバージョンを固定し、更新時には多言語とコードの回帰テストを実施します。",
+      "supplementNote": "README は質問と参考リンクを提示しています。提供された記事が裏付けるのは、頻度に基づく結合、サブワードのトレードオフ、順序付き規則による符号化です。数値・コード・非ラテン文字の詳細なリスク、バイトのカバレッジ条件、モデルサイズのトレードオフ、および implementation と production の推奨事項は追加の工学的分析であり、著者の主張として帰属させるものではありません。リンク先動画は文字起こしが提供されていないため、内容を使用していません。"
+    }
+  }
+}

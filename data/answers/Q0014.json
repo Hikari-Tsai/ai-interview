@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0014",
+  "inputHash": "7aee03722ccbf7b568a47f9ad62cc9f05c6b6d2440524b0a1e53fa43c6db9047",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:23:11.086Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L154-L155",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "為什麼現代 Transformer 將 LayerNorm 放在區塊之前？什麼是 RMSNorm？",
+      "intent": "評估你是否能區分正規化的位置與運算方式，說明 pre-norm 如何影響殘差路徑與訓練穩定性，並理解 RMSNorm 的公式、取捨與實作注意事項。",
+      "hint": [
+        "先區分 pre-norm 的位置選擇與 LayerNorm／RMSNorm 的運算選擇。",
+        "用 x + F(Norm(x)) 說明殘差路徑。",
+        "比較標準差與均方根，以及是否減去平均值。",
+        "將理論上的運算節省與實際效能驗證分開。"
+      ],
+      "principle": "Pre-norm 是將正規化放在 Attention 與 FFN 各子層之前，而不只是整個 Transformer 區塊的入口。文章指出，這種配置能改善深層網路的訓練穩定性，且殘差路徑會繞過正規化與子層。補充工程解釋：對 y = x + F(Norm(x))，其 Jacobian 含有直接的單位矩陣項，讓梯度可沿著不必經過 Norm 或 F 的路徑傳遞；post-norm 的 y = Norm(x + F(x)) 則會讓梯度經過外層 Norm。這是 pre-norm 有利於最佳化的原因之一，但不保證消除所有梯度問題。RMSNorm 是另一個獨立選擇：LayerNorm(x) = gamma * (x - mean(x)) / sqrt(var(x) + eps) + beta；RMSNorm(x) = gamma * x / sqrt(mean(x^2) + eps)。RMSNorm 不做平均值中心化，標準形式使用逐維度的 gamma，不使用 beta；兩種正規化都能搭配 pre-norm。",
+      "tradeoff": "文章將 RMSNorm 的優點歸納為較少運算、較簡單的實作，以及在所討論研究中大致相近的模型品質。它仍會計算平方值的平均，而是省去輸入平均值的減法與以中心化值計算變異數的步驟。補充工程判斷：RMSNorm 不具備 LayerNorm 對整個向量加上相同偏移量時的輸出不變性；不要將兩者視為完全等價。Pre-norm 保留直接殘差路徑，也不代表殘差串流的幅度始終受限。選擇時應驗證訓練品質與數值行為，而非假設 RMSNorm 必然更準確，或較少算術運算必然轉化為端到端加速。",
+      "implementation": "依照文章的結構，可寫成 h = x + Attention(Norm1(x))，再令 y = h + FFN(Norm2(h))，其中 Norm1 與 Norm2 為各自獨立的正規化模組。RMSNorm 對每個 token 的隱藏維度計算 mean_square = mean(x^2, dim=-1, keepdim=True)，再回傳 gamma * x / sqrt(mean_square + eps)。文章也說明模型可在最終輸出投影之前使用額外的 RMSNorm。建議工程實務：混合精度下，以 FP32 計算平方與歸約，再依模型的 dtype 規約輸出；初始化 gamma 為全一，並遵循目標架構的 eps 與參數定義。測試零向量、極小值、大幅度輸入、輸出形狀與梯度是否有限。",
+      "production": "此部分為建議工程實務，並非文章提供的上線流程。沿用既有模型或 checkpoint 所定義的正規化位置、類型、eps 與參數慣例，不要將 LayerNorm 直接換成 RMSNorm 並假設權重仍相容。若要更改架構，先進行受控訓練或微調實驗，比較驗證品質、loss、梯度範數、殘差串流幅度及 NaN／Inf。以實際硬體、dtype、序列長度與 batch size 量測正規化核心及端到端延遲、吞吐量；只有在數值一致性測試通過後，才採用最佳化或融合核心。",
+      "supplementNote": "README 僅提供題目與文章連結。文章支持 RMSNorm／LayerNorm 的公式差異、pre-norm 的位置、穩定性的定性說明及簡化運算的動機。Jacobian 與偏移不變性的分析、混合精度建議、相容性檢查和正式環境驗證流程，均為補充工程解釋或建議，不是作者提出的完整結論。本文不將來源中的速度或品質描述當成普遍保證，也不引用未驗證的效能數字。"
+    },
+    "en": {
+      "title": "Why is LayerNorm placed pre-block in modern transformers, and what is RMSNorm?",
+      "intent": "Assess whether you can distinguish normalization placement from the normalization operation, explain how pre-norm affects residual paths and training stability, and understand RMSNorm's formula, tradeoffs, and implementation concerns.",
+      "hint": [
+        "Separate the pre-norm placement decision from the LayerNorm versus RMSNorm decision.",
+        "Use x + F(Norm(x)) to explain the residual path.",
+        "Compare standard deviation with root mean square, and whether the mean is subtracted.",
+        "Separate theoretical computation savings from measured performance."
+      ],
+      "principle": "Pre-norm places normalization before each Attention and FFN sublayer, not merely at the entrance to the entire Transformer block. The article associates this layout with more stable training in deep networks and shows the residual path bypassing normalization and the sublayer. Additional engineering explanation: for y = x + F(Norm(x)), the Jacobian contains a direct identity term, allowing gradients to follow a path that does not pass through Norm or F; with post-norm, y = Norm(x + F(x)), gradients pass through the outer Norm. This is one reason pre-norm can aid optimization, not a guarantee against all gradient problems. RMSNorm is a separate choice: LayerNorm(x) = gamma * (x - mean(x)) / sqrt(var(x) + eps) + beta; RMSNorm(x) = gamma * x / sqrt(mean(x^2) + eps). RMSNorm skips mean-centering and, in its standard form, uses a per-dimension gamma without beta. Either normalization can be used in a pre-norm layout.",
+      "tradeoff": "The article motivates RMSNorm through reduced computation, simpler implementation, and broadly comparable model quality in the research it discusses. RMSNorm still computes a mean of squares; it removes input-mean subtraction and the centered-variance calculation. Additional engineering assessment: RMSNorm lacks LayerNorm's invariance to adding the same offset to every element of the vector, so the two are not equivalent. Preserving a direct residual path with pre-norm also does not bound the residual stream's magnitude. Validate training quality and numerical behavior rather than assuming RMSNorm is necessarily more accurate or that fewer arithmetic operations guarantee an end-to-end speedup.",
+      "implementation": "Following the article's layout, write h = x + Attention(Norm1(x)), then y = h + FFN(Norm2(h)), with separate normalization modules Norm1 and Norm2. For RMSNorm, compute mean_square = mean(x^2, dim=-1, keepdim=True) over each token's hidden dimension, then return gamma * x / sqrt(mean_square + eps). The article also describes an additional RMSNorm before the final output projection. Recommended engineering practice: under mixed precision, compute squares and reductions in FP32, then produce output according to the model's dtype contract; initialize gamma to ones and follow the target architecture's eps and parameter definitions. Test zero vectors, tiny values, large-magnitude inputs, output shapes, and finite gradients.",
+      "production": "This section is recommended engineering practice, not a deployment procedure supplied by the article. Preserve the normalization placement, type, eps, and parameter conventions defined by an existing model or checkpoint; do not swap LayerNorm for RMSNorm and assume the weights remain compatible. For an architecture change, run controlled training or fine-tuning experiments and compare validation quality, loss, gradient norms, residual-stream magnitudes, and NaN/Inf occurrences. Measure both normalization-kernel performance and end-to-end latency and throughput on the actual hardware, dtype, sequence lengths, and batch sizes. Adopt optimized or fused kernels only after numerical-parity tests pass.",
+      "supplementNote": "The README supplies only the question and article link. The article supports the RMSNorm/LayerNorm formula differences, pre-norm placement, a qualitative stability rationale, and the motivation for simpler computation. The Jacobian and shift-invariance analysis, mixed-precision recommendations, compatibility checks, and production validation procedure are additional engineering explanations or recommendations, not complete conclusions supplied by the author. Source descriptions of speed or quality are not treated as universal guarantees, and no unverified performance figures are quoted."
+    },
+    "ja": {
+      "title": "現代の Transformer では、なぜ LayerNorm をブロックの前に置くのですか。また、RMSNorm とは何ですか？",
+      "intent": "正規化の配置と演算方式を区別し、pre-norm が残差経路と学習の安定性に与える影響を説明できるか、また RMSNorm の数式、トレードオフ、実装上の注意点を理解しているかを評価します。",
+      "hint": [
+        "pre-norm の配置と LayerNorm／RMSNorm の選択を分けて考える。",
+        "x + F(Norm(x)) を使って残差経路を説明する。",
+        "標準偏差と二乗平均平方根、平均を引くかどうかを比較する。",
+        "理論上の計算削減と実測性能を区別する。"
+      ],
+      "principle": "Pre-norm は Transformer ブロック全体の入口だけでなく、Attention と FFN の各サブレイヤーの前に正規化を置きます。記事は、この配置が深いネットワークの学習安定性を高めると説明し、残差経路が正規化とサブレイヤーを迂回する構造を示しています。補足の工学的説明として、y = x + F(Norm(x)) の Jacobian には直接の単位行列項があり、勾配は Norm や F を通らない経路を流れます。一方、post-norm の y = Norm(x + F(x)) では、勾配が外側の Norm を通ります。これは pre-norm が最適化を助ける理由の一つですが、あらゆる勾配問題を防ぐ保証ではありません。RMSNorm は配置とは別の選択です。LayerNorm(x) = gamma * (x - mean(x)) / sqrt(var(x) + eps) + beta に対し、RMSNorm(x) = gamma * x / sqrt(mean(x^2) + eps) です。RMSNorm は平均による中心化を省き、標準的な形式では次元ごとの gamma を使い、beta は使いません。どちらも pre-norm に配置できます。",
+      "tradeoff": "記事は RMSNorm の利点として、計算量の削減、実装の簡素化、および紹介する研究で概ね同等だったモデル品質を挙げています。RMSNorm も二乗値の平均は計算しますが、入力平均の減算と中心化した値による分散計算を省きます。補足の工学的判断として、RMSNorm には、ベクトルの全要素に同じ値を加えても出力が変わらないという LayerNorm の性質はなく、両者は等価ではありません。また、pre-norm が直接の残差経路を保つことは、残差ストリームの大きさが常に制限されることを意味しません。RMSNorm の精度が必ず高い、あるいは演算数の削減が必ずエンドツーエンドの高速化につながると考えず、学習品質と数値挙動を検証します。",
+      "implementation": "記事の構造に沿うと、h = x + Attention(Norm1(x))、続いて y = h + FFN(Norm2(h)) と書けます。Norm1 と Norm2 は別々の正規化モジュールです。RMSNorm は各 token の隠れ次元に対して mean_square = mean(x^2, dim=-1, keepdim=True) を計算し、gamma * x / sqrt(mean_square + eps) を返します。記事は最終出力投影の前に追加の RMSNorm を置く構成も説明しています。推奨する実装実務として、混合精度では二乗とリダクションを FP32 で計算し、モデルの dtype 規約に従って出力します。gamma は全要素を 1 で初期化し、対象アーキテクチャの eps とパラメータ定義に従います。ゼロベクトル、極小値、大きな入力値、出力形状、勾配が有限であることをテストします。",
+      "production": "この節は推奨するエンジニアリング実務であり、記事が提示する本番導入手順ではありません。既存モデルや checkpoint が定義する正規化の配置、種類、eps、パラメータ規約を維持し、LayerNorm を RMSNorm に置き換えても重みの互換性が保たれるとは考えません。アーキテクチャを変更する場合は、条件を揃えた学習またはファインチューニング実験で、検証品質、loss、勾配ノルム、残差ストリームの大きさ、NaN／Inf の発生を比較します。実際のハードウェア、dtype、系列長、batch size で、正規化カーネルの性能とエンドツーエンドのレイテンシ、スループットを測定します。最適化済みカーネルや融合カーネルは、数値的な一致のテストに合格してから採用します。",
+      "supplementNote": "README が提供するのは質問と記事へのリンクのみです。記事に基づく内容は、RMSNorm／LayerNorm の数式の違い、pre-norm の配置、安定性に関する定性的説明、計算を簡素化する動機です。Jacobian とシフト不変性の分析、混合精度の推奨事項、互換性確認、本番環境の検証手順は補足の工学的説明または推奨実務であり、著者が提示した完全な結論ではありません。出典の速度や品質に関する説明を普遍的な保証として扱わず、未検証の性能数値も引用していません。"
+    }
+  }
+}

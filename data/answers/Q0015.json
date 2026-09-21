@@ -1,0 +1,60 @@
+{
+  "questionId": "Q0015",
+  "inputHash": "b9ef6a21a6c67f0ee03c8e61ec4644034e6727b9c353b445436819a4a3540d07",
+  "status": "ready",
+  "generatedAt": "2026-09-21T03:24:20.576Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-four-sections-v1",
+  "sourceUrls": [
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L156-L158",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/feed-forward-networks-in-llms"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "解釋 SwiGLU，以及為何現代 LLM 的 MLP 區塊廣泛以門控啟用取代 ReLU／GELU。",
+      "intent": "評估你是否理解門控 FFN 的結構、逐元素乘法的作用，以及如何在模型品質、參數量與實際執行成本之間做取捨，而不只是背誦啟用函數名稱。",
+      "hint": [
+        "比較一般 FFN 的兩個投影與 SwiGLU 的三個投影。",
+        "說明學習式門控與單一路徑啟用的差異。",
+        "在相近參數預算下比較，而非固定相同隱藏寬度。",
+        "區分品質改善的趨勢與實際部署效能。"
+      ],
+      "principle": "文章將 FFN 描述為對各 token 獨立套用的特徵轉換。省略偏置時，一般 FFN 為 φ(xW1)W2，其中 φ 可為 ReLU 或 GELU；SwiGLU 則為 (Swish(xW1) ⊙ (xV))W2，⊙ 表示逐元素乘法。它不是只替換啟用函數，而是新增一個可學習的投影分支，讓輸入相關的門控調節另一分支的特徵。文章指出，採用 SwiGLU 的模型通常比使用 ReLU 或 GELU 的模型表現更好。補充技術說明：此處常用的 Swish 定義為 Swish(z) = z · sigmoid(z)，亦稱 SiLU；門控值不是限制在 0 到 1 的機率。乘法帶來更豐富的特徵互動，但不能單憑公式保證品質提升。這是許多新模型的採用趨勢，不代表 ReLU／GELU 已全面消失。",
+      "tradeoff": "文章指出，SwiGLU 使用 W1、V、W2 三個權重矩陣，因此在相同隱藏寬度下，參數量會比兩矩陣 FFN 多；縮小隱藏寬度可維持相近參數預算。由矩陣形狀推導，若模型寬度為 d、一般 FFN 隱藏寬度為 h0、SwiGLU 隱藏寬度為 h，忽略偏置時參數量分別是 2dh0 與 3dh。令兩者相等可得 h = 2h0/3；當 h0 = 4d 時，h 約為 8d/3。這是預算估算，不是所有架構必須遵守的比例。工程建議：相近參數量與矩陣乘法運算量不等於相同延遲，因為中間張量、逐元素運算和核心實作仍會影響成本。",
+      "implementation": "依文章公式，可讓 x 的形狀為 [..., d]，W1 與 V 為 [d, h]，W2 為 [h, d]，並計算 gate = SiLU(x @ W1)、value = x @ V、y = (gate * value) @ W2。這裡 @ 是矩陣乘法，* 是逐元素乘法；輸出恢復為 [..., d]。補充實作建議：可將兩個輸入投影合併為一次較大的投影，再拆成 gate 與 value，但必須保持權重排列與分支語意一致。啟用函數只作用於 gate 分支，乘法發生在輸出投影之前。偏置、正規化與殘差連接應遵循目標架構，不要把 SwiGLU 當成既有 ReLU／GELU checkpoint 可直接替換的函數。",
+      "production": "建議工程實務，而非文章提供的部署結果：以相近參數量與訓練運算預算進行對照實驗，控制資料、訓練流程與評估方式，再比較驗證損失及目標任務品質。在目標硬體上分別量測 prefill 與 decode 的延遲、吞吐量及記憶體使用量。先建立未融合的參考實作，再驗證融合核心與低精度版本的輸出、梯度及數值穩定性。只有在品質收益與實際服務成本都符合需求時才採用；不要因為門控會抑制特徵，就假設稠密矩陣乘法能自動跳過運算。",
+      "supplementNote": "來源分工：README 提供題目與文章連結；文章支持逐 token FFN、SwiGLU 公式、三矩陣結構、縮小隱藏寬度的理由，以及品質通常較佳的定性說法。Swish／SiLU 定義、精確的參數配平推導、門控範圍說明，以及實作、測試與部署建議，是補充技術說明與工程建議，不是作者提供的實驗結論。來源未提供受控比較或部署效能基準，因此不能據此保證改善幅度。"
+    },
+    "en": {
+      "title": "Explain SwiGLU and why gated activations replaced ReLU/GELU in modern LLM MLP blocks.",
+      "intent": "Assess whether you understand gated FFN structure, the role of element-wise multiplication, and the tradeoffs among model quality, parameter count, and execution cost, rather than merely recalling activation names.",
+      "hint": [
+        "Compare the two projections in a conventional FFN with the three in SwiGLU.",
+        "Explain learned gating versus a single activation path.",
+        "Compare at similar parameter budgets, not identical hidden widths.",
+        "Separate quality trends from deployment performance."
+      ],
+      "principle": "The article describes the FFN as a feature transformation applied independently to each token. Omitting biases, a conventional FFN is φ(xW1)W2, where φ can be ReLU or GELU; SwiGLU is (Swish(xW1) ⊙ (xV))W2, where ⊙ denotes element-wise multiplication. This is more than an activation substitution: it adds a learned projection branch so an input-dependent gate modulates features from the other branch. The article reports that models using SwiGLU tend to perform better than those using ReLU or GELU. Additional technical clarification: the usual Swish definition here is Swish(z) = z · sigmoid(z), also called SiLU; gate values are not probabilities bounded between 0 and 1. Multiplication enables richer feature interactions, but the formula alone cannot guarantee quality gains. This is an adoption trend in many newer models, not a universal elimination of ReLU/GELU.",
+      "tradeoff": "The article explains that SwiGLU uses three weight matrices, W1, V, and W2, so keeping the same hidden width increases parameters relative to a two-matrix FFN; reducing hidden width keeps the budget similar. Deriving the counts from matrix shapes, let model width be d, conventional FFN hidden width be h0, and SwiGLU hidden width be h. Ignoring biases, the counts are 2dh0 and 3dh. Matching them gives h = 2h0/3; for h0 = 4d, h is approximately 8d/3. This is a budgeting estimate, not a mandatory ratio for every architecture. Engineering advice: similar parameter counts and matrix-multiplication work do not imply identical latency, because intermediate tensors, element-wise operations, and kernel implementations still affect cost.",
+      "implementation": "Following the article's formula, use x shaped [..., d], W1 and V shaped [d, h], and W2 shaped [h, d], and compute gate = SiLU(x @ W1), value = x @ V, and y = (gate * value) @ W2. Here @ is matrix multiplication and * is element-wise multiplication; the output returns to [..., d]. Additional implementation advice: the two input projections can be combined into one larger projection and then split into gate and value, provided weight ordering and branch semantics are preserved. Apply the activation only to the gate branch and multiply before the output projection. Follow the target architecture for biases, normalization, and residual connections; do not treat SwiGLU as a drop-in function replacement for an existing ReLU/GELU checkpoint.",
+      "production": "Recommended engineering practice, not deployment results supplied by the article: run controlled comparisons at similar parameter and training-compute budgets, holding data, training procedure, and evaluation methodology consistent, then compare validation loss and target-task quality. Measure prefill and decode latency, throughput, and memory use separately on the target hardware. Establish an unfused reference implementation before checking fused kernels and low-precision versions for output agreement, gradients, and numerical stability. Adopt the change only when quality benefits and actual serving costs meet requirements; feature suppression by a gate does not automatically let dense matrix multiplication skip work.",
+      "supplementNote": "Source boundaries: the README supplies the question and article link; the article supports token-wise FFNs, the SwiGLU formula, its three-matrix structure, the rationale for reducing hidden width, and a qualitative tendency toward better quality. The Swish/SiLU definition, exact parameter-matching derivation, gate-range clarification, and implementation, testing, and deployment recommendations are additional technical explanation and engineering advice, not experimental conclusions supplied by the author. The sources provide no controlled comparison or deployment benchmark, so they do not establish a guaranteed improvement magnitude."
+    },
+    "ja": {
+      "title": "SwiGLU と、現代の LLM の MLP ブロックでゲート付き活性化が ReLU／GELU に取って代わるようになった理由を説明してください。",
+      "intent": "活性化関数の名前を覚えているだけでなく、ゲート付き FFN の構造、要素ごとの積の役割、モデル品質・パラメータ数・実行コストのトレードオフを理解しているかを評価します。",
+      "hint": [
+        "通常の FFN の 2 つの射影と SwiGLU の 3 つの射影を比較する。",
+        "学習されるゲートと単一路の活性化の違いを説明する。",
+        "隠れ次元を固定するのではなく、同程度のパラメータ予算で比較する。",
+        "品質向上の傾向とデプロイ時の性能を区別する。"
+      ],
+      "principle": "記事では、FFN を各トークンに独立して適用する特徴変換として説明しています。バイアスを省略すると、通常の FFN は φ(xW1)W2 で、φ には ReLU や GELU を使います。SwiGLU は (Swish(xW1) ⊙ (xV))W2 であり、⊙ は要素ごとの積です。単なる活性化関数の交換ではなく、学習可能な射影分岐を追加し、入力に依存するゲートで別の分岐の特徴を調節します。記事は、SwiGLU を使うモデルは ReLU や GELU を使うモデルより良い性能を示す傾向があると述べています。補足の技術説明として、ここで一般的に使う Swish は Swish(z) = z · sigmoid(z) で、SiLU とも呼ばれます。ゲート値は 0 から 1 に制限された確率ではありません。乗算により豊かな特徴間相互作用を表現できますが、式だけで品質向上を保証することはできません。多くの新しいモデルでの採用傾向であり、ReLU／GELU が完全になくなったわけではありません。",
+      "tradeoff": "記事によると、SwiGLU は W1、V、W2 の 3 つの重み行列を使うため、同じ隠れ次元では 2 行列の FFN よりパラメータ数が増えます。隠れ次元を小さくすると、予算を同程度にできます。行列形状から導出すると、モデル幅を d、通常の FFN の隠れ次元を h0、SwiGLU の隠れ次元を h とした場合、バイアスを除くパラメータ数はそれぞれ 2dh0 と 3dh です。両者を一致させると h = 2h0/3 となり、h0 = 4d なら h は約 8d/3 です。これは予算調整の目安であり、すべてのアーキテクチャに必須の比率ではありません。工学的な助言として、パラメータ数と行列積の演算量が近くても、レイテンシが同じとは限りません。中間テンソル、要素単位の演算、カーネル実装もコストに影響します。",
+      "implementation": "記事の式に従うと、x の形状を [..., d]、W1 と V を [d, h]、W2 を [h, d] とし、gate = SiLU(x @ W1)、value = x @ V、y = (gate * value) @ W2 と計算します。@ は行列積、* は要素ごとの積で、出力は [..., d] に戻ります。追加の実装上の助言として、2 つの入力射影を 1 つの大きな射影にまとめてから gate と value に分割できます。ただし、重みの配置と各分岐の意味を維持する必要があります。活性化関数は gate 分岐だけに適用し、出力射影の前に要素ごとの積を計算します。バイアス、正規化、残差接続は対象アーキテクチャに合わせてください。既存の ReLU／GELU checkpoint に対して、SwiGLU をそのまま交換可能な関数として扱うべきではありません。",
+      "production": "以下は記事が示したデプロイ結果ではなく、推奨するエンジニアリング実務です。同程度のパラメータ数と学習計算予算で、データ、学習手順、評価方法を揃えた比較実験を行い、検証損失と対象タスクの品質を比較します。対象ハードウェア上で prefill と decode のレイテンシ、スループット、メモリ使用量をそれぞれ測定します。まず非融合の参照実装を用意し、その後で融合カーネルや低精度版の出力一致、勾配、数値安定性を検証します。品質上の利点と実際の配信コストが要件を満たす場合に採用します。ゲートが特徴を抑制しても、密な行列積が自動的に計算を省略できるわけではありません。",
+      "supplementNote": "出典の範囲：README は質問と記事へのリンクを提供しています。記事が裏付けるのは、トークン単位の FFN、SwiGLU の式、3 行列の構造、隠れ次元を縮小する理由、品質が良くなる傾向という定性的な説明です。Swish／SiLU の定義、厳密なパラメータ配分の導出、ゲート値の範囲に関する説明、および実装・テスト・デプロイの推奨事項は、追加の技術説明と工学的助言であり、著者が示した実験上の結論ではありません。出典には条件を統制した比較やデプロイ性能のベンチマークがないため、改善幅を保証することはできません。"
+    }
+  }
+}

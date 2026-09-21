@@ -34,3 +34,9 @@ npm run dev
 題目來自 Outcome School 維護的 [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)。每張題卡皆連結至原始 repo 與可用的解答資源。AI 輔助筆記是補充學習資料，並非經來源作者認可的官方答案。
 
 上游的 Apache-2.0 授權條款收錄於 [licenses/](licenses/upstream-Apache-2.0.txt)。
+
+## 授權
+
+本專案原創程式碼與文件採用 [MIT License](LICENSE)，著作權所有 © 2026 Hikari Tsai。
+
+匯入的題目及其他上游 repo 內容仍適用 [Apache-2.0](licenses/upstream-Apache-2.0.txt)。本專案將題目解析、重新結構化，並加入翻譯及 AI 輔助學習筆記。外部文章與其他第三方內容保留各自的授權條款；本專案的 MIT License 不授予這些內容的使用權。

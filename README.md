@@ -34,3 +34,9 @@ See the [maintenance and deployment guide](docs/maintenance.md) for setup, synch
 Questions come from [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise), maintained by Outcome School. Each card links to the original repository and available explanations. AI-assisted notes are supplementary study material, not official answers endorsed by the source authors.
 
 The upstream Apache-2.0 license is included in [licenses/](licenses/upstream-Apache-2.0.txt).
+
+## License
+
+Original project code and documentation are licensed under the [MIT License](LICENSE), copyright © 2026 Hikari Tsai.
+
+Imported questions and other material from the upstream repository remain under [Apache-2.0](licenses/upstream-Apache-2.0.txt). This project parses and restructures those questions and adds translations and AI-assisted study notes. External articles and other third-party content retain their respective licenses; the MIT License does not grant rights to that content.

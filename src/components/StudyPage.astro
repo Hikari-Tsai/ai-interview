@@ -26,9 +26,10 @@ const json=(x:unknown)=>JSON.stringify(x).replace(/</g,'\\u003c');
   <div class="page-intro"><h1>{t.pageTitle}</h1><p>{t.pageSubtitle}</p></div>
   <div class="practice-toolbar"><button class="mobile-filter button" id="mobile-filter" disabled aria-expanded="false" aria-controls="filter-panel"><Icon name="filter" size={16}/>{t.viewFilters}</button><div class="deck-summary"><span class="tiny-dot"></span><strong id="result-count">{cards.filter(c=>c.active).length}</strong><span>{t.questionCount}</span></div><div class="mode-switch" role="group" aria-label={t.mode}><button type="button" disabled data-hydrate data-mode="sequential" aria-pressed="true"><Icon name="list" size={16}/>{t.sequential}</button><button type="button" disabled data-hydrate data-mode="random" aria-pressed="false"><Icon name="shuffle" size={16}/>{t.random}</button></div></div>
   <div id="active-tags" class="active-tags" hidden></div>
-  <div id="card-area"><QuestionCard card={card} t={t} locale={locale}/>
+  <div id="card-area">
    <nav class="card-navigation" aria-label={t.session}><a id="previous" class="button button-nav" href="#" aria-disabled="true"><Icon name="arrowLeft" size={17}/><span>{t.previous}</span></a><div class="session-progress"><span id="position">{t.position.replace('{current}','1').replace('{total}',String(cards.length))}</span><div class="progress-track"><div id="progress-fill"></div></div></div><a id="next" class="button button-nav" href="#"><span>{t.next}</span><Icon name="arrowRight" size={17}/></a></nav>
    <p id="round-complete" class="round-complete" hidden>{t.roundComplete}</p>
+   <QuestionCard card={card} t={t} locale={locale}/>
    <div class="keyboard-note"><span><kbd>←</kbd><kbd>→</kbd>{t.keyboard}</span><span class="practice-line"></span><span>{t.learningPath}</span></div>
   </div>
   <section id="empty-state" class="empty-state" hidden><Icon name="search" size={36}/><h2>{t.emptyTitle}</h2><p>{t.emptyDescription}</p><button class="button button-primary" data-reset>{t.clearFilters}</button></section>

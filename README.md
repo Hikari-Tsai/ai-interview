@@ -29,6 +29,54 @@ The dataset contains **598 questions**. Select **With answers** to practice ques
 
 See the [maintenance and deployment guide](docs/maintenance.md) for setup, synchronization, and GitHub Pages deployment.
 
+## Project structure
+
+```text
+.
+├── .github/
+│   ├── workflows/
+│   │   ├── update-and-deploy.yml      # Scheduled sync, generation, build, and deployment
+│   │   └── validate-contribution.yml  # PR checks without model secrets or deployment
+│   ├── ISSUE_TEMPLATE/               # Answer contribution forms
+│   ├── DISCUSSION_TEMPLATE/          # Question discussion forms
+│   ├── pull_request_template.md      # Contribution and review checklist
+│   └── CODEOWNERS                    # Maintainer review assignments
+├── content/community/                # Human-authored Markdown answers, one file per language
+├── data/
+│   ├── questions/                    # Imported questions, stable IDs, tags, and source links
+│   ├── answers/                      # Generated answers and hints in three languages
+│   ├── sources/                      # Public source metadata and content hashes, not article text
+│   ├── state/                        # Upstream sync progress and generation retry state
+│   └── overrides/                    # Optional pinned JSON overrides for maintainers
+├── lang/                             # Interface text: zh-TW.json, en.json, ja.json
+├── src/
+│   ├── pages/                        # Astro routes, question pages, and the public catalog
+│   ├── components/                   # Cards, filters, sources, contribution entries, and share metadata
+│   ├── client/                       # Browser interactions and navigation
+│   ├── lib/                          # Catalog loading, community content, filters, and localization
+│   ├── styles/                       # Shared website styles
+│   └── config/                       # Project repository configuration
+├── scripts/
+│   ├── sync.ts                       # Import changed upstream questions and refresh sources
+│   ├── generate.ts                   # Generate or retry source-grounded AI answers
+│   ├── validate.ts                   # Validate questions, answers, community files, and translations
+│   └── lib/                          # Parsing, source extraction, prompts, hashes, and file utilities
+├── public/                           # Static assets, favicon, and social-sharing cover
+├── tests/                            # Unit and pipeline tests; e2e/ contains browser tests
+├── docs/                             # Architecture, maintenance, and design documentation
+├── licenses/                         # Preserved upstream license
+├── CONTRIBUTING.md                   # Community answer format and submission workflow
+├── .env.example                      # Example local generation settings, without credentials
+├── astro.config.mjs                  # Static site URL, base path, and build configuration
+├── package.json                      # Dependencies and development commands
+├── LICENSE                           # Project Apache-2.0 license
+└── NOTICE                            # Attribution and modification notices
+```
+
+To contribute an answer, add or edit `content/community/Qxxxx/<locale>.md` following [CONTRIBUTING.md](CONTRIBUTING.md). Community answers take priority in their language and are not overwritten by the generator. Use `lang/` for interface wording and `src/components/` for card layout changes.
+
+`dist/` contains the generated website, and `.private/` holds local article snapshots and temporary working files. Both are excluded from Git.
+
 ## Contribute an answer
 
 Each card offers **Discuss this question**, **Suggest an answer or fix**, and **Edit the answer**. Use [Discussions](https://github.com/Hikari-Tsai/ai-interview/discussions) to compare approaches, an Issue form to submit text without Git knowledge, or a PR to edit a community Markdown answer. Contributions in any one of the three languages are welcome, including answers to currently pending questions.

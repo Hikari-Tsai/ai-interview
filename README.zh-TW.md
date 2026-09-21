@@ -29,6 +29,54 @@ npm run dev
 
 設定、同步與 GitHub Pages 部署方式，請參閱[維護與部署指南（英文）](docs/maintenance.md)。
 
+## 檔案結構
+
+```text
+.
+├── .github/
+│   ├── workflows/
+│   │   ├── update-and-deploy.yml      # 定時同步、生成答案、建置與部署
+│   │   └── validate-contribution.yml  # PR 檢查，不使用模型金鑰或部署網站
+│   ├── ISSUE_TEMPLATE/               # 答案投稿表單
+│   ├── DISCUSSION_TEMPLATE/          # 題目討論表單
+│   ├── pull_request_template.md      # 投稿與審閱確認項目
+│   └── CODEOWNERS                    # 維護者審閱分工
+├── content/community/                # 人工撰寫的 Markdown 答案，每種語言獨立一份
+├── data/
+│   ├── questions/                    # 匯入的題目、固定題號、標籤與來源連結
+│   ├── answers/                      # 生成的三語答案與答題提示
+│   ├── sources/                      # 公開來源資訊與內容雜湊，不含文章全文
+│   ├── state/                        # 上游同步進度與答案生成重試狀態
+│   └── overrides/                    # 維護者可選用的固定 JSON 覆寫答案
+├── lang/                             # 介面文字：zh-TW.json、en.json、ja.json
+├── src/
+│   ├── pages/                        # Astro 路由、題目頁面與公開題庫索引
+│   ├── components/                   # 題卡、篩選器、來源、投稿入口與分享資訊
+│   ├── client/                       # 瀏覽器互動與題目導覽
+│   ├── lib/                          # 題庫讀取、社群內容、篩選與多語言邏輯
+│   ├── styles/                       # 網站共用樣式
+│   └── config/                       # 專案 Repo 設定
+├── scripts/
+│   ├── sync.ts                       # 匯入上游題目差異並更新來源資料
+│   ├── generate.ts                   # 根據來源生成 AI 答案，或重試失敗項目
+│   ├── validate.ts                   # 驗證題目、答案、社群檔案與翻譯
+│   └── lib/                          # 解析、文章擷取、提示詞、雜湊與檔案工具
+├── public/                           # 靜態資源、網站圖示與社群分享封面
+├── tests/                            # 單元與資料流程測試；e2e/ 為瀏覽器測試
+├── docs/                             # 架構、維護與設計文件
+├── licenses/                         # 保留的上游授權文件
+├── CONTRIBUTING.md                   # 社群答案格式與投稿流程
+├── .env.example                      # 本機生成設定範例，不含金鑰
+├── astro.config.mjs                  # 靜態網站網址、基底路徑與建置設定
+├── package.json                      # 相依套件與開發指令
+├── LICENSE                           # 專案 Apache-2.0 授權
+└── NOTICE                            # 來源署名與修改聲明
+```
+
+投稿答案時，請依照 [CONTRIBUTING.md](CONTRIBUTING.md) 新增或編輯 `content/community/Qxxxx/<語言>.md`。社群答案會優先顯示於對應語言，生成程式不會覆寫。介面文案放在 `lang/`，題卡版面則主要位於 `src/components/`。
+
+`dist/` 是建置後的網站，`.private/` 存放本機文章快照與暫存工作檔案，兩者都不提交至 Git。
+
 ## 自動更新
 
 [GitHub Actions 工作流程](.github/workflows/update-and-deploy.yml) 每天於 **UTC 02:17／台灣時間 10:17** 執行，也可在 Actions 分頁手動啟動。

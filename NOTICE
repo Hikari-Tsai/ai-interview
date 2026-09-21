@@ -1,0 +1,28 @@
+Recall - AI Interview Cards
+Copyright (c) 2026 Hikari Tsai
+
+Original project code, documentation, and original contributions are
+licensed under the Apache License, Version 2.0. See LICENSE.
+
+Upstream question collection:
+AI Engineering Interview Questions Company Wise
+https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise
+Copyright (C) 2026 Outcome School
+Licensed under the Apache License, Version 2.0.
+The upstream license is preserved at licenses/upstream-Apache-2.0.txt.
+
+Modification notice:
+This project parses and restructures the upstream README into question
+records under data/questions, preserving question text, company/topic
+groupings, available answers and links, and commit-pinned source locations.
+It assigns stable identifiers and tags and renders the records as static
+flashcards. It adds translations, AI-assisted hints and explanations,
+navigation, filtering, and automated synchronization and generation.
+Study notes may include supplemental examples and recommendations.
+
+The question collection and linked explanations are credited to their
+original authors. External articles, videos, and other linked works retain
+their respective licenses and terms; their inclusion as links does not
+place them under this project's license. Dependencies retain their own
+licenses. This project is not endorsed by the upstream authors or the
+companies named in the questions.

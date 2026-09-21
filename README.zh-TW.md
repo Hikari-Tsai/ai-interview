@@ -41,14 +41,20 @@ npm run dev
 
 請依[維護指南](docs/maintenance.md) 在 Actions Secrets 設定 API Key、在 Actions Variables 設定模型參數，並啟用 GitHub Pages。答案自動生成需要相容的模型設定；目前生成程式仍需調整參數才能使用 GPT-6 Astra。
 
-## 資料來源
+## 資料來源與致謝
 
-題目來自 Outcome School 維護的 [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)。每張題卡皆連結至原始 repo 與可用的解答資源。AI 輔助筆記是補充學習資料，並非經來源作者認可的官方答案。
+題庫來自 GitHub 帳號 `pallavi-shekhar` 下的 [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)。原始 README 署名 **Outcome School**，並載有 `Copyright (C) 2026 Outcome School` 聲明。感謝 Outcome School，以及上游維護者與貢獻者蒐集、分類面試題目並整理解答連結。
 
-上游的 Apache-2.0 授權條款收錄於 [licenses/](licenses/upstream-Apache-2.0.txt)。
+Recall 從該 README 匯入題目文字、公司與主題分類，以及現有的答案文字或連結。每張題卡保留原始 repo 連結與固定 commit 的來源位置，方便讀者核對當時使用的版本。原始題庫並非本專案所創作。
+
+解答連結指向獨立的內容來源，包括 Outcome School 文章，以及其他作者的文章或影片；這些解答的創作歸功於各自作者。題卡保留原始解答連結，生成程式會在支援的情況下讀取連結文章，整理成學習筆記。本 repo 與網站不公開文章全文。
+
+本專案新增結構化題目資料、固定題號、標籤、題卡介面、翻譯及增量更新流程，也加入 AI 輔助整理的答題提示，以及依原理、取捨、實作與上線實務編排的解說。這些筆記可能包含補充範例或建議，也可能有錯誤；它們不是原文引述，也不是經來源作者或題目所列公司核可的官方答案。公司標籤沿用上游分類，不代表合作或背書。
 
 ## 授權
 
-本專案原創程式碼與文件採用 [MIT License](LICENSE)，著作權所有 © 2026 Hikari Tsai。
+本專案原創程式碼、文件與原創貢獻採用 [Apache License 2.0](LICENSE)，著作權所有 © 2026 Hikari Tsai。
 
-匯入的題目及其他上游 repo 內容仍適用 [Apache-2.0](licenses/upstream-Apache-2.0.txt)。本專案將題目解析、重新結構化，並加入翻譯及 AI 輔助學習筆記。外部文章與其他第三方內容保留各自的授權條款；本專案的 MIT License 不授予這些內容的使用權。
+匯入的上游內容保留 Apache-2.0 授權與原作者署名。原始授權檔未經修改，存放於 [licenses/upstream-Apache-2.0.txt](licenses/upstream-Apache-2.0.txt)。著作權聲明、來源及本專案修改範圍，請參閱 [NOTICE](NOTICE)。
+
+外部文章、影片及其他第三方內容仍依各自的授權與使用條款。被上游 README 連結引用，不代表該作品也採用 Apache-2.0；本專案的授權不會額外授予這些內容的使用權。相依套件也保留各自的授權。

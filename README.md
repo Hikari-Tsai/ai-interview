@@ -41,14 +41,20 @@ The page footer shows the latest recorded question sync or answer generation tim
 
 Configure an API key in Actions Secrets, model settings in Actions Variables, and GitHub Pages as described in the [maintenance guide](docs/maintenance.md). Automatic answer generation requires a compatible model configuration; the current generator still needs parameter changes for GPT-6 Astra.
 
-## Sources
+## Sources and acknowledgments
 
-Questions come from [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise), maintained by Outcome School. Each card links to the original repository and available explanations. AI-assisted notes are supplementary study material, not official answers endorsed by the source authors.
+The question collection comes from [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise), hosted under the `pallavi-shekhar` GitHub account. Its README credits **Outcome School** and carries the notice `Copyright (C) 2026 Outcome School`. Thank you to Outcome School and the upstream maintainers and contributors for collecting and organizing the questions and answer links.
 
-The upstream Apache-2.0 license is included in [licenses/](licenses/upstream-Apache-2.0.txt).
+Recall imports question text, company/topic groupings, and available answer text or links from that README. Each card preserves a link to the original repository and a commit-pinned source location so readers can check the version used. The original question collection is not authored by this project.
+
+The linked explanations are separate sources, including Outcome School articles and other authors' articles or videos. Credit for those explanations belongs to their respective authors. Cards retain the original explanation links; where supported, the generator reads linked articles to prepare study notes. Full article text is not published in this repository or on the website.
+
+This project adds structured question records, stable question numbers, tags, the flashcard interface, translations, and incremental update automation. It also adds AI-assisted hints and explanations organized around Principle, Trade-off, Implementation, and Production. These notes may contain supplemental examples or recommendations and may contain errors; they are not quotations or official answers approved by the source authors or named companies. Company labels come from the upstream collection and do not imply affiliation or endorsement.
 
 ## License
 
-Original project code and documentation are licensed under the [MIT License](LICENSE), copyright © 2026 Hikari Tsai.
+Original project code, documentation, and original contributions are licensed under the [Apache License, Version 2.0](LICENSE), copyright © 2026 Hikari Tsai.
 
-Imported questions and other material from the upstream repository remain under [Apache-2.0](licenses/upstream-Apache-2.0.txt). This project parses and restructures those questions and adds translations and AI-assisted study notes. External articles and other third-party content retain their respective licenses; the MIT License does not grant rights to that content.
+Imported upstream material retains its Apache-2.0 license and original attribution. An unchanged copy of the upstream license is preserved in [licenses/upstream-Apache-2.0.txt](licenses/upstream-Apache-2.0.txt). See [NOTICE](NOTICE) for copyright notices, source attribution, and a description of this project's modifications.
+
+External articles, videos, and other third-party content retain their respective licenses and terms. A link in the upstream README does not make the linked work Apache-2.0, and this project's license does not grant additional rights to it. Dependencies retain their own licenses.

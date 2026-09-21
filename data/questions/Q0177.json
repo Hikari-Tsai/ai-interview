@@ -1,0 +1,26 @@
+{
+  "original": "A customer says “the model got worse” after you upgraded model versions in their deployment. How do you verify and respond?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 578,
+    "lineEnd": 578,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L578-L578"
+  },
+  "contentHash": "456dbe4845137e0d5b87632eedbb2e547c0e5c5d20949c11f961577234e94066",
+  "id": "Q0177",
+  "number": 177,
+  "active": true
+}

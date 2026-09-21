@@ -1,0 +1,30 @@
+{
+  "original": "How would you improve product search results, focusing on the fraction of relevant documents retrieved (recall)?",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [Precision vs Recall](https://outcomeschool.com/blog/precision-vs-recall)",
+  "links": [
+    {
+      "title": "Precision vs Recall",
+      "url": "https://outcomeschool.com/blog/precision-vs-recall"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 637,
+    "lineEnd": 638,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L637-L638"
+  },
+  "contentHash": "e4ba885d5de934a88a867ddda272933890ad7b8a9f9e67d84539b058646446fc",
+  "id": "Q0205",
+  "number": 205,
+  "active": true
+}

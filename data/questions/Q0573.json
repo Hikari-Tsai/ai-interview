@@ -1,0 +1,25 @@
+{
+  "original": "Design a system that finds driving segments similar to a given one across the entire fleet archive.",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1964,
+    "lineEnd": 1964,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1964-L1964"
+  },
+  "contentHash": "ebd767c8bda2ad59e78c4629824e6e6ba6f8d20b9b8861cc96579ac6331f2283",
+  "id": "Q0573",
+  "number": 573,
+  "active": true
+}

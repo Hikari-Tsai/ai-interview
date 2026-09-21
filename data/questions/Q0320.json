@@ -1,0 +1,34 @@
+{
+  "original": "Estimate the annual serving cost of adding an LLM summary feature for 100 million weekly active users, and how you'd cut it by 10x.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://www.youtube.com/watch?v=jV2sCj4lHYk"
+    },
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1076,
+    "lineEnd": 1077,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1076-L1077"
+  },
+  "contentHash": "fb2ce048d90acdb33247203f1238f1fdb31477c93efa30b95f9dd7f565c5bc82",
+  "id": "Q0320",
+  "number": 320,
+  "active": true
+}

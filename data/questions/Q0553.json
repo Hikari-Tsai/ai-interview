@@ -1,0 +1,25 @@
+{
+  "original": "PHI is in every audio file, transcript and note you touch. How does that shape the architecture, and what can you send to a third-party model API?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1899,
+    "lineEnd": 1899,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1899-L1899"
+  },
+  "contentHash": "5bf74049f7745d2855e3ca894ab558260ab1eecad359c4ab1eed944b06f82364",
+  "id": "Q0553",
+  "number": 553,
+  "active": true
+}

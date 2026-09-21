@@ -1,0 +1,25 @@
+{
+  "original": "Design a meeting assistant: recording, diarisation, summary, action items, integrations.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 400,
+    "lineEnd": 401,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L400-L401"
+  },
+  "contentHash": "b2d385ae6a09efd26fc210775dae41b22fa70f8deb4c3a2016684409998c8507",
+  "id": "Q0105",
+  "number": 105,
+  "active": true
+}

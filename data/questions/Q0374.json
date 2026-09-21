@@ -1,0 +1,25 @@
+{
+  "original": "Implement non-maximum suppression. Then vectorise it.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1262,
+    "lineEnd": 1262,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1262-L1262"
+  },
+  "contentHash": "db6c025a56adeafeff688656f1e8150e31315efefcf3c0e08a2ce8813db68e20",
+  "id": "Q0374",
+  "number": 374,
+  "active": true
+}

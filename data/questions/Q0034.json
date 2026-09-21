@@ -1,0 +1,32 @@
+{
+  "original": "What is a reranker, when should you use one, and what does a cross-encoder cost you?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cohere",
+    "Microsoft",
+    "Perplexity"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)",
+  "links": [
+    {
+      "title": "How does a Reranker work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-reranker-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 215,
+    "lineEnd": 217,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L215-L217"
+  },
+  "contentHash": "051c1347f0df6ef7c20ec0773cb2e5fb9bac438bd154eb90080e0b4cfe31ea03",
+  "id": "Q0034",
+  "number": 34,
+  "active": true
+}

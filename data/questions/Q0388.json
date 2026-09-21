@@ -1,0 +1,25 @@
+{
+  "original": "How do you design a feature store, and what causes training/serving skew?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1309,
+    "lineEnd": 1309,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1309-L1309"
+  },
+  "contentHash": "09d9698abfa024872b59031df49f4848aab829b7490a9ff7131a305570151648",
+  "id": "Q0388",
+  "number": 388,
+  "active": true
+}

@@ -1,0 +1,31 @@
+{
+  "original": "Design guardrails for a consumer-facing assistant. Input filters, output filters, or both?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Sierra",
+    "Character.AI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)",
+  "links": [
+    {
+      "title": "How do LLM guardrails work?",
+      "url": "https://outcomeschool.com/blog/how-do-llm-guardrails-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 339,
+    "lineEnd": 341,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L339-L341"
+  },
+  "contentHash": "9c7ded7bf10ba16769386f9e5e39cc137894e3b0a99ab852f930f11f1151ce0c",
+  "id": "Q0081",
+  "number": 81,
+  "active": true
+}

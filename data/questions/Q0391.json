@@ -1,0 +1,25 @@
+{
+  "original": "Design a content recommendation system for a streaming catalogue, including cold-start for new titles and new users.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1315,
+    "lineEnd": 1315,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1315-L1315"
+  },
+  "contentHash": "5a972fce4c42a87efde622f4dec4e5a5798266db8c1be1c83f9138c2144856b7",
+  "id": "Q0391",
+  "number": 391,
+  "active": true
+}

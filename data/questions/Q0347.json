@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you disagreed with your team's technical direction. What did you do? (Have Backbone; Disagree and Commit)",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1161,
+    "lineEnd": 1161,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1161-L1161"
+  },
+  "contentHash": "1ddbaabe79fd30cfb464725d13722243cc3710d577ee891528ad02b2de6d0ddd",
+  "id": "Q0347",
+  "number": 347,
+  "active": true
+}

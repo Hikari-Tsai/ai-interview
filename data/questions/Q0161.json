@@ -1,0 +1,25 @@
+{
+  "original": "Refactor bad code: here are ~120 lines of working but messy code with passing tests. Improve the architecture without breaking them. What do you change first?",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 541,
+    "lineEnd": 541,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L541-L541"
+  },
+  "contentHash": "963389bbbae8583f00cde3ff570244967b13525c36645616ed012da53c0befb3",
+  "id": "Q0161",
+  "number": 161,
+  "active": true
+}

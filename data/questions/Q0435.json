@@ -1,0 +1,25 @@
+{
+  "original": "Design the Hugging Face Hub: millions of git repos where individual files are tens to hundreds of GB.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1466,
+    "lineEnd": 1466,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1466-L1466"
+  },
+  "contentHash": "903c893c738bb09c3ee255476b50992a0c8e56a635b80a6918987038caae1de4",
+  "id": "Q0435",
+  "number": 435,
+  "active": true
+}

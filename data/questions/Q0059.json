@@ -1,0 +1,28 @@
+{
+  "original": "Explain the LoRA decomposition mathematically. Why does it work, and how do you choose the rank r?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)",
+  "links": [
+    {
+      "title": "LoRA - Low-Rank Adaptation of LLMs",
+      "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 280,
+    "lineEnd": 281,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L280-L281"
+  },
+  "contentHash": "7abc6253944f58ab31be6836dc4e1547a66ef3bad2490fe1f01b8e021c9547cf",
+  "id": "Q0059",
+  "number": 59,
+  "active": true
+}

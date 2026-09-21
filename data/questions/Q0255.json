@@ -1,0 +1,31 @@
+{
+  "original": "Our flagship is a sparse MoE with ~10x more total than active parameters. Why is that architecture a good fit for private enterprise deployment, and where does it hurt?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "llm",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 811,
+    "lineEnd": 812,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L811-L812"
+  },
+  "contentHash": "9662b4eeff770ec2113546dc5fc7fa2c7266eb05594a3cd738b2d6e9622c8e5d",
+  "id": "Q0255",
+  "number": 255,
+  "active": true
+}

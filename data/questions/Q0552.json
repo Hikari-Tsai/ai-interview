@@ -1,0 +1,25 @@
+{
+  "original": "Clinicians will not sign what they cannot verify. How would you build span-level provenance from every line of the note back to the conversation?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1898,
+    "lineEnd": 1898,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1898-L1898"
+  },
+  "contentHash": "984ed8b6ee184dc4aae78d56b6bb2d124b24c5bc781d63d3af19eee9318af0dc",
+  "id": "Q0552",
+  "number": 552,
+  "active": true
+}

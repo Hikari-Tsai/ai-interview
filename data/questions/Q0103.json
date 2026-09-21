@@ -1,0 +1,25 @@
+{
+  "original": "Design a document-intelligence pipeline: scanned PDFs in, structured fields out, at 10M documents.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 396,
+    "lineEnd": 397,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L396-L397"
+  },
+  "contentHash": "f4b7959f77eb8984f454c0d5ebe0af1651e229e33c7c2315f9c7d0edf1a82ca8",
+  "id": "Q0103",
+  "number": 103,
+  "active": true
+}

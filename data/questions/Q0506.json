@@ -1,0 +1,25 @@
+{
+  "original": "Design an agent that takes a draft NDA and returns a redlined Word document reflecting the firm's playbook, not a chat response.",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1724,
+    "lineEnd": 1724,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1724-L1724"
+  },
+  "contentHash": "2f0c0bab5415a187e27476d81629fe59959556f7d4480e82fb88b95f291162c0",
+  "id": "Q0506",
+  "number": 506,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you made a mistake.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 594,
+    "lineEnd": 594,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L594-L594"
+  },
+  "contentHash": "79caa29790d7ea3433174c3bde664776b216f2e571a94cfb053f8ab371f60af2",
+  "id": "Q0184",
+  "number": 184,
+  "active": true
+}

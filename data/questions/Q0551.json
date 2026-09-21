@@ -1,0 +1,25 @@
+{
+  "original": "A generated note contains a medication the patient never mentioned. Treat that as a safety incident: how do you detect it before a clinician sees it?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1897,
+    "lineEnd": 1897,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1897-L1897"
+  },
+  "contentHash": "4c4ab8de2ca4c2b9249331add908af2238d43808791b304eacdd91e992308958",
+  "id": "Q0551",
+  "number": 551,
+  "active": true
+}

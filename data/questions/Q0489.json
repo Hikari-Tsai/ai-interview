@@ -1,0 +1,26 @@
+{
+  "original": "An autonomous agent has write access to a customer's repository, CI credentials and network access. What is your threat model?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "safety",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1650,
+    "lineEnd": 1650,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1650-L1650"
+  },
+  "contentHash": "e23d102d13a314d2d2d1b7619c90f5428895841bdc6ef112c026eb1ce4b553fa",
+  "id": "Q0489",
+  "number": 489,
+  "active": true
+}

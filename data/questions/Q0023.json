@@ -1,0 +1,28 @@
+{
+  "original": "Compare tensor, pipeline, data, sequence and expert parallelism. When do you combine them?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Google DeepMind",
+    "Meta",
+    "Amazon",
+    "NVIDIA"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 183,
+    "lineEnd": 184,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L183-L184"
+  },
+  "contentHash": "65ecff9f3e7d2e0750ddfd8e8e1ff6ab952d98890a2ab69fd26ee04aa42ba456",
+  "id": "Q0023",
+  "number": 23,
+  "active": true
+}

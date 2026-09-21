@@ -1,0 +1,25 @@
+{
+  "original": "Design the teleoperation data pipeline. Why is data collection the bottleneck in robotics rather than compute?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1923,
+    "lineEnd": 1923,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1923-L1923"
+  },
+  "contentHash": "ac9dc81929cdbc03923602600cc4d0749a5ea71d62c8a977488ad4d45c7de518",
+  "id": "Q0559",
+  "number": 559,
+  "active": true
+}

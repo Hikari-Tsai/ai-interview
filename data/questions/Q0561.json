@@ -1,0 +1,25 @@
+{
+  "original": "How do you evaluate a manipulation policy when every trial costs robot time and every failure has physical consequences?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1928,
+    "lineEnd": 1928,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1928-L1928"
+  },
+  "contentHash": "67547cffd3a9e81a7b0bfbf764b8b3bca0283051205d8b645bd4f96bee3764aa",
+  "id": "Q0561",
+  "number": 561,
+  "active": true
+}

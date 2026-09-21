@@ -1,0 +1,54 @@
+{
+  "questionId": "Q0032",
+  "inputHash": "8f758c3d2d3cb1eaff0caae6e8627371d5bf7c6067503ed672bde652c73a9dc6",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.472272+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/chunking-strategies-for-rag",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L209-L211",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "技術文件的 RAG 要怎麼切塊？",
+      "intent": "依文件結構和檢索任務選邊界，而不是背一個固定長度。",
+      "hint": [
+        "標題、程式碼與表格有哪些不能任意切斷的關係？",
+        "檢索需要精準片段，回答需要多少上下文？"
+      ],
+      "principle": "先依標題與段落切分，保留標題路徑，再把過大的章節遞迴切小。chunk 應能獨立理解。必要時用小片段檢索、再補父章節，兼顧定位和上下文。",
+      "tradeoff": "太小會失去定義與條件，太大則混入雜訊。重疊可保住邊界資訊，卻增加索引與重複內容；語意切分另有計算成本。",
+      "implementation": "解析 Markdown/HTML 結構，保存文件版本、標題、來源位置和權限 metadata。用 tokenizer 控制大小；程式碼和說明保持關聯，超長表格以可解釋的區塊拆分。",
+      "production": "用真實問題評估 evidence recall、答案正確率與引用位置。對 API 名稱、版本差異和跨段落問題分開檢查；只為內容有變動的 chunk 重建索引。",
+      "supplementNote": "切分原理與取捨依原文整理；metadata、權限、測試集和更新策略是 AI 補充建議。"
+    },
+    "en": {
+      "title": "How should technical documentation be chunked for RAG?",
+      "intent": "Choose boundaries for document structure and retrieval needs, not a memorized size.",
+      "hint": [
+        "Which relationships between headings, code and tables must survive?",
+        "Does retrieval need the same amount of context as generation?"
+      ],
+      "principle": "Split by headings and paragraphs, preserve heading paths, then recursively split oversized sections. Chunks should remain understandable alone. Retrieving small passages and expanding to parent sections can balance precision with context.",
+      "tradeoff": "Tiny chunks lose conditions; large ones dilute relevance. Overlap protects boundaries but duplicates indexed content. Semantic splitting adds computation.",
+      "implementation": "Parse Markdown/HTML structure; retain version, heading, source span and permission metadata. Bound size with a tokenizer. Keep code connected to its explanation and divide oversized tables into interpretable units.",
+      "production": "Evaluate evidence recall, answer correctness and citation spans on real questions. Check API names, version differences and cross-section questions separately. Reindex only changed chunks.",
+      "supplementNote": "Chunking principles and tradeoffs summarize the article. Metadata, permission handling, evaluation and update strategies are AI supplements."
+    },
+    "ja": {
+      "title": "技術文書を RAG 向けにどう分割する？",
+      "intent": "固定の文字数を暗記せず、文書構造と検索目的から境界を決める。",
+      "hint": [
+        "見出し、コード、表の間で残すべき関係は何か。",
+        "検索と回答生成に必要な文脈の量は同じだろうか。"
+      ],
+      "principle": "見出しと段落で区切り、見出しの階層を保持して、大きすぎる節を再帰的に分割する。単独でも理解できる chunk にする。小さな断片で検索し、親の節を追加すると精度と文脈を両立しやすい。",
+      "tradeoff": "小さすぎると条件を失い、大きすぎると関連性が薄まる。重複部分は境界を補うが、索引と内容の重複が増える。意味に基づく分割には追加の計算が必要。",
+      "implementation": "Markdown/HTML を構造として解析し、版、見出し、出典位置、権限を metadata に残す。tokenizer でサイズを制御し、コードと説明の対応を保ち、大きな表は理解可能な単位に分ける。",
+      "production": "実際の質問で根拠の recall、回答の正しさ、引用位置を評価する。API 名、版の違い、節をまたぐ質問を分けて確認し、変更された chunk だけ索引を更新する。",
+      "supplementNote": "分割の原理と取捨選択は原文の要約です。metadata、権限、評価、更新戦略は AI による補足です。"
+    }
+  }
+}

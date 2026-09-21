@@ -1,0 +1,25 @@
+{
+  "original": "Design a podcast search engine with transcript indexing. / Design a recommendation algorithm for type-ahead search.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1243,
+    "lineEnd": 1243,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1243-L1243"
+  },
+  "contentHash": "557580939d094e05de1b8dc188618c7151a0aff4aca033baab33e54f9802cd93",
+  "id": "Q0371",
+  "number": 371,
+  "active": true
+}

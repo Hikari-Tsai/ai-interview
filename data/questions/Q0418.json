@@ -1,0 +1,25 @@
+{
+  "original": "A prospective customer runs their workload on H100s. Talk me through when you would tell them not to move.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1397,
+    "lineEnd": 1397,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1397-L1397"
+  },
+  "contentHash": "5506408c68353c5c2353932e62648ae00e78b008acb9d41273de4f6b43c9886c",
+  "id": "Q0418",
+  "number": 418,
+  "active": true
+}

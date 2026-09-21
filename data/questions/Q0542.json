@@ -1,0 +1,25 @@
+{
+  "original": "A hospital group schedules and confirms outpatient appointments by phone, manually, with three staff on a rota. Design what we would build for them.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1858,
+    "lineEnd": 1858,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1858-L1858"
+  },
+  "contentHash": "a47ba18edfa26aac984992ff8aea36dda5a2a6fed9f52885deed4d9f810c2cf7",
+  "id": "Q0542",
+  "number": 542,
+  "active": true
+}

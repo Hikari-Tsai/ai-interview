@@ -1,0 +1,25 @@
+{
+  "original": "DualPipe overlaps computation and communication in training. Why is that overlap the whole game at this scale, and what is the trade-off?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 868,
+    "lineEnd": 868,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L868-L868"
+  },
+  "contentHash": "26522607ccf6eec78c397dd4d2ad7f9e48d3d2a2ab59d3c370eabc33c0e1046d",
+  "id": "Q0272",
+  "number": 272,
+  "active": true
+}

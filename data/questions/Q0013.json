@@ -1,0 +1,30 @@
+{
+  "original": "What is the lost-in-the-middle problem in long contexts and how do you address it?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)",
+  "links": [
+    {
+      "title": "The Lost in the Middle Problem in LLMs",
+      "url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 151,
+    "lineEnd": 153,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L151-L153"
+  },
+  "contentHash": "b2fd4b2fa5a6400a9457bbb191aaa45cc10aaa530ceb6100846de3dbad82a497",
+  "id": "Q0013",
+  "number": 13,
+  "active": true
+}

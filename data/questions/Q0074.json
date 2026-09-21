@@ -1,0 +1,29 @@
+{
+  "original": "What observability does a production LLM system need: traces, spans, costs, feedback?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)",
+  "links": [
+    {
+      "title": "AI Agent Observability",
+      "url": "https://outcomeschool.com/blog/ai-agent-observability"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 322,
+    "lineEnd": 323,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L322-L323"
+  },
+  "contentHash": "691ac6966bbeef73fc18683f9787043135617425faf4688a9d499097859a678b",
+  "id": "Q0074",
+  "number": 74,
+  "active": true
+}

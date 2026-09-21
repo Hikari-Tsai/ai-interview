@@ -1,0 +1,30 @@
+{
+  "original": "Qwen's reasoning models train with RL using verifiable rewards on maths and code. Why is that preferred over PPO with a learned reward model for these domains?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)",
+  "links": [
+    {
+      "title": "Group Relative Policy Optimization (GRPO)",
+      "url": "https://outcomeschool.com/blog/group-relative-policy-optimization-grpo"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 984,
+    "lineEnd": 985,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L984-L985"
+  },
+  "contentHash": "8a0576ed01a3f087da3c346e2d15273e78633c5b5944bda468046efa498f0f8a",
+  "id": "Q0301",
+  "number": 301,
+  "active": true
+}

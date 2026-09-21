@@ -1,0 +1,28 @@
+{
+  "original": "A bank wants the whole stack (model, RAG, agents) deployed air-gapped on their own GPUs. What actually changes versus your SaaS?",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "system-design",
+    "rag",
+    "production",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 829,
+    "lineEnd": 829,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L829-L829"
+  },
+  "contentHash": "0fb2cd3560a5f91eb639a6169b4c0e001cbe2bfd0e8dd29e737259fcdcbd90bd",
+  "id": "Q0261",
+  "number": 261,
+  "active": true
+}

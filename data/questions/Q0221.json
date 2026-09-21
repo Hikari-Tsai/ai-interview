@@ -1,0 +1,30 @@
+{
+  "original": "You need to serve a Llama-class 70B+ model to hundreds of millions of assistant users. What does the serving stack look like and where does the money go?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 682,
+    "lineEnd": 683,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L682-L683"
+  },
+  "contentHash": "ba530780b7e93d7d108daf76d333cdcab8d9f8e42c0c44de54db800e140b1790",
+  "id": "Q0221",
+  "number": 221,
+  "active": true
+}

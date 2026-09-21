@@ -1,0 +1,34 @@
+{
+  "original": "Derive the gradient of cross-entropy loss with softmax inputs, and explain why we fuse them numerically.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [Math Behind Backpropagation](https://outcomeschool.com/blog/math-behind-backpropagation)",
+  "links": [
+    {
+      "title": "Math Behind Cross-Entropy Loss",
+      "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    },
+    {
+      "title": "Math Behind Backpropagation",
+      "url": "https://outcomeschool.com/blog/math-behind-backpropagation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 620,
+    "lineEnd": 621,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L620-L621"
+  },
+  "contentHash": "d349ce9f31247592f7fcf1e48ea3b93b96a484c131d8e0c6e5ed9b683011e40d",
+  "id": "Q0195",
+  "number": 195,
+  "active": true
+}

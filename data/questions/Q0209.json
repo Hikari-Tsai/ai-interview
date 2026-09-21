@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you disagreed with a researcher or tech lead about priorities, and what happened.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 649,
+    "lineEnd": 649,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L649-L649"
+  },
+  "contentHash": "3a581e18ddc3f9ce0314b8b41cd6e459cb9014c08f8968f89fca76df4e9df828",
+  "id": "Q0209",
+  "number": 209,
+  "active": true
+}

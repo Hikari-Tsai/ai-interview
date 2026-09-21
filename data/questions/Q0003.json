@@ -1,0 +1,31 @@
+{
+  "original": "What are Multi-Query Attention (MQA) and Grouped-Query Attention (GQA), and what do they trade away?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta",
+    "Mistral AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)",
+  "links": [
+    {
+      "title": "Grouped Query Attention",
+      "url": "https://outcomeschool.com/blog/grouped-query-attention"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 123,
+    "lineEnd": 125,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L123-L125"
+  },
+  "contentHash": "5675b6c88ae723aeba3c59007b3f35e66ec63dbefc5a377b43e4a4879dd17736",
+  "id": "Q0003",
+  "number": 3,
+  "active": true
+}

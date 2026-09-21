@@ -1,0 +1,25 @@
+{
+  "original": "Design a system that enables a large language model to handle multiple questions in a single thread.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 498,
+    "lineEnd": 498,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L498-L498"
+  },
+  "contentHash": "60a434c6dff33e28ff7c5b719aab635566fd785f632efa38bc795ffbc09f9fd7",
+  "id": "Q0142",
+  "number": 142,
+  "active": true
+}

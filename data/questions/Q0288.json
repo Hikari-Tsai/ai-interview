@@ -1,0 +1,26 @@
+{
+  "original": "GLM has been bilingual Chinese/English since GLM-130B. What changes in tokenization, data and evaluation when a model must serve both languages well?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "llm",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 932,
+    "lineEnd": 932,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L932-L932"
+  },
+  "contentHash": "b5dc64ed62c25c5b5a9918aa2f068c0f4b52bf85a2deb6a56eab80e49477e1df",
+  "id": "Q0288",
+  "number": 288,
+  "active": true
+}

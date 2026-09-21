@@ -1,0 +1,30 @@
+{
+  "original": "Dialogues here average around 180 messages. Design the cache that sits between turns.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)",
+  "links": [
+    {
+      "title": "How does Prompt Caching work?",
+      "url": "https://outcomeschool.com/blog/how-does-prompt-caching-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1807,
+    "lineEnd": 1808,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1807-L1808"
+  },
+  "contentHash": "01555b60d3d27bb067ac0f6ab11d1d49a0dba15e61ba12c0a36b4447e1df87e7",
+  "id": "Q0527",
+  "number": 527,
+  "active": true
+}

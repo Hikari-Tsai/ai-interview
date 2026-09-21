@@ -1,0 +1,34 @@
+{
+  "original": "Explain speculative decoding. When does it help, when does it hurt, and why adapt the speculator to live traffic?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding) and [N-gram Speculation in LLMs](https://outcomeschool.com/blog/n-gram-speculation-in-llms)",
+  "links": [
+    {
+      "title": "Speculative Decoding",
+      "url": "https://outcomeschool.com/blog/speculative-decoding"
+    },
+    {
+      "title": "N-gram Speculation in LLMs",
+      "url": "https://outcomeschool.com/blog/n-gram-speculation-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1420,
+    "lineEnd": 1421,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1420-L1421"
+  },
+  "contentHash": "a96b90b80087f8789967210d555e10cfcff61e4d7996667d6332f3aa29e956c3",
+  "id": "Q0422",
+  "number": 422,
+  "active": true
+}

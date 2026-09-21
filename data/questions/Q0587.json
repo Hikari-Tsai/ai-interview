@@ -1,0 +1,25 @@
+{
+  "original": "What is an ontology in the Palantir sense, and why put LLM agents on top of one instead of on raw tables and documents?",
+  "topic": "Agents and Tool Use",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2003,
+    "lineEnd": 2003,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2003-L2003"
+  },
+  "contentHash": "fc3b17e81447c443b7bc0039ec77b53331c88716d54afeab97f46816f9fbecb0",
+  "id": "Q0587",
+  "number": 587,
+  "active": true
+}

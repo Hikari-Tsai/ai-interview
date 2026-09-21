@@ -1,0 +1,31 @@
+{
+  "original": "Do the roofline maths: how many tokens/sec can one H100 produce for a 70B model at batch size 1?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)",
+  "links": [
+    {
+      "title": "Prefill vs Decode: LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 191,
+    "lineEnd": 193,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L191-L193"
+  },
+  "contentHash": "81340ba9dda4ca6f683b41b0e6b1f0c5998bf8d407b27f1b8308bffb19a4be41",
+  "id": "Q0026",
+  "number": 26,
+  "active": true
+}

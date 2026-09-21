@@ -1,0 +1,34 @@
+{
+  "original": "Cognition published an argument against multi-agent systems and later published what actually works. Reconcile those two positions.",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems) and [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)",
+  "links": [
+    {
+      "title": "Multi-Agent Systems",
+      "url": "https://outcomeschool.com/blog/multi-agent-systems"
+    },
+    {
+      "title": "AI SubAgents",
+      "url": "https://outcomeschool.com/blog/ai-subagents"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1629,
+    "lineEnd": 1630,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1629-L1630"
+  },
+  "contentHash": "df797b05bb4f40d10442a6f1184d8af71fe238aea8876f820b591d4bf4d87b93",
+  "id": "Q0483",
+  "number": 483,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "What is the effect of adjusting an LLM's context window size?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c) and [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)",
+  "links": [
+    {
+      "title": "Context Window in LLMs",
+      "url": "https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c"
+    },
+    {
+      "title": "Why is the context window limited in LLMs?",
+      "url": "https://www.youtube.com/watch?v=CGIhxIaOg3M&lc"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 559,
+    "lineEnd": 560,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L559-L560"
+  },
+  "contentHash": "69c23f2268f9ec2a6667b0ab81608e3d16250c22b29e434f91cc54394957e603",
+  "id": "Q0170",
+  "number": 170,
+  "active": true
+}

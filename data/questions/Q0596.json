@@ -1,0 +1,25 @@
+{
+  "original": "A customer executive says “the AI keeps getting things wrong” and wants to cancel the pilot. Walk me through your next 48 hours.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2022,
+    "lineEnd": 2022,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2022-L2022"
+  },
+  "contentHash": "2138416e99cbbe622ae719d881f85f1d4a8bbd475b38bb9f93c0daaeda57f773",
+  "id": "Q0596",
+  "number": 596,
+  "active": true
+}

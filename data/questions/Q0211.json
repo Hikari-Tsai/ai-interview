@@ -1,0 +1,25 @@
+{
+  "original": "Find the minimum window in S which will contain all the characters in T.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 662,
+    "lineEnd": 662,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L662-L662"
+  },
+  "contentHash": "5ae917a08259b054870262abc04add5fa89ad98995c6ae1a34bb79687dbfdd3d",
+  "id": "Q0211",
+  "number": 211,
+  "active": true
+}

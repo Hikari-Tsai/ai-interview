@@ -1,0 +1,26 @@
+{
+  "original": "A contact centre wants to replace its IVR with voice agents. Run the engagement.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "applied",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1859,
+    "lineEnd": 1859,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1859-L1859"
+  },
+  "contentHash": "dc912d831717a29e2dce2459b541a8779523c7ce89f9619ae3f3acdb8867d902",
+  "id": "Q0543",
+  "number": 543,
+  "active": true
+}

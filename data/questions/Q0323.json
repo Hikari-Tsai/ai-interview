@@ -1,0 +1,30 @@
+{
+  "original": "How would you evaluate a meeting-summarisation feature before shipping it to a hundred million users?",
+  "topic": "Evaluation and Observability",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1086,
+    "lineEnd": 1087,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1086-L1087"
+  },
+  "contentHash": "8a13a2cac5c06a28af0b54d7df3b61f47d066b5cb3d1ebea999dbc634c7b06c3",
+  "id": "Q0323",
+  "number": 323,
+  "active": true
+}

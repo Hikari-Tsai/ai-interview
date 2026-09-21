@@ -1,0 +1,25 @@
+{
+  "original": "In our build session you get two hours and any AI tools you want. How do you decide what to build and how do you spend the time?",
+  "topic": "Behavioral and Culture",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1699,
+    "lineEnd": 1699,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1699-L1699"
+  },
+  "contentHash": "b40f729df076351eee257c722fb78a6b6c611740359ddd1d86312bae87d4d252",
+  "id": "Q0501",
+  "number": 501,
+  "active": true
+}

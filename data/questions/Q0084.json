@@ -1,0 +1,25 @@
+{
+  "original": "How do you handle PII in prompts, logs and training data?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 347,
+    "lineEnd": 348,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L347-L348"
+  },
+  "contentHash": "4c2991cffc43a8fa0c631c81cdc4b154aa4044e58a76fddafac2168ec8a1fea9",
+  "id": "Q0084",
+  "number": 84,
+  "active": true
+}

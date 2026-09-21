@@ -1,0 +1,34 @@
+{
+  "original": "How would you evaluate answer quality for an answer engine, continuously and at scale, with both automated and human signals?",
+  "topic": "Evaluation and Observability",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation) and [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    },
+    {
+      "title": "LLM as a Judge",
+      "url": "https://outcomeschool.com/blog/llm-as-a-judge"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1553,
+    "lineEnd": 1554,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1553-L1554"
+  },
+  "contentHash": "68eadd0c36e492096565d1e5112aa3fab6d455c979bcd2cee0d2581f32fde5ea",
+  "id": "Q0462",
+  "number": 462,
+  "active": true
+}

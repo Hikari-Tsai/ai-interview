@@ -1,0 +1,25 @@
+{
+  "original": "You're shipping notification summarization to hundreds of millions of users in 30+ locales, and you cannot log user content. Design the evaluation and regression-detection story.",
+  "topic": "Evaluation and Observability",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1204,
+    "lineEnd": 1204,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1204-L1204"
+  },
+  "contentHash": "aef0cc804ddc0e528d78dfd84762cfb91a8976ce0a0ed2e7e108118fcfced7cc",
+  "id": "Q0359",
+  "number": 359,
+  "active": true
+}

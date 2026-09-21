@@ -1,0 +1,25 @@
+{
+  "original": "Parse bigrams: extract two-word phrases from strings for NLP feature engineering.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 612,
+    "lineEnd": 612,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L612-L612"
+  },
+  "contentHash": "a46d978160e427871c00dc49d74437324be151464742f3ce74f95e5dec945e59",
+  "id": "Q0191",
+  "number": 191,
+  "active": true
+}

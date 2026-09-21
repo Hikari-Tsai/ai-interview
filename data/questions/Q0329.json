@@ -1,0 +1,30 @@
+{
+  "original": "What is the closed-form solution of linear regression, and when do you use gradient descent instead?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Gradient Descent](https://outcomeschool.com/blog/math-behind-gradient-descent)",
+  "links": [
+    {
+      "title": "Math Behind Gradient Descent",
+      "url": "https://outcomeschool.com/blog/math-behind-gradient-descent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1114,
+    "lineEnd": 1115,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1114-L1115"
+  },
+  "contentHash": "d369e92668684f980329ee569b298e6c0f136a46e6217c7e48e4305244ae8ec0",
+  "id": "Q0329",
+  "number": 329,
+  "active": true
+}

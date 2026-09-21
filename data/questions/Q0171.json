@@ -1,0 +1,35 @@
+{
+  "original": "You are building a production agent that calls tools (function calling). What makes the loop reliable enough to ship?",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "agents",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms) and [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    },
+    {
+      "title": "AI Agent Loop",
+      "url": "https://outcomeschool.com/blog/ai-agent-loop"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 564,
+    "lineEnd": 565,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L564-L565"
+  },
+  "contentHash": "6d866047032558e2a3802f19f1fd6783bd273b1e33f41dee49529234ac77191c",
+  "id": "Q0171",
+  "number": 171,
+  "active": true
+}

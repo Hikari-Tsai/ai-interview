@@ -1,0 +1,31 @@
+{
+  "original": "What is the difference between structured output and function calling?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Mistral AI",
+    "Apple"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 244,
+    "lineEnd": 246,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L244-L246"
+  },
+  "contentHash": "063a32aadd7a62006d4b346a1f8ee78e4f140388cc93c5d346746d2497f9d30a",
+  "id": "Q0046",
+  "number": 46,
+  "active": true
+}

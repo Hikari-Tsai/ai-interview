@@ -1,0 +1,25 @@
+{
+  "original": "You have hundreds of millions of fleet miles. How do you find and use the rare scenarios that matter?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1963,
+    "lineEnd": 1963,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1963-L1963"
+  },
+  "contentHash": "4ef8e783ed57f4d5c9aa4eec939ece4b39c9f643f674d09032a288d591f08419",
+  "id": "Q0572",
+  "number": 572,
+  "active": true
+}

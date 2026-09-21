@@ -1,0 +1,25 @@
+{
+  "original": "Create a database ORM, step by step.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 538,
+    "lineEnd": 538,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L538-L538"
+  },
+  "contentHash": "8f347eb8b8781e0df940804c937c3a071d656a2be0bd0641560be9a492e00f0e",
+  "id": "Q0158",
+  "number": 158,
+  "active": true
+}

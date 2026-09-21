@@ -1,0 +1,25 @@
+{
+  "original": "Design an in-memory database. / Design Slack.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 574,
+    "lineEnd": 574,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L574-L574"
+  },
+  "contentHash": "b65b9addd9077a22723efa9f028723fa611f74889874922c432ce110563fb2d4",
+  "id": "Q0176",
+  "number": 176,
+  "active": true
+}

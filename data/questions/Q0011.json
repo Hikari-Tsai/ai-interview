@@ -1,0 +1,35 @@
+{
+  "original": "Explain the difference between pre-training, supervised fine-tuning and preference optimisation.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta",
+    "Scale AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)",
+  "links": [
+    {
+      "title": "Decoding InstructGPT",
+      "url": "https://outcomeschool.com/blog/decoding-instructgpt"
+    },
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 145,
+    "lineEnd": 147,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L145-L147"
+  },
+  "contentHash": "92e951ab1412977a7f1ca696330602e7fc7921368bf84270d0e71504a829bc49",
+  "id": "Q0011",
+  "number": 11,
+  "active": true
+}

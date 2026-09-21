@@ -1,0 +1,25 @@
+{
+  "original": "Find the top-K most frequent items in a high-volume event stream with bounded memory.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1109,
+    "lineEnd": 1109,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1109-L1109"
+  },
+  "contentHash": "f9a976219e8500149ebc408a1e6f54bcbe66ad799af55803089455a972e31167",
+  "id": "Q0327",
+  "number": 327,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "If the accuracy of a classifier is 1, what is the lower/upper bound on the loss function for a single training example?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)",
+  "links": [
+    {
+      "title": "Math Behind Cross-Entropy Loss",
+      "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 548,
+    "lineEnd": 549,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L548-L549"
+  },
+  "contentHash": "cf2351db7b54b52c6af78367dbd1d233ed199ade3fe8aca95a4c1bbe1bf2258c",
+  "id": "Q0165",
+  "number": 165,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Design semantic search over a large product catalogue.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work)",
+  "links": [
+    {
+      "title": "How does Semantic Search work?",
+      "url": "https://outcomeschool.com/blog/how-does-semantic-search-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 391,
+    "lineEnd": 393,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L391-L393"
+  },
+  "contentHash": "1bc5865fff9759a118f92cc7768a394b7a8ad3276bdc34063700fe5fc149426f",
+  "id": "Q0101",
+  "number": 101,
+  "active": true
+}

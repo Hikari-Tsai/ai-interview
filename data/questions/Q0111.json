@@ -1,0 +1,28 @@
+{
+  "original": "Implement BPE training and encoding from scratch.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 420,
+    "lineEnd": 421,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L420-L421"
+  },
+  "contentHash": "83b17d89af3c14d15fe9577734e9d54756d50b94397ad7e4f73f62d352c692f6",
+  "id": "Q0111",
+  "number": 111,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Convert nested stack traces into discrete start and end events.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 460,
+    "lineEnd": 460,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L460-L460"
+  },
+  "contentHash": "1338a6692bb747225d889b6e42580eecc7e9ebed37f02a8286c4ec6b7caf0152",
+  "id": "Q0125",
+  "number": 125,
+  "active": true
+}

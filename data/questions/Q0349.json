@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you saw an opportunity to do something bigger than the initial scope. (Think Big)",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1163,
+    "lineEnd": 1163,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1163-L1163"
+  },
+  "contentHash": "117b91b0ee3c56fdc77f242b9e2e6154c58d4e5dcb9e948eae15e9e68a5dcfef",
+  "id": "Q0349",
+  "number": 349,
+  "active": true
+}

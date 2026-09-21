@@ -1,0 +1,25 @@
+{
+  "original": "Design an agentic AI system that can autonomously adapt to new tasks.",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1596,
+    "lineEnd": 1596,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1596-L1596"
+  },
+  "contentHash": "732bf2d992c0dcc094c34c55e2dba8f55a5f8fb34dee74f6bf1135dd3cb9e1a5",
+  "id": "Q0473",
+  "number": 473,
+  "active": true
+}

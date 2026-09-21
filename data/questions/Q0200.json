@@ -1,0 +1,25 @@
+{
+  "original": "Your pretraining loss suddenly diverges at step 300k of a long run. Diagnose and fix it.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 629,
+    "lineEnd": 629,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L629-L629"
+  },
+  "contentHash": "bb6340b39d80e70145fb063cbf1e8bd79043aabeac1ada9dc9b9e8f42e0bc805",
+  "id": "Q0200",
+  "number": 200,
+  "active": true
+}

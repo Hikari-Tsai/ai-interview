@@ -1,0 +1,30 @@
+{
+  "original": "What does TensorRT / TensorRT-LLM actually do to a model to make it faster, and when will it not help?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does TensorRT-LLM work?](https://outcomeschool.com/blog/how-does-tensorrt-llm-work)",
+  "links": [
+    {
+      "title": "How does TensorRT-LLM work?",
+      "url": "https://outcomeschool.com/blog/how-does-tensorrt-llm-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1237,
+    "lineEnd": 1238,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1237-L1238"
+  },
+  "contentHash": "ffac148bd7ddbba40f31098c0af9007f659a7d528aba59aebfcbc8f473eb74fc",
+  "id": "Q0369",
+  "number": 369,
+  "active": true
+}

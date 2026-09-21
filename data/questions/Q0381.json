@@ -1,0 +1,25 @@
+{
+  "original": "Design the data engine: fleet triggers → upload → labelling → retraining → shadow-mode validation → release.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1279,
+    "lineEnd": 1279,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1279-L1279"
+  },
+  "contentHash": "eec01efca84b3e661e26cd50e1e42f6c920c9810efb4242ae75bd7db17ec520b",
+  "id": "Q0381",
+  "number": 381,
+  "active": true
+}

@@ -1,0 +1,55 @@
+{
+  "questionId": "Q0001",
+  "inputHash": "38ad98dfef2442433c0a381d7aa2fe9e5f6ac0671e06237ed8daf9b2f9d4b79b",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.470818+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/scaling-dot-product-attention",
+    "https://outcomeschool.com/blog/math-behind-attention-qkv",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L118-L119",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "注意力為什麼要除以 √dₖ？",
+      "intent": "把 Q、K、V 的計算連到分數尺度與梯度穩定性。",
+      "hint": [
+        "先寫出注意力公式，再看內積包含幾項。",
+        "想想獨立隨機變數相加時，變異數怎麼變。"
+      ],
+      "principle": "Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V。Q 與 K 決定權重，V 提供加權內容。若各分量相互獨立、均值為 0、變異數為 1，內積變異數為 dₖ；除以 √dₖ 後變為 1，減少 softmax 過早飽和。",
+      "tradeoff": "縮放保留分數排序，但改變注意力分布的尖銳程度。上述變異數推導有假設，不能保證訓練後仍精確成立。",
+      "implementation": "先縮放分數、套用遮罩，再沿 key 軸做穩定 softmax。使用內建 attention 時確認它已含縮放，避免重複除法；以小張量檢查形狀和因果遮罩。",
+      "production": "遇到 NaN 或訓練不穩時，檢查 logits 尺度、精度與全遮罩列。觀察注意力熵與梯度，並用相同輸入比較基準實作。",
+      "supplementNote": "原理依原文整理；假設限制，以及實作與上線檢查，是 AI 補充建議，非原文逐字內容。"
+    },
+    "en": {
+      "title": "Why divide attention scores by √dₖ?",
+      "intent": "Connect the Q/K/V computation to logit scale and stable gradients.",
+      "hint": [
+        "Write the attention equation and count the terms in a dot product.",
+        "How does variance change when independent terms are added?"
+      ],
+      "principle": "Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V. Q and K determine weights; V supplies content. With independent, zero-mean, unit-variance components, the dot product has variance dₖ. Scaling by 1/√dₖ restores unit variance, reducing premature softmax saturation.",
+      "tradeoff": "Scaling preserves score ordering but changes distribution sharpness. The variance argument depends on assumptions; it is not an exact guarantee after training.",
+      "implementation": "Scale scores, apply the mask, then use stable softmax over keys. Check whether your attention primitive already scales. Verify shapes and causal masking with small tensors.",
+      "production": "For NaNs or unstable training, inspect logit scale, precision and fully masked rows. Monitor attention entropy and gradients, and compare against a reference on identical inputs.",
+      "supplementNote": "Principles summarize the linked articles. Assumption caveats and implementation/production recommendations are AI supplements, not quotations."
+    },
+    "ja": {
+      "title": "注意スコアを √dₖ で割る理由は？",
+      "intent": "Q・K・V の計算を、スコアの大きさと勾配の安定性につなげて説明する。",
+      "hint": [
+        "注意機構の式を書き、内積に含まれる項の数を数えてみる。",
+        "独立な変数を足すと、分散はどう変わるだろうか。"
+      ],
+      "principle": "Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V。Q と K が重みを決め、V が内容を渡す。各成分が独立で平均 0、分散 1 なら、内積の分散は dₖ。√dₖ で割ると分散が 1 になり、softmax の早期飽和を抑える。",
+      "tradeoff": "スコアの順位は変わらないが、分布の鋭さは変わる。分散の導出には仮定があり、学習後も厳密に成立するとは限らない。",
+      "implementation": "スコアを縮小してマスクを適用し、key 軸で安定な softmax を計算する。組み込み演算に縮小が含まれるか確認し、小さなテンソルで形状と因果マスクを検証する。",
+      "production": "NaN や学習の不安定さが出たら、logit の大きさ、精度、全要素がマスクされた行を調べる。注意のエントロピーと勾配を観測し、同じ入力で参照実装と比較する。",
+      "supplementNote": "原理はリンク先の記事を要約したものです。仮定の注意点と実装・運用上の提案は AI による補足で、原文の引用ではありません。"
+    }
+  }
+}

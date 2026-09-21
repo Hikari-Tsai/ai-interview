@@ -1,0 +1,25 @@
+{
+  "original": "Modular perception, prediction and planning, or end-to-end learned driving? Make the case, then tell me what you would actually build.",
+  "topic": "ML and DL Fundamentals",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1953,
+    "lineEnd": 1953,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1953-L1953"
+  },
+  "contentHash": "199750abca4c75041fc8d9c6fa3dee5684e2ef86a328797ee2c5b70f91c528de",
+  "id": "Q0568",
+  "number": 568,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "You have eight hours to build a coding agent from scratch. Describe what you build and, more importantly, what you cut.",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1628,
+    "lineEnd": 1628,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1628-L1628"
+  },
+  "contentHash": "42ea62d5fb32a9ba49fb591491859d1c8ddd73a93a71e3d5a97daf16cb2b5e1a",
+  "id": "Q0482",
+  "number": 482,
+  "active": true
+}

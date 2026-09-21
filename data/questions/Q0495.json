@@ -1,0 +1,25 @@
+{
+  "original": "Design the human-handoff path for a customer-service agent. When should it escalate, and what does a good handoff look like?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1678,
+    "lineEnd": 1678,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1678-L1678"
+  },
+  "contentHash": "b3699f857d31e94e043f815ea6e27e12ba0b9c609c6090ab99cf550136224d47",
+  "id": "Q0495",
+  "number": 495,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "What is the relationship between cross-entropy, KL divergence and perplexity, and why is cross-entropy the training loss for language models?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)",
+  "links": [
+    {
+      "title": "Math Behind Cross-Entropy Loss",
+      "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 557,
+    "lineEnd": 558,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L557-L558"
+  },
+  "contentHash": "b7bf1c8cc8667bf512236dd668eb410fade65b2fea6b680484ec811ad9e954bd",
+  "id": "Q0169",
+  "number": 169,
+  "active": true
+}

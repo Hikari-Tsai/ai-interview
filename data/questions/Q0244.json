@@ -1,0 +1,25 @@
+{
+  "original": "Design the serving stack for a consumer chatbot with real-time search over a social-media firehose.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 751,
+    "lineEnd": 751,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L751-L751"
+  },
+  "contentHash": "1b63b1987ea172af5d9d669cd8b52becb7c262afa7d70eb2871fd10232598b2c",
+  "id": "Q0244",
+  "number": 244,
+  "active": true
+}

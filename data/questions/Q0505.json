@@ -1,0 +1,30 @@
+{
+  "original": "When would you put a whole contract in the context window instead of retrieving over it? Defend the answer with numbers.",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)",
+  "links": [
+    {
+      "title": "The Lost in the Middle Problem in LLMs",
+      "url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1719,
+    "lineEnd": 1720,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1719-L1720"
+  },
+  "contentHash": "e799040830eae5d7d6ca68f9ed16edde13a1b0d6f7a20b1751825418df1dacd8",
+  "id": "Q0505",
+  "number": 505,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Design an LLM-as-judge evaluation. What are its known biases and how do you correct for them?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)",
+  "links": [
+    {
+      "title": "LLM as a Judge",
+      "url": "https://outcomeschool.com/blog/llm-as-a-judge"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 308,
+    "lineEnd": 310,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L308-L310"
+  },
+  "contentHash": "9dcb26da189292c6e1c8fc672a4b1cd3b423a0ec30e4a10fdf34e34ee49f093f",
+  "id": "Q0068",
+  "number": 68,
+  "active": true
+}

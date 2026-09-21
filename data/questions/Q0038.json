@@ -1,0 +1,25 @@
+{
+  "original": "What causes semantic drift in embedding search and how do you detect it?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 225,
+    "lineEnd": 226,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L225-L226"
+  },
+  "contentHash": "b18156d79685d5e951e197f6f83d8a6f654a7ab17a1c9e70a12ceaee84fd8ec2",
+  "id": "Q0038",
+  "number": 38,
+  "active": true
+}

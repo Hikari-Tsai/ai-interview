@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a model you shipped that made a measurable business difference, and one that did not.",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1329,
+    "lineEnd": 1329,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1329-L1329"
+  },
+  "contentHash": "4feae035227338a9385d466d2ee805232d82d7a1959e80dd6251eada8f11f4e2",
+  "id": "Q0398",
+  "number": 398,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Design age assurance for a platform where the under-18 experience is fundamentally different.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1827,
+    "lineEnd": 1827,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1827-L1827"
+  },
+  "contentHash": "c5c2059f96ab1abea7477510fcaa21da52dcb288172ded19cd7d64c0a9568f3d",
+  "id": "Q0535",
+  "number": 535,
+  "active": true
+}

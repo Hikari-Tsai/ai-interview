@@ -1,0 +1,25 @@
+{
+  "original": "An enterprise wants a document-Q&A assistant over 2M internal documents, pilot in four weeks, and their security team forbids data leaving their VPC. Scope and design it.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1511,
+    "lineEnd": 1511,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1511-L1511"
+  },
+  "contentHash": "fa860f5d4841022efcd8ab699508469d074bcd79feb5cf58f39ada1c54bfe4e9",
+  "id": "Q0448",
+  "number": 448,
+  "active": true
+}

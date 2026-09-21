@@ -1,0 +1,25 @@
+{
+  "original": "When is intervening during decoding better than filtering the finished reply?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1826,
+    "lineEnd": 1826,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1826-L1826"
+  },
+  "contentHash": "e20fe4d149306ff0d5fbc90a3248a0433b9724e6861717bba605b3fa04e98b03",
+  "id": "Q0534",
+  "number": 534,
+  "active": true
+}

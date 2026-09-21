@@ -1,0 +1,30 @@
+{
+  "original": "Qwen uses byte-level BPE with a ~151K vocabulary, augmented for multilingual coverage and with digits split into single characters. Why those choices, and what are the trade-offs?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 971,
+    "lineEnd": 972,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L971-L972"
+  },
+  "contentHash": "a07430a1ece23045796b8be9ec226eb143d4b2386a5b25cafad9d5aaab20def8",
+  "id": "Q0296",
+  "number": 296,
+  "active": true
+}

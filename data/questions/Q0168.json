@@ -1,0 +1,34 @@
+{
+  "original": "Explain self-attention. What is its computational complexity, and what are your options when contexts get long?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers) and [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)",
+  "links": [
+    {
+      "title": "Self Attention in Transformers",
+      "url": "https://outcomeschool.com/blog/self-attention-in-transformers"
+    },
+    {
+      "title": "How does Sliding Window Attention work?",
+      "url": "https://outcomeschool.com/blog/how-does-sliding-window-attention-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 555,
+    "lineEnd": 556,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L555-L556"
+  },
+  "contentHash": "adebe0e375e162ac697627f8f3b7655deade73d93d006c6e154d958331ffbfc0",
+  "id": "Q0168",
+  "number": 168,
+  "active": true
+}

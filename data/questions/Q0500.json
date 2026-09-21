@@ -1,0 +1,31 @@
+{
+  "original": "Your chat agent is moving to the phone. What actually changes?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "multimodal",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "links": [
+    {
+      "title": "Design a Real-Time Voice AI Agent",
+      "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1694,
+    "lineEnd": 1695,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1694-L1695"
+  },
+  "contentHash": "28eefaf416656f93cfbaad37d75ee949e454d613e244d18035e8def3158838e1",
+  "id": "Q0500",
+  "number": 500,
+  "active": true
+}

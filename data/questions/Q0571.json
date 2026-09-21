@@ -1,0 +1,26 @@
+{
+  "original": "Budget the compute and latency for the onboard stack. What breaks when a model gets bigger?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1959,
+    "lineEnd": 1959,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1959-L1959"
+  },
+  "contentHash": "d72ac5b23ec55e68864017715ada9800c66d246c8c28260c6bd9707596300105",
+  "id": "Q0571",
+  "number": 571,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Build a hash tree to organise data in a repository.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1576,
+    "lineEnd": 1576,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1576-L1576"
+  },
+  "contentHash": "1befa6934085b45911cf0fa013b9aec2f89637bff7b3de1469af92dfb967b5e7",
+  "id": "Q0465",
+  "number": 465,
+  "active": true
+}

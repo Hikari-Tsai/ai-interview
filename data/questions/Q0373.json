@@ -1,0 +1,25 @@
+{
+  "original": "Describe a time you dealt with conflicting priorities or stakeholder feedback. What would your current manager say about you?",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1252,
+    "lineEnd": 1252,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1252-L1252"
+  },
+  "contentHash": "07a694651577b8874c292933f214fc75f56abca1057eb8a5c03c3e013a8a67ed",
+  "id": "Q0373",
+  "number": 373,
+  "active": true
+}

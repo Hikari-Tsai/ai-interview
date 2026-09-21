@@ -1,0 +1,30 @@
+{
+  "original": "What is distillation, and how do you build a strong small model from a large one?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Alibaba"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)",
+  "links": [
+    {
+      "title": "How does Knowledge Distillation work?",
+      "url": "https://outcomeschool.com/blog/how-does-knowledge-distillation-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 302,
+    "lineEnd": 304,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L302-L304"
+  },
+  "contentHash": "00f34698a120bfa740436dee8159a9e70f6601005c3579d031922621dccb6af9",
+  "id": "Q0067",
+  "number": 67,
+  "active": true
+}

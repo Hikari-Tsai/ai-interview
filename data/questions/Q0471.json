@@ -1,0 +1,34 @@
+{
+  "original": "Long context windows keep getting cheaper. Why not drop retrieval and stuff the whole repo into context for every request?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms) and [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)",
+  "links": [
+    {
+      "title": "The Lost in the Middle Problem in LLMs",
+      "url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms"
+    },
+    {
+      "title": "How does Cursor work?",
+      "url": "https://outcomeschool.com/blog/how-does-cursor-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1589,
+    "lineEnd": 1590,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1589-L1590"
+  },
+  "contentHash": "0baf66d6b9f2e39ba8f87092db3521ec40cdd20808b2c1236d4dc137289ea178",
+  "id": "Q0471",
+  "number": 471,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "Estimate the KV-cache memory for a 3B on-device model at 4k context, and name the levers that shrink it.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1179,
+    "lineEnd": 1180,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1179-L1180"
+  },
+  "contentHash": "1cea4b02a03d6471da9ed677722424ba6f49b5977d13e7c09ee003d167d2d320",
+  "id": "Q0352",
+  "number": 352,
+  "active": true
+}

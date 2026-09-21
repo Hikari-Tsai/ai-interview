@@ -1,0 +1,25 @@
+{
+  "original": "DeepSeek-V3 uses auxiliary-loss-free load balancing. What was wrong with the auxiliary loss, and how does the bias trick work?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 851,
+    "lineEnd": 851,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L851-L851"
+  },
+  "contentHash": "881af62e859bb1859f13de40025f0d915567ba4fcf00e3c651b54ac03aea0fa2",
+  "id": "Q0265",
+  "number": 265,
+  "active": true
+}

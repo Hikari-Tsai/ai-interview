@@ -1,0 +1,25 @@
+{
+  "original": "Your offline metric improved but the online A/B did not. Enumerate the reasons this happens and how you would tell them apart.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1307,
+    "lineEnd": 1307,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1307-L1307"
+  },
+  "contentHash": "373175ca8fde49f9cf9a559da9ad193c3f9b50f2eaa7eb92619df4d1d8350029",
+  "id": "Q0386",
+  "number": 386,
+  "active": true
+}

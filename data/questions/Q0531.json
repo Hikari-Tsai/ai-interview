@@ -1,0 +1,25 @@
+{
+  "original": "Users complain that characters drift out of persona after a long session. Diagnose it.",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1819,
+    "lineEnd": 1819,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1819-L1819"
+  },
+  "contentHash": "980d05dab0715669a1e1195ffaf88fbe1e719c3b18b9562968225a79e4efe8d4",
+  "id": "Q0531",
+  "number": 531,
+  "active": true
+}

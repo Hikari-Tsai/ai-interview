@@ -1,0 +1,31 @@
+{
+  "original": "How do you handle tool-call errors, timeouts and retries in an agentic loop?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "Cognition"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)",
+  "links": [
+    {
+      "title": "AI Agent Loop",
+      "url": "https://outcomeschool.com/blog/ai-agent-loop"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 241,
+    "lineEnd": 243,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L241-L243"
+  },
+  "contentHash": "f9c76c548df0994faaf04523ac4306840582173017d579d12fd2e4864cd42717",
+  "id": "Q0045",
+  "number": 45,
+  "active": true
+}

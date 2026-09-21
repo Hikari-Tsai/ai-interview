@@ -1,0 +1,37 @@
+{
+  "original": "How would you cut LLM serving cost by 10x? Enumerate every lever and rank them.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft",
+    "Amazon",
+    "NVIDIA",
+    "Cursor"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://www.youtube.com/watch?v=jV2sCj4lHYk"
+    },
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 197,
+    "lineEnd": 199,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L197-L199"
+  },
+  "contentHash": "5132ab484ab500b75d40c75705a802c7d9bf1b196cbf9a5289043f0e3e2a67aa",
+  "id": "Q0028",
+  "number": 28,
+  "active": true
+}

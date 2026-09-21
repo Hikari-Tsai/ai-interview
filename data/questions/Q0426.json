@@ -1,0 +1,25 @@
+{
+  "original": "A customer wants to migrate from a proprietary frontier-model API to an open model. How do you run that engagement?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1435,
+    "lineEnd": 1435,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1435-L1435"
+  },
+  "contentHash": "fffb39dee40d8fa9f33015131ebc5af5453b3b2417255c3d80da86921d797281",
+  "id": "Q0426",
+  "number": 426,
+  "active": true
+}

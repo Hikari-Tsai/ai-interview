@@ -1,0 +1,30 @@
+{
+  "original": "How would you build the evaluation system for a Meta AI assistant before and after each model release?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 705,
+    "lineEnd": 706,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L705-L706"
+  },
+  "contentHash": "51d7983548c00da190a03750437bd977277c305b6818413886e710400b617889",
+  "id": "Q0230",
+  "number": 230,
+  "active": true
+}

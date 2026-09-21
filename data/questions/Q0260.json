@@ -1,0 +1,25 @@
+{
+  "original": "Design an agent that automates an enterprise workflow, say, drafting RFP responses from internal documents and a CRM. What does “enter-prise-grade” add?",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 825,
+    "lineEnd": 825,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L825-L825"
+  },
+  "contentHash": "74a0d6f0bb5293b727640e83f781cb7f21924fc9f84fa85d15df122e1bb27170",
+  "id": "Q0260",
+  "number": 260,
+  "active": true
+}

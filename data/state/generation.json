@@ -1,0 +1,4188 @@
+{
+  "Q0001": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "38ad98dfef2442433c0a381d7aa2fe9e5f6ac0671e06237ed8daf9b2f9d4b79b",
+    "sourceHash": "aae53e7a1fb1d62f9cae50d66527d816f8a920df973b72e806e987396bf3c294",
+    "updatedAt": "2026-09-21T02:24:21.954Z"
+  },
+  "Q0002": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "0b955d41c7a22c09883ae229b89973c0dc1063cd260399644e298fcdb0bfe979",
+    "sourceHash": "e36b541b0d3673733e93a76a1edab18e9846695a3a9597adddd06e4bc58cb92d",
+    "updatedAt": "2026-09-21T02:24:21.956Z"
+  },
+  "Q0003": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "86ccd4e863e5e7d7b90c9533daf1d182240677b4d601fcfe6404342cb06502b1",
+    "sourceHash": "b287246f05f41e7365c25a7924a2c337b3dfe0a91f102add2d438fcbd06e8dff",
+    "updatedAt": "2026-09-21T02:24:21.956Z"
+  },
+  "Q0004": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5ad14ac6f8a2a762d9671a5a67af3c4954e2b58343b7ecf33e78a1d7d3ec81ec",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.956Z"
+  },
+  "Q0005": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "f69e0c94ecc520177b35b6c3c6f6240af9693fec8543f3c34c30bb4de6de3940",
+    "sourceHash": "279c6a404aa126c4eabf4551dd8bb05b30e557d2f849dd4376df092770b0a621",
+    "updatedAt": "2026-09-21T02:24:21.957Z"
+  },
+  "Q0006": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "13555bedb2437d18082d3c8a2b31e410568278bdcb2f27d39f0a1a2d63170a97",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.957Z"
+  },
+  "Q0007": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b15a34fbad3926e488d41971a5ddd5ca58868a204d8b592cbc97330e92a56015",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.958Z"
+  },
+  "Q0008": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c3321857916339a1661f682faab4bbe8e55a4101ba5f2177c15098f2d5160aa3",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.958Z"
+  },
+  "Q0009": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cfadf24ea7977b753e80caed4b4af7532d732186a9c1be89fbf3430ca5ebd0e9",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.958Z"
+  },
+  "Q0010": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ddbfd6cd34d6a89d891adea7f48090a31e92a7090281d96e39e51e71271378e4",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.958Z"
+  },
+  "Q0011": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3e79b1b19ad655d87d98c1b5c33041f05e4ff941952c1a401e5737e4b3f9961a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.960Z"
+  },
+  "Q0012": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fbce308b0618b2ec5c9024c9ee8a28bdba4aa3b3f4b6236149f283191bf326cc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.960Z"
+  },
+  "Q0013": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b9cb5706b84bfda6260cba4f778b0f81beb8c09c724e22fda7b3fe792129b269",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.960Z"
+  },
+  "Q0014": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "91b3444e45c5196cf69c9267e17b950366a642d75641d33b4dac058a19e84ad5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.961Z"
+  },
+  "Q0015": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "945bfdaa1360c76a63be85278c979181b8dedaf390a5104d960c23e51e7ce08b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.961Z"
+  },
+  "Q0016": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "38cf059723fd28a94423adccbeed47331f1712c1b6b51576cab3d3a1dedb1013",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.961Z"
+  },
+  "Q0017": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "efa6ac2d7405432907a5bec113e4a559d49af76364d8bde69cf7140763374f7c",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.961Z"
+  },
+  "Q0018": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b9bb154cd8d1236281ee57c5876e5609266631e9bce07c5151a01f5353ecad5a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.962Z"
+  },
+  "Q0019": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "906f82d959dcbd6f4aeefd66d3544bd039ba7cd31608a7342c4f7940f211fa98",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.962Z"
+  },
+  "Q0020": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "28b7bdc057bf56b1c6456ead871864691d1ba610796064c44f9e355c674c8594",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.962Z"
+  },
+  "Q0021": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9558a70ed6a4dd08549a6ae39ce9e4aa4216c38feaba8fb3482ad6b7e8d3d7ec",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.962Z"
+  },
+  "Q0022": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "558822a7a3e7f3b6a99d7eede36e0bec11b1b00b7736c8b9558877d0fec0a04b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.963Z"
+  },
+  "Q0023": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7b3da25cdea9530fe11759fdbf7c07c47d9ec83401c4d8bf811df203c086f8b5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.963Z"
+  },
+  "Q0024": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7d73cd7567523983f7ad85cc08ec6959e3623f7ea64ff70a2b7b8943917ae4cd",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.963Z"
+  },
+  "Q0025": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ff4ad44a2da0ae4eef5b390a07f248cb499b554a57f4f97cc123b8fc8f5dad49",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.963Z"
+  },
+  "Q0026": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e9ee274be1d35562df3b0dd11b62e1a536dc37e0a11820e81da4e1f5fae7b157",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.963Z"
+  },
+  "Q0027": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "abe6094e9d3ce1fdab425737748a30f707b219688bfd742707b951b9353cc320",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.964Z"
+  },
+  "Q0028": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b185d670812aed569be6f96fb839eeb0b95e65aa03a59ad00bc10f436a70316e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.964Z"
+  },
+  "Q0029": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ae4e0c75311945db0e250fe053385e2ae6e59c3aa532e8238b5e0ff2290e0d53",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.964Z"
+  },
+  "Q0030": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6302e49e90bd5855195c0c4a9b7af280600af9644fb557bd015769c2ab1493a8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.964Z"
+  },
+  "Q0031": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9f21397ffe3750303b83ee7a03e4d359bfa5bbb6ad935f7e5a998b29a264b423",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.965Z"
+  },
+  "Q0032": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "8f758c3d2d3cb1eaff0caae6e8627371d5bf7c6067503ed672bde652c73a9dc6",
+    "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
+    "updatedAt": "2026-09-21T02:24:21.965Z"
+  },
+  "Q0033": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "90293f8592490530687be367e556c1443da3360a36e566a4f682180483e517d7",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.965Z"
+  },
+  "Q0034": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "2767b140ee32b1b41fecfeb6e900b4de15b1ae5a81c07932a3c56530710dfb79",
+    "sourceHash": "2e7d48be3952c5a33661ec02c2a02a3bdb64703e10a7aa166d7bac4f35fd98eb",
+    "updatedAt": "2026-09-21T02:24:21.966Z"
+  },
+  "Q0035": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d820d9bd8d9a1b9d93a1deaac6c9e908bd9ff83feb142b0e9f589e84a56ef6ae",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.966Z"
+  },
+  "Q0036": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "afc4d83a8105763ad755a33204831f92d1a6a9d809751d5fb3629f4fc77e43ec",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.966Z"
+  },
+  "Q0037": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "860a0fdb1bac7385d112e9802d5ce294737b15fa96221375ebf31f4b05546250",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.967Z"
+  },
+  "Q0038": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c6d035a8dbb11118b2288a9268177ed9d3b911227426b857bc65d2a434a03ec5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.967Z"
+  },
+  "Q0039": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8e1e96821d476a7cf4f66d1abe4938762918e360b1f3bf900b6f34e59cbd79cb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.967Z"
+  },
+  "Q0040": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "10e0aa845e62c9c2fe6799ef86b758b75e23ddc2b6c80fc792427b69b46d2572",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.967Z"
+  },
+  "Q0041": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "41974d566585bcac837147bca65e65d2b0cea65dc83ce7bcda778dd56f6e3cd2",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.967Z"
+  },
+  "Q0042": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "55795208455e82ad1af62ae1ab08ada9f70a5a4d806c2055eaa4fa02c2c2c1d0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.968Z"
+  },
+  "Q0043": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a22c1be311a69a7eeafae3d5522899356034ae8384ce7cd35c8e62845d9f3fca",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.968Z"
+  },
+  "Q0044": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "cda4bc8e04a14a0a6c3ae529f65b666110665526111cc09f99527cdbbfb1f593",
+    "sourceHash": "7d0128f77d4a5bb1f51af5251fe432d63bb12c74f45ddc13c65223289a39d26f",
+    "updatedAt": "2026-09-21T02:24:21.968Z"
+  },
+  "Q0045": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1d65a238d97ed90b33113f6ad5235bec198d48d36bfec76e16794716d398b916",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.968Z"
+  },
+  "Q0046": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9d68830e97705ab0ebebc321f52e3fd621fec3737fa4b92fe6509f0d176c58f6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.969Z"
+  },
+  "Q0047": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4f8936e7261f040e483d3674fa2d253d43673d17ba9d65db50c830c7ba9e3289",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.969Z"
+  },
+  "Q0048": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "529b632fb7a4617525d40f4f77bb1584beb7d89ecee55d5846297b41ced86374",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.969Z"
+  },
+  "Q0049": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "679140bc6d8ca169e2657f7f71495dd65ffa49808393b22354ade9bd8e2cbba3",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.969Z"
+  },
+  "Q0050": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "397105926dcdeec940587d5114009b3e942510898a76d3dc397ad238498f3182",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0051": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "801d3d7c2be42ba22f63908102a9df0fc8be1ea277c47908c540d314bf04718a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0052": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "293fa6477f075e65e63b708fb5a9e997811031ab81d12179f36f7eae60d5df6d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0053": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1a2bac144e6d8fdfeed53641ddc7670b114bf5a5ebccea0af66e4cf43f20a54e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0054": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7e80f501f3a87d0ca59231ccd2c3886e4cc4cb7130848b103cc3a46382230cba",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0055": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "14f7edb3ef2f297de54289822bcd80a0074c26842f43c7cd1eae392de4beb06b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.970Z"
+  },
+  "Q0056": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5336d3e7f528105b482cafa5206898a94d53cd0d623082d77801f9a98ab9c7f6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.971Z"
+  },
+  "Q0057": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "03394617c9cd3bab8c15112d09823e7e82f63bcda4f07c64e8321da0e84a85e9",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.971Z"
+  },
+  "Q0058": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5c11e053fe924403460ba490949a5901d7be0fb18e0fcdc2f657c9194c4a6889",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.971Z"
+  },
+  "Q0059": {
+    "status": "ready",
+    "attempts": 0,
+    "inputHash": "b5fad3f0d5ab5a9f7aef2cd842553f003b4acd343599d574d175d96439e71e56",
+    "sourceHash": "d4899f5899f3e3d30b7de017080e637176706b7fcbbeb7efb65b8b95e9787574",
+    "updatedAt": "2026-09-21T02:24:21.971Z"
+  },
+  "Q0060": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "71513a8134b2c8f1e437a965c69b07595022630cebe94f86360d4d5127a2839a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0061": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8e4ad8a09c2b11c0192f62a501f3583c309d3b8f73c5c7fccb7e47388411bf29",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0062": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2c2cd4de0b9957931e672dc22e58986d50717c25e764c49d1134e20dddfe6898",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0063": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7ff12c014be83df68358db41b6d92c9d45e4c369e41862521722bc4d2d8c2a70",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0064": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e9a1436d31ef61a44e34d4a4fdb7fec2c98e1e41f7738ef45e8eaace3a970591",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0065": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2af3ee24a2ed012f75e048a7b49bf4bbe9e6b9d5b983232b42d37d8b9cba153b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.972Z"
+  },
+  "Q0066": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8c61d3362acb395c11daec25a723a0f2644ce2729856776125f02539631ee8a6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0067": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d2935c909cba4fa3a3c78d91e5482d34058a1140ffbb9ff01f5f050de5805bf6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0068": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c9526e4b8c352156eb7e8e65289606d9e691fc6f970f52ee31b9f787cba25ed7",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0069": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d1b5cbad2eedb4c1cb94a8c03f89b60af51d5aa59505a83749beb57a148d1669",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0070": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3f37b9c06068c8f1390963a01cac7d68fa6c395a2ca819dcc44601b25ffaaf5a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0071": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "28620d3c698168290c3bbc88a4a425bf863c242becda3b74deb6794758dfc93e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0072": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4c03135eb1dae85876712571154b25da8f4d2ba48572309f39930ff768ee6a05",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0073": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9d7a6e95a31fcc9aafb8a811bc973d7ffe44bc2068560f677e17ba628fdebdbe",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.973Z"
+  },
+  "Q0074": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9475da58e1d3da6b1c0e30652f0b6972b083b29455ad14ba80be031af19ff57d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0075": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "49c7f43e31f4312d4fca300003088de20fea0ea6dd89d41bbd1825618ad502b7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0076": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "498b11f17f0e787e1408ecfa2642bcd433fad7eda5f1f97306ab2307b10f1606",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0077": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7edc3cb9cd39c6dfdc10d165c2191ad1b4ddf4b1ae345a0d7ceafc728f9fc649",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0078": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "72b35325c99fde41fb5e8685b5cf3e6cbd30b4783e3fd11571db66ea44bf47ef",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0079": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "010d84a7a4d3f7cec5711ac0743beb4bd1a30c349bacd407cba231a26515b1b4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.974Z"
+  },
+  "Q0080": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9050c78ce74134d8525f3897cdf35949461a8cda607f7e00b78f698c219cc105",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0081": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "338f17f92ac2ab705e6d0988fc0e56b8af4d819e6f78a77de2642cdcc9049fdc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0082": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "108173ea255958542b791c375fed1b3d0a14e05daca8ecde49cf9c5554bc7f83",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0083": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e5ee3f7bf179f3ebfe3543412df5bd040dca735ee54cac019269062e7af2c28e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0084": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2a3df6554a5916cb7798329a5356c22a9d2de0ee02077713740235d8b66f38a0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0085": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1a5148626137c561a0b63a11f60b18031c1391c75bdb9c80de9c320b151120ee",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0086": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d1a67259f6aed3a586d09bd048e810d6eac30d1e3964a986f7b78a0c5be088f4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.975Z"
+  },
+  "Q0087": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7a0988e248a8eef7d0e802a41a80e1b125f4de19eb13b55ab417e4f2b3393105",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.976Z"
+  },
+  "Q0088": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e145c1d2bc7679ea6e32f9f05eaf4b01b15a06c26105aa5710c6533a867c8025",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.976Z"
+  },
+  "Q0089": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fdcf5351eb90b2c8dcaf584739fb1abb090c8f8d0071622502b80f5ea1f5a56a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.976Z"
+  },
+  "Q0090": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "02f40df8d2a3a248d556de1127964a5dc6fdacbc5249da0574630177c8843fdc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.976Z"
+  },
+  "Q0091": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "271461eda43d70c304f366fecd54dcd76fe7bf4cd8b4de318b38b628eda6a3e2",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0092": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4646818b31b6f71b256ab49169e2b047f664ac5c96f9057d48974efbb160b65f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0093": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d397234c2d1f7dfa20f233620b41f76a80d724789ab841b6eacd5c433110f5a3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0094": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b2ff7f9e260afcb0402f5c657daaf2405447d4afaabd7c3322a2d0342ca12972",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0095": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "229deca59e4f0f063e9c481471f4597e1431e176d3ee0dc1a878999437fdc54b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0096": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0f372e33a9a57fffe38d87df0f280a5dea5b72ccab7451792a2c5292da8a2001",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0097": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8387e40524c68ff4b7246e0e6e87c3de139cb9e997cc8c8e089564b0d8e5c2d7",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0098": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "00e30cbf744beca67df7ef44ebb5c775e983feea0dcfd6ce2b8f79a7d11f7067",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.977Z"
+  },
+  "Q0099": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5b01a33dcef231936a6a58613b4f6ef38798ec004a02ce8933201cb30c5450a3",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0100": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ad9bba29d70689f08c168411077006997b1e3227159a7185e17751c676b283f6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0101": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "72d386923f2043e2de6c929156cc48c354d6898ee74609d92ef8a150cf7d1d49",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0102": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "53274de0e021aa9942b053a8f4ce87851da98e351f8a52cb390a7e694c48b514",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0103": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dd24de8cf921fcf9ad28266e0efc0fe2683a0075fcebfbfcab0341bfcb4c001a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0104": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "da6c04c156001067a688d32d80eed3178b12a859d294a7c9de453841d5e94a7f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0105": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "508beaa09a2760639a4acf256d8e49bf3d8e9e96a41ff2d6b68f1dff2119a8e0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0106": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "af46fc8c037c3ce60524ee0cba9f26476003c5f5ba03f95c4c2e9a0e16125f39",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.978Z"
+  },
+  "Q0107": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5a1f85986ec7fd925c822363ff5925e6ad3f9b0ed472b46f14bb30f00e187e6e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.979Z"
+  },
+  "Q0108": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "61fa4e4d362fa50d9f35252581219b5f6e38a5ac68a4081f98720dc2cd6b202b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.979Z"
+  },
+  "Q0109": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f3d05bea940d0a162a83cf49e94a872cd65275e7e954c18ec2897accf05f2c36",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.979Z"
+  },
+  "Q0110": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a75a6289cfd321b17a42e22495dbef2cb27db871d1a00402bc935a8c13ed89f5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.979Z"
+  },
+  "Q0111": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f25f02e928f7c377d915971e6b86c17489d0f6c4346a9b13539e9d9d742556aa",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.979Z"
+  },
+  "Q0112": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4020a8288e12060f206dce4fc7e5df0557115746e789fad2050f82974c387dcb",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.981Z"
+  },
+  "Q0113": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "edd2921c061e4b3e4c546aaec9cfd360da6d6f50c03fe8e5abbd552c8bb1272d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.981Z"
+  },
+  "Q0114": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6c91c2075c3fac970e0bed475c4f86996a4c9af4e459bf32e492f9b0c47e2104",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.981Z"
+  },
+  "Q0115": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8870b39414f4d047b4534e55ae9eabc49031d9dbfc0b36a5b8d8bfbb1bbcfef8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.981Z"
+  },
+  "Q0116": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "57b6b0a769ef091f4bc600c81133d3627d8be33f7826ecc0c1266a3d45f2d62b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0117": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8b57586dda44e9662287137ee9dd4c423d4cc4dd29d4ff4336e6546baeacbf8b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0118": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fc73a4827c511114d67158f27010f3dbae13dcd574f937709c0aa3f40f395280",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0119": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fc43a77f3d9047c5387b260148c5c8dc6fc9e1c0f891048d7b904a70f34cd0e3",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0120": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e0c81fd7f4fe022359eb4b94180e46dac63933f09d554c1a529de39b4c1c4bb0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0121": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d286e04cea739fd67353afc7230f535b11295d5e10c73e4f925a7cb3c39acc3b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0122": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e71837e65f402c742e34811a33925c835af054f790cc29652882cf8d1f32088d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0123": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fc22cf6d64b11120671fa389c603c1d913a89113f9b0276c9bc5cb05fa43ffe2",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0124": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "203bee5df64220cd0971011cc400cdbd159790ee2a9f124a3f4e173b166ecf9f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.982Z"
+  },
+  "Q0125": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "333805c92708091bcf9ac1d0b7866f1b5d5eb4ecf79b5ca9107707cda6e7f164",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0126": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "58e787623e6ca1324919ba13b3a31fe3f6d9ddd88a559b04c84a697fe6f8a090",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0127": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a62b7dd98afa0e8dd27ddd258e5eb803cd6e87a410d6d6a4a3f272694e6026be",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0128": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e3efbbb081ad50f1c15a3ac2b802086cad0456fe11e85b53236d76d7c2c5d2c7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0129": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "87fe54a76bca7c8c938d95079210639ea0f2774037cecc02cbfeddffce4a8ec8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0130": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "029dde4a5494de42fb0450e5fba3aff6ec572540b9abb5eef286f3fb64618bf9",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0131": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bc255bb296a02625a1378002fa98cf3e311a1f03b4d0947bef79585e48e02fad",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.983Z"
+  },
+  "Q0132": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "eb02552724eae9c48b944591514107329885ba98323929de18a236ded11df812",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.984Z"
+  },
+  "Q0133": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c06ea46a174a94cae139b96cc8e34fdf1781ea62755552a1fd4f839e62c1118b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.984Z"
+  },
+  "Q0134": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "71a23884360772f39046061b265b63c6e21881770cde8c73c6beb923fe10929a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.984Z"
+  },
+  "Q0135": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6f60b0325a5bb0d382d14579aa4e9714780b73507de7b09c181a0e68780a7d03",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.984Z"
+  },
+  "Q0136": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "68a30feb66745bf04f468c8490a6a8d90464fa692678bed971330f57329afa03",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0137": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bab4471f9b30adffc9fd2cea83f99f3c32a126db7c32284c10eb334cd4d7a286",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0138": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c8f00a8007067e1e9954e2bea2e395f4b467870b00fe32f12915f3841a7cbeee",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0139": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7ac3e952ae42d60c55c62f98263662b15c3406c1627d5dc4ce10e8aa88656a5b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0140": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b0013ce7338a887261036ff7e59278a3df7ba62f72125a4fa15416d28a72b598",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0141": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4a748a0e90b7da186fd6e7008d9718ff1e018e1b1580ddda0f5700d710f3c266",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0142": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "57d491d319ca9101cee69635cde9d29783d5c220169fe83eb7f5407c16e56d12",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0143": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "09a4c4468ebcca04015634f8e7e305b7fd93f78714cb5355861c11a7c1c669e0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0144": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0a2e93401c1d685b9323016331cd7e90039fd970f63d792e48ad5955e0928dd6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0145": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e991804f139b4c81de078609e76b6d974b95ad5b24d4347bee84b3bfec16edc6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0146": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b2497daef52dc703629fee11524a22ea9ccd6a9ba1638ad9ae666134465ae654",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0147": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "801c1176d44bb56b3d69bdd2e62c0d01a3e92ab53908372314f6449f69b1defd",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.985Z"
+  },
+  "Q0148": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2b6cab317f436cd8e0d5582c827dd98328d8871d5707a6989fb0ecd7bdebb9f6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0149": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "49bc765348531a8e168ef9f3a14657975e0f335fb2b76c34878725a5daa14574",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0150": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ad00a388f216536105ddbe0b5a3380e582e84a496afdf08626501ba50164bfbd",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0151": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d014fab99b25ed407ab61f61e4d58e741c1c2d0af64a52b15a7ab326d11fb38b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0152": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f45d61c4e64f6e34e8dc72da7c56b0346f9e6fcee214bb826a91578f5a79b819",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0153": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "43a5e2ecf0dc408f1e68e8f7f3e5cb3af41db5b93e18b2d33b135ec3ca382fa0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0154": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b154e8e094ad6a5e59158344bfeccd589fd60c258b1efa503fbbc82d479c9554",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0155": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "885ca3dfc7d93a1aced4eb024de4928dfa08ef9fab934c66b62cdcd527e016e0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0156": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dcaef984c6a089c560310279f2384e5a9db7e4ad45a68edee4c1e50bf2c14ddb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0157": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1812dce839641e27924669b25ea35572acd88d875011d2087419e71df9b82bc8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0158": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "769b54f61bd0c91e742c9b381c7e79a0d76233f0b1bad72788747613f1f37f60",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0159": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "87a20cb8d28464f28855869c756ec17859fed75a667ee47f35c613ea24d8ff63",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0160": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8eb935340cbd69ecf7dc42fce5f95f3c236e0beabcf4742e71689b2ca2ff168e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0161": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "11a1829fcabe6b88ae7b7acd9f605598315c8c03a0933f2f3619583e61086620",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.986Z"
+  },
+  "Q0162": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ac88ba4b54146fa124d614f15c9fff1c9085662cbc1891d45bb03bbb2795e618",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0163": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "442d7cc6762149e6830d34e2fac1e555683a66ba74c321e0f33bd046007ec8e6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0164": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9424a22e5e5623d46e65c52c581b8d1d5c1ea0008fe24b88c9664bf73004dc1b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0165": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "996f9576559232184c8573268fc43c3a6699731a4722c22885173ae724ddd898",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0166": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1cca93f8fb5bf5a3221aa53f5d22969e5ed8dd53dd29ff9a40311f1403a6c4b4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0167": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0e52253c10c810d923dcd38a2d318fb5b1367b2ff1338e4d1438303d7a65f137",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0168": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6b87d9a8100fbc79ce3e08d267d2b6c65f2745f998a03ac9d55c7ab1e0792264",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.987Z"
+  },
+  "Q0169": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "41af5800141800f1a8cfb3eda5e7df873485665297a6a7752bec1d6ef69cf509",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0170": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8cc3e58722cdb86d69c367795b86967fe153c7f3255d8ca6079b5e6fa4960ef2",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0171": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1b4e02d3718819b959aeb71abd031057580ad4066171c8669554df7a945a6a68",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0172": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c85a938b23ae9e10cff63012723f84ec2f7a93bb7670f3103f0adb13712b78b3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0173": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c574c8b01aac0f0e5ef6ccd0358e195175d2c39a9f42918b364d91c479910cfb",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0174": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dafa26b6886baf5414f5c4e0b7e152849426b84567a2012bc96446c56c93b35b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0175": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "134f6e4871a5679b07992233f782f9af8c0e4a477b6a1bda60f94be91c471ed6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0176": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f021cf4149d16b9a2e092aa82fa45773c10e53f1c743bf8f006ff976ed4996b8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0177": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b9cc0c82fe0ba0e0786504c522b90465afc10a498b3d26b185a2cfface45bac7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0178": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e0a17bf4eb6fdfa371428bcf6ee321734b32114360838645e7a620070b230e73",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0179": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c65b0c65dbcb49092fed1cda003bf6cbca2376dc9a41da487204f8adac56e14f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0180": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9a1255350500db9d1ea058be123335c0bc59f0a42689cc223beefbc4ceb33dc8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.988Z"
+  },
+  "Q0181": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e175dde3014c33800387c4c9f9ec58afc16fc543e5a10a1e297f0816cc16e7e8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0182": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a7f74ee91745a51c95aa340d56ddaa24b678bfa8d871ac8f75aa5977c6597537",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0183": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0db97df8eb5112bf2dfe1d0c37eb0153a4ef19cb9f0d3d5824e5db02693ed5a3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0184": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7454d10cab9afe3587d2641b0c99277f74464af60d315118426dfb7ab8e7d647",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0185": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6c6774df482f6fbd7b8b56ca2347b10faf8cdeb18f4975d62592efe4df9c959e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0186": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f0d12b8963901c101a522c66e3e2b77feda23d6cd3ecd3f93e6cca15a86a4f1a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0187": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1468f2d51bf862b8cbdab787c43d8f73cc3afe5fab915eedaa3dc94ca7dfa50b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0188": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "778fc02e9fb6f5d396b8680da411f162f258de7a520285577423e8cda731bf64",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0189": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1bc8f00ea045eaf07a1492172a09c2a299fe860d1ef7db1464b7e90b447c8875",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0190": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a3e492b6dbbbb88f6351692ef94b11b4a76bb2265f64ad05f03ca4df81d33931",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0191": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5092de9f47e0c4afa2e15cfab49bd8f444df2a04ebb566b24f9737cb9219fb9c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0192": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c26d709caee598347126ba7c64a6f81427e8300fe3e5b3a15d707529e7d15651",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0193": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "47813547708269b3a75c15bba845532f6f710b852265ed92983156854dc89c05",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0194": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ba309769984675c1d55d087b7a51204503671b5afa2031e34b4aea0cf54e406b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.989Z"
+  },
+  "Q0195": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "beb18ce69676a17e812ea80212855f6053158419fbacb88af5ce090b49cff7f9",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0196": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fe95a79fc1cf71486eace0d9d3d0cb989fb34f0e382e7924a4ed34155deb166c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0197": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ac9a976c519fc4ca4a23163fb0f6d8f32facb6352c02d7a1059a8bf061880322",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0198": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fbfe8b5740619ef555db387ea6e46a246e7652259322f48b6f6c856369d15a1c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0199": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c70269bb96eea9120fe58f0736672bd7c36c1784a737a18fc473aef7bfb92c72",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0200": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bf81d2f8e0c824d4c18aba39385b7a32577947fe1d514fa2012d87381b9aea6c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0201": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "22fdff3982e496f03573ce18f9881e0bf60663b83dd58eb8ffe9a1ef5f2acaa1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0202": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ea9bf1657ebe82ecdcf98aed47651a743e45a468d01158ac5d8e9f71236ec801",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0203": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b361333137f48072b485c7e7aec85419c9e999630849f9cd0215602a85af09bf",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0204": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1bdc582ad07f34ed59d8079dcfaac6fdab23cd4e6ffb0ac8f6ffbdf0dc7ff0df",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0205": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0c108211796bd49dbf5f5f36103fd3c26130206f470ae18fb5b3e04e2d0c4a94",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0206": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5beeb0effbbe0df3cdc19503e7f22be1c65cf98e6a73137d3c1b64bfacd904ba",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.990Z"
+  },
+  "Q0207": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7cb6d513b7c0d2720bbe0248d252cf906c5ed45a52853b0082daebd780cd545d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0208": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1e4e9c166813fb76fd257da57c4c1682209106d8edf5a1b5f734bf63fec5357c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0209": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "976509f249f6f641f1c6587898d19c6d7c15ba03c9fe04824aad78e63cc3e836",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0210": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dcb987e0691001cdcbc5e1ace691f02f0122777029f69abaf0e7792270d82e80",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0211": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "07ce59d42c2be61f4f5f996095ef1719006a3182dfad15073ef798ea4c6d4d6e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0212": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b3f57afdc766b186e31b9f900476108eaedd2a95d952fe790d6f1d34a1b2fa18",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0213": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "37f41e4288f10718bb2ae06544718af83886200331282e688248e90f27aa8dd3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0214": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b268826ee99831a16aca66924e0a60d21e3f8212f6979ce7a5920f1b7961f390",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0215": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d1b056a35a8af75e15f98cdc0ae9d745e1a58b6a6bf276c87931619faee9e1c6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0216": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "03bc32fe6aa8660aaa3d86d2681adcf6aa869041e33a0ff651abdfd0488552ce",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0217": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "52b6f7f3499ad39a68d41d745b860ae9590fcc2ddf52c76bf8e44f1acc98727d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0218": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "238000a95fdc06fa81f3b2c7328d5ecdd3aef545cf5d058e641dc1b6970d18f0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0219": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2e70a75a1663b5c0e630dd080d70bffd80d608cd6d13ab858a733cba87eaf6ae",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0220": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6e834cdd3391aa1425541153c3c5282fcc046d205b5c396971f47f807939b441",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.991Z"
+  },
+  "Q0221": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3025fa41764f05f6a079c44973b848d26b9fd0a796142cf8bd5a862bd42946ff",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.992Z"
+  },
+  "Q0222": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7508495776222e69821a1597ec77db1b8e7463228ed8ca718cc16925911dde21",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.992Z"
+  },
+  "Q0223": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b211439f48499c3d812669f9367beffbc1ad849f56418dcd18e65185fd4a1eb9",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.992Z"
+  },
+  "Q0224": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ab70c2f6a15fae54ebf62e878b6d0dcd6f3ab133560051abc172a6026b849bfa",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.992Z"
+  },
+  "Q0225": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "631167ab697825f88d0ef6d01b516795f2c3ad1dab6ac824f745a584cecbfe25",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.992Z"
+  },
+  "Q0226": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "895303b736582df389df4e618e13feacdf996e321fbe249d8ce26b5f7e9d4f6a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.993Z"
+  },
+  "Q0227": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bf5cd4e88ffccfedf1b7d99e2f946aff3825a960838286f490d0ae6d91d4b5e0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.994Z"
+  },
+  "Q0228": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "de281def1218470fa119f6fdedb76116372deccd5b215bb2e6238fdc78a955af",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.994Z"
+  },
+  "Q0229": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f98321f89569814c62f063b15e9993f94d03347c5a8cdac60b2de02293eef999",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.994Z"
+  },
+  "Q0230": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3c79ccd3c4500e4a0dd935e5f4ed267c4de703028cc91c22c8ca4d8337330d6d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.994Z"
+  },
+  "Q0231": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1296d3a389bffa70580d88934f1d10eb46cd08dd82d72930a5432b1f282561c1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0232": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0c671457aebaf00adbb608f18ebc88667a5d7c791b5ae168fe56066e9c0a4e81",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0233": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ce1cc21b5b209a545c5caecf11d0a9355dfed4d18e0471b43f9a4520272dbcc4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0234": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9cfe9f79f67d7893bd31d22a5b14effe47f1ba4632090433a5752ff5b8eb3906",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0235": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "997e30fe2962a263ff4585727ad54f664b45bdb9d415099fc0fe68aae11977af",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0236": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "13c5be8d54e91a618645a83b06e5e87d4ce8151708941f92022c9e11dbb1c003",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0237": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0f2f237453c0b5db0af98e0a2dfcf019c5efca47b98a4f75475df09d66e2899a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0238": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "64d1f7ccd278225d3e9a832aeb9a68a40af7b240610735dee47a9567917a875a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0239": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7e0e06ccea5848c352f10a6338851c3d769c0f6e7669f23a2d304d47ae279f9f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0240": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "219bcec3d58b12bbea54cc58d084c3ab0cf2366fa2aff62fed1f6de198889156",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.995Z"
+  },
+  "Q0241": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7eeaef4f130f2c4174443d6501bec3596a0c439c4584d6b2a1c66d6e0e59927c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0242": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9726d4efdbc11cd1d27d6d157655d5f2a98fd49d04c10505c41e85cd44179d57",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0243": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "03a081be80191345af13fc6854acc5c0f8b89e9acd907b5974d92139f0e6c119",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0244": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f7b89b014dc8afda71cfe91f781c7c7cc6ecd958b1e09014da5f6e3c8f14d068",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0245": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "009bfda8c1b54a5025627d157c1066da6b689b7342b9dda6437e8948f70beca4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0246": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4c20d04176b552b99bbcd1404e15473e280d57631e9af60cde06d1fa17456ef4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0247": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d9023001c8a4bc91b7a0fbe12ae070b924e3c518343954f3ec2bbbd13a7fd908",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0248": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4fd5f6eb48e56244ca22f4ee955122b919c82fb59ce95e7b854896077fa045d8",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.996Z"
+  },
+  "Q0249": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fcd26c929903260afc064ccf850e8bc07dd65a6d41e7de5d715ab468da72a76c",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0250": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e0e646822811f734e5763b7fd76ff841e50bf4e0f8bd5707845abd3882260917",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0251": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "931572173ed76e7f17f658b3f5ec601e782bfbaa3ce531a4d9518516d5800f84",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0252": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f1445046bbf89a2b18a45a1654890e94a0e1fcbff26697a7e5e1e132cc481c17",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0253": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2c415effefbdca19eccf0d1a90accdb36d147833ce402174e9f37f216c5b1a8f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0254": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3340a56d17b1d4e82706970faa541edf8e177b0663cb762b05eed7afeade842e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0255": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "aa86649f7716259e185d70e844c2469e59dfb0d3075ef56242f84d2c46e637d5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0256": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "89edad32ee701ce3e2742f0dd43444a0d53084e65db2c01d008a1cf9c1ce0452",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0257": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dd2b472f1e65fe42fc1bfded53e25ba90d6952d6f2d2c3744ed5fd62d23b85a8",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0258": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9a3a91ce5cea36f36ce251bcee487a97b19f6ca79fa18cb3bbf53ea672b80636",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.997Z"
+  },
+  "Q0259": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e9aeb1b993a930a4c94e3c7428aef96f3f9b828e2c681c691a0bd1e96d4c5736",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0260": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e56df3c6b1d24b3e7c25c2751ad39664cf500a7ba3d84009d458d4b3e9b1e23a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0261": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "70499334e1a012ede73671fbf8233f35a60c41a7789cade33e0d3b488841b493",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0262": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7779ba5e8e4bcf8a0008d8b79da511bc9ff207e61c967fda1a6cd12287f57fa3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0263": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cd629901aeb50b8d79e3c387a8ea183265bd546313e0eb6c2cb77777be954e8c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0264": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "53271603bde7bec8468e78c792f7c35b73ee9ff44dd06f0c9c38a58bea0d10dc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0265": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7fb0a26738069d511252f008cd5244578de14b51be60209382e398e9e9572413",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0266": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cdfe5beb8d9f6948089799858ab80d688b1ea000a1271237a772b8f570a4f6a0",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0267": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b856cff961f49a3b1008faa4e424b64f4babff378ffe6d14b2745da4940a13ad",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.998Z"
+  },
+  "Q0268": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4192fa341b4e8e767272a6f10ed68276ec54311d169c408fe3b4b6d8921d589e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0269": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9275fdb829c51c0cef9eebbeca8e5f72e86c49bd9578c56aa5826a50c22031f5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0270": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fa57b09f096bed2632c6da79b7396fad7b0ed0985013a6cd17a37033e362f07c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0271": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "90b730fcf4b9f368360bfef3712591bce0ab4cb52a8579d41a09ae41fb1cead5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0272": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "366392545ca9e7f19557cecb66bf807c2fcf75423d6d9d6027a40eb1bcfb9bd7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0273": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "15a2e4272520d76cc85b81ba00fff6a0208f01fbdb47adaa747750f17fe8b2e3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0274": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1b024207006df4dd029d0a7ad6033a650b4e8fa2762c3632d2ec29ba26ba745e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0275": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a6f7b7d2753cbf9b166d6acec9838975842c46d087e880548f23111d607a69fc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0276": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "daab9dbfee5aa6e96cc6189c0c85b839c5dbfbe8b59f954b0ed03f1d41f9a002",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:21.999Z"
+  },
+  "Q0277": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "51f95f13cf46d066a5c5bcc0dbb2be4f06ff75162a269c85c0f5525af42593cb",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0278": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "eb56eb712e37f12004357312402afeb62de50e1176e416830cc12ba2cdf38f1d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0279": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "066a31e6b0f1c1c40f230a636f126cace45b182bfdcff44f9f8df7d4abbd4754",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0280": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ede66e800c5fc80457cbb82584c9b7b8ae23db800d80ef62cc6b1b49f86a85d7",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0281": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "91de62563f2f828b7af81346104aa0b0dbb10bb3dc8fcbcf6deb79f236b6881b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0282": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "75cfb077898cb24a1d75d53ea835a54211211e7f6671c47fb558988875b9f2df",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0283": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "78f31bbbea6531b302582eecaf1bb1aa8ec0b927e62147ab8c35787bc9203e12",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.000Z"
+  },
+  "Q0284": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6cf83da16cbd99de4a1c005cf77399600f8626ccd9135db7fb9166843da19313",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.001Z"
+  },
+  "Q0285": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "081d1c8c61dcfd5310824debd3b5c402affd9271aa355fdfa088d7c48cff6662",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.001Z"
+  },
+  "Q0286": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "278c00ec615365a0058f076f46f352019a2f0e98a898257c2390071e64e81f52",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.001Z"
+  },
+  "Q0287": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5cb411516a72301f702129e99f7a70be43300f1eaa7c3ad2a5234c8a22ccf9cf",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.001Z"
+  },
+  "Q0288": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c16ba7f3e607858d9000a5e9a495d8b86b129d62cfc3b00827277f1cd612d747",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.001Z"
+  },
+  "Q0289": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5be28480ee18e50a51024467abe4852538b5f92b3210b85f97ddf45bb48efc91",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.002Z"
+  },
+  "Q0290": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6f6e76841b4b368ab543e91396e5ac6fc53746487bb440f9614ae5e06f7148e6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.002Z"
+  },
+  "Q0291": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3871b8d970d6f1fd6fad15f49b4671a33b1c517c5913d76a148772930a736992",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.002Z"
+  },
+  "Q0292": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4b4eadb9c3a038c5596a39a55e0747c7b30f217b977c58feaba4c085acf2342e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.002Z"
+  },
+  "Q0293": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "634dafb7e242d5f82b9aec278e1092def4c5a1f53a144cc21881abf5db753b0f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.003Z"
+  },
+  "Q0294": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "64c28773bb0ee1e424919856288c9eb5818de5761c8ab84da9a0a4146439f33b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0295": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8a98f211f811cb79789c8303e59abec98474004f80fdbe66ae5dd051d15bd5c6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0296": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "557e1e59cb3befc2a9ff38f11c55e7bc651821c825473bc98f310d3c683844e8",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0297": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a41c0bceacc1b9674b266e9e708b9afa35dd4cfe0b9e902160928426749b5070",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0298": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1cfb8de40eebeaae9f2cd6dd2f7ff42de6cb4f5c776a0e28bf1d5e9c76ff8070",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0299": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c61bac5e706b2683ec429aad305d700969e1ac8f777c9c7a814c891f52ba2ce0",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.004Z"
+  },
+  "Q0300": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1227ef14ab7f4cdd168c9a2da64e45ba4dbd7102eec182f922419d2f7683ef24",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0301": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d8eb44c28584f48bf453b39bd5fe6a74dbd078ae9842df9f283b5cb7742bbce6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0302": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1c9b898d3dd3d7b61f0f887b11eb9447a93f60f3a12e2aad7a1ad8b0f2614df1",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0303": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "026132bd3842ede191c66cc16c664c72dcc05215486f2762f8c51cd010ecb171",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0304": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "36a9720f5e74af4da6c79273930221216e665565f51d456a4e31efe4130d3123",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0305": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8c89a70d7b4c903c7cd451754f4a0785fdd12bf48f04e123f8c4c71dd0d6cb3d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0306": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9a0e86a14049ce34fd4da2daca9d2790237886acd361d930dd5fde372b499b0b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.005Z"
+  },
+  "Q0307": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "791fa7c357ed1f9baee2b8c336d8ad193e402169e6d8052f23391dc42449cd30",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0308": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "af99c762c259caa7cb97593a26629d57458c0dd01c213c65d2863df543fe3d81",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0309": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ecde1751dfa289a0efc75dc1c79a53047933b008eeeb51c57d64a553a6a1614f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0310": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9173a6d30da27b2221c6a60a69b3f75c909451bc267ae89b75e58b8abd1af7bc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0311": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d1b92352e4b0962620f512af466e38e82902fa78fd6b7b96428086fae9118354",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0312": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5ecd96746af6796d400a603c54b09bf4ab1faa99355efe8129db453e282bc281",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.006Z"
+  },
+  "Q0313": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "04076b4497d7191d55deeb0c6e29129dd198ca59f2d6beb76eae688965978699",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0314": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ed2cd98c58a84e5b9183f344d510fca30240efdefead8c384b2ee83323f5eb12",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0315": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3e83d7cf97ad8990d050b50d39544e936e1c5c9eced2469a1575c71f3631d275",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0316": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c93c92041f6ab7ac414d178d880a44436e901498e1912617dda7ac68aa6e79ae",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0317": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a721616875e42bc1036f417a7e173b34b97afbc360061b6cccab15237dd4a7db",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0318": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "599abe346b808cbace8afbe5607706b11af7848f667cbaa447f7c55e052e200f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0319": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b4e7ae576d8fdc8362fd7818ae5a8c8c92104d407b5dfac327750a30b222bb40",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0320": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6e5a9ab1e34bdad474d239f80d19536226d715b1ff4580ddeaa0fdb647ceaf9b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.007Z"
+  },
+  "Q0321": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "554941122f3cc447d517819e31c4dd59bce88c3a2c53c0911ce909125c472d77",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0322": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b13724d19c77e995eca4c675d672ee59962b773189bb101d70f05f2151782012",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0323": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0f88053c431f45604145aba3d9fca0faec8d415c073977a617a07f89bd8363d2",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0324": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ad4b9c1f34b650b26e4ac52c96f8d441990eac3daa94ff3399b0303b9dc41d81",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0325": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "377a7e233177aa971ba13a812a442802eacd23be0d76694d1485caeaa409be7f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0326": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "501abd5e70cf02b91c0561e45cbb545aeee294cb1f846bce64e43ca526680244",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0327": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9447bb9602798b9799793f1313118e45342b1543254efe119d28060f0e058d3e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0328": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4e9ca593f3ebcdb935decce97718c7483d03f1cef593baa98a0cd7fad030952c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0329": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "945dfe519545051efc0feb52caef9b406e160588d37d9d8ad96bc32caf44852a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.008Z"
+  },
+  "Q0330": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a0f9f9c09feb4ce35208558ac882090d3995c79f905aa7f9b3df6d634d5fd823",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.009Z"
+  },
+  "Q0331": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0314ac03a053c7037a42bd0e6b5211a0de6c448fa242d538d81adde4c5f1f0f5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.009Z"
+  },
+  "Q0332": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b346b2cc05aa79c262f6b84938c7dcdfc97958de8b997ad8ebcfd664db384fee",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.010Z"
+  },
+  "Q0333": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "344f2e4fc673e4e9dd1154f54eb2914de7b9c370db7c485a387c1dc85968da65",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.011Z"
+  },
+  "Q0334": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4296b5922def4e6114dd72119585c6717358a11420d69583368b2824c2f8f9f0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.011Z"
+  },
+  "Q0335": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9cbd3ce6ddd2721ecf9e2d29ac78d7b532c66294ec0c10fcc8fc1648cfe78186",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.011Z"
+  },
+  "Q0336": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "40d7b0a0f684a1623faadb3306ca5f9f2092b69028bd88460dced309fedcdba5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.011Z"
+  },
+  "Q0337": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d9537443a11f0551a9c3f0b7bfa167748690b1ef620d55eb7266d1c5fab4c69d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0338": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1f60cf712844a36e5d9cf9922da3fb10334264149781aa99279e5ec93afe18cc",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0339": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bbce94797497ce55855526686df42b5425037129622450110db0191a0c434f63",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0340": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6ed2aa52e928fcda388a3b5e5a318df57e44e2add30dd7b252d99859bbbac9d5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0341": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ea7c384d5ac94318fb035ada7df0c4f4dbbb968d0d729aa5d608914ee6011940",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0342": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a27233aeb70e47d25a0362242277c402d6951fae1e83c5ef760cc751bbd723ce",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.012Z"
+  },
+  "Q0343": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "745dc4e2da58f8c14f63617d4181509fb87bd26f1fcccb50d2fb9e0fdb7c2975",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0344": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f8a5b7c6f41691dfbc53994838c5b399f94e3931b945e1b75d4aa9181d206cf1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0345": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0d99b13e10b1ea520dd6b251fc3f1f126cb50f777d33db760ff812f82cff6014",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0346": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b628c712f0fa9330a26dfbf84e416270e5854c2cbfcd5dfa41d436ab9142a93c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0347": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "44c1b1cead77b8c8ae25aa65adcddce3e4c399050720c00063312f305f9a6950",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0348": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9bde3c5c9acd50a6f6d2963684029413ac6a8edfc4e395ea14851dd43bba5302",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0349": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cfd4b06cb5561859bb77e31af0c7b09381c093c6233439b4a971c14a4a2c6195",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0350": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a92c976ecea17402d5c205dd5145115ded3bd64aac7b645873175f2d6bc8a368",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0351": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "61727155813008f92bb940f3296fedf8ad9ecec88fb12a774fe1f5999dcfef56",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.013Z"
+  },
+  "Q0352": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6dbe5b0fec3e34ef6db765dc73097bf6b4b136023e26d245d6645506abf14ab2",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0353": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "140da0921fd67fbde6a48df24efbdcdb6264150ddd139abbfea1c8474a35bf75",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0354": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dbf9786c203364de04da78f2c8827280e11d8bd9de116566adb964addc114c53",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0355": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "16ff06ae48cb0c48605dc565c6fe9e4ab71b4b7f50922a0760d84f978f46df85",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0356": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "146ad480d33c58f3f60cbf1ae8be3fa7d4d3849e296b811dff2039ea53720f26",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0357": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a01fdcc674deb55243c2c432c08b5cc9920ec891e124ff9e795069ff8e447f4a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.014Z"
+  },
+  "Q0358": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0a3390b8fe0ef0c0034af2477fd9c7026b986d03fe36e479e7aedd4242347bcb",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0359": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "822ee4c8cd5ece01c3acfd1c9d4598d4da4d0a5520953811299fef914d0ee438",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0360": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "595d1cf5f50486ad746a7ac65d2dd81313e952e22dfcc6fd672d68bd30c9d16a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0361": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "54bcf84aa88d1fe8879a810f65d2a9cffca2310261b40f090e3c66013dd0cb15",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0362": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9b07d669fa779e60606da78aa73df89f87262b204160ed7bf93782f11bf6dad5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0363": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "73029757188e227d4df39bc699630ac491916745b2e4d8c739518ffbec534598",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0364": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2f828bb5c9ed434f9d77b4e5618afd9866675668debcbccf97c2135870d5ac21",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0365": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ce6d12f77dd281f995f8046b381cc5e5008bba05e4d6733d22c3f6bf7f02459f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0366": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bfd37af39410d31f7e70cc4d002bc4e5230f26fe5607f889bb29c96d2542dc13",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0367": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d861ec51387660acb21774a0d409002d659d9265ead41201c98014a7877d06e9",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0368": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ddcbe120a5c0009666ee7a00ea5893aee9bf266574d19d0106e67aa8837bea75",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.015Z"
+  },
+  "Q0369": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "11c2c73e7e7b3fd838bbf38ceb78617a384dc849111e0a88e4bad7ccbdbc6256",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0370": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "da5e1ece130942851ac23c994d33a1ecb6195d25429fa11a732cee665555bc58",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0371": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "64b07a2bc6b0de667629544415d980c0008502d4108ac3853c4852faf346eb2c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0372": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "39bec6e82403f0cfefa2ba442515f9e4b848e3a205905cbfc3b851acb5f38328",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0373": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9e8cff9be94817501651a5a27fd3ad710dfe086819c39c3f3cef0018794e69b1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0374": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cd414788ccfa9c49b758eb873b04f5a037ce904f6f496a5cb42c4f4cd58213f5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0375": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "56620f079777ea07f60b3e012154f4e20fe2f78ebb546345399f681b21553e91",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0376": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7eaf05fc21cbce0380f33c36476f7dc5419d2a9690acc3c05e618a6e19b959fc",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0377": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "904cde5c94172a5e5f5ecbb08f0748661131389c0970a6f28217a7542e2eed88",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0378": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1cf7b162298912209a4669053a880ee4a06d87cfcb40b8921538a4e448a56ce8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0379": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b8e3a1b34ab5791758c5b8565e73fd306439436eb86241358fb2c59bd41ae98f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.016Z"
+  },
+  "Q0380": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "96c6941dc7260e9488d63efec4c5b0b55148af9133d86f9457c97684b4fb0837",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.017Z"
+  },
+  "Q0381": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b90204bf62cf1af7611c6e8542a93dabfa0abfc1e0a332cbdac80a351f49d659",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.017Z"
+  },
+  "Q0382": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6917d3af25fa2fba5b6c4a07851d292d3b2d5998d943fab6eeb138c536da6cc3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.017Z"
+  },
+  "Q0383": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2ef8aaa24c69bef8bdad0ed6897332614730d119240eb320102c4047fb54292a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.017Z"
+  },
+  "Q0384": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9d8052978afc909169c9c7e205113d517e0f5eef995a88ddc0b1ff15896f9216",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0385": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3534141d9b19001b9c943c945c8e30045ef1a1322a523e9e5dae5e4708e7e82d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0386": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "956afa22c6367ab8547113c6ff50b764b45dbd17c91bf5df97ca5cf9d4dd7bd1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0387": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3182eba388d70e0a86f9abb61b395f8f6099959d70f8a48a728724209f2a3d47",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0388": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bd49312b78897b798c49c97de0784d575ee0bebc64926c6d3db27d97babd1843",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0389": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "db30ae03457f8f940156c4e7e1897c81eb7a152df9520adf98fa41b10b5d093e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0390": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "be0b160d3ce07abc2f4a11a4638e5eee9f4a414def10d6d394fb4ef630cf3d5e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0391": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b6d57b6c31ba9c99305caec0f61750de391519e57685cfa032b5bfb16fc2079e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0392": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2a5a79fbcf4a1958bc446ab159d5108c7a2c463824412d9d19b0af6a702f88ad",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0393": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d750599211809d2ac573802cc034b42aa54b2701d1db2d4ebf686012716c8129",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0394": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "40a3ee8fc0217621b857dcd29bca9e93c40993928586e1eaade762daa506b46b",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0395": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5c494e01df00821d74caf501152ec3b935b3442377b45d226ccd33c87985c342",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0396": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bdc084bfae251d1ca52fd51786822d28ce41bac1c08aed6e799830cfcb2770f1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0397": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d9e3ef5da858adbf4b40be10e72a51dd724a025d41b15831e015ca2f4d5f71f7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0398": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "daa5eaf5d3f926144a939e6a85ee2739d1bac344c8fa8481c3e3aae2ca194102",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.018Z"
+  },
+  "Q0399": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "54fd83f9f68c0516f8eeba932299d4c24e0a93d0588e12649adaeb3cb724cc37",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0400": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "db41baed3aa40737fd2577f69f577ca432e9c9aeab762593552ea13a9492efd3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0401": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "96a5263c1b1d4f9c0901f0d3e4d7fcc74150b8138253d484da2427be0311b904",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0402": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8dad2c384e1e0108087238d942d89375396b05f98fd393502f93926d1d59592f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0403": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c2f761e9fc6dbbbfbd1393182859fee9bdcbccf1a41e2c6bc2e1bfd316e90987",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0404": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "87933e4f1d8127e34c265ef03578611d3d19e1bddb7ea71cf04c6b07525ae1bf",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0405": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "674eeab0e5037dac547ae8df946bbed014ed737fc7462a7cfe4c3ad54cdc2a90",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0406": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0ffaf476d80b40accf84dc48f27e8f5336e4c5d791bd88d03d8d98d32e5f566b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0407": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e6c2e0ec584f6b59ff63f20452fccb8d4ef0b2c904948553fc59a8c0040f7d8e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0408": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8503c72a2828377f098bb9ccd57b32c8abfe647c2639e27b10eb0d7218de9e83",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0409": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c380eee6f62e1dacf407ff389fdc6d4d7899fe9f6652d12530405ffe42b5c9d9",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0410": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "16c9a48c9e439ca1416199c98949a4fc042a4c5c7065b9cd0cbeb94e74ccffdf",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0411": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b44e4244c4203097ca978e2d05c9fc8194c70abd2b7dc479f2e486d55e98841c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0412": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5ceb5cb903019bbc137b5f3b0bb4cdc8613668867910198e7bf507e506884242",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.019Z"
+  },
+  "Q0413": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b462d99f6902dbd3b4aa8a4a5596abb0eae40743fbae957d9cd6796d92f92f80",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0414": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c9bb13f173901b829cdd16b831ceabe2fb88dd6b7af37bb756a2f929d26eda2a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0415": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4184b5ac73b9c2be8e03e192a5146739ae43b6f352c60153d37bffe37c6b515f",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0416": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0bac95927b580dceff8909e5ea7b2e1a53e5ebbf390d3815123a0649a1f7ee05",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0417": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "65fc9c8aecd45a0d1e88ebabb2e8a9e38f17e76ab74035df0f8b01b35ddf3cb5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0418": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d4b1efe29b69c65807bcdf4348f0eed6c68965f527118df0f22c5fc2d2e4f294",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0419": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6a26861ce1bae64d2fd3a3e068cdac99c05a0b8da52d2f45a853634601f7068e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0420": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ee1033eb2faf062a7b820ebc82d44c80024bb0e11e499d9a7f5d5c4122ef6593",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0421": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8ee8d490eff43319eacb17ae312d4f3c261199ce50176219028a88b6a02f21e1",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.020Z"
+  },
+  "Q0422": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8d24e59965377a891f6862d2cc4363793783643e4f72e0ec2dbd6244c5a6be4a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0423": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d8e675567616046f950c4f661d8289a825d09727907afc5617216c88aac0134b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0424": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8c902504bd913b90385152199bd0c693099f2a117507eab1c06fcba21e926aab",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0425": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b4e616805203db5dd7acd44b05d2854de08a2c83ffc88821e2991cacdd7b1b42",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0426": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "22a460f81415f6776a699d52a4a94e0bd9d8e78e8a65317165ffb5c1fabad886",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0427": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "421fa28db18cf2714c35bc194f83a8f61ff42a02d66b3c6bd022d14971b50cf8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0428": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e8046d12b0074e65ee21746d4b13619b2c9270307ee2f11cde3a1dac4d8a6286",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0429": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "665e7d677ad1dd413f9600609ffb06b3c8301449398bda24c13eaa8609719c7c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0430": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1f62384db665aa9a15101a35442b4d90816ab4e0b58736814164ca1cd98f78cb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0431": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c5d6f6d1ef4f2f609a1df8cd4605578273eb6abcc5d33fcb67f625bc3aafbd31",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.021Z"
+  },
+  "Q0432": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7687d9683f4c3e23295ed0ae9f8687a4aaac232a1b207e49a86a004f5ed71f7a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0433": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b6a9aa05498b5580adecf696b738857f5fbf103d9b3d0444170df1879b6a8d81",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0434": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e486a9db5bd6dab523ca1d632820fb3760b3280561d43ced5f29712396f92812",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0435": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "95e58e2265d475892c0cc3aa8c4215d651abe2f5f8cb9460082c4065795408d6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0436": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9a0623f02bed71b4c8466d450a74ebd35add8f0f86eeb73ab657aa6c4bf12290",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0437": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bfaf7407a700fb361b5c54413c20f13f390c3a9cb061287c5644cc75ed8a7b38",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0438": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2218a63753fac07aa0f535a6e7781e3e3fcb20d15c54b321eaba2b0f64a1abbe",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0439": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5fc35aa8771b12f42d2ceb43e6daf7700c8902554909cfade8c69ad438468480",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0440": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9907061a6d81f7b7922b82ccefff1e4a4669f901af73cbe1c824226e33a78bd5",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0441": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bd2c705a974cd8d4fd5277895e66d85869bdf2fb65ea7bf0b61171cb51883851",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.022Z"
+  },
+  "Q0442": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bc8bd3040729d9f1a2fefbf273f95606e3562ef7b7a57305bb0b71cacf12ca24",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0443": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bbcef37060e296d57cd818c6f25416d19314e64fe80e0477e3ab290c5e1fd02a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0444": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3b0d5b9cb157f17191a506773872ee6360424dc752a41aace86f45f4cb346f96",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0445": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8907b548312b74da7d9b086cf73eead99c8ec5168fb139111aadef684d159bde",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0446": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "95e7e63ab5335e07cd945d04dd3c0b3e54de2f919d300a050ac21f3e29ae293e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0447": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "24e95d3ef9707cf2724ee1ac6dd88acfd3f33fd3dfed13dd6b8ac727423260c7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0448": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fe34212ca73d4b06564abb4d7c1fe9af31acd5d06af442b74331ea3af43652eb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0449": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8232d2fc7957f33f9a24c252456be302bd28039612e1bcc63d123b8738940d67",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0450": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "da74186d33ce29c2734a4d76bc986c1dabced0dafb693a338630fa47e289b9e1",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0451": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0ba49bea251c21357820d3784a5e5e079893b566d2e4562ae346e424fed95f72",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0452": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "052123e6f4fed991444ced20be2264a802aaea3f40931317f116a03426c2b26c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0453": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f8347cd3532f4490712678d63936e2de04283a110ada9dbc3a009bdf698fc4b7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.023Z"
+  },
+  "Q0454": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8eeb4fa4463fa4e5351b3641b7ab7d21e636fd02a54225de0fed271780ab71f6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0455": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "88e82ae01c7d3e7d24831597402309db0ad4283decf6d7e5fe7efe4553d1eacd",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0456": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0051a73fbace325803a09576b98a2f87cdb1dbca2401f3b165449b751848b0ed",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0457": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ece4291c7c76c4a7afae75cb617bee85f8544e449c74c61689af6c8a64a22289",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0458": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6b0d925f9dd37b195ceef38d38f5e3ad868e4887ae2a6ad234ebad15f45fb87f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0459": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7d2bd1fe410f7ee0fb7bee2de71ea2c86b5ef440adb87dcc754f3caef46b3d12",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0460": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ae6badaf26ab14e792bf54fce46b15c31364d9be6b94ba06bde9b36f5dc28900",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0461": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "48f4079d9ca520b886ab38cc3e6d52e699ad3fea371b48ba6b8762996e18f93b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.024Z"
+  },
+  "Q0462": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c1d9b1ef474ca393ece5f6e6245fc856dfcebe41023dc53ccb463351f0f20d5e",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.025Z"
+  },
+  "Q0463": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a82bfe93500f4e882c745c063d374e439a1a9dce171a01db5ba7991826baef1e",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.025Z"
+  },
+  "Q0464": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3a729bdd15be5be2a300c84e818c0161f4e99d46498a42879f4dc54f1fd39a04",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.025Z"
+  },
+  "Q0465": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3439bad5804bfdcde5d42dc5736167c9fb2d0810ed8cf8515320f69a3f04c7c6",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.025Z"
+  },
+  "Q0466": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fbe967b1e66dc6714c145a3c0324005ffdd80dd961fd48bc6a3dac0ca3328df5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.026Z"
+  },
+  "Q0467": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "668eecb4f021ac638f4ed78b8ca03b8c930d1dd4bed8a940338a3004b05cbf09",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.027Z"
+  },
+  "Q0468": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0882c8f6f7476e8b38fb76c27d67d850f796388cde8869ea1aa901d109713e5f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.027Z"
+  },
+  "Q0469": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3e676f2ccc397312acef2596a7678b37971477016da9ccb0c74e356560983c3f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.027Z"
+  },
+  "Q0470": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4957ff14616ea5bc6b0ba2c1121e41fe4a53f3add77628f2500b539a567e7cd4",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.027Z"
+  },
+  "Q0471": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "30de4a4d64f48c49bef32b3058fe0d876d6295d582aae808b12b26b66c2bf046",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.027Z"
+  },
+  "Q0472": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f0f32874373204018c97495c2941ea7f22a9fe603eded0fdec02091dba5de4f0",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0473": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5cb653ef892fcb74cf937ea2d19b14298ffc4f1adba39daef3166a5591ec0e4b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0474": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6e374b8715b5df98b9fd1bfb2912d99b9c5138b8189d7655b1bcca0496a61709",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0475": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "eda5eb1ccb4e1404e4e8791e5bbb7efac73923310a005ceda7793972bcd346b3",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0476": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b590bcb4327a0aada43796db32423487ca3ee4310e715a883932ade5914fc7c3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0477": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b3e40aef30bdfaff3477e515a2b786a0111ae77dbd3952f1ec346588af510780",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0478": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "424f30fec92bf84d32053a24921a1ce3cd1c520d45969cf93ff72dbb44e205d5",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0479": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "52df7094f6f1cadfa5d408f86572ce5fad2a9d2e6cc2cfb48425ec0858802010",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0480": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "76ecfc5eec17d9e5fbe0f2f617e702e7ae7cb1f250ce0e34570fcdc8f327e4be",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0481": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8ac95349d687c4daa68a45b8c889c44349ecf0e6a921441d1d06fa9bd205be17",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0482": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1837fb4646f7de0c06db0b8f3532353631c0f58c362414ab791410fbc4c66c10",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.028Z"
+  },
+  "Q0483": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ea633bab6bbea516c53f549cf794a7d02e9d91fff710c154683caee1abda3063",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0484": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "79017aca1ac174e70f1958421556bc04c1f3950f90d6ef3c15a6f14190429c84",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0485": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "85d7cd02fdb2a3ce5ba5f0b870666447f46340916ad6139190ae435318727dd1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0486": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "323846669852e8d9fedc4c79eee4dceed35952c068f57aeed5d7b5bdf024655a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0487": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "55ea5baadf36836d1a03afe50a4fa118e09a0aad8039efb7dffaf26ef5eb9c68",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0488": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "64a59961c1b8e3abcca0a2123c26a01ccf3ba0595484cd876d3ed9ed79ead521",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0489": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8defcb5924ffec35329f9b814a9d421e8829212efc87e3c890014ef691c789fd",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0490": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dc195db58ce161eb9e3a4ebc54897ac5f8234f1342bce7b27afdc3592fa094ba",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0491": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "93f7205155489c30538e838536673cc214d1af4a83a024f03912b31ecf0cb02b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0492": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c07f627746fac2db5f74163601bd287069fde35a045fbd5dec4e0c28d2ba9b81",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.029Z"
+  },
+  "Q0493": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "232a5c162c1f9d276e221c4216e1665598e8a560b8396cef68143aa442286f97",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0494": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d77546d41da70da10f76398d8ae6b501cb21da47165e74411033bdd26958e780",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0495": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ae4a7b07a8d8cb83ad6db850992e8bcfac498197f8d8f00a3b628ebef3269fa7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0496": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "600be5f77db527408f5aa6920bd6cdecce2c2201dec3309b43bfc14346bb9a97",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0497": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1876b9be55150a33e28a89100a665855b5ed469122c1c8cdb8784e1ad77ee846",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0498": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "21693eee651b29b6cb84058fae35a0e941505534b052f74b24b69f86506479f7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0499": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4f885b5f2d931efd794cc05ddb1d385aa1b40f8169814d64ec7d07a09eb07c8a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0500": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e7ff9bfe6534eeae90a957f0cea2ea422806504785e0619b55934a329dbbdcdd",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0501": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1e508b9f53c24f0e13bc53c8d3662cb100905e436c3aa6dcb5c8a012a2719c3b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0502": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "84c70c27aab9fea601e54aaa877e657a80b036a0c66db83d645255484a9e8d00",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.030Z"
+  },
+  "Q0503": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c27b6a6c84a88ebc010f2cbc71dd827d83bbe48235d5d1a76136b2021d338d4d",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0504": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e5209665eb38c229f2fba30b8390328ab8934d534be86babb8f73ea422b79aaf",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0505": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8c0ba7adbc56b642df72767865a89e35c220fe9e9552e0f68115d7a17199e3ba",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0506": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "184af2c0649a29c384e6dba3fc32f85c7741ae209f07c52eacec8ccf7e961fba",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0507": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2d1c7345ff3caf9fbd14b727db45718407c3d9f1504fb1a70704ddb4b429a339",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0508": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2a7892479c2b76d52e3011a17774fe41af7a89ad2fc06892e14e7adc8ec7fd9b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0509": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6a7e4795d9214588ee821f05fc963eab070db67210199a1db07d43588c5ef4ae",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0510": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bec5c1375ebb5a04f376e63d6a82cd339f596df26ebdf72bd37f4c44cc414346",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0511": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "927f9d233eb9b134c951671855c178249751cac41d33b78f161fb6be50b10f41",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0512": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cfe28ff0230cdd8f264951de782815b5718841c3a392a115d6aa10d029d27bfe",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0513": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9ef9f81c4837bb869098522e7e0422c333905ab45ad9e8939e2eabee3793b9b8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0514": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ddfcc53b3d12a19dc465d08befe9881ec51bb745bcb7b5dd225225cde534c156",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0515": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5a7ad921403a5bac663209b5843138514af040a9e2bbe3e66512f0dc8a7f998f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.031Z"
+  },
+  "Q0516": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "89ed38fd1dd8fb3dacfbba61f4a030759a3f7fc914973b71c0c8fa2749cd6766",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0517": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5f131019bb13c90236b8fd9df63e0e01c153dfcb0472893d21d8409a6b85400a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0518": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "d707df27c1377ce004b40938d158c4eb78812d37121d89f35702421da04fb4dc",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0519": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ff181e54b3ce8718e1b4719f56275e4bf2bcf8d48ba8b288d4fc60abf4e066a1",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0520": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fdc2a38545b4e485333e1eeff09547974af525816ebd004b4c4e957108d3dafb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0521": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dd83372a7b6a051491b99b653b2bb9e0583d5500f00d47c4950745f8736f0741",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0522": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f955a891c0eb8672bfba2c295a22203b56feff020939fe3c00b02c0578b392fa",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0523": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "21deb97034786223b33b2210847f69d4f765f7bd6d70de6ac946b92eded05c82",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.032Z"
+  },
+  "Q0524": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "e5b90d23aeb34e26c3ac80a1f31b0f3776bd7bbe74de9dabe66aa5296642c086",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0525": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "85ea8f34f892e7c9e653e2d9b851b221ba1fbca03c3a16bee0e87fb226160938",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0526": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "409509efd4a9059ba81258d237495a41e6ba11c6343d58d96201dc454819d7ad",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0527": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "69a17c6ab4a54aaa5e6de828e22d8b54cc2ad5b7cb5daf8e504546de5e3168a6",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0528": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8e4330cc0ad16111f234861ed5db0076001422820cda400984d79761f6342caf",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0529": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3bc42d30f253b4e874cdd2a3f7718bf38484fbfaa812e0ae2ef32d960406e9aa",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0530": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bba5086f1b810b8e1c43313847307b4890d90853c38949628fd9506461a0fa81",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0531": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "98c169babda2ecda1305dbfb0d7b853af01e82cfd1c20f12007591400edab868",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0532": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a384d72b03dd711e012a9465076e6ecd989f75dbef714f7a4ca2607f215fee2b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.033Z"
+  },
+  "Q0533": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "17e99572bea99f0186639a0c363e7f7cb78817c14cb62d0c919a0af93ad32c0a",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0534": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "fbde8aa50affb8ac9ae9e9897961cb6f75a85ffe8ddb58a6af1504b7be126b0c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0535": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f35c88a8508fc102a0c5bfeb2e5f19b84428ce11ba0a572406ef5a62b21eacd2",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0536": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1f3b1e117708916bf96b7f38069c346019b11eb5563e47a50602325a7eb7057b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0537": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f36139635b40598728942faebed7f48c7e9a2709d729f075935f227b90f7b872",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0538": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0ff4a4c7c42f3c16a6d31bffa3311b181a55c1856cf9ac831583d0fe0b2449e1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.034Z"
+  },
+  "Q0539": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6067118b47b7a9f12b10db98cfcac71e3a4cdb7dbabf92c1672ded90ba06c4ee",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0540": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "41b307c88073941adca4c18afc4876a01f396c393dc9bf559085d1c8e2b27d82",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0541": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "533fb1ae391dd294cba68e595e97a96891fb58543fe85a961cc44d0c30749ef7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0542": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2c27b70b05bd8262ccd83a87398ba088b8b95c3729dbf62e49f8ebc6460e37e9",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0543": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "c2d3b64bc9be164e67c296b9654b4cfcaf16343d34bf5be1e3318bec213afd30",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0544": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "eefc695ae0aa75bbbc68950fa2e00926cb48b16a76cd7567d3595737c60a6285",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0545": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2f22aecfdb8cf481950f1bb9a2fcce9e8dda1ddae82d815bc5d5ee1cc6d516bb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0546": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "6e2e5ca21e5786d48718131f63a1c68a8de8362973cf9893957354a6b1854793",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0547": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dccb38057c46ec88c3fa4084c7328e7bb5092095abf059c28af0f90df47b4d1c",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0548": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "288928a01f6691e180e2fbc4e646df63f38197f422be0e0a9fd7f2eec6565963",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0549": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1f7955326b8579dd2f530a0118a91eaf7a8c91b35baab0b147d7b18fbfe663f3",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0550": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8e84da6916f2f39c7167b29cafb02409a0bd67c20bb21387bba25e43a107c4d0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0551": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ebc66f45f8868ca4b0c39d5fe676c7f6848fe9ee0b3feae6fd7b7a375c94be77",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0552": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "93ad6a3dfac2a8332407aca7dea3878f4d2aa9e04614f06b405247e2da1c38d2",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0553": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "a064a48a00a8442176984e57f01f12b2fe6cf973239de0b106c2b57a7a6e6125",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.035Z"
+  },
+  "Q0554": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "342173f95a0879d44f2a4a7d7917fcfc3ca4858e22528437354f509abe543047",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0555": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "dadc74d86651db06e48aeedf4cec12d8530ca5151eba53266842e394bbfec62c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0556": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8d1c856f228d556556315c639ce7769ef40f518f128e6e0ae1a412eb8ae80517",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0557": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5acbfc4dd007c592b9b52d8da50c045a97bbc401f9b5bfcdde9296ea554177e1",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0558": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "020605cc500810fd6c3fe652674e80b00991fcd493c77ad86272d8106aebe74b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0559": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "bcb3242875d19e00887afc6b4f9962adfe009c4ed52cc2d812aaa52793392bb7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0560": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8eb19877ef7c695dbb4b28b4683d7197bbb5775235f8816c6ef808191de62fe0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0561": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "f4cb248442fff097bb6e671967ef1db9d783a31e45b8c4b61720e925156412d7",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0562": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "50260eeac0ff8443356474747214d2d9f95aa5f63c768fd1ba057cd599fadd73",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0563": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "7e2d1261e97294db1ef7145d1e864c1834d0cb79ae6088c625d62853710b0c93",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0564": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "592f01ab235ffe42a0ac70ebfcdcb692168c7c37a8896efa3006de3292e0dd0a",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0565": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "37d9f21546d6b3fa58e9f410e0373e28d1fb25d790549d1f1409fc06ecf1b598",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0566": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "990fead20b520c41ccd4747288fbf69feade03e17d346cf1d3ad68e2e9e87e52",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0567": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b7ae6e94783d265b227ade12903f9b636d7c4e84b067856c75a3544f2d678d6b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0568": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "2eb6608e598abdf5bbdafbb4bac9533012ec9f38458978a6877789cca5c4ea13",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0569": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "486db67a1d26dc1c28d5d1c004fec99862ca56cb89d8f2cf3cd1c5bdc22e03a0",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0570": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4688fb7c5eea12f3bb90d2f8aa3afd36e2a37405b2e0fdb5e05f2ee55c95a772",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0571": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9c2dd2a9e2d35fb6e374a02f4ae8bc2cce9380767fa64c07bfddadf4d03fa199",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.036Z"
+  },
+  "Q0572": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "4099dae54d4a8d6c66c73c1ffc09a6efab28767d711df5ef13e82abb24acf747",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0573": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3df9c3f075cf0f5cb3f1ec2af9dfe03d6d3999f6ee2473f9eaffdc57b9950791",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0574": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "25e2bc78e81f3274d30a861ddf856070d943583b1d14189234c0b82e271f5478",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0575": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0bc8a5603de2fe65f8e55224c666a1cebfd41705f8b89c3667e4971914acbfb4",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0576": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8bc500addf547a1c467ad5a90c55ba3ef1e209bf4d830cc64577044fa33862ce",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0577": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "8f7fb98e890366f543d10150acb2cdff7a1d79889d050fd4da3c9eb53d229818",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0578": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9b3ba2709f62279c97f5d508863d644ccf500af51298eb58689ad67a0cf78ab8",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0579": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "add05b27f3971c5e312bcc381b93a25026394d9ede1a97f00bd5603427916017",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0580": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "ef400dad7946164b240c7a2d33447293331722d9eac68b047e8f75092e92df63",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0581": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "64f708e9c4c3a20c7547a5c1bd173f9907089e1f998b85e9129ab9302bff0a08",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0582": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5137c1f1d0b3d1df40bf54d8b58057581d0ab78a82c4b4b5733f803977845e5f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0583": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "56b11a7b92c21b8907c159debfb16e388d872b7a40750b26fbba4451eddd2418",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0584": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "80964dcc739110ce01daa3d373e2693058a0419c04dcab61115bee78617c1f18",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0585": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "0ec69f6cf8d7eeb920ab67fe460baeb38ba0338d38b13a94ee821b9f4a1afe31",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0586": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "1166a2986925f1f02a011ce646879e559838576db1cb8f8b27d54b8025f81c33",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0587": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "86d0cef413435c66bbe1ba5c815c5390c375ba314129d45a48307cf4b1043f6d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0588": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9b95b263466b69b1732e2e6b9b7676d1889c5995c5de577e38a9baad3e655bbb",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.037Z"
+  },
+  "Q0589": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "5f745480891844482e864405e8f63cc50553bfb0f6262bafd705f29e1f66f5c0",
+    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0590": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "9dbfe74246fb517ff94e1dfc45c6db496c251a2b88edc92333dbb2fa825b3772",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0591": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "667d84847c12ca5695ea6f700f544803ecdfb85ceeae287672d609f02edd990f",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0592": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "759eb3857637963fc3a69fbdf650b75cc7650c4474d6704783d5c886ca5d9495",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0593": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "56d7b8c403f01f4721771e2e1265a0366c24ae9074253d01f94184ab30ced68c",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0594": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "b7f30cdeb8ea6aac4c37a43e2b80ec0b2a73d22686e6bfc93d5af1a698f3e35d",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0595": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "cc50dd34352ad8cc7bd1622c579c8c69c79849dce75f0fdabc55dec4566fee6b",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0596": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "07b953b7ae1cf5eca61f94c9247fb7fc03d20d454130dbd7c681eab0a61660ca",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0597": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "584cfc1a4ff20b4d6c2b7505e463885b05ad8d7046cb29690d6a96d202a02e73",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  },
+  "Q0598": {
+    "status": "pending",
+    "attempts": 0,
+    "inputHash": "3c44f0838fd1648923984a51bf63e79009ca7a91a4014a1f3fea69c5bbe3ca16",
+    "error": "No supported extracted source material is available yet.",
+    "updatedAt": "2026-09-21T02:24:22.038Z"
+  }
+}

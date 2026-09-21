@@ -1,0 +1,25 @@
+{
+  "original": "How do you handle missing data in Pandas?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 551,
+    "lineEnd": 551,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L551-L551"
+  },
+  "contentHash": "9d6432fa92bb7b84137e17ed13d93e70407a78332768c0fa1962a6f9b1200607",
+  "id": "Q0167",
+  "number": 167,
+  "active": true
+}

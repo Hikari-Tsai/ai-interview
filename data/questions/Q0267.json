@@ -1,0 +1,30 @@
+{
+  "original": "Implement top-k MoE routing with a shared expert in PyTorch, and point out the efficiency and correctness traps.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 854,
+    "lineEnd": 855,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L854-L855"
+  },
+  "contentHash": "c65064536047c07f317650b682fe90c35165a8468007f5ce316c41d425f17962",
+  "id": "Q0267",
+  "number": 267,
+  "active": true
+}

@@ -1,0 +1,32 @@
+{
+  "original": "What is benchmark contamination and how do you guard against it?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Zhipu AI",
+    "Alibaba",
+    "Scale AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 319,
+    "lineEnd": 321,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L319-L321"
+  },
+  "contentHash": "f9e640b81964160e01841659cd0e91d35c2de7fe9ef6b7b74f72921144baeb08",
+  "id": "Q0073",
+  "number": 73,
+  "active": true
+}

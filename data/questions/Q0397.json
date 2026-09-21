@@ -1,0 +1,26 @@
+{
+  "original": "How do you monitor a deployed ranking model for drift, and what triggers a retrain?",
+  "topic": "Evaluation and Observability",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1325,
+    "lineEnd": 1325,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1325-L1325"
+  },
+  "contentHash": "9a3be843a074318aa5bde70e2a393220d410d2dbae0ce243d1804bc495517395",
+  "id": "Q0397",
+  "number": 397,
+  "active": true
+}

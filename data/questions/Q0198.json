@@ -1,0 +1,25 @@
+{
+  "original": "When would you choose Q-learning over policy gradients, and vice versa?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 624,
+    "lineEnd": 624,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L624-L624"
+  },
+  "contentHash": "463f9d90aa4820d59b4cc3a21a1f1f5f7dd442025fa534839e19ca7a6ab83f5c",
+  "id": "Q0198",
+  "number": 198,
+  "active": true
+}

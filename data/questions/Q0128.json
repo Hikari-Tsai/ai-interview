@@ -1,0 +1,25 @@
+{
+  "original": "How would you parallelise this task? (Concurrency and data mutation come up repeatedly across rounds.)",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 463,
+    "lineEnd": 463,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L463-L463"
+  },
+  "contentHash": "9b6bab7ff5bdb6262045aa6a4fe7d8f38ac07f2f5724c7cc0e0ba70a22cfd7e7",
+  "id": "Q0128",
+  "number": 128,
+  "active": true
+}

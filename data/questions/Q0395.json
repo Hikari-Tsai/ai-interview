@@ -1,0 +1,25 @@
+{
+  "original": "Design a fraud-detection system with heavy class imbalance and an adversarial opponent.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1320,
+    "lineEnd": 1320,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1320-L1320"
+  },
+  "contentHash": "b96a442cbce94fe68111e59b371a3ed491ded9dd87524e1f9cf0a0f9edf1dd28",
+  "id": "Q0395",
+  "number": 395,
+  "active": true
+}

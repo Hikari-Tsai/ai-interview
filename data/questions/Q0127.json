@@ -1,0 +1,25 @@
+{
+  "original": "You need to run an LLM call over 50,000 documents. The API allows ~100 concurrent requests and occasionally returns 429s and timeouts. Write the Python.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 462,
+    "lineEnd": 462,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L462-L462"
+  },
+  "contentHash": "74c7e66ec3e5a6c102d245743e4e0147f82fd54a1e055697a783f2dcf1d1b2b2",
+  "id": "Q0127",
+  "number": 127,
+  "active": true
+}

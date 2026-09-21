@@ -1,0 +1,36 @@
+{
+  "original": "Implement scaled dot-product attention with a causal mask, from scratch, in NumPy or PyTorch.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "Google DeepMind",
+    "Amazon"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv) and [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)",
+  "links": [
+    {
+      "title": "Math behind Attention - Q, K, and V",
+      "url": "https://outcomeschool.com/blog/math-behind-attention-qkv"
+    },
+    {
+      "title": "Causal Masking in Attention",
+      "url": "https://outcomeschool.com/blog/causal-masking-in-attention"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 411,
+    "lineEnd": 413,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L411-L413"
+  },
+  "contentHash": "54ddc586c2188ac03f8f040d798aa6c2aadae67906a66bf8568df090707c7edf",
+  "id": "Q0108",
+  "number": 108,
+  "active": true
+}

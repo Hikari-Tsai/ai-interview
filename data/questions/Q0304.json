@@ -1,0 +1,25 @@
+{
+  "original": "Alibaba open-sources Qwen under Apache 2.0 while running a commercial cloud business. Walk me through the strategy, and tell me about an ambiguous technical decision you owned end to end.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 999,
+    "lineEnd": 999,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L999-L999"
+  },
+  "contentHash": "e0293b76746322228e305aaef5969a08ba26ce38cb94ba0a9cafceb451ddcdff",
+  "id": "Q0304",
+  "number": 304,
+  "active": true
+}

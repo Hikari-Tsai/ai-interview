@@ -1,0 +1,30 @@
+{
+  "original": "What is multi-token prediction (MTP) and why train with it?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)",
+  "links": [
+    {
+      "title": "DeepSeek-V4 Architecture Explained",
+      "url": "https://outcomeschool.com/blog/decoding-deepseek-v4"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 852,
+    "lineEnd": 853,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L852-L853"
+  },
+  "contentHash": "59bb857ab207e7c1e6f90b9fb4620c1273e002a8d464a8f9d12221e54a00aaac",
+  "id": "Q0266",
+  "number": 266,
+  "active": true
+}

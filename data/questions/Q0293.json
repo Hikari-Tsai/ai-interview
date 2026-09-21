@@ -1,0 +1,31 @@
+{
+  "original": "Design AutoGLM end to end: a cloud service letting users delegate multi-step phone tasks (“order my usual coffee”) to an autonomous agent. Architecture and failure modes.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "system-design",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)",
+  "links": [
+    {
+      "title": "How do Computer-Use Agents work?",
+      "url": "https://outcomeschool.com/blog/how-do-computer-use-agents-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 949,
+    "lineEnd": 950,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L949-L950"
+  },
+  "contentHash": "3e9a303327939234869f188d792d19171cefe68ea78d17e51d54243df386da95",
+  "id": "Q0293",
+  "number": 293,
+  "active": true
+}

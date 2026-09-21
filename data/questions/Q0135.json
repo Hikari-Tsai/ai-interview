@@ -1,0 +1,30 @@
+{
+  "original": "Design a batched inference system where 100 requests take the same time as 1.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)",
+  "links": [
+    {
+      "title": "Continuous Batching in LLMs",
+      "url": "https://outcomeschool.com/blog/continuous-batching-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 478,
+    "lineEnd": 479,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L478-L479"
+  },
+  "contentHash": "3b73450b3d656cb47fbdabf0b2a61c91bad1ba53cba1e5280ad3aded66088401",
+  "id": "Q0135",
+  "number": 135,
+  "active": true
+}

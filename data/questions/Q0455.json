@@ -1,0 +1,34 @@
+{
+  "original": "Discuss reranker architecture choices: cross-encoder, ColBERT, LLM-based.",
+  "topic": "RAG and Retrieval",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work) and [ColBERT - Late Interaction Retrieval Explained](https://outcomeschool.com/blog/decoding-colbert)",
+  "links": [
+    {
+      "title": "How does a Reranker work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-reranker-work"
+    },
+    {
+      "title": "ColBERT - Late Interaction Retrieval Explained",
+      "url": "https://outcomeschool.com/blog/decoding-colbert"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1537,
+    "lineEnd": 1538,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1537-L1538"
+  },
+  "contentHash": "794fdd4ec1f69b99df238bc48d416ecf0b3589045be2a5e8681128207cc1e9e3",
+  "id": "Q0455",
+  "number": 455,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Explain strategies to combat overfitting in tree-based classification models.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1228,
+    "lineEnd": 1228,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1228-L1228"
+  },
+  "contentHash": "f0610e2013da8caea8ac93570cefeb8f313d3dc1b603e8868338a5744cb65768",
+  "id": "Q0364",
+  "number": 364,
+  "active": true
+}

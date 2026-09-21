@@ -1,0 +1,31 @@
+{
+  "original": "What is Multi-head Latent Attention (MLA) and why did DeepSeek introduce it?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "DeepSeek",
+    "Moonshot AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)",
+  "links": [
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 126,
+    "lineEnd": 128,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L126-L128"
+  },
+  "contentHash": "c9e9862ee18ea40fc2253d64f26ec75661ad094026b3b2f65749fd50801f37b2",
+  "id": "Q0004",
+  "number": 4,
+  "active": true
+}

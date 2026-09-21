@@ -1,0 +1,25 @@
+{
+  "original": "What do you see as the most pressing unsolved problem in AI alignment?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 511,
+    "lineEnd": 511,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L511-L511"
+  },
+  "contentHash": "2387af3faa34a06eae8fda52ba71c336e6e8a62817a3d38dc0439d56dae012c8",
+  "id": "Q0148",
+  "number": 148,
+  "active": true
+}

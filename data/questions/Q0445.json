@@ -1,0 +1,31 @@
+{
+  "original": "How would you benchmark an LLM agent's tool use, say, for enterprise workflows composing 10+ APIs?",
+  "topic": "Evaluation and Observability",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)",
+  "links": [
+    {
+      "title": "AI Agent Evaluation",
+      "url": "https://outcomeschool.com/blog/ai-agent-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1501,
+    "lineEnd": 1502,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1501-L1502"
+  },
+  "contentHash": "c93efaf71a57bda0d2036fa3e22382eaf388218c175871b838f328b13f4aa289",
+  "id": "Q0445",
+  "number": 445,
+  "active": true
+}

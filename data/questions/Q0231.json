@@ -1,0 +1,25 @@
+{
+  "original": "Design the harmful-content detection system for Facebook and Instagram uploads.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 710,
+    "lineEnd": 710,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L710-L710"
+  },
+  "contentHash": "522331ad6914736d2567361067073ed2e37fac9cb253d04ff2b6909f23547b6c",
+  "id": "Q0231",
+  "number": 231,
+  "active": true
+}

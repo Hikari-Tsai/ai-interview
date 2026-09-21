@@ -1,0 +1,25 @@
+{
+  "original": "Design cross-lingual RAG: the knowledge base is in English and Hindi, but users ask in Tamil, Telugu or transliterated Hinglish.",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1026,
+    "lineEnd": 1026,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1026-L1026"
+  },
+  "contentHash": "1b714f7257779431f9a4794ba52a37c5c24a83e262c781c3bf0ea13af53cbfcc",
+  "id": "Q0308",
+  "number": 308,
+  "active": true
+}

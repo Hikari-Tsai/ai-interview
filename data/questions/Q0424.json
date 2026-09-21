@@ -1,0 +1,25 @@
+{
+  "original": "A customer's distributed training job on your GPU cluster gets 55% scaling efficiency at 64 nodes. Debug it.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1426,
+    "lineEnd": 1426,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1426-L1426"
+  },
+  "contentHash": "665fead6b6ad10b0d7c17bd63abfd8fe72399162cb0e1e694f4993e4867cf2a0",
+  "id": "Q0424",
+  "number": 424,
+  "active": true
+}

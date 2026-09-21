@@ -1,0 +1,25 @@
+{
+  "original": "The patient's chart already lists their medications. How would you use that to improve transcription of drug names, and how would you keep it from backfiring?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1879,
+    "lineEnd": 1879,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1879-L1879"
+  },
+  "contentHash": "333eb2411ee7fd15e0ca4d4400a6ed487aa16233e891c0fee36ad0081486c59c",
+  "id": "Q0546",
+  "number": 546,
+  "active": true
+}

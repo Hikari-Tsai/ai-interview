@@ -1,0 +1,34 @@
+{
+  "original": "A Copilot chat feature has a p95 budget of 3 seconds to first useful content. Where does the time go, and how do you cut it?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0) and [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)",
+  "links": [
+    {
+      "title": "The First-Token Latency Problem in LLMs",
+      "url": "https://www.youtube.com/watch?v=XD8DD4cEHu0"
+    },
+    {
+      "title": "Prefill vs Decode: LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1074,
+    "lineEnd": 1075,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1074-L1075"
+  },
+  "contentHash": "88d28d67243a72b0ee834c4edc364b4a9cd037f1fbefaad1aede4bf8e76227ed",
+  "id": "Q0319",
+  "number": 319,
+  "active": true
+}

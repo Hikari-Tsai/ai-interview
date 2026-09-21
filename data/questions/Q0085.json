@@ -1,0 +1,23 @@
+{
+  "original": "What is mechanistic interpretability and why do labs invest in it?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 349,
+    "lineEnd": 349,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L349-L349"
+  },
+  "contentHash": "46d7e1349fb37cb1b5a5eae1da21a37639597ac7166b2008d07a33ea753c4420",
+  "id": "Q0085",
+  "number": 85,
+  "active": true
+}

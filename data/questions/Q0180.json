@@ -1,0 +1,25 @@
+{
+  "original": "How would you design safeguards for an AI system that can take actions on behalf of a user?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 584,
+    "lineEnd": 584,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L584-L584"
+  },
+  "contentHash": "7f7839704a5436c361ca0b9d515e96f01dd743a65f337c825b749c77c7343362",
+  "id": "Q0180",
+  "number": 180,
+  "active": true
+}

@@ -1,0 +1,26 @@
+{
+  "original": "How do you evaluate a clustering model's effectiveness without pre-labelled groups?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "ml",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1231,
+    "lineEnd": 1231,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1231-L1231"
+  },
+  "contentHash": "02b79223de40ec1c4e572f6c0722c46dd8c82932b505df3735bf75e7855b9805",
+  "id": "Q0367",
+  "number": 367,
+  "active": true
+}

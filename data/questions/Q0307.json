@@ -1,0 +1,35 @@
+{
+  "original": "How do you deploy a capable assistant on cost-sensitive or on-device hardware without a datacentre GPU? Walk through the efficiency toolkit.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work) and [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    },
+    {
+      "title": "Small Language Models (SLMs)",
+      "url": "https://outcomeschool.com/blog/small-language-models-slms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1021,
+    "lineEnd": 1022,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1021-L1022"
+  },
+  "contentHash": "c55562db47b2fd6ccf7184eca86ab1eb3dfa49fd234b162f0fc2f0cd03fe1ff3",
+  "id": "Q0307",
+  "number": 307,
+  "active": true
+}

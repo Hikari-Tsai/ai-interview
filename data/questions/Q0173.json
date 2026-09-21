@@ -1,0 +1,30 @@
+{
+  "original": "Design the serving stack for a ChatGPT-scale consumer assistant: hundreds of millions of weekly users, streaming chat, multiple model tiers.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)",
+  "links": [
+    {
+      "title": "Inside ChatGPT: What Happens After You Hit Enter",
+      "url": "https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 570,
+    "lineEnd": 571,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L570-L571"
+  },
+  "contentHash": "31ef5989abd8fb0dfd9c3fca5fac436c7f754e267e908fa324703d36a8464f2d",
+  "id": "Q0173",
+  "number": 173,
+  "active": true
+}

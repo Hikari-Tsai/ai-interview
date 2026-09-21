@@ -1,0 +1,25 @@
+{
+  "original": "Design a personalised news-feed ranking system / the “next post” logic for Facebook's feed.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 697,
+    "lineEnd": 697,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L697-L697"
+  },
+  "contentHash": "2aa4e5e10bcda836e0139e535fed734dff262fb338eed5fd12bf31c7a43cb7e5",
+  "id": "Q0225",
+  "number": 225,
+  "active": true
+}

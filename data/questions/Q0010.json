@@ -1,0 +1,35 @@
+{
+  "original": "What is a mixture-of-experts architecture and how does it scale capacity without scaling FLOPs?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Mistral AI",
+    "Cohere",
+    "DeepSeek",
+    "Moonshot AI",
+    "Zhipu AI",
+    "Alibaba"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 142,
+    "lineEnd": 144,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L142-L144"
+  },
+  "contentHash": "ce6f451ff3780f35b042bb255a9482fcd2bd42f2d8cfa4fa9f12b776b402af90",
+  "id": "Q0010",
+  "number": 10,
+  "active": true
+}

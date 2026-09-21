@@ -1,0 +1,26 @@
+{
+  "original": "Design human-in-the-loop approval for an agent that takes consequential actions.",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "Palantir"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 265,
+    "lineEnd": 266,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L265-L266"
+  },
+  "contentHash": "e41311020cd567aeab22fa2556a3de66a756af836d91ec7116a5a022ecbfdfd4",
+  "id": "Q0054",
+  "number": 54,
+  "active": true
+}

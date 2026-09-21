@@ -1,0 +1,30 @@
+{
+  "original": "p95 time-to-first-token regressed from 1.2 s to 3 s after a release. Walk me through finding and fixing it.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)",
+  "links": [
+    {
+      "title": "The First-Token Latency Problem in LLMs",
+      "url": "https://www.youtube.com/watch?v=XD8DD4cEHu0"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1532,
+    "lineEnd": 1533,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1532-L1533"
+  },
+  "contentHash": "d3547b9bad7be7a31e2b5d02172cdba29540ece9297fc9a2e881a7a1248f0a4c",
+  "id": "Q0454",
+  "number": 454,
+  "active": true
+}

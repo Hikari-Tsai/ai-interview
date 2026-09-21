@@ -1,0 +1,25 @@
+{
+  "original": "Design the training setup for a model that doesn't fit on one accelerator, say 70B parameters on a pod.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 630,
+    "lineEnd": 630,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L630-L630"
+  },
+  "contentHash": "c86eb1423aa9c7806ae876d913056c3e3d004d921ec312174bc5df9a030d4d04",
+  "id": "Q0201",
+  "number": 201,
+  "active": true
+}

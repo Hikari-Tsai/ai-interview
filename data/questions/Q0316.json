@@ -1,0 +1,25 @@
+{
+  "original": "A state agency wants to move a paper-and-call-centre welfare-scheme service onto a multilingual assistant, on-prem for data residency. How do you scope and ship it?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1054,
+    "lineEnd": 1054,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1054-L1054"
+  },
+  "contentHash": "8b7e3b701830ab98369548253cefc7f28a4741d3f752c9a584dcc379d7621dd2",
+  "id": "Q0316",
+  "number": 316,
+  "active": true
+}

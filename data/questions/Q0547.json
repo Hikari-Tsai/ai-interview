@@ -1,0 +1,30 @@
+{
+  "original": "Design a service that turns the conversation into draft orders: labs, imaging, referrals, prescriptions, via tool calls against the EHR.",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1883,
+    "lineEnd": 1884,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1883-L1884"
+  },
+  "contentHash": "b42d7c34df2d1a7e6a7614f66d8a9ca521f8c1c8d9a0a8bd4b1c6d041f964851",
+  "id": "Q0547",
+  "number": 547,
+  "active": true
+}

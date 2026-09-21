@@ -1,0 +1,31 @@
+{
+  "original": "Explain disaggregated prefill/decode serving and when it pays for itself.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI",
+    "Groq"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Prefill-Decode Disaggregation in LLM Inference](https://outcomeschool.com/blog/prefill-decode-disaggregation)",
+  "links": [
+    {
+      "title": "Prefill-Decode Disaggregation in LLM Inference",
+      "url": "https://outcomeschool.com/blog/prefill-decode-disaggregation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 203,
+    "lineEnd": 205,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L203-L205"
+  },
+  "contentHash": "cc77070427a3b0ca27eacaa2a00b2f215358c49794a271a0d3e588d86f4efc4e",
+  "id": "Q0031",
+  "number": 31,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "You have dozens of ranking signals and a brand-new tenant with zero interaction data. How do you rank, and how do you improve?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1779,
+    "lineEnd": 1779,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1779-L1779"
+  },
+  "contentHash": "3ed9d02a8069d331820d9dd07fbe14c5f4cf4aabde419f6c4310f9b518dc0801",
+  "id": "Q0522",
+  "number": 522,
+  "active": true
+}

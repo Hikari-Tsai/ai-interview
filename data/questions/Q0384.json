@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about the most technically demanding thing you have shipped, and what you would do differently.",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1291,
+    "lineEnd": 1291,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1291-L1291"
+  },
+  "contentHash": "f33422d54cb41ffe4013bf1eb0fc41c5d6ac6e44cae516835d58e9817fd21495",
+  "id": "Q0384",
+  "number": 384,
+  "active": true
+}

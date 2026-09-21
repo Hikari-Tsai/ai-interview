@@ -1,0 +1,25 @@
+{
+  "original": "Create a task scheduler.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 457,
+    "lineEnd": 457,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L457-L457"
+  },
+  "contentHash": "32658d372a17b27c214a041f2d5907751de5a3bff037e388027d5658dad5f81e",
+  "id": "Q0122",
+  "number": 122,
+  "active": true
+}

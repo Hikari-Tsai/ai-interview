@@ -1,0 +1,30 @@
+{
+  "original": "GLM-4.5 is an MoE with 355B total but 32B active parameters. Explain the economics: what does that split buy you and what does it cost?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 927,
+    "lineEnd": 928,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L927-L928"
+  },
+  "contentHash": "1ff7cc5d1fc033d20b990d171e30aa49b91b29e98f8a221bf4c34f4515bda967",
+  "id": "Q0285",
+  "number": 285,
+  "active": true
+}

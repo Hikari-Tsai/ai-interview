@@ -1,0 +1,25 @@
+{
+  "original": "What is the project you are most proud of?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 597,
+    "lineEnd": 597,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L597-L597"
+  },
+  "contentHash": "c7fa9384c4d39f96ca3e27e12d3ba8f897d55f6f11847c304836c5ce272aa347",
+  "id": "Q0187",
+  "number": 187,
+  "active": true
+}

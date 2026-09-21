@@ -1,0 +1,26 @@
+{
+  "original": "How do scaling laws influence the safety evaluation of large models?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "finetuning",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 493,
+    "lineEnd": 493,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L493-L493"
+  },
+  "contentHash": "3ce82c4a972c390e98448f7978ef1f5da92d4ec2de926ed1ec830bd9b3f47227",
+  "id": "Q0140",
+  "number": 140,
+  "active": true
+}

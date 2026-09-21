@@ -1,0 +1,26 @@
+{
+  "original": "An enterprise customer reports that responses from your deployed system have gotten slow. Walk me through the diagnosis.",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 579,
+    "lineEnd": 579,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L579-L579"
+  },
+  "contentHash": "58ea79630ef9d8dc9f1be349685809b2acdd667b5b52ff859382a36acbc4d2e2",
+  "id": "Q0178",
+  "number": 178,
+  "active": true
+}

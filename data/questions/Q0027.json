@@ -1,0 +1,39 @@
+{
+  "original": "When would you choose vLLM vs SGLang vs TensorRT-LLM vs a custom stack?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work), [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work) and [How does TensorRT-LLM work?](https://outcomeschool.com/blog/how-does-tensorrt-llm-work)",
+  "links": [
+    {
+      "title": "How does vLLM work?",
+      "url": "https://outcomeschool.com/blog/how-does-vllm-work"
+    },
+    {
+      "title": "How does SGLang work?",
+      "url": "https://outcomeschool.com/blog/how-does-sglang-work"
+    },
+    {
+      "title": "How does TensorRT-LLM work?",
+      "url": "https://outcomeschool.com/blog/how-does-tensorrt-llm-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 194,
+    "lineEnd": 196,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L194-L196"
+  },
+  "contentHash": "7e7632ab632889a52102656ec807e0b7143cee7d648e567fad6960cb484c3fd3",
+  "id": "Q0027",
+  "number": 27,
+  "active": true
+}

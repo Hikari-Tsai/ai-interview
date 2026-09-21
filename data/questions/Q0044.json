@@ -1,0 +1,32 @@
+{
+  "original": "Explain the ReAct pattern and what it solves over chain-of-thought alone.",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent) and [How does Chain-of-Thought (CoT) Prompting work?](https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work)",
+  "links": [
+    {
+      "title": "ReAct Agent",
+      "url": "https://outcomeschool.com/blog/react-agent"
+    },
+    {
+      "title": "How does Chain-of-Thought (CoT) Prompting work?",
+      "url": "https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 239,
+    "lineEnd": 240,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L239-L240"
+  },
+  "contentHash": "c38d78bdb16a6f594552003fba7fa928e14d968dcb86eda53c48a82e105ab9dd",
+  "id": "Q0044",
+  "number": 44,
+  "active": true
+}

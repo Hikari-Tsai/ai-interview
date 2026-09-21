@@ -1,0 +1,25 @@
+{
+  "original": "The model is streaming a multi-file edit while the user keeps typing in one of those files. How do you apply the edits without corrupting the buffer?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1604,
+    "lineEnd": 1604,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1604-L1604"
+  },
+  "contentHash": "b393ec0eb3b0e9aeb77d817974224e0690b16f20f399506e531066663f996205",
+  "id": "Q0476",
+  "number": 476,
+  "active": true
+}

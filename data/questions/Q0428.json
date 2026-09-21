@@ -1,0 +1,25 @@
+{
+  "original": "Why did Hugging Face create safetensors when pickle-based checkpoints already worked everywhere?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1448,
+    "lineEnd": 1448,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1448-L1448"
+  },
+  "contentHash": "d387e9cbfcb6f702f4a3fa878e1c5dd4d928db18ecbcb3dcfd9def0474dede2e",
+  "id": "Q0428",
+  "number": 428,
+  "active": true
+}

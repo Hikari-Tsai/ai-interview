@@ -1,0 +1,30 @@
+{
+  "original": "On a GPU you batch to amortise weight reads. What is the batching calculus on an SRAM-only machine, and how should that change how we price?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)",
+  "links": [
+    {
+      "title": "How does an LPU work?",
+      "url": "https://outcomeschool.com/blog/how-does-an-lpu-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1384,
+    "lineEnd": 1385,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1384-L1385"
+  },
+  "contentHash": "a24332ddceb1617dadb250c0f0568c418e46bc4d956935a0d8a45b8344fea94b",
+  "id": "Q0414",
+  "number": 414,
+  "active": true
+}

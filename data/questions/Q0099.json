@@ -1,0 +1,35 @@
+{
+  "original": "Design a code assistant: repo indexing, context assembly, edit application, evaluation.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cursor"
+  ],
+  "tags": [
+    "system-design",
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work) and [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)",
+  "links": [
+    {
+      "title": "How does Cursor work?",
+      "url": "https://outcomeschool.com/blog/how-does-cursor-work"
+    },
+    {
+      "title": "How does Claude Code work?",
+      "url": "https://outcomeschool.com/blog/how-does-claude-code-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 386,
+    "lineEnd": 388,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L386-L388"
+  },
+  "contentHash": "98367db0f4ddd29032335d28c29d4ac7cc1990c9e1135e7e75e8b15cd330ae50",
+  "id": "Q0099",
+  "number": 99,
+  "active": true
+}

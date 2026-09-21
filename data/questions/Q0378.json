@@ -1,0 +1,25 @@
+{
+  "original": "Explain how you would auto-label a fleet dataset and what quality controls you would put on it.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1269,
+    "lineEnd": 1269,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1269-L1269"
+  },
+  "contentHash": "f01e86e4041ac43970403d86986fd77d6f8e9f5aa57f179a283d4d4a03fc57e9",
+  "id": "Q0378",
+  "number": 378,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Disengagement rate is a weak safety proxy. How would you actually measure whether the Driver is safe enough to ship?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1969,
+    "lineEnd": 1969,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1969-L1969"
+  },
+  "contentHash": "98f94964778ef1751147f3a26deada1eb676199204bd1df5cb207338008e56d6",
+  "id": "Q0575",
+  "number": 575,
+  "active": true
+}

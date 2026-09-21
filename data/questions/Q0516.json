@@ -1,0 +1,30 @@
+{
+  "original": "How would you chunk and embed heterogeneous enterprise content: Slack threads, Jira tickets, Google Docs, PDFs?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)",
+  "links": [
+    {
+      "title": "Chunking Strategies for RAG",
+      "url": "https://outcomeschool.com/blog/chunking-strategies-for-rag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1763,
+    "lineEnd": 1764,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1763-L1764"
+  },
+  "contentHash": "c3c504f03291fbd2db2d67edaefc103a2751493740f20c51cf3a035461802915",
+  "id": "Q0516",
+  "number": 516,
+  "active": true
+}

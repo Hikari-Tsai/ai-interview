@@ -1,0 +1,34 @@
+{
+  "original": "How is KL divergence loss different from cross-entropy loss? And from contrastive loss?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)",
+  "links": [
+    {
+      "title": "Math Behind Cross-Entropy Loss",
+      "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    },
+    {
+      "title": "What is Contrastive Learning?",
+      "url": "https://outcomeschool.com/blog/contrastive-learning"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1120,
+    "lineEnd": 1121,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1120-L1121"
+  },
+  "contentHash": "05cb4fb615f0b077b4e4782eb6f987e2a503f4ffa0c917313934f82b292c48f6",
+  "id": "Q0332",
+  "number": 332,
+  "active": true
+}

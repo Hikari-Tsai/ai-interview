@@ -1,0 +1,30 @@
+{
+  "original": "Time-to-first-token for your on-device feature is 1.8 s. Walk me through diagnosing and fixing it.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)",
+  "links": [
+    {
+      "title": "The First-Token Latency Problem in LLMs",
+      "url": "https://www.youtube.com/watch?v=XD8DD4cEHu0"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1181,
+    "lineEnd": 1182,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1181-L1182"
+  },
+  "contentHash": "27d06f6e8e552f4770aac44644c54c4bfd275e299fef9723319b7f6bcb814083",
+  "id": "Q0353",
+  "number": 353,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Build the evaluation harness for a new frontier model release. What does it need to do?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 643,
+    "lineEnd": 644,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L643-L644"
+  },
+  "contentHash": "30aaad19fc9fe49bb9abbd69c1b3ae10ed8903d7f51f5c27a5bd1ac6d94fcbca",
+  "id": "Q0207",
+  "number": 207,
+  "active": true
+}

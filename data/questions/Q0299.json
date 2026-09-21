@@ -1,0 +1,30 @@
+{
+  "original": "Qwen2.5 extends context to 128K (and ~1M for Turbo) using YaRN plus Dual Chunk Attention, mostly training-free. Explain how, and why post-hoc extension is attractive.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)",
+  "links": [
+    {
+      "title": "Math Behind RoPE (Rotary Position Embedding)",
+      "url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 977,
+    "lineEnd": 978,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L977-L978"
+  },
+  "contentHash": "9008e397464136f0345379133aea17af653b849d9f4c2cfbb762afd8067518ec",
+  "id": "Q0299",
+  "number": 299,
+  "active": true
+}

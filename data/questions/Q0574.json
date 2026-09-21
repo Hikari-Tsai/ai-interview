@@ -1,0 +1,25 @@
+{
+  "original": "You are opening in a new city. Structure the safety case.",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1965,
+    "lineEnd": 1965,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1965-L1965"
+  },
+  "contentHash": "11e8fba5b46688349980ecd3741040f7f940fc19f922a561d0045c2ad3064278",
+  "id": "Q0574",
+  "number": 574,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "A model runs fine in FP32 but produces garbage after conversion to FP16. Debug it.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1224,
+    "lineEnd": 1224,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1224-L1224"
+  },
+  "contentHash": "66d8d8322b5cf80e2fbd598acf300e221128d9b81a43cb24e17b1aa93e62c161",
+  "id": "Q0363",
+  "number": 363,
+  "active": true
+}

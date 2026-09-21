@@ -1,0 +1,25 @@
+{
+  "original": "Design APIs for developers to access Anthropic's models securely and efficiently.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 500,
+    "lineEnd": 500,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L500-L500"
+  },
+  "contentHash": "c297ced45b0a660e42d2e15a52a7e2e9482eb3e688d5272292f1e953f70d3b17",
+  "id": "Q0144",
+  "number": 144,
+  "active": true
+}

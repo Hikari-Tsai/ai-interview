@@ -1,0 +1,25 @@
+{
+  "original": "A Spark job joining a 2 TB fact table to a 50 GB dimension table has one straggler task running 100x longer than the rest. Diagnose and fix it.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Databricks"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1346,
+    "lineEnd": 1346,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1346-L1346"
+  },
+  "contentHash": "fb8e9fac873df988c6e15da9c93ab57ab0795cb801ac195d0ce2b6fee12f92f0",
+  "id": "Q0402",
+  "number": 402,
+  "active": true
+}

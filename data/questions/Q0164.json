@@ -1,0 +1,25 @@
+{
+  "original": "Compute the KL divergence given different random variables.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 547,
+    "lineEnd": 547,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L547-L547"
+  },
+  "contentHash": "ed53e766ced6346ec46d227b999092de153ff667a5a996629520e4168747456f",
+  "id": "Q0164",
+  "number": 164,
+  "active": true
+}

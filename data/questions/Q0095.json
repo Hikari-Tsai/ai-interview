@@ -1,0 +1,25 @@
+{
+  "original": "Explain streaming TTS chunking and jitter-buffer sizing.",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 375,
+    "lineEnd": 376,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L375-L376"
+  },
+  "contentHash": "b73dff1e786e2970457bffc30f48bbcceda9464655f6b3ef0c5e6f7ebfec8aab",
+  "id": "Q0095",
+  "number": 95,
+  "active": true
+}

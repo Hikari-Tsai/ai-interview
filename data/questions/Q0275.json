@@ -1,0 +1,35 @@
+{
+  "original": "Kimi K2 uses Multi-head Latent Attention (MLA). Explain what it does and how it compares to GQA for KV-cache reduction.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "llm",
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression) and [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)",
+  "links": [
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    },
+    {
+      "title": "Grouped Query Attention",
+      "url": "https://outcomeschool.com/blog/grouped-query-attention"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 886,
+    "lineEnd": 887,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L886-L887"
+  },
+  "contentHash": "bf51241cd60919bc0fd0024111b9a852c136306fd85c6d9d311a77c8cc3e9ec7",
+  "id": "Q0275",
+  "number": 275,
+  "active": true
+}

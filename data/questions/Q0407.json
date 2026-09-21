@@ -1,0 +1,26 @@
+{
+  "original": "An agent you shipped four months ago runs on a base model being deprecated in 60 days. How do you swap the model without regressing quality, and what had to be in place beforehand?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Databricks"
+  ],
+  "tags": [
+    "applied",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1361,
+    "lineEnd": 1361,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1361-L1361"
+  },
+  "contentHash": "588921627ad7d756a278da80877cf4dc433c8e7e0ecdab8e429b7cac47600cdb",
+  "id": "Q0407",
+  "number": 407,
+  "active": true
+}

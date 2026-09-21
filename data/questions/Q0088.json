@@ -1,0 +1,35 @@
+{
+  "original": "How do vision-language models get images into an LLM: projector, cross-attention, or native tokens?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta",
+    "Alibaba"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai) and [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)",
+  "links": [
+    {
+      "title": "Multimodal AI",
+      "url": "https://outcomeschool.com/blog/multimodal-ai"
+    },
+    {
+      "title": "Decoding Vision Transformer (ViT)",
+      "url": "https://outcomeschool.com/blog/decoding-vision-transformer-vit"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 357,
+    "lineEnd": 359,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L357-L359"
+  },
+  "contentHash": "7b88a98cef390f5e4851096002e1a8a5e98f2bd501d54051431e99501e99b180",
+  "id": "Q0088",
+  "number": 88,
+  "active": true
+}

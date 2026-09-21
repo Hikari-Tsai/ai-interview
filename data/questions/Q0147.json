@@ -1,0 +1,31 @@
+{
+  "original": "Your agent reads inbound email and can send replies and search internal docs. Walk me through the prompt-injection attack surface and your defences.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "safety",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)",
+  "links": [
+    {
+      "title": "Prompt Injection in LLMs",
+      "url": "https://outcomeschool.com/blog/prompt-injection-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 509,
+    "lineEnd": 510,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L509-L510"
+  },
+  "contentHash": "7f67a6e632fc33039a9703aa19febbe1f5e7c373b395b7f079c2509ab15beb3c",
+  "id": "Q0147",
+  "number": 147,
+  "active": true
+}

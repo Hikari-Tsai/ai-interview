@@ -1,0 +1,25 @@
+{
+  "original": "What is a vision-language-action model, and how is it different from an LLM with tools?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1937,
+    "lineEnd": 1937,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1937-L1937"
+  },
+  "contentHash": "6d34f5d18a424b39d6cdfea707a9757e525a6911df6d30c8d7144cacf0723073",
+  "id": "Q0564",
+  "number": 564,
+  "active": true
+}

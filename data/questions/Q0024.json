@@ -1,0 +1,34 @@
+{
+  "original": "Estimate the GPU memory needed to serve a 70B model: weights, KV cache, activations, fragmentation.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "Paged Attention in LLMs",
+      "url": "https://outcomeschool.com/blog/paged-attention-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 185,
+    "lineEnd": 187,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L185-L187"
+  },
+  "contentHash": "1bad04ba83ee8b000c184efe216718515c172fc7bca03353f1a849f4f7e54c48",
+  "id": "Q0024",
+  "number": 24,
+  "active": true
+}

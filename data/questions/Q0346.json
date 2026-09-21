@@ -1,0 +1,25 @@
+{
+  "original": "How would you decide an LLM-powered assistant is ready to launch to millions of customers?",
+  "topic": "Evaluation and Observability",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1157,
+    "lineEnd": 1157,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1157-L1157"
+  },
+  "contentHash": "7834991472b1d69f28824d23549d7b624157423119a397a1f27d6a02331696c5",
+  "id": "Q0346",
+  "number": 346,
+  "active": true
+}

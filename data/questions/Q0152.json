@@ -1,0 +1,25 @@
+{
+  "original": "How would you make complex AI research findings accessible to a non-technical audience?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 518,
+    "lineEnd": 518,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L518-L518"
+  },
+  "contentHash": "704f865513bc5ecb214f6113c1e85a1d9da5ef5a036f88671f64511d7eedc40d",
+  "id": "Q0152",
+  "number": 152,
+  "active": true
+}

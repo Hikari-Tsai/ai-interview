@@ -1,0 +1,28 @@
+{
+  "original": "Design a red-teaming programme for a model you are about to release.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 352,
+    "lineEnd": 353,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L352-L353"
+  },
+  "contentHash": "b3b46146ef851db96a16ea88434c4e986ea83f3bc09d651567e86fc552f4af64",
+  "id": "Q0087",
+  "number": 87,
+  "active": true
+}

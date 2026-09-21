@@ -1,0 +1,25 @@
+{
+  "original": "Regular expression matching with '.' and '*'.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 667,
+    "lineEnd": 667,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L667-L667"
+  },
+  "contentHash": "42a4fa1ce2ac9d24b8aaf4078166bba11a0749e39e391b73549b4ef489c55512",
+  "id": "Q0216",
+  "number": 216,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "On average, how many fair coin flips until you see two heads in a row? Walk me through it.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 623,
+    "lineEnd": 623,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L623-L623"
+  },
+  "contentHash": "ea3dc49ec61619482ef99ae32daa3cad1f5162ec57a8b8c3e2502f61f896262e",
+  "id": "Q0197",
+  "number": 197,
+  "active": true
+}

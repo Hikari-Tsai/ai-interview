@@ -1,0 +1,25 @@
+{
+  "original": "Design a classifier that predicts the optimal moment to insert a commercial break in a video.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 636,
+    "lineEnd": 636,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L636-L636"
+  },
+  "contentHash": "acd064d10a480ebdec46084a5f0da8d5bb1d746e643ad69a8cbed50dc97ed5b6",
+  "id": "Q0204",
+  "number": 204,
+  "active": true
+}

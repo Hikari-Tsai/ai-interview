@@ -1,0 +1,30 @@
+{
+  "original": "Your on-device model must emit valid, schema-conforming tool calls. How do you guarantee validity rather than hope for it?",
+  "topic": "Agents and Tool Use",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1186,
+    "lineEnd": 1187,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1186-L1187"
+  },
+  "contentHash": "f6fc9672f63f1361baae29f16077836701c32776dff9e94fdc905654ba844896",
+  "id": "Q0354",
+  "number": 354,
+  "active": true
+}

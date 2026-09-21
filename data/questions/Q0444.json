@@ -1,0 +1,25 @@
+{
+  "original": "Your annotators have no ground truth: the tasks are subjective preference judgments. How do you measure and improve label quality?",
+  "topic": "Evaluation and Observability",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1500,
+    "lineEnd": 1500,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1500-L1500"
+  },
+  "contentHash": "a712fc1f021004d8afccc764828aac9573908c5ef576cef7d3a358a8eaf57ef3",
+  "id": "Q0444",
+  "number": 444,
+  "active": true
+}

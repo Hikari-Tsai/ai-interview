@@ -1,0 +1,30 @@
+{
+  "original": "Qwen3 unifies a thinking mode and a non-thinking mode in one model with a caller-settable thinking budget. How would you train that, and how would you serve it?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)",
+  "links": [
+    {
+      "title": "Large Reasoning Models (LRMs)",
+      "url": "https://outcomeschool.com/blog/large-reasoning-models"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 973,
+    "lineEnd": 974,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L973-L974"
+  },
+  "contentHash": "a312b914c94693a4b9e8829318346e82bc9abd8df8388cde0b11770d038c4b31",
+  "id": "Q0297",
+  "number": 297,
+  "active": true
+}

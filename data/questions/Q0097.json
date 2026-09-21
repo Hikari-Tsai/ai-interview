@@ -1,0 +1,28 @@
+{
+  "original": "How would you build multimodal retrieval over images, video and text in one index?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [How do Image Embeddings work?](https://outcomeschool.com/blog/how-do-image-embeddings-work)",
+  "links": [
+    {
+      "title": "How do Image Embeddings work?",
+      "url": "https://outcomeschool.com/blog/how-do-image-embeddings-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 379,
+    "lineEnd": 380,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L379-L380"
+  },
+  "contentHash": "4beb20528a704b5008f868a9462c3e31b683334dc32d1ecd37b280ba51655088",
+  "id": "Q0097",
+  "number": 97,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Explain attention-free transformer architectures and their trade-offs.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 472,
+    "lineEnd": 472,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L472-L472"
+  },
+  "contentHash": "1b2d498cfbb9a5901704e0eebf123846974e0bedb7368f8a63f7670b2fa21cf8",
+  "id": "Q0133",
+  "number": 133,
+  "active": true
+}

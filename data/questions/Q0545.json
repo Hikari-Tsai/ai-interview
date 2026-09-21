@@ -1,0 +1,26 @@
+{
+  "original": "The note should be ready before the clinician leaves the room. Build me the latency budget, and tell me where the money goes.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1875,
+    "lineEnd": 1875,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1875-L1875"
+  },
+  "contentHash": "f0f70966410bd6c1061cf6bb0f45d79172bc71a135151332d5a385fcc5874fd3",
+  "id": "Q0545",
+  "number": 545,
+  "active": true
+}

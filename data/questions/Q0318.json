@@ -1,0 +1,35 @@
+{
+  "original": "Low-level design: sketch the classes and interfaces for the tool-calling layer of an agent host, where tools can come from native code, an OpenAPI spec, or an MCP server.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "coding",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol) and [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "What is MCP (Model Context Protocol)?",
+      "url": "https://outcomeschool.com/blog/what-is-mcp-model-context-protocol"
+    },
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1069,
+    "lineEnd": 1070,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1069-L1070"
+  },
+  "contentHash": "6e7da80d056cdf9c7f7d2b68ddfc09c30955e8300b011dad15d7a7bead9f4f20",
+  "id": "Q0318",
+  "number": 318,
+  "active": true
+}

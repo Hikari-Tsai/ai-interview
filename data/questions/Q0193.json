@@ -1,0 +1,25 @@
+{
+  "original": "What are the assumptions of linear regression?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 617,
+    "lineEnd": 617,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L617-L617"
+  },
+  "contentHash": "a5069574a7b6547a811133f79c53ad97616583f5d84d18295eb5f32733f5216b",
+  "id": "Q0193",
+  "number": 193,
+  "active": true
+}

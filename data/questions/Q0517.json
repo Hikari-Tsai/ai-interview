@@ -1,0 +1,30 @@
+{
+  "original": "Why is RAG the right architecture for an enterprise assistant instead of fine-tuning on the company's data? Where does RAG break?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)",
+  "links": [
+    {
+      "title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "url": "https://www.youtube.com/watch?v=lnfWvX66FUk"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1765,
+    "lineEnd": 1766,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1765-L1766"
+  },
+  "contentHash": "281ec2ef59dbe98958e0873669a1a9ba6a8e0660ff44b0c083037d10fa25dcd1",
+  "id": "Q0517",
+  "number": 517,
+  "active": true
+}

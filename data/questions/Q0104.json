@@ -1,0 +1,26 @@
+{
+  "original": "Design a Text-to-SQL system over a warehouse with thousands of tables.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Databricks",
+    "Palantir"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 398,
+    "lineEnd": 399,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L398-L399"
+  },
+  "contentHash": "b9cac41783def7a7b9fa4e80be112c043d0e8289ff4bb72f3bc5bd7a9f97b773",
+  "id": "Q0104",
+  "number": 104,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Our audio is a clinic room: two or three speakers, background noise, accents, and a vocabulary full of drug names. How would you build and improve the ASR for that?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1903,
+    "lineEnd": 1903,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1903-L1903"
+  },
+  "contentHash": "45c0e4936c68c809b40717dda5d07669d7d4b447737f6bc5b92d6e56e8878bf4",
+  "id": "Q0554",
+  "number": 554,
+  "active": true
+}

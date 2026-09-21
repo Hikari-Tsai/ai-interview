@@ -1,0 +1,25 @@
+{
+  "original": "Why Anthropic specifically, and where do you disagree with Anthropic?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 523,
+    "lineEnd": 523,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L523-L523"
+  },
+  "contentHash": "df1c022b33e2bc6cecd06de6afada27a393876d231f5020859f32f079e0c0921",
+  "id": "Q0154",
+  "number": 154,
+  "active": true
+}

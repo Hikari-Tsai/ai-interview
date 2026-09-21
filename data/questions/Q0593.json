@@ -1,0 +1,25 @@
+{
+  "original": "Design a sync system between two employee record systems.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2019,
+    "lineEnd": 2019,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2019-L2019"
+  },
+  "contentHash": "4388d2f820a12bc35c42ff31fa948f27c45924da024e44348b9a842b8da39394",
+  "id": "Q0593",
+  "number": 593,
+  "active": true
+}

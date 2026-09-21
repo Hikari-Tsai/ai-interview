@@ -1,0 +1,30 @@
+{
+  "original": "Your platform must support multiple LLM providers, including deployments in restricted environments where only some models are available. How do you architect model selection?",
+  "topic": "AI System Design",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)",
+  "links": [
+    {
+      "title": "LLM Routing",
+      "url": "https://outcomeschool.com/blog/llm-routing"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2008,
+    "lineEnd": 2009,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2008-L2009"
+  },
+  "contentHash": "3da384804a31a25f2fb1980db0e0d9fd630e4255dade98a977b663a7898bac4e",
+  "id": "Q0589",
+  "number": 589,
+  "active": true
+}

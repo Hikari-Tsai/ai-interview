@@ -1,0 +1,25 @@
+{
+  "original": "In NumPy, compute minADE and minFDE for multi-modal trajectory predictions with variable-length ground truth. No Python loops.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1949,
+    "lineEnd": 1949,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1949-L1949"
+  },
+  "contentHash": "e0966bf99dd9e14cc4abf6ed3deb0fbda27848fd96dd4996953fcf336b476833",
+  "id": "Q0567",
+  "number": 567,
+  "active": true
+}

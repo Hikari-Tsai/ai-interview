@@ -1,0 +1,30 @@
+{
+  "original": "You have one on-device base model but a dozen features: summarization, rewriting, reply suggestions, tone adjustment. How do you specialise without shipping a dozen models?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)",
+  "links": [
+    {
+      "title": "LoRA - Low-Rank Adaptation of LLMs",
+      "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1191,
+    "lineEnd": 1192,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1191-L1192"
+  },
+  "contentHash": "e951a2fa282e2e593a5c9e35001cd0ef4b58ebb7a210ff5c935f1b05d6033494",
+  "id": "Q0355",
+  "number": 355,
+  "active": true
+}

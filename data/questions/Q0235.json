@@ -1,0 +1,26 @@
+{
+  "original": "Tell me about maintaining a production ML pipeline. Why Meta?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "behavioral",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 721,
+    "lineEnd": 721,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L721-L721"
+  },
+  "contentHash": "e9e615dc6f59ad1d23c34644e7e72ab916ab1b2743149ac871ad1b964ae567e3",
+  "id": "Q0235",
+  "number": 235,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "GLM's original pre-training objective is autoregressive blank infilling. How does it differ from BERT and GPT, and why did the team argue it unifies understanding and generation?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)",
+  "links": [
+    {
+      "title": "Encoder vs Decoder in Transformers",
+      "url": "https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 925,
+    "lineEnd": 926,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L925-L926"
+  },
+  "contentHash": "c4296899a9b765d16a6b2e9a069ef5ca639ba3f9759eac74e026d58e3b0332c8",
+  "id": "Q0284",
+  "number": 284,
+  "active": true
+}

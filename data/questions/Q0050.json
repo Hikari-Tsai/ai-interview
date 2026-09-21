@@ -1,0 +1,30 @@
+{
+  "original": "Design memory for a long-running agent: what do you store, where, and how do you retrieve it?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)",
+  "links": [
+    {
+      "title": "AI Agent Memory",
+      "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 256,
+    "lineEnd": 258,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L256-L258"
+  },
+  "contentHash": "30fd7788c021a1205f263ab5f396146c57541612019eb3e21f7bef80354adabc",
+  "id": "Q0050",
+  "number": 50,
+  "active": true
+}

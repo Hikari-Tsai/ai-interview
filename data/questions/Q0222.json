@@ -1,0 +1,25 @@
+{
+  "original": "You're dropped into an unfamiliar multi-file codebase with a failing behaviour and an LLM assistant available. Walk me through how you'd fix it.",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 687,
+    "lineEnd": 687,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L687-L687"
+  },
+  "contentHash": "95a0559b8fb724691fc531cbf63c8b2c7f3b4a56120447b9b75426de4dfd325d",
+  "id": "Q0222",
+  "number": 222,
+  "active": true
+}

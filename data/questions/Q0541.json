@@ -1,0 +1,25 @@
+{
+  "original": "Design the dubbing pipeline: an English video becomes Spanish, same speakers, same timing.",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1854,
+    "lineEnd": 1854,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1854-L1854"
+  },
+  "contentHash": "f73966e6793e5fdfdeccd67d9f66840e9692a4079b1d1a4a084ef907341204bd",
+  "id": "Q0541",
+  "number": 541,
+  "active": true
+}

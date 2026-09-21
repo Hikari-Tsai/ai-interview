@@ -1,0 +1,25 @@
+{
+  "original": "FP8 training at 671B scale is hard. What actually breaks in low precision, and how do you make it stable?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 866,
+    "lineEnd": 866,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L866-L866"
+  },
+  "contentHash": "4c842a1f147656a16811ac1e659d7dd38bd75a10f81289f10fa950c690dca6a9",
+  "id": "Q0270",
+  "number": 270,
+  "active": true
+}

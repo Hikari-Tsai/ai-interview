@@ -1,0 +1,9 @@
+---
+import {locales} from '../../lib/types';
+import {loadCards} from '../../lib/catalog';
+import {pathFor} from '../../lib/i18n';
+export function getStaticPaths(){return locales.map(locale=>({params:{locale}}));}
+const first=loadCards().find(c=>c.active);
+const target=pathFor(Astro.params.locale!,first?.id);
+---
+<html lang={Astro.params.locale}><head><meta charset="utf-8"/><meta http-equiv="refresh" content={`0;url=${target}`}/><title>Recall</title></head><body><a href={target}>Recall</a><script is:inline>location.replace(document.querySelector('a').href+location.search);</script></body></html>

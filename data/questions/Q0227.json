@@ -1,0 +1,25 @@
+{
+  "original": "Design the ML components behind an Instagram Story feature.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 699,
+    "lineEnd": 699,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L699-L699"
+  },
+  "contentHash": "ca996c681ccc9e6f408ea656821073ebd5deb87a886d1615328ae34934d23d3f",
+  "id": "Q0227",
+  "number": 227,
+  "active": true
+}

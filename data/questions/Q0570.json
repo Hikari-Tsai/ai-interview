@@ -1,0 +1,25 @@
+{
+  "original": "Where do vision-language models and foundation models genuinely help in an autonomy stack, and where are they a liability?",
+  "topic": "ML and DL Fundamentals",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1955,
+    "lineEnd": 1955,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1955-L1955"
+  },
+  "contentHash": "8dab0a87aece8073230039546c4c0e1dda994834ea29aeccd82b96b96ae95cfb",
+  "id": "Q0570",
+  "number": 570,
+  "active": true
+}

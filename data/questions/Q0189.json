@@ -1,0 +1,25 @@
+{
+  "original": "Closest key: given a dictionary with letter keys and lists of letters as values, find the closest key.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 610,
+    "lineEnd": 610,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L610-L610"
+  },
+  "contentHash": "ffc2bac8e3c3989eaade65d3b56acebf8a43dca5b1d8bef7f284a33e08d97c6d",
+  "id": "Q0189",
+  "number": 189,
+  "active": true
+}

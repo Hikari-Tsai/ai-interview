@@ -1,0 +1,25 @@
+{
+  "original": "transformers famously repeats code: each model gets its own self-contained modeling file. Defend that decision, then critique it.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1447,
+    "lineEnd": 1447,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1447-L1447"
+  },
+  "contentHash": "5656053bf2cb1efba92bdca72f4213b99073f3bf42ca0ca8bf2f57a6d12565f7",
+  "id": "Q0427",
+  "number": 427,
+  "active": true
+}

@@ -1,0 +1,27 @@
+{
+  "original": "Implement an LRU cache with O(1) get/put, then add TTL.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "xAI",
+    "Alibaba"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 425,
+    "lineEnd": 426,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L425-L426"
+  },
+  "contentHash": "7b2ab06b7cff0df9598ddcbbb647ea86535044a4742d5f7acdbea6524af77cec",
+  "id": "Q0113",
+  "number": 113,
+  "active": true
+}

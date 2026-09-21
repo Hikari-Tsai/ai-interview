@@ -1,0 +1,26 @@
+{
+  "original": "How do you make an agent's actions reversible, or at least auditable, in a production system?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "agents",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 263,
+    "lineEnd": 264,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L263-L264"
+  },
+  "contentHash": "a18e209ff67497a20f320748a1a210ec3361acd3a3a980cb360addb0cac32f48",
+  "id": "Q0053",
+  "number": 53,
+  "active": true
+}

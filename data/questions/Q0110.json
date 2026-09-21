@@ -1,0 +1,31 @@
+{
+  "original": "Implement a KV cache and single-step decode.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI"
+  ],
+  "tags": [
+    "coding",
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 417,
+    "lineEnd": 419,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L417-L419"
+  },
+  "contentHash": "fd589a332f4d2638506cb5208d8f959e4b13b4fa2b0bf1a65e8503530c371087",
+  "id": "Q0110",
+  "number": 110,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "How would you design the neural network architecture for multi-camera 3D object detection without lidar?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1267,
+    "lineEnd": 1267,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1267-L1267"
+  },
+  "contentHash": "44397bf99ca5434894361c2a276afccdcd4ee3b7e03010502b86378095ba545e",
+  "id": "Q0376",
+  "number": 376,
+  "active": true
+}

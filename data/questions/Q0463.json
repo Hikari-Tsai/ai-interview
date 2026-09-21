@@ -1,0 +1,25 @@
+{
+  "original": "Design the citation-verification system to reduce hallucinations in generated answers. How do you ensure every claim is actually supported by its cited source?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1558,
+    "lineEnd": 1558,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1558-L1558"
+  },
+  "contentHash": "591d5bd3a1e8af685d775ce29663e44ae5a03a537ac30d76f556e97c70e4d025",
+  "id": "Q0463",
+  "number": 463,
+  "active": true
+}

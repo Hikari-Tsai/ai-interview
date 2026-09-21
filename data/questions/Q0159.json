@@ -1,0 +1,25 @@
+{
+  "original": "Code a trivial web crawler using Go.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 539,
+    "lineEnd": 539,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L539-L539"
+  },
+  "contentHash": "1ececfe2e533a20050838a353b0e3f7d2d21bdaf57b8ce420742bb6517c59e6c",
+  "id": "Q0159",
+  "number": 159,
+  "active": true
+}

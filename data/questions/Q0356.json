@@ -1,0 +1,25 @@
+{
+  "original": "How would you improve an on-device model using signals from user devices without collecting user content?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1193,
+    "lineEnd": 1193,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1193-L1193"
+  },
+  "contentHash": "45591e0ac1bbd36089f3a9f1228321c086891d98467f045086fd0bc67139ca93",
+  "id": "Q0356",
+  "number": 356,
+  "active": true
+}

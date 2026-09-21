@@ -1,0 +1,24 @@
+{
+  "original": "What is chunked prefill, and why does it improve tail latency under mixed traffic?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 202,
+    "lineEnd": 202,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L202-L202"
+  },
+  "contentHash": "a2a94c4e5982452c298c704bfd089beabb6a53e3533d59f6c65e0b424bf7343c",
+  "id": "Q0030",
+  "number": 30,
+  "active": true
+}

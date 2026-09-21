@@ -1,0 +1,25 @@
+{
+  "original": "Turn a conversation into billable diagnosis codes. What is the accuracy bar, and how do you build to it?",
+  "topic": "ML and DL Fundamentals",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1871,
+    "lineEnd": 1871,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1871-L1871"
+  },
+  "contentHash": "3ef6be76ba5231d8c02aaf7bf6967b7623ba0fd141cfa08552e643f2a6ecd75c",
+  "id": "Q0544",
+  "number": 544,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Kimi K1.5 scaled RL for reasoning without a process reward model or tree search. Why deliberately keep the RL recipe that simple?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 908,
+    "lineEnd": 908,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L908-L908"
+  },
+  "contentHash": "1000918881f4fec9c068ae0878414e7d5a8be869a3347ab4ea4319be93791faa",
+  "id": "Q0282",
+  "number": 282,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "R1-Zero was trained with RL and essentially no SFT first. What did that show, and why did full R1 add SFT back?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)",
+  "links": [
+    {
+      "title": "Large Reasoning Models (LRMs)",
+      "url": "https://outcomeschool.com/blog/large-reasoning-models"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 864,
+    "lineEnd": 865,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L864-L865"
+  },
+  "contentHash": "2eb69c80f411e03b21ad6a4b7a8a7a14344b505145d8faf11c9435749354c405",
+  "id": "Q0269",
+  "number": 269,
+  "active": true
+}

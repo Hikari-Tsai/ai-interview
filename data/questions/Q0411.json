@@ -1,0 +1,25 @@
+{
+  "original": "A model passes bit-exact against the functional simulator on one chip but produces wrong output at rack scale. How do you find it?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1376,
+    "lineEnd": 1376,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1376-L1376"
+  },
+  "contentHash": "68498e6db1afc4cecc58b4ff52be9ce22e1132f961be8e0c971497a68ee8ac23",
+  "id": "Q0411",
+  "number": 411,
+  "active": true
+}

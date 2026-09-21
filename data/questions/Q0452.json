@@ -1,0 +1,25 @@
+{
+  "original": "You need to embed millions of text chunks. The embedding service takes batches with a max batch size and a max total-token limit. Write the batcher and make it fast.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1527,
+    "lineEnd": 1527,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1527-L1527"
+  },
+  "contentHash": "8f731cf82f8f7b0d7156a184971cf0e1a45207d08af5840cf8d634fc4ee245c4",
+  "id": "Q0452",
+  "number": 452,
+  "active": true
+}

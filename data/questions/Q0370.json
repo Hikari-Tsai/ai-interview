@@ -1,0 +1,25 @@
+{
+  "original": "Design the parallelism strategy for serving a 405B-parameter dense model. TP, PP, EP: what goes where and why?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1239,
+    "lineEnd": 1239,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1239-L1239"
+  },
+  "contentHash": "791a23ab0c0a87501c0b3c86367931fe00a296cc22bea60aa427ed4f53193a55",
+  "id": "Q0370",
+  "number": 370,
+  "active": true
+}

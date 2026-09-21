@@ -1,0 +1,25 @@
+{
+  "original": "A customer 10x'd their indexed documents and reports answer quality “got noticeably worse.” Drive the investigation.",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 821,
+    "lineEnd": 821,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L821-L821"
+  },
+  "contentHash": "fb5dc4d4996800dec71f0a02303b88e2d27770faea57d982ce7e02769f36cf12",
+  "id": "Q0259",
+  "number": 259,
+  "active": true
+}

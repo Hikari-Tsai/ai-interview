@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you owned a customer-facing problem end to end.",
+  "topic": "Behavioral and Culture",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1700,
+    "lineEnd": 1700,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1700-L1700"
+  },
+  "contentHash": "3ce65f606d494ced4db0309bf36c5fc14ae11e7c7c3f252313d74c9945cbf8ac",
+  "id": "Q0502",
+  "number": 502,
+  "active": true
+}

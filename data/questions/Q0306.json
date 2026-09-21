@@ -1,0 +1,34 @@
+{
+  "original": "Why is tokenization the first bottleneck for Indian-language LLMs, and how does a low-fertility tokenizer change the economics?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    },
+    {
+      "title": "Tokenization in Large Language Models (LLMs)",
+      "url": "https://www.youtube.com/watch?v=sK2s9I84EVI"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1016,
+    "lineEnd": 1017,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1016-L1017"
+  },
+  "contentHash": "6df6135b02313fc2a97ccb102c9cc5b620bae91db9314f32fcc1a215ae0e1fde",
+  "id": "Q0306",
+  "number": 306,
+  "active": true
+}

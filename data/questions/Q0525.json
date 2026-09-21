@@ -1,0 +1,34 @@
+{
+  "original": "A conversation runs past the context window. What do you keep, and how do you decide?",
+  "topic": "LLM Internals and Architecture",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) and [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)",
+  "links": [
+    {
+      "title": "How does context compaction work?",
+      "url": "https://outcomeschool.com/blog/how-does-context-compaction-work"
+    },
+    {
+      "title": "AI Agent Memory",
+      "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1800,
+    "lineEnd": 1801,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1800-L1801"
+  },
+  "contentHash": "ed45d51fb23013946cfa6cc8fcb68243737e416f1fff7d991ab43be26be4ba31",
+  "id": "Q0525",
+  "number": 525,
+  "active": true
+}

@@ -1,0 +1,32 @@
+{
+  "original": "Explain RoPE and how position interpolation / YaRN extend context beyond the trained length.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta",
+    "Moonshot AI",
+    "Alibaba"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)",
+  "links": [
+    {
+      "title": "Math Behind RoPE (Rotary Position Embedding)",
+      "url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 137,
+    "lineEnd": 139,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L137-L139"
+  },
+  "contentHash": "5a50d58efd6aee5d1e72a1db71733b37584ea91eca242f429536292866c4f79a",
+  "id": "Q0008",
+  "number": 8,
+  "active": true
+}

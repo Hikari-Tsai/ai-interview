@@ -1,0 +1,25 @@
+{
+  "original": "Design a diarisation system and explain how you attribute roles, not just clusters.",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 377,
+    "lineEnd": 378,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L377-L378"
+  },
+  "contentHash": "793ed9b31a6d8eae53ccfef538402d0cf473bfd587beaa83c4c25848b1e35a99",
+  "id": "Q0096",
+  "number": 96,
+  "active": true
+}

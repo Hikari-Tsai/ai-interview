@@ -1,0 +1,25 @@
+{
+  "original": "Merge ranked results from N connector shards into a global top-k, applying a per-user permission filter. Do it efficiently.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1755,
+    "lineEnd": 1755,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1755-L1755"
+  },
+  "contentHash": "69fc1f88028d7c5e60a150159cf34e686c8b3bb8c578f5a553fddeb1eeeed2e8",
+  "id": "Q0514",
+  "number": 514,
+  "active": true
+}

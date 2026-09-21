@@ -1,0 +1,25 @@
+{
+  "original": "Infection-spread simulation.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 543,
+    "lineEnd": 543,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L543-L543"
+  },
+  "contentHash": "87e7c83e8ad0c7eb6e5bfaef7ef05145eda766607c499cf4008ca08d8d1b5e30",
+  "id": "Q0163",
+  "number": 163,
+  "active": true
+}

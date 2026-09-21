@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time a technical decision you championed turned out to be wrong. What happened, and what did you change afterward?",
+  "topic": "Behavioral and Culture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1097,
+    "lineEnd": 1097,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1097-L1097"
+  },
+  "contentHash": "cf6b0b20b80cd76abaf80a7b504cec796306d4d1258276c3817d6c412d9fc999",
+  "id": "Q0326",
+  "number": 326,
+  "active": true
+}

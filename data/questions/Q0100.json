@@ -1,0 +1,27 @@
+{
+  "original": "Design a customer-support agent that can take real actions, with escalation to humans.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Consumer-Scale ML Companies",
+    "Sierra"
+  ],
+  "tags": [
+    "system-design",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 389,
+    "lineEnd": 390,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L389-L390"
+  },
+  "contentHash": "5d5e9d06c00b3c5aca2fea2bc1d435f4dfeebe207a2c33689a8cf781e7b4b3f0",
+  "id": "Q0100",
+  "number": 100,
+  "active": true
+}

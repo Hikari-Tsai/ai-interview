@@ -1,0 +1,25 @@
+{
+  "original": "Design a token-based rate limiter for a multi-tenant LLM API. Implement the core, then tell me what changes when it's distributed.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 807,
+    "lineEnd": 807,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L807-L807"
+  },
+  "contentHash": "415985991195d5e2d98cd431cd3307d34bd7a83352219acfb192f978657c4fda",
+  "id": "Q0254",
+  "number": 254,
+  "active": true
+}

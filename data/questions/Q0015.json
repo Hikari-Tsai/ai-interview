@@ -1,0 +1,30 @@
+{
+  "original": "Explain SwiGLU and why gated activations replaced ReLU/GELU in modern LLM MLP blocks.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)",
+  "links": [
+    {
+      "title": "Feed-Forward Networks in LLMs",
+      "url": "https://outcomeschool.com/blog/feed-forward-networks-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 156,
+    "lineEnd": 158,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L156-L158"
+  },
+  "contentHash": "3929ffb6de81de553bc9b464698afe6b8242955e378e0319b05c08e2d92af8c4",
+  "id": "Q0015",
+  "number": 15,
+  "active": true
+}

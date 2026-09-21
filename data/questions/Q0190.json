@@ -1,0 +1,25 @@
+{
+  "original": "Write a function to compute root-mean-square error given y_pred and y_true lists.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 611,
+    "lineEnd": 611,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L611-L611"
+  },
+  "contentHash": "ff6c2b057209b86aa577abc82d8dad3a8d592696271ae4a8f9dc60079260bb01",
+  "id": "Q0190",
+  "number": 190,
+  "active": true
+}

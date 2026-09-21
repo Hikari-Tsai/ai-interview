@@ -1,0 +1,30 @@
+{
+  "original": "Design the tool surface for a coding agent: which tools exist, what their schemas look like, and how results come back.",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)",
+  "links": [
+    {
+      "title": "How does Claude Code work?",
+      "url": "https://outcomeschool.com/blog/how-does-claude-code-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 487,
+    "lineEnd": 488,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L487-L488"
+  },
+  "contentHash": "22699be5a08ae95fcf50e2bbe7fb1b83b31bb1556dd59b2f1f18c49d3a14ebdf",
+  "id": "Q0138",
+  "number": 138,
+  "active": true
+}

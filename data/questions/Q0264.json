@@ -1,0 +1,34 @@
+{
+  "original": "Walk me through DeepSeekMoE. How is it different from a standard top-2 MoE like Mixtral?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts) and [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    },
+    {
+      "title": "DeepSeek-V4 Architecture Explained",
+      "url": "https://outcomeschool.com/blog/decoding-deepseek-v4"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 849,
+    "lineEnd": 850,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L849-L850"
+  },
+  "contentHash": "50be3b205823d48b9d61dc0bce50734ff897cc36bb5d214fda2d3a2383d0d5fb",
+  "id": "Q0264",
+  "number": 264,
+  "active": true
+}

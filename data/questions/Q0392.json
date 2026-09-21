@@ -1,0 +1,25 @@
+{
+  "original": "Design “people you may know” / job-recommendation ranking at a professional network's scale.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1316,
+    "lineEnd": 1316,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1316-L1316"
+  },
+  "contentHash": "618b525acf1af133289be46622bef427f30d9b95a57f9a3c7684a107f465c1ae",
+  "id": "Q0392",
+  "number": 392,
+  "active": true
+}

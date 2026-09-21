@@ -1,0 +1,34 @@
+{
+  "original": "Compare FP16, BF16, FP8, INT8, INT4 and FP4 for serving. What breaks at each step down?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Mistral AI",
+    "Apple",
+    "NVIDIA",
+    "Together AI",
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 180,
+    "lineEnd": 182,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L180-L182"
+  },
+  "contentHash": "5381f172fe9c8463cd1d805ba31be4f3e27b366a393bd30ada52b377a1c40558",
+  "id": "Q0022",
+  "number": 22,
+  "active": true
+}

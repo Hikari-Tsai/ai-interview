@@ -1,0 +1,30 @@
+{
+  "original": "Explain GRPO and why dropping the value network matters at scale.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)",
+  "links": [
+    {
+      "title": "Group Relative Policy Optimization (GRPO)",
+      "url": "https://outcomeschool.com/blog/group-relative-policy-optimization-grpo"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 277,
+    "lineEnd": 279,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L277-L279"
+  },
+  "contentHash": "e7564d4903d18251b912b7eef0e3ddd61e60954f17dfb4057ad408afc98beb05",
+  "id": "Q0058",
+  "number": 58,
+  "active": true
+}

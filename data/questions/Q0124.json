@@ -1,0 +1,25 @@
+{
+  "original": "Given a helper method that crawls a URL, write a crawler over a domain: first synchronous, then make it async.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 459,
+    "lineEnd": 459,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L459-L459"
+  },
+  "contentHash": "bcb80f97092ec635564b84e7e0358f8317c4d6f30d90339f4f5fcc566e8c344f",
+  "id": "Q0124",
+  "number": 124,
+  "active": true
+}

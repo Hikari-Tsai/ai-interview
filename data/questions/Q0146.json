@@ -1,0 +1,25 @@
+{
+  "original": "How would you design an experiment to test for a specific emergent capability or bias in a large language model?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 505,
+    "lineEnd": 505,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L505-L505"
+  },
+  "contentHash": "30633b1ef76a5de1ee822e9b701e380f3b4cff89785802d6c9994be742c38ee7",
+  "id": "Q0146",
+  "number": 146,
+  "active": true
+}

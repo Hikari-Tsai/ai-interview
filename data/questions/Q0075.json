@@ -1,0 +1,24 @@
+{
+  "original": "How do you manage prompt versioning and rollbacks in production?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 324,
+    "lineEnd": 324,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L324-L324"
+  },
+  "contentHash": "e5486b38714b35b197253850495adc4bff7cbcfb4ced17ce8a85288174a2c3e6",
+  "id": "Q0075",
+  "number": 75,
+  "active": true
+}

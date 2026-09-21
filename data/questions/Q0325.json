@@ -1,0 +1,25 @@
+{
+  "original": "A shipped Copilot feature that summarises job applicants for recruiters is accused of working worse for some groups. How do you establish whether that's true, and what do you do about it?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1093,
+    "lineEnd": 1093,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1093-L1093"
+  },
+  "contentHash": "bf22730247f29a3cb1d488ca7eb4b606f36e6b56135986cef541888ece6fec37",
+  "id": "Q0325",
+  "number": 325,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Disengagement rate is a weak proxy. How would you actually measure whether an autonomy release is safer than the last one?",
+  "topic": "Evaluation and Observability",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1283,
+    "lineEnd": 1283,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1283-L1283"
+  },
+  "contentHash": "b84cb25c76c053487714c7a360631d8b0e1190dd7ea78eaec1cec2c400e45012",
+  "id": "Q0382",
+  "number": 382,
+  "active": true
+}

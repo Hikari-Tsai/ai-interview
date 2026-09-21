@@ -1,0 +1,31 @@
+{
+  "original": "How does function calling actually work with an LLM, and how do you make it reliable enough for production agents?",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "agents",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 785,
+    "lineEnd": 786,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L785-L786"
+  },
+  "contentHash": "f05c5ec80fcec60712a82e55f43f1c0e42423acac835e52796dafec2aca4567e",
+  "id": "Q0251",
+  "number": 251,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "What is MCP (Model Context Protocol) and how does it differ from traditional function calling?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol)",
+  "links": [
+    {
+      "title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "url": "https://www.youtube.com/watch?v=lnfWvX66FUk"
+    },
+    {
+      "title": "What is MCP (Model Context Protocol)?",
+      "url": "https://outcomeschool.com/blog/what-is-mcp-model-context-protocol"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 247,
+    "lineEnd": 249,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L247-L249"
+  },
+  "contentHash": "b1c4b82ba4a57ef21f955c31ee92791ad117f106dbe4325ec618b5c350aa5eae",
+  "id": "Q0047",
+  "number": 47,
+  "active": true
+}

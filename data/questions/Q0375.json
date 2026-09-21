@@ -1,0 +1,25 @@
+{
+  "original": "Write an efficient ring buffer for high-rate sensor data with a fixed memory budget.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1263,
+    "lineEnd": 1263,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1263-L1263"
+  },
+  "contentHash": "81e39fc4e7e3021644a779fe0978e00f27290c4633b05fd6f5ad1e73612d6100",
+  "id": "Q0375",
+  "number": 375,
+  "active": true
+}

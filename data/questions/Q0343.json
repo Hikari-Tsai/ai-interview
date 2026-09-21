@@ -1,0 +1,30 @@
+{
+  "original": "Design an agent that operates a web browser to complete multi-step tasks. How do you make it reliable enough to ship?",
+  "topic": "Agents and Tool Use",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)",
+  "links": [
+    {
+      "title": "How do Computer-Use Agents work?",
+      "url": "https://outcomeschool.com/blog/how-do-computer-use-agents-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1147,
+    "lineEnd": 1148,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1147-L1148"
+  },
+  "contentHash": "f9a875f1a26486f579139ce8ac2db59d854e5a3bd75173dd7deed7af6405dfac",
+  "id": "Q0343",
+  "number": 343,
+  "active": true
+}

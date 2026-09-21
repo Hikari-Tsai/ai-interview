@@ -1,0 +1,54 @@
+{
+  "questionId": "Q0059",
+  "inputHash": "b5fad3f0d5ab5a9f7aef2cd842553f003b4acd343599d574d175d96439e71e56",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.473127+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L280-L281",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "LoRA 的低秩分解怎麼省下訓練成本？",
+      "intent": "從矩陣形狀說明參數節省，再用評估選 rank。",
+      "hint": [
+        "如果只學習權重的變化，需要動到整個 W 嗎？",
+        "兩個狹長矩陣相乘，能表示多少個獨立更新方向？"
+      ],
+      "principle": "凍結 W∈R^(d×k)，學習 ΔW=(α/r)BA，其中 B∈R^(d×r)、A∈R^(r×k)。可訓練參數由 dk 降為 r(d+k)。直覺是任務調整常可用少量方向表達，而非重學所有權重。",
+      "tradeoff": "小 r 省參數，但限制更新容量；低秩是否足夠取決於任務。LoRA 減少梯度與 optimizer state，基礎模型權重與 activation 仍占記憶體。",
+      "implementation": "確認基礎權重凍結，初始化使 BA=0。固定資料切分後比較數個 rank、目標模組與學習率，依驗證品質和實測記憶體選擇，不能只看參數比例。",
+      "production": "把 adapter 與基礎 checkpoint、tokenizer 和訓練設定一起版本化。驗證合併前後輸出，測試目標任務與一般能力回歸，並保留可回滾的 adapter。",
+      "supplementNote": "分解與參數取捨依原文整理；訓練比較、記憶體限制和部署版本控管含 AI 補充建議。"
+    },
+    "en": {
+      "title": "How does LoRA's low-rank update reduce training cost?",
+      "intent": "Explain parameter savings through matrix shapes, then choose rank using evaluation.",
+      "hint": [
+        "Does learning a weight change require updating all of W?",
+        "How many independent update directions can two thin matrices represent?"
+      ],
+      "principle": "Freeze W∈R^(d×k) and learn ΔW=(α/r)BA, with B∈R^(d×r) and A∈R^(r×k). Trainable parameters become r(d+k), versus dk. Task adaptation can often use relatively few update directions.",
+      "tradeoff": "Small r saves parameters but limits capacity; sufficient rank is task-dependent. LoRA reduces gradients and optimizer states, while base weights and activations still consume memory.",
+      "implementation": "Verify frozen base weights and initialize BA=0. With a fixed data split, compare ranks, target modules and learning rates. Choose by validation quality and measured memory, not parameter ratios alone.",
+      "production": "Version adapters with the base checkpoint, tokenizer and training configuration. Check outputs before and after merging, test task quality and general-capability regressions, and retain rollback adapters.",
+      "supplementNote": "Decomposition and parameter tradeoffs summarize the article. Training comparisons, memory caveats and deployment versioning include AI supplements."
+    },
+    "ja": {
+      "title": "LoRA の低ランク更新はなぜ学習コストを減らす？",
+      "intent": "行列の形状からパラメータ数を説明し、評価で rank を選ぶ。",
+      "hint": [
+        "重みの変化を学ぶには、W 全体を更新する必要があるだろうか。",
+        "細い二つの行列の積で、独立した更新方向をいくつ表せるか。"
+      ],
+      "principle": "W∈R^(d×k) を固定し、ΔW=(α/r)BA を学ぶ。B∈R^(d×r)、A∈R^(r×k) なので、学習するパラメータ数は dk から r(d+k) になる。タスクへの適応は、少数の更新方向で表せる場合が多い。",
+      "tradeoff": "r が小さいほど省メモリだが、表現できる更新が限られる。必要な rank はタスク次第。勾配と optimizer state は減るが、基礎モデルの重みと activation のメモリは必要。",
+      "implementation": "基礎重みの固定を確認し、BA=0 となるように初期化する。データ分割を固定し、rank、対象モジュール、学習率を比較する。パラメータ比率だけでなく検証品質と実測メモリで選ぶ。",
+      "production": "adapter を基礎 checkpoint、tokenizer、学習設定と組にして版管理する。重みへの統合前後の出力を確認し、対象タスクと一般能力の退行を測り、戻せる adapter を残す。",
+      "supplementNote": "分解とパラメータ数の取捨選択は原文の要約です。学習条件の比較、メモリの注意点、配備時の版管理には AI の補足が含まれます。"
+    }
+  }
+}

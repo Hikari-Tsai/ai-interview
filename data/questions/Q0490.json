@@ -1,0 +1,26 @@
+{
+  "original": "As a Deployed Engineer, you are rolling Devin into a 2,000-engineer organisation. What do the first ninety days look like?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "applied",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1654,
+    "lineEnd": 1654,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1654-L1654"
+  },
+  "contentHash": "ff3fc34063eddfd2d2948a795fc4a271350c83a88704cddca7b781b9eada22b4",
+  "id": "Q0490",
+  "number": 490,
+  "active": true
+}

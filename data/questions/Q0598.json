@@ -1,0 +1,25 @@
+{
+  "original": "Palantir works with defence and intelligence agencies. How do you think about that, and what would you do if asked to build something you're uncomfortable with?",
+  "topic": "Behavioral and Culture",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2027,
+    "lineEnd": 2027,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2027-L2027"
+  },
+  "contentHash": "ea8dd34137a25f5cea0cf58ac37d1ff725c0dcc55a6cddb436e0705282d6aff9",
+  "id": "Q0598",
+  "number": 598,
+  "active": true
+}

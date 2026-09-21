@@ -1,0 +1,10 @@
+---
+import StudyPage from '../../../components/StudyPage.astro';
+import { loadCards } from '../../../lib/catalog';
+import {locales} from '../../../lib/types';
+export function getStaticPaths() {
+ const cards=loadCards();
+ return locales.flatMap(locale=>cards.map(card=>({params:{locale,id:card.id},props:{locale,card,cards}})));
+}
+---
+<StudyPage {...Astro.props}/>

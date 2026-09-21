@@ -1,0 +1,25 @@
+{
+  "original": "Design a personalised recommendation system for rental listings using demographics, property metadata, amenities, price, reviews and location.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 635,
+    "lineEnd": 635,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L635-L635"
+  },
+  "contentHash": "5c5248f83312228a71f462ef2edc74d91cebd87bf94c988489dc11635db3e986",
+  "id": "Q0203",
+  "number": 203,
+  "active": true
+}

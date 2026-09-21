@@ -1,0 +1,25 @@
+{
+  "original": "Design online evaluation: what do you log, what do you sample, and what do you A/B?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 325,
+    "lineEnd": 326,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L325-L326"
+  },
+  "contentHash": "1ad2f0a16b27e04e11fecb23a2b89783d903c6aa3ac4a5ed9053079c56501752",
+  "id": "Q0076",
+  "number": 76,
+  "active": true
+}

@@ -1,0 +1,36 @@
+{
+  "original": "How does Byte Pair Encoding work, and what are its failure modes (numbers, code, non-Latin scripts)?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Alibaba",
+    "Sarvam AI",
+    "Hugging Face"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    },
+    {
+      "title": "Tokenization in Large Language Models (LLMs)",
+      "url": "https://www.youtube.com/watch?v=sK2s9I84EVI"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 132,
+    "lineEnd": 134,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L132-L134"
+  },
+  "contentHash": "8a2af56fdfed194fbad5ced98ece17c817ddfc90467d762d682c390842dee6eb",
+  "id": "Q0006",
+  "number": 6,
+  "active": true
+}

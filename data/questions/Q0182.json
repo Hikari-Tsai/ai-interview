@@ -1,0 +1,25 @@
+{
+  "original": "Do you have experience working with APIs? Are you used to working with C-suite executives?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 589,
+    "lineEnd": 589,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L589-L589"
+  },
+  "contentHash": "2525aceee59f332b398092200e5ad5a0ae16c418c5a44d25bd619300082799e2",
+  "id": "Q0182",
+  "number": 182,
+  "active": true
+}

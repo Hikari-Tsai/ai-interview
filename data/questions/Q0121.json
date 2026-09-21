@@ -1,0 +1,25 @@
+{
+  "original": "Build an in-memory database: SET/GET/DELETE first, then filtered scans, then TTL with timestamps, then file compaction.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 456,
+    "lineEnd": 456,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L456-L456"
+  },
+  "contentHash": "87fd74a8eac9662ea109019e30d808b3cf24dee54326db219dcb99a2bad5642a",
+  "id": "Q0121",
+  "number": 121,
+  "active": true
+}

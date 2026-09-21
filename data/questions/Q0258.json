@@ -1,0 +1,26 @@
+{
+  "original": "How would you evaluate multilingual retrieval quality when employees query in French and Korean over mostly-English documents?",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 820,
+    "lineEnd": 820,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L820-L820"
+  },
+  "contentHash": "9135766a4ad6788612958becc199a6689c069ff1c3ed483a78f431cbb43e75f9",
+  "id": "Q0258",
+  "number": 258,
+  "active": true
+}

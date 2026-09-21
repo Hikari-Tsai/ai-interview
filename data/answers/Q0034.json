@@ -1,0 +1,54 @@
+{
+  "questionId": "Q0034",
+  "inputHash": "2767b140ee32b1b41fecfeb6e900b4de15b1ae5a81c07932a3c56530710dfb79",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.472473+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/how-does-a-reranker-work",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L215-L217",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "什麼時候值得加 reranker？",
+      "intent": "說清楚兩階段檢索，以及相關性提升的成本。",
+      "hint": [
+        "第一階段漏掉的文件，重排序救得回來嗎？",
+        "把 query 與文件一起編碼，會失去什麼預先計算的優勢？"
+      ],
+      "principle": "先快速召回候選，再讓 cross-encoder 一起讀 query 與文件，評分後重新排序。它能判斷較細的語意關係，但只能排序已召回的內容。",
+      "tradeoff": "每個 query–document 配對都要推論，無法只靠預先算好的文件向量完成。候選數和配對長度增加，延遲與計算成本也增加。",
+      "implementation": "從小型候選集合開始，批次評分後取 top-k；限制配對 token 長度並保留來源識別。用相同候選集合比較排序前後，避免把召回變化誤認為重排序收益。",
+      "production": "分別追蹤候選 recall、nDCG 或 MRR、最終答案品質及 p95 延遲。當候選已包含證據但排名差時最值得測試；逾時可回退至原排序，並記錄回退比例。",
+      "supplementNote": "兩階段檢索與 cross-encoder 原理依原文整理；評估設計、批次處理與逾時回退是 AI 補充建議。"
+    },
+    "en": {
+      "title": "When is a reranker worth adding?",
+      "intent": "Explain two-stage retrieval and the cost of finer relevance judgments.",
+      "hint": [
+        "Can reranking recover a document the retriever never found?",
+        "What precomputation advantage disappears when query and document are encoded together?"
+      ],
+      "principle": "A fast retriever collects candidates; a cross-encoder jointly reads each query–document pair and scores it for reordering. This captures finer relevance relationships, but only within the retrieved set.",
+      "tradeoff": "Each pair requires inference rather than a comparison with a precomputed document vector. More candidates and longer pairs increase latency and computation.",
+      "implementation": "Start with a bounded shortlist, batch scoring, then select top-k. Limit pair token lengths and retain source IDs. Compare rankings on identical candidates to isolate the reranker's contribution.",
+      "production": "Track candidate recall, nDCG or MRR, final answer quality and p95 latency. Test reranking when evidence is retrieved but poorly ranked. Fall back to the original order on timeout and measure fallback frequency.",
+      "supplementNote": "Two-stage retrieval and cross-encoder principles summarize the article. Evaluation design, batching and timeout fallback are AI supplements."
+    },
+    "ja": {
+      "title": "reranker を追加する価値があるのはいつ？",
+      "intent": "二段階検索と、関連性を細かく判定するコストを説明する。",
+      "hint": [
+        "検索候補に入らなかった文書を再ランキングで救えるだろうか。",
+        "query と文書を一緒に読むと、どんな事前計算ができなくなるか。"
+      ],
+      "principle": "高速な検索で候補を集め、cross-encoder が query と文書を一緒に読んで点数を付け、並べ替える。細かな関連性を判断できるが、対象は取得済みの候補に限られる。",
+      "tradeoff": "事前計算した文書ベクトルの比較では済まず、各ペアで推論が必要。候補数や入力長が増えるほど、遅延と計算コストも増える。",
+      "implementation": "候補数を制限してバッチで採点し、top-k を選ぶ。入力 token 長に上限を設け、出典 ID を保持する。同じ候補集合で前後の順位を比較し、再ランキング自体の効果を分けて測る。",
+      "production": "候補の recall、nDCG または MRR、最終回答の品質、p95 遅延を追う。根拠は取得できているのに順位が低い場合に試す。タイムアウト時は元の順位に戻し、その頻度も記録する。",
+      "supplementNote": "二段階検索と cross-encoder の原理は原文の要約です。評価設計、バッチ処理、タイムアウト時の代替処理は AI による補足です。"
+    }
+  }
+}

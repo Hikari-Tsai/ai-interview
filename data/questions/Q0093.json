@@ -1,0 +1,26 @@
+{
+  "original": "How do you evaluate ASR quality beyond WER, and TTS quality when there is no single correct output?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 371,
+    "lineEnd": 372,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L371-L372"
+  },
+  "contentHash": "d7dd6c1cc173f29a2136b46ea73fe52f79866648b4d28bfddfcce856a56477b2",
+  "id": "Q0093",
+  "number": 93,
+  "active": true
+}

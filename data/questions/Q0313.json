@@ -1,0 +1,30 @@
+{
+  "original": "Build a Voice Activity Detector from scratch. How do you make it robust for phone-quality Indian-language audio?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "links": [
+    {
+      "title": "Design a Real-Time Voice AI Agent",
+      "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1047,
+    "lineEnd": 1048,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1047-L1048"
+  },
+  "contentHash": "d54354d5e2f7df72778b53af1bc74fb0b82d5c90dc376f971678b335c4b3de11",
+  "id": "Q0313",
+  "number": 313,
+  "active": true
+}

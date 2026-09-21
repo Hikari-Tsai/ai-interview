@@ -1,0 +1,25 @@
+{
+  "original": "Design and build a webhook delivery system that reliably delivers events to customer-registered URLs.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 572,
+    "lineEnd": 572,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L572-L572"
+  },
+  "contentHash": "266e458e54d42a9e6840fc4aa9a2b1728854658cef5722cc951973b03ada03de",
+  "id": "Q0174",
+  "number": 174,
+  "active": true
+}

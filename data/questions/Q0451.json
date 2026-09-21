@@ -1,0 +1,25 @@
+{
+  "original": "You're ingesting millions of web pages a day. Detect near-duplicates (same article, different boilerplate) efficiently.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1526,
+    "lineEnd": 1526,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1526-L1526"
+  },
+  "contentHash": "badb5e3a1909c0bfaafbd481dcc96b7998efb8a48ccb0ab6405595cffa5c239a",
+  "id": "Q0451",
+  "number": 451,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Implement beam search for an autoregressive model. When would an answer engine actually use it?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1528,
+    "lineEnd": 1528,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1528-L1528"
+  },
+  "contentHash": "0ed777036dc0d2e4989270efe8deec750463a58206c2c79b0e11574d810e53cd",
+  "id": "Q0453",
+  "number": 453,
+  "active": true
+}

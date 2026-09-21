@@ -1,0 +1,25 @@
+{
+  "original": "Serialize and deserialize a binary tree.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 663,
+    "lineEnd": 663,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L663-L663"
+  },
+  "contentHash": "cb05a85587d21f9dc3bb7237ebfca84338b3e5873288c6d53896050c0352cb85",
+  "id": "Q0212",
+  "number": 212,
+  "active": true
+}

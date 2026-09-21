@@ -1,0 +1,25 @@
+{
+  "original": "What are your thoughts on AI safety and the risks of advanced AI systems?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 525,
+    "lineEnd": 525,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L525-L525"
+  },
+  "contentHash": "a652dba75a6ef815fbcd7981322c10550c8334334f8d759542985cf72bcef240",
+  "id": "Q0156",
+  "number": 156,
+  "active": true
+}

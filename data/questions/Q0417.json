@@ -1,0 +1,34 @@
+{
+  "original": "We pair LPX decode accelerators with NVIDIA GPUs doing prefill and attention. Design the serving path across those two machines.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [Prefill-Decode Disaggregation in LLM Inference](https://outcomeschool.com/blog/prefill-decode-disaggregation) and [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)",
+  "links": [
+    {
+      "title": "Prefill-Decode Disaggregation in LLM Inference",
+      "url": "https://outcomeschool.com/blog/prefill-decode-disaggregation"
+    },
+    {
+      "title": "How does an LPU work?",
+      "url": "https://outcomeschool.com/blog/how-does-an-lpu-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1392,
+    "lineEnd": 1393,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1392-L1393"
+  },
+  "contentHash": "c79319af185bd85251bfd46d989c6de446207f82303c12eb9bbdab9767f7935e",
+  "id": "Q0417",
+  "number": 417,
+  "active": true
+}

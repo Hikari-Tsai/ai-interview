@@ -1,0 +1,34 @@
+{
+  "original": "What is continuous (in-flight) batching and why did it replace static batching?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "xAI",
+    "Mistral AI",
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)",
+  "links": [
+    {
+      "title": "Continuous Batching in LLMs",
+      "url": "https://outcomeschool.com/blog/continuous-batching-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 168,
+    "lineEnd": 170,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L168-L170"
+  },
+  "contentHash": "c6b849d1a0b107b815b9a700637d3487c9d125cd126de43d6969eecec6a10924",
+  "id": "Q0018",
+  "number": 18,
+  "active": true
+}

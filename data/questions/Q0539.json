@@ -1,0 +1,32 @@
+{
+  "original": "Budget the end-to-end latency for a real-time voice agent. Why is time-to-first-audio a different problem from an LLM's time-to-first-token?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal",
+    "production",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "links": [
+    {
+      "title": "Design a Real-Time Voice AI Agent",
+      "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1851,
+    "lineEnd": 1852,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1851-L1852"
+  },
+  "contentHash": "c62e22be848bbf30893414b2e294f8e080caf2ccaf4eb8167dc75b1de0e1c5a9",
+  "id": "Q0539",
+  "number": 539,
+  "active": true
+}

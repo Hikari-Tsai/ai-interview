@@ -1,0 +1,35 @@
+{
+  "original": "How does PagedAttention work, and what problem of KV-cache fragmentation does it solve?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms) and [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work)",
+  "links": [
+    {
+      "title": "Paged Attention in LLMs",
+      "url": "https://outcomeschool.com/blog/paged-attention-in-llms"
+    },
+    {
+      "title": "How does vLLM work?",
+      "url": "https://outcomeschool.com/blog/how-does-vllm-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 171,
+    "lineEnd": 173,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L171-L173"
+  },
+  "contentHash": "21029e7a48a3489d372ae08a0122b87f44bc2f0325413d2b66614b5485abce47",
+  "id": "Q0019",
+  "number": 19,
+  "active": true
+}

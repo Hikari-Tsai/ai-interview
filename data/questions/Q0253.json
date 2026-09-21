@@ -1,0 +1,26 @@
+{
+  "original": "Design an on-prem deployment of an open-weight model for a European bank that cannot send data to any external API.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "system-design",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 795,
+    "lineEnd": 795,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L795-L795"
+  },
+  "contentHash": "7302f78d05c7efb63abd6260d77dd28d5d887231ee8c1c41e883902bbadb3b4e",
+  "id": "Q0253",
+  "number": 253,
+  "active": true
+}

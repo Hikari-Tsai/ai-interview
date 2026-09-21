@@ -1,0 +1,25 @@
+{
+  "original": "Design the evaluation framework for an enterprise AI assistant when you cannot look at customer data.",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1783,
+    "lineEnd": 1783,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1783-L1783"
+  },
+  "contentHash": "900eb3fc3dcc1c1797803fab9ab08923bd42e74b37e7c87dbf5eacdb1f7a6fc2",
+  "id": "Q0523",
+  "number": 523,
+  "active": true
+}

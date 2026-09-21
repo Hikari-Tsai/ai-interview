@@ -1,0 +1,30 @@
+{
+  "original": "Write code to measure a tokenizer's fertility across languages, and explain what you would do with the result.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1011,
+    "lineEnd": 1012,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1011-L1012"
+  },
+  "contentHash": "bdf4a27f5212c9a64dae4a2437937e43c10611324e47aa12b66fee28b8738da9",
+  "id": "Q0305",
+  "number": 305,
+  "active": true
+}

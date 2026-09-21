@@ -1,0 +1,26 @@
+{
+  "original": "Write an async batch processor over an API with concurrency limits, retries with jitter and error isolation.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "Perplexity"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 429,
+    "lineEnd": 430,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L429-L430"
+  },
+  "contentHash": "ab35199462713fa3cf858e2596a6ea67737b41f742c6f1326d52754ffb164185",
+  "id": "Q0115",
+  "number": 115,
+  "active": true
+}

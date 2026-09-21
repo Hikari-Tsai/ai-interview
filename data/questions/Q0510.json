@@ -1,0 +1,25 @@
+{
+  "original": "An agentic research query returns a memo citing a case that was overruled. Where does that get caught?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1737,
+    "lineEnd": 1737,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1737-L1737"
+  },
+  "contentHash": "ecf43381095d40acd921fb66164a6354073491a9bb02b4f5217a902b6de20859",
+  "id": "Q0510",
+  "number": 510,
+  "active": true
+}

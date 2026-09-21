@@ -1,0 +1,25 @@
+{
+  "original": "Engagement metrics and wellbeing metrics disagree. How do you build a system that resolves that?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1820,
+    "lineEnd": 1820,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1820-L1820"
+  },
+  "contentHash": "684230f732bc4364249832e5431f26588d2370b588f6822a51f64ebf7301ddfc",
+  "id": "Q0532",
+  "number": 532,
+  "active": true
+}

@@ -1,0 +1,28 @@
+{
+  "original": "How does agentic RAG differ from standard RAG, and when is the extra complexity justified?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)",
+  "links": [
+    {
+      "title": "Agentic RAG",
+      "url": "https://outcomeschool.com/blog/agentic-rag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 223,
+    "lineEnd": 224,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L223-L224"
+  },
+  "contentHash": "cac48b4bf31a9b7ff205ea24cacefd2fef17bc0682518b74804abedf18f07a74",
+  "id": "Q0037",
+  "number": 37,
+  "active": true
+}

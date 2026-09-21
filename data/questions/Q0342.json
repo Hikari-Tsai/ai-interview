@@ -1,0 +1,34 @@
+{
+  "original": "A customer's Bedrock-hosted workload costs too much. Cut inference cost dramatically without unacceptable quality loss.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://www.youtube.com/watch?v=jV2sCj4lHYk"
+    },
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1142,
+    "lineEnd": 1143,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1142-L1143"
+  },
+  "contentHash": "7e1ab726bbfd0e8a85a252f3d0fd56cfca0c0a39dccdbab52c500e1ee7a86496",
+  "id": "Q0342",
+  "number": 342,
+  "active": true
+}

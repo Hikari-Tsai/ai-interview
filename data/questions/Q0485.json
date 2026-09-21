@@ -1,0 +1,26 @@
+{
+  "original": "You are training an agent model with end-to-end RL in your own harness. Walk through the environment and reward design.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "finetuning",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1636,
+    "lineEnd": 1636,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1636-L1636"
+  },
+  "contentHash": "aa353b5d43c0315773bc1a4ba3794a5a804ca87b8c0a741109fb901407891732",
+  "id": "Q0485",
+  "number": 485,
+  "active": true
+}

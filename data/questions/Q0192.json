@@ -1,0 +1,25 @@
+{
+  "original": "Define the bias-variance trade-off and discuss the relationship between the two.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 616,
+    "lineEnd": 616,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L616-L616"
+  },
+  "contentHash": "ed7eb0cf53b5c2d5f1e17bb587449e655a72809d37721d76d652c6466b7658c4",
+  "id": "Q0192",
+  "number": 192,
+  "active": true
+}

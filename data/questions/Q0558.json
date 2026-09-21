@@ -1,0 +1,26 @@
+{
+  "original": "A colleague wants to move the semantic layer to the cloud so you can use a much bigger model. Walk me through the latency budget.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1919,
+    "lineEnd": 1919,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1919-L1919"
+  },
+  "contentHash": "c732181227961877f945e3f7237cbc2b026e62f232feccd1461aeb1b0f32416c",
+  "id": "Q0558",
+  "number": 558,
+  "active": true
+}

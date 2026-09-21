@@ -1,0 +1,42 @@
+{
+  "original": "What is the KV cache, and what are its memory implications at scale? Derive the formula.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "xAI",
+    "Mistral AI",
+    "Amazon",
+    "Apple",
+    "NVIDIA",
+    "Together AI",
+    "Character.AI"
+  ],
+  "tags": [
+    "llm",
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 120,
+    "lineEnd": 122,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L120-L122"
+  },
+  "contentHash": "377ba9291a6b02cb12a90a3470ee0f9ffadb01724b2a72c75912d39935e5d1ab",
+  "id": "Q0002",
+  "number": 2,
+  "active": true
+}

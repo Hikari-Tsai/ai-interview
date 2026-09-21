@@ -1,0 +1,25 @@
+{
+  "original": "Behaviour cloning on teleoperation data has a well-known failure mode. What is it, and what do you do about it on a real humanoid?",
+  "topic": "ML and DL Fundamentals",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1913,
+    "lineEnd": 1913,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1913-L1913"
+  },
+  "contentHash": "f7b623d54354a90101959461f5efdf519ac66e5af1fad72d3c26ec2e79f4d320",
+  "id": "Q0555",
+  "number": 555,
+  "active": true
+}

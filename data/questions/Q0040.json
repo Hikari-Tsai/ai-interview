@@ -1,0 +1,33 @@
+{
+  "original": "Compare HNSW, IVF-PQ and flat indexes. How do you pick, and what does recall@k cost in latency?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "rag",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work) and [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)",
+  "links": [
+    {
+      "title": "How does Approximate Nearest Neighbor (ANN) search work?",
+      "url": "https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work"
+    },
+    {
+      "title": "How does a Vector Database work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-vector-database-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 229,
+    "lineEnd": 230,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L229-L230"
+  },
+  "contentHash": "0c791baee24b46824adbb846dd07940e8af5001762ed3ebe033facc70ec3e357",
+  "id": "Q0040",
+  "number": 40,
+  "active": true
+}

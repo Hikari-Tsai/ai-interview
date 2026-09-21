@@ -1,0 +1,31 @@
+{
+  "original": "How many tools is too many? How do you design tool schemas an LLM can actually use correctly?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "Cognition"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)",
+  "links": [
+    {
+      "title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "url": "https://www.youtube.com/watch?v=lnfWvX66FUk"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 250,
+    "lineEnd": 252,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L250-L252"
+  },
+  "contentHash": "20691be1bbc17939270c959bb898ac108aa876bdd31f109d2830d21bc58841ba",
+  "id": "Q0048",
+  "number": 48,
+  "active": true
+}

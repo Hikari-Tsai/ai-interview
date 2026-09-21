@@ -1,0 +1,25 @@
+{
+  "original": "A whole-body controller trained entirely in simulation has to run on real hardware. What transfers, what does not, and how do you close the gap?",
+  "topic": "ML and DL Fundamentals",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1914,
+    "lineEnd": 1914,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1914-L1914"
+  },
+  "contentHash": "99cb958e9c9785f016c9d102998329022bf00926cea851c2db17de9dbfdc7ac8",
+  "id": "Q0556",
+  "number": 556,
+  "active": true
+}

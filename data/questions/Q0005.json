@@ -1,0 +1,30 @@
+{
+  "original": "Explain FlashAttention. It does not reduce FLOPs, so why is it faster?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)",
+  "links": [
+    {
+      "title": "Decoding Flash Attention in LLMs",
+      "url": "https://outcomeschool.com/blog/decoding-flash-attention"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 129,
+    "lineEnd": 131,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L129-L131"
+  },
+  "contentHash": "0322a1ff1f6a968138763ef7682c2594b7e341c6c75db4ed6eb147dbe69e1abb",
+  "id": "Q0005",
+  "number": 5,
+  "active": true
+}

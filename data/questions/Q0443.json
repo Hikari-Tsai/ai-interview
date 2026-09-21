@@ -1,0 +1,25 @@
+{
+  "original": "Design a private LLM benchmark and leaderboard (SEAL-style). How do you keep it trustworthy as labs optimise against it?",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1496,
+    "lineEnd": 1496,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1496-L1496"
+  },
+  "contentHash": "1c34e34f0f65ad151f5f530f495b61c98f1d94d74ba165c3413846719b0dc2bd",
+  "id": "Q0443",
+  "number": 443,
+  "active": true
+}

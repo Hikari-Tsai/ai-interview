@@ -1,0 +1,25 @@
+{
+  "original": "Design the Claude chat service.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 497,
+    "lineEnd": 497,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L497-L497"
+  },
+  "contentHash": "e766daa4edc96256320e753f1dd184a6be199b53e6ad907c3318cac13734d75c",
+  "id": "Q0141",
+  "number": 141,
+  "active": true
+}

@@ -1,0 +1,33 @@
+{
+  "original": "Budget the latency for a real-time voice agent: VAD, ASR, LLM, TTS, network. Where does the time go?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Sarvam AI",
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal",
+    "production",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "links": [
+    {
+      "title": "Design a Real-Time Voice AI Agent",
+      "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 362,
+    "lineEnd": 364,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L362-L364"
+  },
+  "contentHash": "bfb5b038923f5292674338f9cb5257dbab4952353962b0295dc1c5f3b88cc60a",
+  "id": "Q0090",
+  "number": 90,
+  "active": true
+}

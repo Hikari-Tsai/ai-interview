@@ -1,0 +1,25 @@
+{
+  "original": "Here is a scheduler class from a small LLM inference engine. One method, _admit_requests, is a stub: no spec, no docstring, no tests. Walk me through your first thirty minutes.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 735,
+    "lineEnd": 735,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L735-L735"
+  },
+  "contentHash": "1b3d17904556f6701c693de906e887c0e1d9b00c5ae85965a939270d24f503a3",
+  "id": "Q0238",
+  "number": 238,
+  "active": true
+}

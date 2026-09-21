@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you drove a significant result through ambiguity, and a time you were wrong.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 720,
+    "lineEnd": 720,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L720-L720"
+  },
+  "contentHash": "f26583b659a15dbf775cc18bfccaf4ef62cabe65153f2d7eb73810d530bb09fc",
+  "id": "Q0234",
+  "number": 234,
+  "active": true
+}

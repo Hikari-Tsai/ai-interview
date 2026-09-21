@@ -1,0 +1,30 @@
+{
+  "original": "Design a serverless inference platform serving 100+ open models on a shared GPU fleet.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1430,
+    "lineEnd": 1431,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1430-L1431"
+  },
+  "contentHash": "06db5954652e523fbb8e2ad8d18620f91bfbc6cc263af74a608c1265f4aae4c4",
+  "id": "Q0425",
+  "number": 425,
+  "active": true
+}

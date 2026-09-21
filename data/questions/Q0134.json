@@ -1,0 +1,30 @@
+{
+  "original": "Walk me through matrix manipulations relevant to LLM architectures.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)",
+  "links": [
+    {
+      "title": "Math behind Attention - Q, K, and V",
+      "url": "https://outcomeschool.com/blog/math-behind-attention-qkv"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 473,
+    "lineEnd": 474,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L473-L474"
+  },
+  "contentHash": "39c23259b84f18ba6fc918cd552f7c7f93af6ade6fcda8036dd7b9a44e2e4704",
+  "id": "Q0134",
+  "number": 134,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Design an end-to-end pipeline producing RLHF preference data for a frontier lab: 100k prompt-response comparisons a week, with quality guarantees.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)",
+  "links": [
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1494,
+    "lineEnd": 1495,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1494-L1495"
+  },
+  "contentHash": "6bd4efefc007f0f1197c3a63fdf8f536f410be295501205564e1cdb802c75572",
+  "id": "Q0442",
+  "number": 442,
+  "active": true
+}

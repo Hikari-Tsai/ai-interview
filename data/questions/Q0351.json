@@ -1,0 +1,30 @@
+{
+  "original": "Explain post-training quantization versus quantization-aware training. What breaks when you push weights to 2–4 bits, and how do you recover quality?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1177,
+    "lineEnd": 1178,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1177-L1178"
+  },
+  "contentHash": "b1668bd486c0eea43fe909b305965f5f56c805faeb08b360db70127209ec9c0e",
+  "id": "Q0351",
+  "number": 351,
+  "active": true
+}

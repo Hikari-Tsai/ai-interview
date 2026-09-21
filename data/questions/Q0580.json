@@ -1,0 +1,25 @@
+{
+  "original": "Write a SQL query that joins and aggregates across tables to answer a business question.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1990,
+    "lineEnd": 1990,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1990-L1990"
+  },
+  "contentHash": "a4c4b0e3898c2acb64d07820a42b7f1f9f09fc8bbc37a0a1edbc8dadbfb78efe",
+  "id": "Q0580",
+  "number": 580,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Two partners at the same firm are on opposite sides of a deal. Design the data isolation for that, on top of normal multi-tenancy.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1738,
+    "lineEnd": 1738,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1738-L1738"
+  },
+  "contentHash": "02bb87793958dbfe06846b5c1565a353bba2907f4669f74a5147718b7692bae4",
+  "id": "Q0511",
+  "number": 511,
+  "active": true
+}

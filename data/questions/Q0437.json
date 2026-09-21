@@ -1,0 +1,25 @@
+{
+  "original": "A community contributor opens a PR adding a new model architecture to transformers. You're the reviewing maintainer: what do you check, and how do you handle the interaction?",
+  "topic": "Behavioral and Culture",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1471,
+    "lineEnd": 1471,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1471-L1471"
+  },
+  "contentHash": "c9c4e0c02ad228d2a7feadc816f589b2637a794e11348fc123282e4574a7138c",
+  "id": "Q0437",
+  "number": 437,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 595,
+    "lineEnd": 595,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L595-L595"
+  },
+  "contentHash": "d19846a3f186978730d9040739edeece358908722afb0d79f1e33c8423b427e5",
+  "id": "Q0185",
+  "number": 185,
+  "active": true
+}

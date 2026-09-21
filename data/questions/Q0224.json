@@ -1,0 +1,25 @@
+{
+  "original": "Design the recommendation system for Instagram Reels.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 696,
+    "lineEnd": 696,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L696-L696"
+  },
+  "contentHash": "215276e1351b22aefac269883ee8d03130e4666fca226a2dbf29678c10e73228",
+  "id": "Q0224",
+  "number": 224,
+  "active": true
+}

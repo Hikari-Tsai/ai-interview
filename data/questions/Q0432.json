@@ -1,0 +1,25 @@
+{
+  "original": "What problem do chat templates solve, and what goes wrong when they're ignored?",
+  "topic": "LLM Internals and Architecture",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1456,
+    "lineEnd": 1456,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1456-L1456"
+  },
+  "contentHash": "231bbda286d4444f6340acb0a9c0da2d318f8443491bc0ab0c53adb74e45b8df",
+  "id": "Q0432",
+  "number": 432,
+  "active": true
+}

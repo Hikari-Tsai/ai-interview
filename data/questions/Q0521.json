@@ -1,0 +1,30 @@
+{
+  "original": "Glean's ranking leans on a knowledge graph of people, content and activity. How would you build that graph, and how does it improve retrieval beyond embedding similarity?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [GraphRAG](https://outcomeschool.com/blog/graphrag)",
+  "links": [
+    {
+      "title": "GraphRAG",
+      "url": "https://outcomeschool.com/blog/graphrag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1777,
+    "lineEnd": 1778,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1777-L1778"
+  },
+  "contentHash": "fd0a0cfd7e3c7af83a030c3dc0216db89c123d2fc0e6fda4f07e6c2c5b65ce10",
+  "id": "Q0521",
+  "number": 521,
+  "active": true
+}

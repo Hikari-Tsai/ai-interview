@@ -1,0 +1,30 @@
+{
+  "original": "How would you evaluate an Indic LLM properly? Why is running translated English benchmarks not enough?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1042,
+    "lineEnd": 1043,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1042-L1043"
+  },
+  "contentHash": "9817342e84d2ef74e715c9c4187b53510f79b31ce13d15c09a682941219b09c4",
+  "id": "Q0312",
+  "number": 312,
+  "active": true
+}

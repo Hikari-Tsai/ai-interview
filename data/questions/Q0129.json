@@ -1,0 +1,25 @@
+{
+  "original": "SQL: write a query to find the top five pairs of products most frequently purchased together.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 464,
+    "lineEnd": 464,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L464-L464"
+  },
+  "contentHash": "2c1ac598e29e17416f6865a9b2a08885d978e98f3a856920d65d594b617e0814",
+  "id": "Q0129",
+  "number": 129,
+  "active": true
+}

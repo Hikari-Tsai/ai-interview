@@ -1,0 +1,30 @@
+{
+  "original": "You train natively in int8 rather than doing post-training quantization. Defend that.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1809,
+    "lineEnd": 1810,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1809-L1810"
+  },
+  "contentHash": "657fdc1d9929afb58d9f1cba6e09b33a08cbcfb4123e04170b00a623ffa34897",
+  "id": "Q0528",
+  "number": 528,
+  "active": true
+}

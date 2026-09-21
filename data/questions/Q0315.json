@@ -1,0 +1,25 @@
+{
+  "original": "Bulbul-style TTS has to speak code-mixed, mixed-script text naturally. What are the hard parts of text normalization and prosody for Indian-language TTS?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1050,
+    "lineEnd": 1050,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1050-L1050"
+  },
+  "contentHash": "47e95f45b8458eafed75c4df9069e898bee4e9018948578a6cef331da156aa8c",
+  "id": "Q0315",
+  "number": 315,
+  "active": true
+}

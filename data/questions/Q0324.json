@@ -1,0 +1,30 @@
+{
+  "original": "Your Copilot summarises incoming email. An attacker emails a target user with hidden instructions addressed to the model. Walk me through the attack and your defence.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)",
+  "links": [
+    {
+      "title": "Prompt Injection in LLMs",
+      "url": "https://outcomeschool.com/blog/prompt-injection-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1091,
+    "lineEnd": 1092,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1091-L1092"
+  },
+  "contentHash": "997a0df19af6091e3eff939c7602510ab03cb7425b604bc8c4863532ea1bcb4e",
+  "id": "Q0324",
+  "number": 324,
+  "active": true
+}

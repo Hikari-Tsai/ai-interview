@@ -1,0 +1,25 @@
+{
+  "original": "SQL: return each employee's current salary after an ETL error inserted a new salary row every year.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 466,
+    "lineEnd": 466,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L466-L466"
+  },
+  "contentHash": "c8007dee3fadf374b709d651f5f997e6b84ad75b3efff4989efd75207c39d6a8",
+  "id": "Q0131",
+  "number": 131,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "An eval pipeline you own suddenly reports a 6-point drop for a customer's model between Tuesday and Wednesday. The model didn't change. Debug it.",
+  "topic": "Evaluation and Observability",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1503,
+    "lineEnd": 1503,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1503-L1503"
+  },
+  "contentHash": "1c90d733ce813579012b088c4f4fdf0c16e62b2893d90f895cdf6f359f898c31",
+  "id": "Q0446",
+  "number": 446,
+  "active": true
+}

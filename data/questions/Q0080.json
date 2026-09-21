@@ -1,0 +1,28 @@
+{
+  "original": "What is the difference between jailbreaking and adversarial prompting?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)",
+  "links": [
+    {
+      "title": "Prompt Injection in LLMs",
+      "url": "https://outcomeschool.com/blog/prompt-injection-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 337,
+    "lineEnd": 338,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L337-L338"
+  },
+  "contentHash": "11d225234fd53f8b482c9ce549dc8fa93d202c84b71702b0f6df5b5dfea710fc",
+  "id": "Q0080",
+  "number": 80,
+  "active": true
+}

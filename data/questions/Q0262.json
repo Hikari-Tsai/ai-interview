@@ -1,0 +1,27 @@
+{
+  "original": "An enterprise customer wants to deploy your RAG system but has no labelled data. How do you evaluate it before and after launch?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "evaluation",
+    "rag",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 833,
+    "lineEnd": 833,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L833-L833"
+  },
+  "contentHash": "ef161738ebeeb2927c1bdbb134cb2c555e81311567de35bb1a90e744ce33a074",
+  "id": "Q0262",
+  "number": 262,
+  "active": true
+}

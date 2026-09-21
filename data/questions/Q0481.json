@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you made short-term sacrifices for long-term gains.",
+  "topic": "Behavioral and Culture",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1616,
+    "lineEnd": 1616,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1616-L1616"
+  },
+  "contentHash": "ba8619964e767798a9815d7aa5b6ae6cc470c0a5e378c53e62622d132ce7e264",
+  "id": "Q0481",
+  "number": 481,
+  "active": true
+}

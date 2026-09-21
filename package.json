@@ -1,0 +1,36 @@
+{
+  "name": "ai-interview-cards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "npm run validate && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "astro check",
+    "sync": "tsx scripts/sync.ts",
+    "generate": "tsx scripts/generate.ts",
+    "validate": "tsx scripts/validate.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "astro": "^7.3.3",
+    "linkedom": "^0.18.12",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

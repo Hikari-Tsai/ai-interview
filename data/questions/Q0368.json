@@ -1,0 +1,34 @@
+{
+  "original": "You want to serve a 70B-parameter model on a single 80 GB GPU. Walk me through whether it fits and what single-stream tokens/sec you'd expect.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work) and [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    },
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1235,
+    "lineEnd": 1236,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1235-L1236"
+  },
+  "contentHash": "06edd2141fce57862a134a26854f978b9f9cc8d1b25d33d2433710471b383f7c",
+  "id": "Q0368",
+  "number": 368,
+  "active": true
+}

@@ -1,0 +1,27 @@
+{
+  "original": "After a foundation-model version upgrade, your production agent's escalation rate doubles overnight. Walk me through your response.",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "evaluation",
+    "production",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1685,
+    "lineEnd": 1685,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1685-L1685"
+  },
+  "contentHash": "b27e567b3c2f29220a3820e381e75aaae13d86eba107b5658cf8da98a60c37a4",
+  "id": "Q0498",
+  "number": 498,
+  "active": true
+}

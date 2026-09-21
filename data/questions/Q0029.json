@@ -1,0 +1,29 @@
+{
+  "original": "Your p99 latency doubled after a deploy with no model change. Walk through the diagnosis.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "Amazon",
+    "Databricks",
+    "Perplexity"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 200,
+    "lineEnd": 201,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L200-L201"
+  },
+  "contentHash": "2d41cfca2f78e758c906e7f7f9cb31132f405d00c9210a2f5525a08cc09b89f8",
+  "id": "Q0029",
+  "number": 29,
+  "active": true
+}

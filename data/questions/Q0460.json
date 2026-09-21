@@ -1,0 +1,25 @@
+{
+  "original": "Design Comet's hybrid browser architecture combining on-device privacy with cloud AI assistance.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1548,
+    "lineEnd": 1548,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1548-L1548"
+  },
+  "contentHash": "5377801aeec43e363ae6b4da241f1fab610b7fe8acd9559dc5172c26274699fd",
+  "id": "Q0460",
+  "number": 460,
+  "active": true
+}

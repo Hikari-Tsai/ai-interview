@@ -1,0 +1,30 @@
+{
+  "original": "For a long-context assistant, when is a 1M-token context window the right tool, and when should you use retrieval instead?",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)",
+  "links": [
+    {
+      "title": "The Lost in the Middle Problem in LLMs",
+      "url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 902,
+    "lineEnd": 903,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L902-L903"
+  },
+  "contentHash": "d0cc054abaf7c1f1f641a1d54ccf27f9d6e8e254089685ac4025f73d62c36240",
+  "id": "Q0280",
+  "number": 280,
+  "active": true
+}

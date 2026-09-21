@@ -1,0 +1,34 @@
+{
+  "original": "Fine-tune an 8B model on a single 24 GB GPU. Walk me through the memory maths and the exact stack you'd use.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms) and [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work)",
+  "links": [
+    {
+      "title": "LoRA - Low-Rank Adaptation of LLMs",
+      "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
+    },
+    {
+      "title": "How does fine-tuning work?",
+      "url": "https://outcomeschool.com/blog/how-does-fine-tuning-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1460,
+    "lineEnd": 1461,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1460-L1461"
+  },
+  "contentHash": "145199e5e42e81c1b52bf090278f3fd1d9fb941b880034ffd2575c5ae7a58215",
+  "id": "Q0433",
+  "number": 433,
+  "active": true
+}

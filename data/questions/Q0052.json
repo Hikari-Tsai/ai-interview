@@ -1,0 +1,32 @@
+{
+  "original": "What makes an agent loop terminate correctly? How do you bound cost and steps?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop) and [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)",
+  "links": [
+    {
+      "title": "AI Agent Loop",
+      "url": "https://outcomeschool.com/blog/ai-agent-loop"
+    },
+    {
+      "title": "Fix an infinite loop in an AI agent",
+      "url": "https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 261,
+    "lineEnd": 262,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L261-L262"
+  },
+  "contentHash": "ada59d65f558e69fef3322bbdc1de4597cfe8bf276fe886fe50f196bc382bbf6",
+  "id": "Q0052",
+  "number": 52,
+  "active": true
+}

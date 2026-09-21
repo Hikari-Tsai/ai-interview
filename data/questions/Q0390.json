@@ -1,0 +1,25 @@
+{
+  "original": "Design a personalised feed ranking system with a two-stage candidate generation and ranking architecture.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1314,
+    "lineEnd": 1314,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1314-L1314"
+  },
+  "contentHash": "c934db243222891a904464e1b7cff0f78f638dba1b009641dab394af9d08f72a",
+  "id": "Q0390",
+  "number": 390,
+  "active": true
+}

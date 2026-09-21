@@ -1,0 +1,27 @@
+{
+  "original": "How do you attribute every claim in a generated answer to a specific retrieved span?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Perplexity",
+    "Harvey",
+    "Abridge"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 234,
+    "lineEnd": 235,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L234-L235"
+  },
+  "contentHash": "319b9451ba1e5d8aff13c0535af683c7b23ba93015610f5d8dbd389aced6bd76",
+  "id": "Q0043",
+  "number": 43,
+  "active": true
+}

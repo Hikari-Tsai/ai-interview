@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a time you owned an ambiguous problem end-to-end without much direction.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 837,
+    "lineEnd": 837,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L837-L837"
+  },
+  "contentHash": "b601cca121abc77bdd592a121daaa2e16528b5f9181eccca33347be0bd5270e4",
+  "id": "Q0263",
+  "number": 263,
+  "active": true
+}

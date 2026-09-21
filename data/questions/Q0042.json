@@ -1,0 +1,26 @@
+{
+  "original": "How do you keep an index fresh when the underlying corpus changes continuously?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Perplexity",
+    "Cursor"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 232,
+    "lineEnd": 233,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L232-L233"
+  },
+  "contentHash": "dcdd2b1ccb8a160ec07a7ba3e6658b99584495473cc98bd2c37feec91a906f93",
+  "id": "Q0042",
+  "number": 42,
+  "active": true
+}

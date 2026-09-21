@@ -1,0 +1,25 @@
+{
+  "original": "A user loads a 2 TB dataset with datasets on a 64 GB RAM machine and it works. How? And when does it stop working?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1449,
+    "lineEnd": 1449,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1449-L1449"
+  },
+  "contentHash": "e496b66197c8c737a2cc8f17b0c78da9f0704dca3d720307f2dcb47983e7fc1a",
+  "id": "Q0429",
+  "number": 429,
+  "active": true
+}

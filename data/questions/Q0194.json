@@ -1,0 +1,30 @@
+{
+  "original": "Distinguish regularization from validation: when is each the right tool?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Regularization in Machine Learning: L1 vs L2](https://outcomeschool.com/blog/regularization-in-machine-learning)",
+  "links": [
+    {
+      "title": "Regularization in Machine Learning: L1 vs L2",
+      "url": "https://outcomeschool.com/blog/regularization-in-machine-learning"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 618,
+    "lineEnd": 619,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L618-L619"
+  },
+  "contentHash": "56c357b9d518e0f962f4d1ac06c8e1f3738ba04503db4dbd242cb4bc5c732375",
+  "id": "Q0194",
+  "number": 194,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Explain Constitutional AI. What does it buy you over vanilla RLHF, and what doesn't it solve?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 492,
+    "lineEnd": 492,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L492-L492"
+  },
+  "contentHash": "5033e567842bedbabaccbd7f8cb9776281b2f2b36d8dc47a50cdc363b25beaac",
+  "id": "Q0139",
+  "number": 139,
+  "active": true
+}

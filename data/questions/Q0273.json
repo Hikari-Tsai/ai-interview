@@ -1,0 +1,25 @@
+{
+  "original": "DeepSeek claims frontier-class results at a fraction of the usual training cost. If an interviewer asks “how is that even possible,” what is your structured answer?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 872,
+    "lineEnd": 872,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L872-L872"
+  },
+  "contentHash": "f67e6f94a13775a6604be7a1fbde1f453b85604797325496b4015fe6540df295",
+  "id": "Q0273",
+  "number": 273,
+  "active": true
+}

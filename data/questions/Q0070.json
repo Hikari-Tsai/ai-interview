@@ -1,0 +1,29 @@
+{
+  "original": "How do you detect and measure hallucinations in a production RAG system?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "OpenAI",
+    "Cursor"
+  ],
+  "tags": [
+    "evaluation",
+    "rag",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 313,
+    "lineEnd": 314,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L313-L314"
+  },
+  "contentHash": "6112369a6489442242d6bf7a8e943f313bcbcf45876760eda35f41a7af4335a4",
+  "id": "Q0070",
+  "number": 70,
+  "active": true
+}

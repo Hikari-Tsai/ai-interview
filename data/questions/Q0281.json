@@ -1,0 +1,25 @@
+{
+  "original": "Training a trillion-parameter model, attention logits can blow up and destabilise the run. What is going on, and how does something like MuonClip address it?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 907,
+    "lineEnd": 907,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L907-L907"
+  },
+  "contentHash": "51f912c763a9f3bd243560aff22bb2d533dbfaa2620dfcb393c65d3c54b77c95",
+  "id": "Q0281",
+  "number": 281,
+  "active": true
+}

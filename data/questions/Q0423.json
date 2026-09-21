@@ -1,0 +1,26 @@
+{
+  "original": "Price a dedicated endpoint: estimate cost per million output tokens for a 70B model, and explain the throughput-latency trade.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1422,
+    "lineEnd": 1422,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1422-L1422"
+  },
+  "contentHash": "c39dfe50a00b50a981423cf92c02ee2663c217f74d27b1cf7b2a683afeeebb52",
+  "id": "Q0423",
+  "number": 423,
+  "active": true
+}

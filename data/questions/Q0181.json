@@ -1,0 +1,25 @@
+{
+  "original": "An enterprise customer says: “We want AI to automate our claims processing.” You're the engineer in the room. What do the first two weeks look like?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 588,
+    "lineEnd": 588,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L588-L588"
+  },
+  "contentHash": "47e693f47c5bd0451272b71bf095676a5b20178d0476205b6598df16fd2a1ba8",
+  "id": "Q0181",
+  "number": 181,
+  "active": true
+}

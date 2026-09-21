@@ -1,0 +1,34 @@
+{
+  "original": "Estimate the KV-cache memory for serving Mistral 7B, and design the rolling-buffer cache that sliding-window attention enables.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "How does Sliding Window Attention work?",
+      "url": "https://outcomeschool.com/blog/how-does-sliding-window-attention-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 778,
+    "lineEnd": 779,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L778-L779"
+  },
+  "contentHash": "6f84986f4b1f54a5768e6ec2c98849d375aa3d0b605817817741dbc8b976790d",
+  "id": "Q0249",
+  "number": 249,
+  "active": true
+}

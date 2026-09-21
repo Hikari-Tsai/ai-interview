@@ -1,0 +1,31 @@
+{
+  "original": "Implement the block manager for a paged KV cache: allocate, append, free, and copy-on-write prefix sharing.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "coding",
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)",
+  "links": [
+    {
+      "title": "Paged Attention in LLMs",
+      "url": "https://outcomeschool.com/blog/paged-attention-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1222,
+    "lineEnd": 1223,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1222-L1223"
+  },
+  "contentHash": "2acd10729e27b2b84661616070c4859f30f8568c004e98a8366eb300e3225a92",
+  "id": "Q0362",
+  "number": 362,
+  "active": true
+}

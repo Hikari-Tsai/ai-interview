@@ -1,0 +1,34 @@
+{
+  "original": "Design the scheduler for a continuous-batching inference engine.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms) and [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work)",
+  "links": [
+    {
+      "title": "Continuous Batching in LLMs",
+      "url": "https://outcomeschool.com/blog/continuous-batching-in-llms"
+    },
+    {
+      "title": "How does vLLM work?",
+      "url": "https://outcomeschool.com/blog/how-does-vllm-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1418,
+    "lineEnd": 1419,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1418-L1419"
+  },
+  "contentHash": "621557ccd72e64f33f42e45fa20a81e42799e1e7a488ad23982e9bd8230c577b",
+  "id": "Q0421",
+  "number": 421,
+  "active": true
+}

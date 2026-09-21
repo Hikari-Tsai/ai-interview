@@ -1,0 +1,30 @@
+{
+  "original": "What are the differences between L1 and L2 regularization in logistic regression?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Regularization in Machine Learning: L1 vs L2](https://outcomeschool.com/blog/regularization-in-machine-learning)",
+  "links": [
+    {
+      "title": "Regularization in Machine Learning: L1 vs L2",
+      "url": "https://outcomeschool.com/blog/regularization-in-machine-learning"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1116,
+    "lineEnd": 1117,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1116-L1117"
+  },
+  "contentHash": "d5d62a40696d4eeec7603981b71303316163c29ae37dacd796763ca22cb6bbe4",
+  "id": "Q0330",
+  "number": 330,
+  "active": true
+}

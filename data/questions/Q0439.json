@@ -1,0 +1,25 @@
+{
+  "original": "Given annotation sessions as (start, end) timestamps, return the peak number of concurrent annotators and the intervals at peak load.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1484,
+    "lineEnd": 1484,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1484-L1484"
+  },
+  "contentHash": "b5e37af612441e0f59d0c675acbfd16dde3b1972949a4c90dd3454a20c1de252",
+  "id": "Q0439",
+  "number": 439,
+  "active": true
+}

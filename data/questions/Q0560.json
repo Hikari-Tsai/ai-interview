@@ -1,0 +1,25 @@
+{
+  "original": "You have 10 hours of demonstrations for a new task and budget for 50 more. How do you decide what to collect, and what return do you expect?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1924,
+    "lineEnd": 1924,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1924-L1924"
+  },
+  "contentHash": "0add4836dfa909a35ace5bac14faebe964aac480dd0ff3a6a904285b6baa1189",
+  "id": "Q0560",
+  "number": 560,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "GLM-4.5's post-training trains expert models per domain then unifies with self-distillation. Walk through why you would train specialists and then merge them.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4) and [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)",
+  "links": [
+    {
+      "title": "DeepSeek-V4 Architecture Explained",
+      "url": "https://outcomeschool.com/blog/decoding-deepseek-v4"
+    },
+    {
+      "title": "How does Knowledge Distillation work?",
+      "url": "https://outcomeschool.com/blog/how-does-knowledge-distillation-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 944,
+    "lineEnd": 945,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L944-L945"
+  },
+  "contentHash": "c9cd42a30bb0278bff684da953141ba099efb60d30ee0e168a5735cfad4229c9",
+  "id": "Q0292",
+  "number": 292,
+  "active": true
+}

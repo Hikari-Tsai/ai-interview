@@ -1,0 +1,34 @@
+{
+  "original": "Estimate the KV-cache memory to serve a 70B-class model at 128k context. What do you do when it doesn't fit?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)",
+  "links": [
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 739,
+    "lineEnd": 740,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L739-L740"
+  },
+  "contentHash": "ae3590003cb744202c7adf942cd42c5144a56b4843b402412b4889247352e0c9",
+  "id": "Q0239",
+  "number": 239,
+  "active": true
+}

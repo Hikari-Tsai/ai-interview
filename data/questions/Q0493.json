@@ -1,0 +1,30 @@
+{
+  "original": "Design a customer-facing agent for an airline that can cancel and rebook flights. How do you keep it from violating fare policy?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)",
+  "links": [
+    {
+      "title": "How do LLM guardrails work?",
+      "url": "https://outcomeschool.com/blog/how-do-llm-guardrails-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1674,
+    "lineEnd": 1675,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1674-L1675"
+  },
+  "contentHash": "0dcbd28ad6964ba4c24f4f5bd366259a7fb91c79ed8b74d3fb971ad88c89e4bc",
+  "id": "Q0493",
+  "number": 493,
+  "active": true
+}

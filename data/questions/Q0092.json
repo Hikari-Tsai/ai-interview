@@ -1,0 +1,30 @@
+{
+  "original": "Cascaded ASR+LLM+TTS versus native speech-to-speech: argue both sides.",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "links": [
+    {
+      "title": "Design a Real-Time Voice AI Agent",
+      "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 368,
+    "lineEnd": 370,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L368-L370"
+  },
+  "contentHash": "cddaf7ec2ebfe7842a2b970484e5587eb05ec7cda63eb6391ff821478999c1ca",
+  "id": "Q0092",
+  "number": 92,
+  "active": true
+}

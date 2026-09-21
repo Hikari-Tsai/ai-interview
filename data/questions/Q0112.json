@@ -1,0 +1,35 @@
+{
+  "original": "Implement top-k, top-p and temperature sampling over a logits vector.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Google DeepMind",
+    "Apple"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output) and [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work)",
+  "links": [
+    {
+      "title": "How does Temperature control LLM output?",
+      "url": "https://outcomeschool.com/blog/how-does-temperature-control-llm-output"
+    },
+    {
+      "title": "How do Top-k and Top-p Sampling work?",
+      "url": "https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 422,
+    "lineEnd": 424,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L422-L424"
+  },
+  "contentHash": "a8ec5d8883cb833a46d7f14f6fa55c50741306d50f7a167ed3e41d1b7cb76ce7",
+  "id": "Q0112",
+  "number": 112,
+  "active": true
+}

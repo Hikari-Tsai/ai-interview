@@ -1,0 +1,25 @@
+{
+  "original": "Design a system that lets multiple teams query a shared dataset without exposing raw data.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2020,
+    "lineEnd": 2020,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2020-L2020"
+  },
+  "contentHash": "12f08257feaf8cc3edd7ed89a623ea974f71c5df2f18481be3e3bf04673024f9",
+  "id": "Q0594",
+  "number": 594,
+  "active": true
+}

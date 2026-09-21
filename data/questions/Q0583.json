@@ -1,0 +1,25 @@
+{
+  "original": "Debug a program that models infection spread across a social graph.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1993,
+    "lineEnd": 1993,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1993-L1993"
+  },
+  "contentHash": "e15805f7898eb7fd5cd7077fcd3cb6a38e11415e803f45ce70ff2983add8b71a",
+  "id": "Q0583",
+  "number": 583,
+  "active": true
+}

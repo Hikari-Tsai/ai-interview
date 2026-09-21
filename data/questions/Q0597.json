@@ -1,0 +1,25 @@
+{
+  "original": "Why Palantir, and why this team? Tell me about a time you pushed back on a customer request.",
+  "topic": "Behavioral and Culture",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2026,
+    "lineEnd": 2026,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2026-L2026"
+  },
+  "contentHash": "246e42a52cc87b312b9db1538aa19d4ab6748b50f5002e76a8b112a6356ed079",
+  "id": "Q0597",
+  "number": 597,
+  "active": true
+}

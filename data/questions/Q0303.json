@@ -1,0 +1,30 @@
+{
+  "original": "Qwen2.5-VL uses a native dynamic-resolution ViT with window attention and multimodal RoPE. Why native resolution instead of fixed tiling, and what does MRoPE encode?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)",
+  "links": [
+    {
+      "title": "Decoding Vision Transformer (ViT)",
+      "url": "https://outcomeschool.com/blog/decoding-vision-transformer-vit"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 994,
+    "lineEnd": 995,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L994-L995"
+  },
+  "contentHash": "2a44d43904c4f694b42b750d1d4da7f9397f240262e89b600f62f28434a00db3",
+  "id": "Q0303",
+  "number": 303,
+  "active": true
+}

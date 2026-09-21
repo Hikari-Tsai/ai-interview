@@ -1,0 +1,25 @@
+{
+  "original": "Serving real-time TTS is a different capacity problem from serving a text LLM. Why, and how do you plan capacity?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1843,
+    "lineEnd": 1843,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1843-L1843"
+  },
+  "contentHash": "36c953b9e03782f97625a83e0628b1e9a4a23cb02043cfbd893f15367d8b6d00",
+  "id": "Q0537",
+  "number": 537,
+  "active": true
+}

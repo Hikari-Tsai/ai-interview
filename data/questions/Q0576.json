@@ -1,0 +1,25 @@
+{
+  "original": "How do you build a simulator you would trust to gate a release?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1970,
+    "lineEnd": 1970,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1970-L1970"
+  },
+  "contentHash": "9785df133b2c6882f0e8adb1bd71ade0381d412a97af4a35c7843cb7360a1840",
+  "id": "Q0576",
+  "number": 576,
+  "active": true
+}

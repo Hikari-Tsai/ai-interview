@@ -1,0 +1,36 @@
+{
+  "original": "Implement multi-head attention, then convert it to grouped-query attention.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Google DeepMind",
+    "Mistral AI",
+    "Alibaba"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers) and [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)",
+  "links": [
+    {
+      "title": "Multi-Head Attention in Transformers",
+      "url": "https://outcomeschool.com/blog/multi-head-attention-in-transformers"
+    },
+    {
+      "title": "Grouped Query Attention",
+      "url": "https://outcomeschool.com/blog/grouped-query-attention"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 414,
+    "lineEnd": 416,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L414-L416"
+  },
+  "contentHash": "04252d3f274a55530be48129e43fa2c49bb00f42652f5d65bebd6e4ba7e01d09",
+  "id": "Q0109",
+  "number": 109,
+  "active": true
+}

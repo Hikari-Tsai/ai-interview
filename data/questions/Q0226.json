@@ -1,0 +1,26 @@
+{
+  "original": "Design a recommendation system for Facebook Ads, and an evaluation framework for ads ranking.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 698,
+    "lineEnd": 698,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L698-L698"
+  },
+  "contentHash": "eae16d0ef12879e0b0ee332437a89f2b82e6caa6d723bb249cfb7d774eb16416",
+  "id": "Q0226",
+  "number": 226,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Write the server-side handler for streaming token generation. Handle client disconnects correctly.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Together AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)",
+  "links": [
+    {
+      "title": "How does Token Streaming work?",
+      "url": "https://outcomeschool.com/blog/how-does-token-streaming-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1413,
+    "lineEnd": 1414,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1413-L1414"
+  },
+  "contentHash": "db56dcf1dcc11818a3c47dd72c5a53b82294294b6dffc78e53e1b29704366fd9",
+  "id": "Q0420",
+  "number": 420,
+  "active": true
+}

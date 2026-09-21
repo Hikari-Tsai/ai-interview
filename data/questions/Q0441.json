@@ -1,0 +1,25 @@
+{
+  "original": "We sell RL environments. Design one for “book a multi-city trip in a web travel app”, specify the reward, and tell me how you stop the policy hacking it.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1490,
+    "lineEnd": 1490,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1490-L1490"
+  },
+  "contentHash": "a6508fee3bdb8ac8185ff94cdba017b0a8d64b5fc3f0a3ceef861bdb3ece0fcf",
+  "id": "Q0441",
+  "number": 441,
+  "active": true
+}

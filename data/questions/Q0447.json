@@ -1,0 +1,25 @@
+{
+  "original": "Some annotators are pasting your tasks into ChatGPT and submitting the output. How do you detect and handle it?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1507,
+    "lineEnd": 1507,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1507-L1507"
+  },
+  "contentHash": "23e9fa793b1779743388adbd58e42dd64cae61cc1e338fd4f9c66b90d16f242e",
+  "id": "Q0447",
+  "number": 447,
+  "active": true
+}

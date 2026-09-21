@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a technical misjudgement that delayed a project.",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 524,
+    "lineEnd": 524,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L524-L524"
+  },
+  "contentHash": "d190e808e2b550131fcb254094f1f712808802887afa0d44148572afa177e366",
+  "id": "Q0155",
+  "number": 155,
+  "active": true
+}

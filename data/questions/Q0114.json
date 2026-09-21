@@ -1,0 +1,28 @@
+{
+  "original": "Implement a token-bucket rate limiter, then make it distributed.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "OpenAI",
+    "xAI",
+    "Cohere"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 427,
+    "lineEnd": 428,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L427-L428"
+  },
+  "contentHash": "ba7a68008c6343fde8094f05676c6855c9a2c4db3dba66dc27e7ff399c68f712",
+  "id": "Q0114",
+  "number": 114,
+  "active": true
+}

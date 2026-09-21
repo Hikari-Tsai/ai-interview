@@ -1,0 +1,26 @@
+{
+  "original": "Text normalisation is where TTS quality actually dies in production. Walk me through it.",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "multimodal",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1853,
+    "lineEnd": 1853,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1853-L1853"
+  },
+  "contentHash": "8793c8550fe6794daf21f888baff2b83e6b4d2b04e768f954409e088ad53accb",
+  "id": "Q0540",
+  "number": 540,
+  "active": true
+}

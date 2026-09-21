@@ -1,0 +1,32 @@
+{
+  "original": "Walk me through RLHF end to end: reward model, policy optimisation, KL penalty.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf) and [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)",
+  "links": [
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    },
+    {
+      "title": "Proximal Policy Optimization (PPO)",
+      "url": "https://outcomeschool.com/blog/proximal-policy-optimization-ppo"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 272,
+    "lineEnd": 273,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L272-L273"
+  },
+  "contentHash": "27e5df644b028a214f7f0a4f466d5efb1ee24806dce46966ad94ea623cc7a6a0",
+  "id": "Q0056",
+  "number": 56,
+  "active": true
+}

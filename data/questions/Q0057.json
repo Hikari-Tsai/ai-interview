@@ -1,0 +1,31 @@
+{
+  "original": "What is DPO and why did it displace PPO-based RLHF at many labs? When is online RL still better?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Hugging Face",
+    "Scale AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)",
+  "links": [
+    {
+      "title": "Direct Preference Optimization (DPO)",
+      "url": "https://outcomeschool.com/blog/direct-preference-optimization-dpo"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 274,
+    "lineEnd": 276,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L274-L276"
+  },
+  "contentHash": "6c89946931c74704c7caab7858e92fd6540617df26926f946fb7972892c2f1be",
+  "id": "Q0057",
+  "number": 57,
+  "active": true
+}

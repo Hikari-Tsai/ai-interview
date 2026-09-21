@@ -1,0 +1,25 @@
+{
+  "original": "How do you approach GenAI safety in consumer products?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 583,
+    "lineEnd": 583,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L583-L583"
+  },
+  "contentHash": "29b15090e3aa906e71fefb259c784f450c3ba4e1f2f081a45542978e87d5dd31",
+  "id": "Q0179",
+  "number": 179,
+  "active": true
+}

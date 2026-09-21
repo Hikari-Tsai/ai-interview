@@ -1,0 +1,25 @@
+{
+  "original": "Implement “top-k most frequent search queries” over a large query log, then tell me what breaks when the log becomes an unbounded stream across many machines.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1068,
+    "lineEnd": 1068,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1068-L1068"
+  },
+  "contentHash": "bee528e400b1fb78c4d81f43ac285dc4bb42946390618eda2cefd5e75156271e",
+  "id": "Q0317",
+  "number": 317,
+  "active": true
+}

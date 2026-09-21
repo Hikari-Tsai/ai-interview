@@ -1,0 +1,28 @@
+{
+  "original": "How does an agent decide when to call a tool versus answer from its own knowledge?",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "links": [
+    {
+      "title": "How does Function Calling work in LLMs?",
+      "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 259,
+    "lineEnd": 260,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L259-L260"
+  },
+  "contentHash": "6621a7a060d26816de31368e9e40e9ce5b81e65a0138dfa5cb44a9808c62ebc2",
+  "id": "Q0051",
+  "number": 51,
+  "active": true
+}

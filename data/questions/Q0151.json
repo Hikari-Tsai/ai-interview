@@ -1,0 +1,26 @@
+{
+  "original": "An enterprise customer says “Claude hallucinates too much” in their RAG-based knowledge assistant. You're the applied engineer on the account. What happens in the first 48 hours?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "applied",
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 517,
+    "lineEnd": 517,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L517-L517"
+  },
+  "contentHash": "223027f019969efa27b49812b4f6a1dcb61e550c567737ef59bae0fd99b7f75f",
+  "id": "Q0151",
+  "number": 151,
+  "active": true
+}

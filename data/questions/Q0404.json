@@ -1,0 +1,35 @@
+{
+  "original": "When would you fine-tune instead of using RAG or prompt engineering, and if you do, LoRA or full fine-tuning?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Databricks"
+  ],
+  "tags": [
+    "finetuning",
+    "rag"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work)",
+  "links": [
+    {
+      "title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "url": "https://www.youtube.com/watch?v=lnfWvX66FUk"
+    },
+    {
+      "title": "How does fine-tuning work?",
+      "url": "https://outcomeschool.com/blog/how-does-fine-tuning-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1351,
+    "lineEnd": 1352,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1351-L1352"
+  },
+  "contentHash": "2d18efc6422c38c50570cd9b1cbbab63e4f138c444ad977332f5ce884963b6ac",
+  "id": "Q0404",
+  "number": 404,
+  "active": true
+}

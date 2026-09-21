@@ -1,0 +1,25 @@
+{
+  "original": "Divide two integers without using multiplication, division or modulo. Find the number of connected components in a graph. Check balanced parentheses.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1110,
+    "lineEnd": 1110,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1110-L1110"
+  },
+  "contentHash": "5f8d7dc2892461d6a00b5e027c8ed12bba674e2921dfd1b17c2e715559849b7b",
+  "id": "Q0328",
+  "number": 328,
+  "active": true
+}

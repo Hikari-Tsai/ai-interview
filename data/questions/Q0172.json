@@ -1,0 +1,25 @@
+{
+  "original": "How would you build an LLM-powered enterprise search system?",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 569,
+    "lineEnd": 569,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L569-L569"
+  },
+  "contentHash": "47a9c5e297a374f70c763760b2fac8eafed65a5eff84fdc0a3f6a3768c01557c",
+  "id": "Q0172",
+  "number": 172,
+  "active": true
+}

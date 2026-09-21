@@ -1,0 +1,38 @@
+{
+  "original": "Compare SFT, RLHF, DPO and RLVR for improving an instruction-tuned model. What data does each need, and when would you pick which?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf), [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo) and [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)",
+  "links": [
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    },
+    {
+      "title": "Direct Preference Optimization (DPO)",
+      "url": "https://outcomeschool.com/blog/direct-preference-optimization-dpo"
+    },
+    {
+      "title": "Group Relative Policy Optimization (GRPO)",
+      "url": "https://outcomeschool.com/blog/group-relative-policy-optimization-grpo"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1488,
+    "lineEnd": 1489,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1488-L1489"
+  },
+  "contentHash": "1cca94389cd5df409297c0522ef587e58f8c5a7d121d1cf66a380f75a94e8580",
+  "id": "Q0440",
+  "number": 440,
+  "active": true
+}

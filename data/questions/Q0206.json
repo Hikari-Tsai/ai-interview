@@ -1,0 +1,25 @@
+{
+  "original": "Justify using a neural network for a given problem: what do you need to know about the network, dataset, timeline and business context?",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 639,
+    "lineEnd": 639,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L639-L639"
+  },
+  "contentHash": "4bea9c59020f34965c18b3b507659b83effbdb150fa506e3577195eb67e4acb3",
+  "id": "Q0206",
+  "number": 206,
+  "active": true
+}

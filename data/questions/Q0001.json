@@ -1,0 +1,32 @@
+{
+  "original": "Explain scaled dot-product attention and why the 1/sqrt(d_k) scaling factor matters.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention) and [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)",
+  "links": [
+    {
+      "title": "Math behind √dₖ Scaling Factor in Attention",
+      "url": "https://outcomeschool.com/blog/scaling-dot-product-attention"
+    },
+    {
+      "title": "Math behind Attention - Q, K, and V",
+      "url": "https://outcomeschool.com/blog/math-behind-attention-qkv"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 118,
+    "lineEnd": 119,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L118-L119"
+  },
+  "contentHash": "1691ef8352c15f3197a4847d42eeff79977b6a6e1ed5e8a802c3f3217543ba4f",
+  "id": "Q0001",
+  "number": 1,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "You have four hours to build and demo a working AI-powered product. How do you spend them?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 755,
+    "lineEnd": 755,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L755-L755"
+  },
+  "contentHash": "cc4a9a9919791555c11def5bf6c84df53ddb1c28b6bcdfa09682ed61c0676ac0",
+  "id": "Q0245",
+  "number": 245,
+  "active": true
+}

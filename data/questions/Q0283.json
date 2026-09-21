@@ -1,0 +1,30 @@
+{
+  "original": "Kimi K2 targets agentic and coding tasks. How would you evaluate whether an agentic model is actually good, beyond a single benchmark number?",
+  "topic": "Evaluation and Observability",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)",
+  "links": [
+    {
+      "title": "AI Agent Evaluation",
+      "url": "https://outcomeschool.com/blog/ai-agent-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 912,
+    "lineEnd": 913,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L912-L913"
+  },
+  "contentHash": "b4a40868fb9420f8e2fbc21e08d402a3760a2a93bf884590b99d5ac08b84157e",
+  "id": "Q0283",
+  "number": 283,
+  "active": true
+}

@@ -1,0 +1,27 @@
+{
+  "original": "How do you handle code-switching and accents in a production ASR system?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Sarvam AI",
+    "Abridge"
+  ],
+  "tags": [
+    "multimodal",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 373,
+    "lineEnd": 374,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L373-L374"
+  },
+  "contentHash": "cd6ecaf4d51f853707a01bb8c460dfd40000c4b18be843414e1b6f5a66ebee72",
+  "id": "Q0094",
+  "number": 94,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "How would you evaluate an agent, as opposed to a single model response?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI",
+    "Zhipu AI",
+    "Scale AI",
+    "Cognition"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)",
+  "links": [
+    {
+      "title": "AI Agent Evaluation",
+      "url": "https://outcomeschool.com/blog/ai-agent-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 327,
+    "lineEnd": 329,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L327-L329"
+  },
+  "contentHash": "7c30314ba18b169ca15886564666dbe88f3eeb016015f5b4b8d3ad7716231842",
+  "id": "Q0077",
+  "number": 77,
+  "active": true
+}

@@ -1,0 +1,31 @@
+{
+  "original": "The space of possible conversations is effectively infinite. How do you evaluate a conversational agent before launch?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)",
+  "links": [
+    {
+      "title": "AI Agent Evaluation",
+      "url": "https://outcomeschool.com/blog/ai-agent-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1682,
+    "lineEnd": 1683,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1682-L1683"
+  },
+  "contentHash": "5cbe1c22ea34a7970b9d7b5eb6dbffe0e0ae14be15504da320b7c2da783c8c5e",
+  "id": "Q0496",
+  "number": 496,
+  "active": true
+}

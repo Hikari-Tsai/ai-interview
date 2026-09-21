@@ -1,0 +1,25 @@
+{
+  "original": "Helix splits into a large slow model and a small fast one. Why not run a single end-to-end network?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1938,
+    "lineEnd": 1938,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1938-L1938"
+  },
+  "contentHash": "13693937eee3cba5ba19bf40ba73d710a15ba05cb745377eb6eda1e99da85160",
+  "id": "Q0565",
+  "number": 565,
+  "active": true
+}

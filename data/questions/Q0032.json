@@ -1,0 +1,30 @@
+{
+  "original": "What chunking strategy would you use for a large technical documentation corpus, and why?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)",
+  "links": [
+    {
+      "title": "Chunking Strategies for RAG",
+      "url": "https://outcomeschool.com/blog/chunking-strategies-for-rag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 209,
+    "lineEnd": 211,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L209-L211"
+  },
+  "contentHash": "e900e088812df567057df0f7f056bd56fcae29f33f42786025691c61e1293610",
+  "id": "Q0032",
+  "number": 32,
+  "active": true
+}

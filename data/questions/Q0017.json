@@ -1,0 +1,32 @@
+{
+  "original": "Explain the prefill and decode phases. Why is prefill compute-bound and decode memory-bandwidth-bound?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI",
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)",
+  "links": [
+    {
+      "title": "Prefill vs Decode: LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 165,
+    "lineEnd": 167,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L165-L167"
+  },
+  "contentHash": "6ae99f0e779d4fb67553d624f7d00fb85bb967407ce8e4994880dfb31631dffe",
+  "id": "Q0017",
+  "number": 17,
+  "active": true
+}

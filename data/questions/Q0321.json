@@ -1,0 +1,25 @@
+{
+  "original": "Design a Copilot feature that answers questions over a user's work email, documents and meetings, without ever leaking content the user can't access.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1081,
+    "lineEnd": 1081,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1081-L1081"
+  },
+  "contentHash": "6df7f12cc6bbb3cd2efaedb1d81ce431c165e21a862f0a14b0cee6d78771283a",
+  "id": "Q0321",
+  "number": 321,
+  "active": true
+}

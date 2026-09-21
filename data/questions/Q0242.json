@@ -1,0 +1,25 @@
+{
+  "original": "Loss spikes mid-run on a large pretraining job. Walk me through your debugging process.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 746,
+    "lineEnd": 746,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L746-L746"
+  },
+  "contentHash": "4e10c31376a3177b2898f88c57d09de85c236f698ae229ffef3b8b86f4eff693",
+  "id": "Q0242",
+  "number": 242,
+  "active": true
+}

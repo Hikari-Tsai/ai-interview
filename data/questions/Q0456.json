@@ -1,0 +1,30 @@
+{
+  "original": "You retrieved 50 candidate passages but the model's useful context budget is ~10. How do you choose, and how do you know your choices are good?",
+  "topic": "RAG and Retrieval",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)",
+  "links": [
+    {
+      "title": "How does a Reranker work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-reranker-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1539,
+    "lineEnd": 1540,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1539-L1540"
+  },
+  "contentHash": "18f6d03fe8d78d4e65aecc0b83cfe71bcd4c672aec007e0ed0c4540d10c7f388",
+  "id": "Q0456",
+  "number": 456,
+  "active": true
+}

@@ -1,0 +1,28 @@
+{
+  "original": "What is HyDE (hypothetical document embeddings) and when does it outperform standard dense retrieval?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does HyDE work in RAG?](https://outcomeschool.com/blog/how-does-hyde-work)",
+  "links": [
+    {
+      "title": "How does HyDE work in RAG?",
+      "url": "https://outcomeschool.com/blog/how-does-hyde-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 221,
+    "lineEnd": 222,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L221-L222"
+  },
+  "contentHash": "5e839e0610b8b62619b51bdc9511f0fd4a4c645ebe3613ac8422f8f54a7a5e8a",
+  "id": "Q0036",
+  "number": 36,
+  "active": true
+}

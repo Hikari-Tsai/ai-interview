@@ -1,0 +1,25 @@
+{
+  "original": "Summarize the differences and benefits of the Adam optimizer compared with other methods for neural-network image classification.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1229,
+    "lineEnd": 1229,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1229-L1229"
+  },
+  "contentHash": "9d99ab6ccb9396f99c811a50af16c54680115ad87ffc8631a87e0e2c71ba1a06",
+  "id": "Q0365",
+  "number": 365,
+  "active": true
+}

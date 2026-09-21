@@ -1,0 +1,25 @@
+{
+  "original": "Design and implement an in-memory key-value store supporting set, transactional begin, commit and abort.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 537,
+    "lineEnd": 537,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L537-L537"
+  },
+  "contentHash": "5fbf4b95b2fb0020035813d93287119b42b45382c249c26049c4c7a516cffdd6",
+  "id": "Q0157",
+  "number": 157,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Design a multi-tenant inference platform that serves many foundation models to thousands of customers (Bedrock-shaped).",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1152,
+    "lineEnd": 1152,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1152-L1152"
+  },
+  "contentHash": "fb793d2d903ddcb113bb73918cba06bd70e84ac6456cb17ca5dee808d9574a2b",
+  "id": "Q0344",
+  "number": 344,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Your agent spends over half its first turn just finding the relevant code. How do you fix that?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)",
+  "links": [
+    {
+      "title": "How does Claude Code work?",
+      "url": "https://outcomeschool.com/blog/how-does-claude-code-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1631,
+    "lineEnd": 1632,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1631-L1632"
+  },
+  "contentHash": "4863c6dd3fcbecfc1e79e373956e577796367908b2de449c5c9265292804c70a",
+  "id": "Q0484",
+  "number": 484,
+  "active": true
+}

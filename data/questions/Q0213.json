@@ -1,0 +1,25 @@
+{
+  "original": "Convert a binary tree to a circular doubly linked list.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 664,
+    "lineEnd": 664,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L664-L664"
+  },
+  "contentHash": "01d537243cf9e8f4ff9e5a3132470f1a92c7149f077b4d16064b81cfd5715511",
+  "id": "Q0213",
+  "number": 213,
+  "active": true
+}

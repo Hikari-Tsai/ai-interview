@@ -1,0 +1,25 @@
+{
+  "original": "Print the top view of nodes in a binary tree.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1578,
+    "lineEnd": 1578,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1578-L1578"
+  },
+  "contentHash": "59f4350201ba16637bb2cae8b8b3ba1c8e0d4349a380671bae0ceafaff7b5377",
+  "id": "Q0467",
+  "number": 467,
+  "active": true
+}

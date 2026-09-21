@@ -1,0 +1,26 @@
+{
+  "original": "You inherit an 800-line pipeline script from a previous deployment. It's slow and occasionally produces wrong numbers. The original author is gone. Go.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1994,
+    "lineEnd": 1994,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1994-L1994"
+  },
+  "contentHash": "4f153d1003823d31ae8d23c4c5797caa2df8a266bb95158b60042932c78be41b",
+  "id": "Q0584",
+  "number": 584,
+  "active": true
+}

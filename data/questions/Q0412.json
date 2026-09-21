@@ -1,0 +1,30 @@
+{
+  "original": "An LPU has no HBM at all, just on-die SRAM. Redo the decode roofline argument for that machine and tell me what changes.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)",
+  "links": [
+    {
+      "title": "How does an LPU work?",
+      "url": "https://outcomeschool.com/blog/how-does-an-lpu-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1380,
+    "lineEnd": 1381,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1380-L1381"
+  },
+  "contentHash": "06bf01acb19250025fdbf6b6ccf5d65a77782afbeb52dbb76bd8df6e1582e4c3",
+  "id": "Q0412",
+  "number": 412,
+  "active": true
+}

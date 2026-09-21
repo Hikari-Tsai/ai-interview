@@ -1,0 +1,30 @@
+{
+  "original": "Determinism is the headline claim. What does it actually buy at p99, and why does it matter especially for agentic workloads?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)",
+  "links": [
+    {
+      "title": "How does an LPU work?",
+      "url": "https://outcomeschool.com/blog/how-does-an-lpu-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1386,
+    "lineEnd": 1387,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1386-L1387"
+  },
+  "contentHash": "62716d2ee2a36611550bd8a57c60ae0a3458fa8e01ff37767fc4fdee547a45a1",
+  "id": "Q0415",
+  "number": 415,
+  "active": true
+}

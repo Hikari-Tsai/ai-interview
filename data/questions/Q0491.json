@@ -1,0 +1,26 @@
+{
+  "original": "You're handed a small unfamiliar agent codebase. Users report it sometimes confirms an order that was never actually placed. How do you debug it?",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "coding",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1666,
+    "lineEnd": 1666,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1666-L1666"
+  },
+  "contentHash": "84fb6aa4b341d6e6b5ffcfe0f7af66905acaf8d8ae36d2a617bf9f7f06c23844",
+  "id": "Q0491",
+  "number": 491,
+  "active": true
+}

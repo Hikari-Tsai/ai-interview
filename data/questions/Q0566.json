@@ -1,0 +1,25 @@
+{
+  "original": "Explain action chunking. Why predict a sequence of future actions instead of the next one?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Figure AI"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1939,
+    "lineEnd": 1939,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1939-L1939"
+  },
+  "contentHash": "e7de84d268c5c942151d7bd1a4a131b41488fc4720ac6a772e1fe185de33b607",
+  "id": "Q0566",
+  "number": 566,
+  "active": true
+}

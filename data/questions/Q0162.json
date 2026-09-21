@@ -1,0 +1,25 @@
+{
+  "original": "Write a Python function that displays the first n Fibonacci numbers.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 542,
+    "lineEnd": 542,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L542-L542"
+  },
+  "contentHash": "16220608bc0984b716aa645eaaec4e52aa59e84611577a958065c07098dfeab0",
+  "id": "Q0162",
+  "number": 162,
+  "active": true
+}

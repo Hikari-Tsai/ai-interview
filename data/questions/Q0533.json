@@ -1,0 +1,30 @@
+{
+  "original": "Design the safety system for open-ended character chat.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)",
+  "links": [
+    {
+      "title": "How do LLM guardrails work?",
+      "url": "https://outcomeschool.com/blog/how-do-llm-guardrails-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1824,
+    "lineEnd": 1825,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1824-L1825"
+  },
+  "contentHash": "e07453156fa278a87883e00b67e0d9bce30019d1b3a5bd689dbddb6f572cf367",
+  "id": "Q0533",
+  "number": 533,
+  "active": true
+}

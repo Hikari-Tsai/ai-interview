@@ -1,0 +1,55 @@
+{
+  "questionId": "Q0044",
+  "inputHash": "cda4bc8e04a14a0a6c3ae529f65b666110665526111cc09f99527cdbbfb1f593",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.472662+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/react-agent",
+    "https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L239-L240",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "ReAct 比單純逐步推理多了什麼？",
+      "intent": "區分模型內的推理，與能接收外界回饋的行動迴圈。",
+      "hint": [
+        "推理需要的新事實，從哪裡來？",
+        "工具回傳的結果應該怎麼影響下一步？"
+      ],
+      "principle": "ReAct 把推理、工具行動與觀察串成迴圈：決定下一步、執行工具、讀結果，再決定繼續或回答。CoT 本身只組織推理；ReAct 能補入外部證據並依結果調整。",
+      "tradeoff": "工具能補知識與計算能力，但增加延遲、費用和失敗點。錯誤觀察仍可能讓迴圈偏離目標，不能把工具使用等同於正確性。",
+      "implementation": "控制器負責工具 schema 驗證、執行與記錄結果；設定步數和時間預算。把工具回傳視為資料，使用明確成功、失敗與完成狀態，不必公開模型的私有推理。",
+      "production": "追蹤任務成功率、工具錯誤、迴圈次數與成本。對有副作用的工具限制權限，使用冪等鍵與必要的人工核准；保留操作和觀察的稽核紀錄。",
+      "supplementNote": "ReAct 與 CoT 的差異依原文整理；狀態設計、私有推理處理、權限及營運控管是 AI 補充建議。"
+    },
+    "en": {
+      "title": "What does ReAct add beyond reasoning alone?",
+      "intent": "Distinguish internal reasoning from an action loop that receives external feedback.",
+      "hint": [
+        "Where do new facts needed by the reasoning come from?",
+        "How should a tool result change the next step?"
+      ],
+      "principle": "ReAct interleaves reasoning, tool actions and observations: decide, execute, inspect, then continue or answer. CoT alone organizes reasoning; ReAct can obtain external evidence and adapt to results.",
+      "tradeoff": "Tools add knowledge and computation, but also latency, cost and failure points. Incorrect observations can still derail the loop; tool use does not guarantee correctness.",
+      "implementation": "Let a controller validate tool schemas, execute calls and append results. Enforce step and time budgets. Treat tool output as data and represent success, failure and completion explicitly; exposing private model reasoning is unnecessary.",
+      "production": "Track task success, tool errors, loop length and cost. Restrict permissions for side effects, use idempotency keys and require human approval where appropriate. Audit actions and observations.",
+      "supplementNote": "The ReAct/CoT distinction summarizes the articles. State design, private-reasoning handling, permissions and operational controls are AI supplements."
+    },
+    "ja": {
+      "title": "ReAct は推論だけの場合に何を加える？",
+      "intent": "モデル内の推論と、外部から結果を受け取る行動ループを区別する。",
+      "hint": [
+        "推論に必要な新しい事実はどこから得るのか。",
+        "ツールの結果は次の行動にどう反映されるべきか。"
+      ],
+      "principle": "ReAct は推論、ツールによる行動、観察を交互に行う。次の行動を決め、実行結果を読み、続行か回答かを判断する。CoT 単体は推論を組み立てるが、ReAct は外部の根拠を取得して方針を変えられる。",
+      "tradeoff": "知識と計算能力を補える一方、遅延、費用、失敗箇所が増える。誤った観察で目標から逸れることもあり、ツール利用だけで正しさは保証されない。",
+      "implementation": "制御コードでツールの schema を検証し、呼び出して結果を記録する。回数と時間を制限し、成功・失敗・完了を明示する。ツール出力はデータとして扱い、モデルの非公開の推論を開示する必要はない。",
+      "production": "タスク成功率、ツールエラー、ループ回数、費用を追う。副作用のあるツールは権限を制限し、冪等キーや必要な人の承認を使う。行動と観察の監査記録を残す。",
+      "supplementNote": "ReAct と CoT の違いは原文の要約です。状態設計、非公開の推論の扱い、権限、運用上の制御は AI による補足です。"
+    }
+  }
+}

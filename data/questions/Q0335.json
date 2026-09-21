@@ -1,0 +1,30 @@
+{
+  "original": "How do GRU cells work, and how do they address the vanishing gradient problem? How does a BiLSTM work?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Recurrent Neural Network (RNN)](https://outcomeschool.com/blog/recurrent-neural-network)",
+  "links": [
+    {
+      "title": "Recurrent Neural Network (RNN)",
+      "url": "https://outcomeschool.com/blog/recurrent-neural-network"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1124,
+    "lineEnd": 1125,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1124-L1125"
+  },
+  "contentHash": "975b09fadc933a39b14dedddc58e2cf5f14b96f0eb9da957b47c540e1f5b8c45",
+  "id": "Q0335",
+  "number": 335,
+  "active": true
+}

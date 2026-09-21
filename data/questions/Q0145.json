@@ -1,0 +1,25 @@
+{
+  "original": "Design a file-sharing / distribution system.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 501,
+    "lineEnd": 501,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L501-L501"
+  },
+  "contentHash": "60a1260afe90c62b1a456852c116c4c4f15cb49e1246574e9842023717e29bb5",
+  "id": "Q0145",
+  "number": 145,
+  "active": true
+}

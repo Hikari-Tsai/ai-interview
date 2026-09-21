@@ -1,0 +1,25 @@
+{
+  "original": "Design the safety stack for voice cloning: consent, watermarking and abuse response.",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1847,
+    "lineEnd": 1847,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1847-L1847"
+  },
+  "contentHash": "172dcebd28aa8a1dbe0290fdf71b86f80584e6ec4552d66511c729be694e1026",
+  "id": "Q0538",
+  "number": 538,
+  "active": true
+}

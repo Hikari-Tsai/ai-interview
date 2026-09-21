@@ -1,0 +1,30 @@
+{
+  "original": "A chat assistant re-sends a long conversation history on every turn. How do you avoid recomputing all of it, and what are the pitfalls?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)",
+  "links": [
+    {
+      "title": "How does Prompt Caching work?",
+      "url": "https://outcomeschool.com/blog/how-does-prompt-caching-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 897,
+    "lineEnd": 898,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L897-L898"
+  },
+  "contentHash": "a761ba5695bf0644084d8cce1fd548541ae1063405a8290b6fff02e0ded115bb",
+  "id": "Q0279",
+  "number": 279,
+  "active": true
+}

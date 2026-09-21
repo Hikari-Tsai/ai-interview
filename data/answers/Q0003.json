@@ -1,0 +1,54 @@
+{
+  "questionId": "Q0003",
+  "inputHash": "86ccd4e863e5e7d7b90c9533daf1d182240677b4d601fcfe6404342cb06502b1",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.471639+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/grouped-query-attention",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L123-L125",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "MQA、GQA 省下什麼，又犧牲什麼？",
+      "intent": "區分 query heads 與 KV heads，說清楚架構和服務成本的關係。",
+      "hint": [
+        "多個 query 可以共用同一組什麼資料？",
+        "把 MHA 和 MQA 想成群組數的兩個端點。"
+      ],
+      "principle": "MQA 讓所有 query heads 共用一組 K/V；GQA 則每組 query heads 共用一組 K/V。query 仍各自獨立。固定其他條件，KV 容量相對 MHA 變為 Hkv/Hq。",
+      "tradeoff": "K/V 表示的自由度變少，能降低快取與讀取流量，但品質可能下降。GQA 在容量與品質間提供中間選項；品質接近 MHA 必須靠評估確認。",
+      "implementation": "從模型設定讀取 Hq 和 Hkv，保留實際 KV head 數來配置快取。驗證 head 分組與張量形狀，避免把共享 K/V 實體複製成 Hq 份而失去節省效果。",
+      "production": "在目標上下文長度和並行量下量測品質、每 token 延遲與吞吐量。這是模型架構選擇，不能把任意 MHA checkpoint 切個開關就視為等價 GQA。",
+      "supplementNote": "原理與取捨依原文整理；設定檢查、快取配置與上線評估方法是 AI 補充建議。"
+    },
+    "en": {
+      "title": "What do MQA and GQA save—and trade away?",
+      "intent": "Distinguish query heads from KV heads and connect architecture to serving cost.",
+      "hint": [
+        "What can several queries share?",
+        "Treat MHA and MQA as endpoints of the group count."
+      ],
+      "principle": "MQA shares one K/V head across all query heads. GQA shares one K/V head within each query group. Queries stay separate. With other dimensions fixed, cache capacity relative to MHA becomes Hkv/Hq.",
+      "tradeoff": "Sharing reduces K/V representation freedom, cache size and memory traffic, but may reduce quality. GQA offers an intermediate choice; near-MHA quality requires measurement.",
+      "implementation": "Read Hq and Hkv from model configuration. Allocate only actual KV heads; validate grouping and tensor shapes. Avoid physically expanding cached K/V to Hq copies.",
+      "production": "Measure quality, per-token latency and throughput at target context lengths and concurrency. This is an architectural choice: switching an arbitrary MHA checkpoint to GQA is not an equivalent runtime toggle.",
+      "supplementNote": "Principles and tradeoffs summarize the article. Configuration checks, cache layout and deployment evaluation are AI supplements."
+    },
+    "ja": {
+      "title": "MQA と GQA は何を節約し、何を失う？",
+      "intent": "query head と KV head を区別し、構造と推論コストの関係を説明する。",
+      "hint": [
+        "複数の query が共有できる情報は何だろうか。",
+        "MHA と MQA をグループ数の両端として考える。"
+      ],
+      "principle": "MQA は全 query head で一組の K/V を共有する。GQA は query のグループごとに一組を共有し、query は独立のまま。他の次元が同じなら、KV 容量は MHA の Hkv/Hq になる。",
+      "tradeoff": "K/V の表現の自由度を減らし、容量とメモリアクセスを節約するが、品質が下がる可能性がある。GQA は中間の選択肢であり、MHA に近い品質かは評価が必要。",
+      "implementation": "モデル設定から Hq と Hkv を読み、実際の KV head 数でキャッシュを確保する。グループ対応と形状を検証し、K/V を Hq 個に実体コピーしない。",
+      "production": "想定する文脈長と同時実行数で品質、token ごとの遅延、スループットを測る。モデル構造の変更なので、任意の MHA checkpoint を単なる設定変更で同等の GQA にできるわけではない。",
+      "supplementNote": "原理と取捨選択は原文の要約です。設定確認、キャッシュ配置、運用前の評価方法は AI による補足です。"
+    }
+  }
+}

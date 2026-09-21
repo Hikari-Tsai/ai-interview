@@ -1,0 +1,28 @@
+{
+  "original": "Design permission-aware retrieval: users must never see content they can't access in the source system.",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft",
+    "Databricks",
+    "Glean",
+    "Palantir"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 227,
+    "lineEnd": 228,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L227-L228"
+  },
+  "contentHash": "77d6daed0742be0abdd01273c6f0a511bd4340ba8cacb3ad064b2a9db93bfa03",
+  "id": "Q0039",
+  "number": 39,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "How do you take a model trained at 8K–32K and make it work at 128K or more?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)",
+  "links": [
+    {
+      "title": "Math Behind RoPE (Rotary Position Embedding)",
+      "url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 890,
+    "lineEnd": 891,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L890-L891"
+  },
+  "contentHash": "005f9aaeb2ed3ca09d85277784e4a6ad2b2524a582ab87d560d31c874b624d00",
+  "id": "Q0277",
+  "number": 277,
+  "active": true
+}

@@ -1,0 +1,26 @@
+{
+  "original": "Do the GPU memory maths for full fine-tuning a 7B model in bf16 with Adam. Now with LoRA.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Mistral AI",
+    "Hugging Face"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 294,
+    "lineEnd": 295,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L294-L295"
+  },
+  "contentHash": "852019f6544df81de2790bbbdddf64e7b74271d91c291dcd27747ec9b4b737b4",
+  "id": "Q0064",
+  "number": 64,
+  "active": true
+}

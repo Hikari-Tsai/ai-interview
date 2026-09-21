@@ -1,0 +1,25 @@
+{
+  "original": "A new frontier model is released and scores better on your benchmarks. What happens before it reaches customers?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1732,
+    "lineEnd": 1732,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1732-L1732"
+  },
+  "contentHash": "ee63855ad5485335352d6ac26752ded892b4d955d2de7c2de42e0a370edd029f",
+  "id": "Q0508",
+  "number": 508,
+  "active": true
+}

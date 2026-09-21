@@ -1,0 +1,19 @@
+---
+import Icon from './Icon.astro';
+import {unified} from 'unified';
+import remarkParse from 'remark-parse';
+import {toString} from 'mdast-util-to-string';
+import type { Card } from '../lib/types';
+import type { Messages } from '../lib/i18n';
+const {card,t}=Astro.props as {card:Card;t:Messages};
+---
+<section class="sources" aria-labelledby="source-title">
+ <div class="source-heading"><Icon name="book" size={19}/><h3 id="source-title">{t.sourceTitle}</h3></div>
+ <p class="source-description">{t.sourceDescription}</p>
+ <div class="repo-links">
+  <a href={card.source.url} target="_blank" rel="noopener noreferrer">{t.originalQuestionLink}<Icon name="external" size={14}/></a>
+  <a href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}<Icon name="external" size={14}/></a>
+ </div>
+ {card.originalAnswer && <details class="original-answer"><summary>{t.originalAnswer}</summary><p>{toString(unified().use(remarkParse).parse(card.originalAnswer))}</p></details>}
+ {card.links.length>0 && <><p class="reference-label">{t.references}</p><ul class="reference-list">{card.links.map((link,index)=><li><span class="reference-number">{String(index+1).padStart(2,'0')}</span><a href={link.url} target="_blank" rel="noopener noreferrer">{link.title}<Icon name="external" size={13}/></a>{card.answer?.sourceUrls.includes(link.url)&&<span class="used-source">{t.usedSource}</span>}</li>)}</ul></>}
+</section>

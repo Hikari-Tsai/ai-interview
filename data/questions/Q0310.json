@@ -1,0 +1,34 @@
+{
+  "original": "A regional government wants an assistant in a low-resource language with only a few thousand sentences of clean text. How do you adapt a model to it?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Sarvam AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work) and [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)",
+  "links": [
+    {
+      "title": "How does fine-tuning work?",
+      "url": "https://outcomeschool.com/blog/how-does-fine-tuning-work"
+    },
+    {
+      "title": "LoRA - Low-Rank Adaptation of LLMs",
+      "url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1032,
+    "lineEnd": 1033,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1032-L1033"
+  },
+  "contentHash": "33533021df2ec2e2b072256daa567441195dac490bdc69ab4b45d03d3920a43f",
+  "id": "Q0310",
+  "number": 310,
+  "active": true
+}

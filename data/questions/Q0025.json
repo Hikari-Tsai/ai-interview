@@ -1,0 +1,37 @@
+{
+  "original": "What are TTFT, TPOT, ITL and throughput, and how do they trade against each other?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft",
+    "Apple",
+    "Perplexity"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization) and [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)",
+  "links": [
+    {
+      "title": "Prefill vs Decode: LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization"
+    },
+    {
+      "title": "The First-Token Latency Problem in LLMs",
+      "url": "https://www.youtube.com/watch?v=XD8DD4cEHu0"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 188,
+    "lineEnd": 190,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L188-L190"
+  },
+  "contentHash": "a652fba9b853165879731bdc9bb27df2b21b374b293cf262b6f9426c5d55ed36",
+  "id": "Q0025",
+  "number": 25,
+  "active": true
+}

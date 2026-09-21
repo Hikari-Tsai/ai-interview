@@ -1,0 +1,34 @@
+{
+  "original": "GLM-4.5 is a hybrid reasoning model with a thinking mode and a direct-response mode. How do you build one model that does both, and what are the training and serving implications?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models) and [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)",
+  "links": [
+    {
+      "title": "Large Reasoning Models (LRMs)",
+      "url": "https://outcomeschool.com/blog/large-reasoning-models"
+    },
+    {
+      "title": "DeepSeek-V4 Architecture Explained",
+      "url": "https://outcomeschool.com/blog/decoding-deepseek-v4"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 941,
+    "lineEnd": 942,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L941-L942"
+  },
+  "contentHash": "30ae7a2947397dc6276ce3fecbb76d02c4a0d813c7610f878774238bf8feb1ca",
+  "id": "Q0290",
+  "number": 290,
+  "active": true
+}

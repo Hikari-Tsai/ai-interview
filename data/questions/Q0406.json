@@ -1,0 +1,26 @@
+{
+  "original": "A customer insists on fine-tuning an open model on their support tickets because “we want our own model.” You think RAG solves it. What do you do?",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Databricks"
+  ],
+  "tags": [
+    "applied",
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1360,
+    "lineEnd": 1360,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1360-L1360"
+  },
+  "contentHash": "d90f9b619bf0cc0dd279e00164d47f649353982e13e7cdad7a62964c1de4dd73",
+  "id": "Q0406",
+  "number": 406,
+  "active": true
+}

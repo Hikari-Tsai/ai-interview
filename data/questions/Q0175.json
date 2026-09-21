@@ -1,0 +1,25 @@
+{
+  "original": "Design a system to schedule jobs in a distributed environment.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 573,
+    "lineEnd": 573,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L573-L573"
+  },
+  "contentHash": "495063e4cfe18952babb6249c9a58a1d0317ee5e84331acf8ac3a91173c83568",
+  "id": "Q0175",
+  "number": 175,
+  "active": true
+}

@@ -1,0 +1,26 @@
+{
+  "original": "Your agent passes 92% of eval tasks. Why might that number be misleading, and what would you measure instead?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1684,
+    "lineEnd": 1684,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1684-L1684"
+  },
+  "contentHash": "b2df0a328d299a1a17d8e93a1fe9aa9e76f84b85b3f605fb0ecbca04d08fd846",
+  "id": "Q0497",
+  "number": 497,
+  "active": true
+}

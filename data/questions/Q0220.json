@@ -1,0 +1,25 @@
+{
+  "original": "What breaks when you scale LLM training from 8 GPUs to thousands, and how do modern stacks deal with it?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 678,
+    "lineEnd": 678,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L678-L678"
+  },
+  "contentHash": "b3accb10534af6c7f02adf64dbe3ad1a149da4c4c5d3592c83f39a7c256be37e",
+  "id": "Q0220",
+  "number": 220,
+  "active": true
+}

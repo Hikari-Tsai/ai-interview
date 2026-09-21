@@ -1,0 +1,25 @@
+{
+  "original": "Implement a set of shape classes that compute area, then extend them to handle a new shape.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1989,
+    "lineEnd": 1989,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1989-L1989"
+  },
+  "contentHash": "3df4e4c2bda0e6f9a96b4f1634dfd74a4d83141a0d9934926e68e81b8cf7eb45",
+  "id": "Q0579",
+  "number": 579,
+  "active": true
+}

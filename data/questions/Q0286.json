@@ -1,0 +1,30 @@
+{
+  "original": "Implement a top-k MoE router in PyTorch. Then contrast auxiliary-loss load balancing with a loss-free approach.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)",
+  "links": [
+    {
+      "title": "Mixture of Experts Explained",
+      "url": "https://outcomeschool.com/blog/mixture-of-experts"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 929,
+    "lineEnd": 930,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L929-L930"
+  },
+  "contentHash": "9125264548cd72f4c3b481a9ebe730e8c47d9f874e356ba74aae7dfcf945bce5",
+  "id": "Q0286",
+  "number": 286,
+  "active": true
+}

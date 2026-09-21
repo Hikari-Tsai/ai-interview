@@ -1,0 +1,30 @@
+{
+  "original": "After fine-tuning on a customer's task, target accuracy is up but the model got worse at everything else. What happened and what do you do?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)",
+  "links": [
+    {
+      "title": "Continual Learning in LLMs",
+      "url": "https://outcomeschool.com/blog/continual-learning-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 790,
+    "lineEnd": 791,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L790-L791"
+  },
+  "contentHash": "96d74fc44812612ac2631ab9222dd2b764ff6af1f644f08a4c3480341ee050f2",
+  "id": "Q0252",
+  "number": 252,
+  "active": true
+}

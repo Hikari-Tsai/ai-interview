@@ -1,0 +1,25 @@
+{
+  "original": "How do you build a training dataset without triggering model collapse when much of your data is synthetic?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 867,
+    "lineEnd": 867,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L867-L867"
+  },
+  "contentHash": "37498165f2f80c79ea6970c6ac5002bcccb5b7b20fb116b7d68caaa151a5b7e3",
+  "id": "Q0271",
+  "number": 271,
+  "active": true
+}

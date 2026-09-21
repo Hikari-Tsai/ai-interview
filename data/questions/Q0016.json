@@ -1,0 +1,30 @@
+{
+  "original": "Walk me through what happens, tensor by tensor, in one forward pass of a decoder-only transformer.",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)",
+  "links": [
+    {
+      "title": "Decoding Transformer Architecture",
+      "url": "https://outcomeschool.com/blog/decoding-transformer-architecture"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 159,
+    "lineEnd": 161,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L159-L161"
+  },
+  "contentHash": "31a3f5925c4e885d4f09b4ca1f4c18edca622c2bd3b3d8885d0810dc2fded8b9",
+  "id": "Q0016",
+  "number": 16,
+  "active": true
+}

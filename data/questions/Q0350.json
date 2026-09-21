@@ -1,0 +1,34 @@
+{
+  "original": "You need to run a ~3B-parameter language model on a phone with tight memory and power budgets. What changes versus serving the same model in a datacenter?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "Cloud vs On-Device Model Deployment",
+      "url": "https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment"
+    },
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1175,
+    "lineEnd": 1176,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1175-L1176"
+  },
+  "contentHash": "7799af65bf0ddd1fe9e6b9e0ab628b3c2ea6103655985ca4bf75adc41609fd26",
+  "id": "Q0350",
+  "number": 350,
+  "active": true
+}

@@ -1,0 +1,35 @@
+{
+  "original": "Design an LLM gateway: routing across providers, failover, caching, budgets and rate limits.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Perplexity",
+    "Palantir"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing) and [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)",
+  "links": [
+    {
+      "title": "LLM Routing",
+      "url": "https://outcomeschool.com/blog/llm-routing"
+    },
+    {
+      "title": "How does Semantic Caching work?",
+      "url": "https://outcomeschool.com/blog/how-does-semantic-caching-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 402,
+    "lineEnd": 404,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L402-L404"
+  },
+  "contentHash": "13a27ab4527358d9cd47cd98e1708583044a4549c29b8843029db778eee92814",
+  "id": "Q0106",
+  "number": 106,
+  "active": true
+}

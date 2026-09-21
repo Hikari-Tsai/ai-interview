@@ -1,0 +1,25 @@
+{
+  "original": "You're building a web-scale pretraining corpus (FineWeb-style). Walk me through the pipeline and how you decide whether each filter earns its place.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1462,
+    "lineEnd": 1462,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1462-L1462"
+  },
+  "contentHash": "eb307ce94975d0688cbbc76d2ff19156cdd36dae586df709578ffa2ebc6678f2",
+  "id": "Q0434",
+  "number": 434,
+  "active": true
+}

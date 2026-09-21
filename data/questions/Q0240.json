@@ -1,0 +1,25 @@
+{
+  "original": "Design a rate limiter for an LLM API where cost scales with tokens, not requests.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 741,
+    "lineEnd": 741,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L741-L741"
+  },
+  "contentHash": "d3f39590e7728b2a74561322d9acee12aa05ce6d4d165600231ef75d85c5228a",
+  "id": "Q0240",
+  "number": 240,
+  "active": true
+}

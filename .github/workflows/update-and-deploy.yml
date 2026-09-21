@@ -1,0 +1,104 @@
+name: Update data, validate, build and deploy
+on:
+  workflow_dispatch:
+    inputs:
+      refresh_sources:
+        description: Force bounded article refresh
+        type: boolean
+        default: false
+      deploy:
+        description: Deploy configured GitHub Pages site
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 2 * * *'
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', 'README.md']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: interview-cards-production
+  cancel-in-progress: false
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Sync pinned README and refresh due sources (weekly TTL)
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCE_FETCH_LIMIT: 30
+          FORCE_REFRESH: ${{ inputs.refresh_sources }}
+        run: |
+          if [ "$FORCE_REFRESH" = "true" ]; then
+            npm run sync -- --refresh-sources
+          else
+            npm run sync
+          fi
+      - name: Retry pending generation
+        if: github.event_name != 'push'
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          GENERATION_LIMIT: 10
+          GENERATION_SOURCE_FETCH_LIMIT: 30
+        run: npm run generate
+      - name: Detect changed site inputs
+        id: changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EXPLICIT_DEPLOY: ${{ inputs.deploy }}
+        run: |
+          if [ "$EVENT_NAME" = "push" ] || [ "$EXPLICIT_DEPLOY" = "true" ] || [ -n "$(git status --porcelain -- data/questions data/answers data/overrides)" ]; then
+            echo 'should_build=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'should_build=false' >> "$GITHUB_OUTPUT"
+          fi
+      - run: npm run validate
+      - run: npm test
+      - run: npm run check
+      - name: Build changed or explicitly requested static artifact
+        if: steps.changes.outputs.should_build == 'true'
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          BASE_PATH: ${{ vars.BASE_PATH }}
+        run: npm run build
+      - name: Commit validated durable data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/questions data/answers data/sources data/state
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update validated interview data'
+            git push
+          fi
+      # Article prose stays only on the ephemeral runner. Never upload .private
+      # to public Actions caches or artifacts. Missing snapshots are refetched.
+      - uses: actions/configure-pages@v5
+        if: steps.changes.outputs.should_build == 'true' && (vars.DEPLOY_PAGES == 'true' || inputs.deploy == true)
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.changes.outputs.should_build == 'true' && (vars.DEPLOY_PAGES == 'true' || inputs.deploy == true)
+        with:
+          path: dist
+      - name: Deploy built artifact
+        id: deployment
+        if: steps.changes.outputs.should_build == 'true' && (vars.DEPLOY_PAGES == 'true' || inputs.deploy == true)
+        uses: actions/deploy-pages@v4

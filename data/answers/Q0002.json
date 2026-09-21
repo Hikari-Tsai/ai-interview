@@ -1,0 +1,55 @@
+{
+  "questionId": "Q0002",
+  "inputHash": "0b955d41c7a22c09883ae229b89973c0dc1063cd260399644e298fcdb0bfe979",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.471371+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/kv-cache-in-llms",
+    "https://outcomeschool.com/blog/kv-cache-compression",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L120-L122",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "KV cache 要用多少記憶體？",
+      "intent": "說明哪些計算能重用，並從張量維度推導容量。",
+      "hint": [
+        "每層、每個舊 token，要留住哪兩個向量？",
+        "列出請求數、序列長度、KV head 數與每個數值的位元組數。"
+      ],
+      "principle": "因果解碼保留各層舊 token 的 K、V，新 query 可直接讀取，省去重算。等長批次、K/V head 維度相同時，容量為 2×B×T×L×Hkv×dhead×s 位元組：2 代表 K 與 V，s 是每個數值的位元組數。",
+      "tradeoff": "以記憶體換計算；容量隨上下文和並行請求增加。快取不會消除新 query 對舊 keys 的注意力運算。量化或丟棄 token 還可能影響品質。",
+      "implementation": "例如 B=1、T=4096、L=32、Hkv=8、dhead=128、s=2，需要 512 MiB。這是快取本體，不含權重、暫存張量與配置開銷；變長請求用各序列長度總和取代 B×T。",
+      "production": "容量規劃要涵蓋輸入與預計輸出 token。監控快取使用率、驅逐與等待時間，設定 token 預算及准入限制，並為配置碎片預留空間。",
+      "supplementNote": "原文支援快取機制與容量因子；一般化公式、數值例子及實作與營運規劃含 AI 補充。"
+    },
+    "en": {
+      "title": "How much memory does a KV cache need?",
+      "intent": "Identify reusable computation and derive capacity from tensor dimensions.",
+      "hint": [
+        "Which two vectors must remain for every previous token in every layer?",
+        "Count requests, tokens, KV heads and bytes per value."
+      ],
+      "principle": "Causal decoding retains previous tokens' K and V at every layer for new queries. For equal-length batches and equal K/V head dimensions, cache bytes = 2×B×T×L×Hkv×dhead×s. The factor 2 counts K and V; s is bytes per value.",
+      "tradeoff": "Caching exchanges memory for computation. Context length and concurrency increase capacity demands. Attention to previous keys still costs work; quantization or eviction can affect quality.",
+      "implementation": "B=1, T=4096, L=32, Hkv=8, dhead=128, s=2 gives 512 MiB. This excludes weights, workspaces and allocation overhead. For variable lengths, replace B×T with the sum of sequence lengths.",
+      "production": "Budget prompt and generated tokens together. Monitor cache occupancy, evictions and queueing; enforce token admission limits and reserve headroom for fragmentation.",
+      "supplementNote": "The articles explain caching and memory factors. The generalized formula, worked example and implementation/production guidance include AI supplements."
+    },
+    "ja": {
+      "title": "KV キャッシュにはどれだけメモリが必要？",
+      "intent": "再利用できる計算を特定し、テンソルの次元から容量を導く。",
+      "hint": [
+        "各層の過去の token について、どの二つのベクトルを残す必要があるか。",
+        "リクエスト数、token 数、KV head 数、要素あたりのバイト数を数えてみる。"
+      ],
+      "principle": "因果的なデコードでは、各層で過去の K と V を保存し、新しい query で再利用する。等長バッチで K/V の head 次元が同じなら、容量は 2×B×T×L×Hkv×dhead×s バイト。2 は K と V、s は要素あたりのバイト数を表す。",
+      "tradeoff": "計算を減らす代わりにメモリを使い、文脈長と同時実行数に比例して増える。過去の key への注意計算は残る。量子化や token の削除は品質に影響しうる。",
+      "implementation": "B=1、T=4096、L=32、Hkv=8、dhead=128、s=2 なら 512 MiB。重み、一時領域、割り当ての余分な領域は含まない。可変長なら B×T を各系列長の合計に置き換える。",
+      "production": "入力と生成予定の token を合わせて容量を見積もる。使用率、追い出し、待ち時間を監視し、token 予算と受け入れ制限を設け、断片化の余裕を確保する。",
+      "supplementNote": "原文はキャッシュの仕組みと容量の要因を説明しています。一般化した式、計算例、実装・運用上の提案には AI の補足が含まれます。"
+    }
+  }
+}

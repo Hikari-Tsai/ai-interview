@@ -1,0 +1,25 @@
+{
+  "original": "Why carry lidar, radar and cameras rather than cameras alone? Where would you fuse them?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Waymo"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1975,
+    "lineEnd": 1975,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1975-L1975"
+  },
+  "contentHash": "9527147df836de93de0a848a31c8f0bcbd9d42d016a8cd4fbe7b10b0a7623cf7",
+  "id": "Q0578",
+  "number": 578,
+  "active": true
+}

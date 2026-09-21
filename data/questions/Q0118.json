@@ -1,0 +1,28 @@
+{
+  "original": "Implement cosine similarity search over embeddings, then explain why you would not ship it.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)",
+  "links": [
+    {
+      "title": "How does a Vector Database work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-vector-database-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 437,
+    "lineEnd": 438,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L437-L438"
+  },
+  "contentHash": "a55b556da9e83cdc36de372bedda6fd50b09fb1a4c63103e017e044c2bf3b6cc",
+  "id": "Q0118",
+  "number": 118,
+  "active": true
+}

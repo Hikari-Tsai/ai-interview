@@ -1,0 +1,25 @@
+{
+  "original": "Design an LLM-powered customer-support assistant on top of an existing help centre, with escalation to humans.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1321,
+    "lineEnd": 1321,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1321-L1321"
+  },
+  "contentHash": "8209474e7b31ed82bdeb30732c9c9081687b9ea35d3965c0ee4097a45e30dc0d",
+  "id": "Q0396",
+  "number": 396,
+  "active": true
+}

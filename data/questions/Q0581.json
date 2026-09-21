@@ -1,0 +1,25 @@
+{
+  "original": "Build a function that fetches paginated data from a REST API, handling page size and total-page logic.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1991,
+    "lineEnd": 1991,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1991-L1991"
+  },
+  "contentHash": "810e34317b49fb329a4a35896e4e95fb20d0153578d53493740616ac93c06b8e",
+  "id": "Q0581",
+  "number": 581,
+  "active": true
+}

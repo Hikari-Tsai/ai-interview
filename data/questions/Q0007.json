@@ -1,0 +1,32 @@
+{
+  "original": "What is positional encoding in transformers, and how has it evolved (sinusoidal → learned → RoPE → ALiBi)?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms) and [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)",
+  "links": [
+    {
+      "title": "Positional Embeddings in LLMs",
+      "url": "https://outcomeschool.substack.com/p/positional-embeddings-in-llms"
+    },
+    {
+      "title": "Math Behind RoPE (Rotary Position Embedding)",
+      "url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 135,
+    "lineEnd": 136,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L135-L136"
+  },
+  "contentHash": "f03ec6bd528e3cefbaff0015120d987536be3dfb832a00cea653582f31618950",
+  "id": "Q0007",
+  "number": 7,
+  "active": true
+}

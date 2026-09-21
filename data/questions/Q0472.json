@@ -1,0 +1,34 @@
+{
+  "original": "Design the harness for an agent that makes multi-file changes from a natural-language task. How do you keep it from wrecking a codebase?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work) and [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)",
+  "links": [
+    {
+      "title": "How does Cursor work?",
+      "url": "https://outcomeschool.com/blog/how-does-cursor-work"
+    },
+    {
+      "title": "Harness Engineering in AI",
+      "url": "https://outcomeschool.com/blog/harness-engineering-in-ai"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1594,
+    "lineEnd": 1595,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1594-L1595"
+  },
+  "contentHash": "afc7dfab870dd596617cce387c1fc32fa302cab8f58b671391eb5590366a25ff",
+  "id": "Q0472",
+  "number": 472,
+  "active": true
+}

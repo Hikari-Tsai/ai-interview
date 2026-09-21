@@ -1,0 +1,25 @@
+{
+  "original": "Given exports from three customer systems, each with its own customer records, write code to produce one deduplicated set of entities and explain your design.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1995,
+    "lineEnd": 1995,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1995-L1995"
+  },
+  "contentHash": "b7df880b4db73a803f13e92c273b51d2a0b2db511074c249b496d59a9a0e332e",
+  "id": "Q0585",
+  "number": 585,
+  "active": true
+}

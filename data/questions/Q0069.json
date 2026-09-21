@@ -1,0 +1,26 @@
+{
+  "original": "How do you build an eval set when there is no labelled ground truth and experts are expensive?",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cohere",
+    "Harvey"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 311,
+    "lineEnd": 312,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L311-L312"
+  },
+  "contentHash": "fc163b37176531131936f08ca4814c61059c8b3d6a7c02dfef5664f17f3a8907",
+  "id": "Q0069",
+  "number": 69,
+  "active": true
+}

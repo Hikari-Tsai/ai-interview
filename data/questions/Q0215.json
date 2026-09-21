@@ -1,0 +1,25 @@
+{
+  "original": "K closest points to origin; top-k frequent elements; minimum number of conference rooms.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 666,
+    "lineEnd": 666,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L666-L666"
+  },
+  "contentHash": "e8b7f96ee0792130e6e25529a5a9e74140a71f0028e834d3003b01ad95290237",
+  "id": "Q0215",
+  "number": 215,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Two good clinicians write different notes for the same visit. So how do you evaluate note quality at all?",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1892,
+    "lineEnd": 1892,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1892-L1892"
+  },
+  "contentHash": "4a710a11bef5727ac82c58b588e6210cd28b80fc11b601b5e9264a134a269f36",
+  "id": "Q0549",
+  "number": 549,
+  "active": true
+}

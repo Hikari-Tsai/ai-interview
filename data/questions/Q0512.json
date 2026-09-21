@@ -1,0 +1,25 @@
+{
+  "original": "Estimate the cost and turnaround of running your diligence workflow over a 5,000-document data room, and tell me which lever you'd pull first.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1742,
+    "lineEnd": 1742,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1742-L1742"
+  },
+  "contentHash": "821f675efdb82d505aa2aae5f01bd6e9d32880aa38b6cbc10b62ada61bd71d48",
+  "id": "Q0512",
+  "number": 512,
+  "active": true
+}

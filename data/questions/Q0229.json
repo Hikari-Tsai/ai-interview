@@ -1,0 +1,25 @@
+{
+  "original": "Design a language translation model / service.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 701,
+    "lineEnd": 701,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L701-L701"
+  },
+  "contentHash": "64f8dcdad8bae2a57788659caef7e06c3ea3b25952345a400c61c97a7c44d1c6",
+  "id": "Q0229",
+  "number": 229,
+  "active": true
+}

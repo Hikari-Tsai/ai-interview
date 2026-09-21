@@ -1,0 +1,30 @@
+{
+  "original": "Design agent orchestration across dozens of connected SaaS systems. Where is authorization enforced, and why can it not live in the model?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Glean"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)",
+  "links": [
+    {
+      "title": "AI Orchestration",
+      "url": "https://outcomeschool.com/blog/ai-orchestration"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1771,
+    "lineEnd": 1772,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1771-L1772"
+  },
+  "contentHash": "474d23c39ff11614db8c48af6d00df57cfa0f8bb67673d05abd0c2a7b8936825",
+  "id": "Q0519",
+  "number": 519,
+  "active": true
+}

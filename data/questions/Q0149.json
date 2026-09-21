@@ -1,0 +1,25 @@
+{
+  "original": "How would you balance performance optimisation with model interpretability?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 512,
+    "lineEnd": 512,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L512-L512"
+  },
+  "contentHash": "a860cd4dec9002dd6fdd955d9c27fec79ae4ae0131aaa8f2bc7291bcc22372fe",
+  "id": "Q0149",
+  "number": 149,
+  "active": true
+}

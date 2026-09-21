@@ -1,0 +1,25 @@
+{
+  "original": "What is your favourite product and why?",
+  "topic": "Behavioral and Culture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 593,
+    "lineEnd": 593,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L593-L593"
+  },
+  "contentHash": "aac76238d758ae416bcd9497a9d0b8181e2f6f8667be04544149dd7e619de164",
+  "id": "Q0183",
+  "number": 183,
+  "active": true
+}

@@ -1,0 +1,31 @@
+{
+  "original": "What is speculative decoding? Why is output quality preserved, and when does it not help?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "NVIDIA",
+    "Together AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)",
+  "links": [
+    {
+      "title": "Speculative Decoding",
+      "url": "https://outcomeschool.com/blog/speculative-decoding"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 174,
+    "lineEnd": 176,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L174-L176"
+  },
+  "contentHash": "d66c6f3e281c3558e6f43c754b1fd2643d6c8acbe1ee8693f9be3619b2edee75",
+  "id": "Q0020",
+  "number": 20,
+  "active": true
+}

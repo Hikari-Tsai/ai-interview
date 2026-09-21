@@ -1,0 +1,25 @@
+{
+  "original": "Build core business logic for a toy banking application: a spec that grows in four progressive levels against a black-box evaluator.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 455,
+    "lineEnd": 455,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L455-L455"
+  },
+  "contentHash": "5a3f56ec70c7feddf0906159800bd2ba7c755944f5419aa2af19c5ba301edbd8",
+  "id": "Q0120",
+  "number": 120,
+  "active": true
+}

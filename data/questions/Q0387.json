@@ -1,0 +1,25 @@
+{
+  "original": "Explain position bias in ranking data and how you would debias training.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1308,
+    "lineEnd": 1308,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1308-L1308"
+  },
+  "contentHash": "8d5385bbd5d1f8423a05e52b92bfb5e61eacfa0f767360b1d2766df965775677",
+  "id": "Q0387",
+  "number": 387,
+  "active": true
+}

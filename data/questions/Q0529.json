@@ -1,0 +1,25 @@
+{
+  "original": "Estimate what one message costs us to serve, and tell me which lever moves it most.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1811,
+    "lineEnd": 1811,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1811-L1811"
+  },
+  "contentHash": "803df7da537be8e708f145b1c19fade7bc467c45b612a3719fe2baf696188a3c",
+  "id": "Q0529",
+  "number": 529,
+  "active": true
+}

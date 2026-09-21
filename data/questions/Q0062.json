@@ -1,0 +1,30 @@
+{
+  "original": "What is catastrophic forgetting and how do you mitigate it during fine-tuning?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)",
+  "links": [
+    {
+      "title": "Continual Learning in LLMs",
+      "url": "https://outcomeschool.com/blog/continual-learning-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 288,
+    "lineEnd": 290,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L288-L290"
+  },
+  "contentHash": "f36b7208e93522bcee55f91c769c9b4225d3fd0a4e8cb8616fe366cccf94b2f7",
+  "id": "Q0062",
+  "number": 62,
+  "active": true
+}

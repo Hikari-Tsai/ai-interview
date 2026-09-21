@@ -1,0 +1,25 @@
+{
+  "original": "How would you serve a large mixture-of-experts model on a statically scheduled fabric when expert selection is data-dependent?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1388,
+    "lineEnd": 1388,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1388-L1388"
+  },
+  "contentHash": "38463441516ac7332a18792c45c1fef090597aaa1e58e526825067e0249d177a",
+  "id": "Q0416",
+  "number": 416,
+  "active": true
+}

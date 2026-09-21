@@ -1,0 +1,35 @@
+{
+  "original": "Why did transformers displace RNNs for language modelling, and what exactly does the KV cache buy you at inference time?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "llm",
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ) and [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)",
+  "links": [
+    {
+      "title": "How do RNNs and Transformers differ?",
+      "url": "https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ"
+    },
+    {
+      "title": "What is KV Cache in LLMs?",
+      "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1137,
+    "lineEnd": 1138,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1137-L1138"
+  },
+  "contentHash": "72197e87a5172553be1192639ec7382735ae9eabd44dd64bfde98d115f3eed99",
+  "id": "Q0341",
+  "number": 341,
+  "active": true
+}

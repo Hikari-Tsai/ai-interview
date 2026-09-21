@@ -1,0 +1,26 @@
+{
+  "original": "How would you approach designing a system to ensure the safe deployment of AI models in production?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "safety",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 513,
+    "lineEnd": 513,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L513-L513"
+  },
+  "contentHash": "22560aa6e659800aafcadb6309a65bcf94e67265e4a3baaa671f02906c095978",
+  "id": "Q0150",
+  "number": 150,
+  "active": true
+}

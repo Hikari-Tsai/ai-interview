@@ -1,0 +1,25 @@
+{
+  "original": "Design an end-to-end classification pipeline for Marketplace listings.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 700,
+    "lineEnd": 700,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L700-L700"
+  },
+  "contentHash": "6df41cb91b7f7e4c495bb19551fe3651e08cb771c2893acc02a2af896e68ce05",
+  "id": "Q0228",
+  "number": 228,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "LLMs are non-deterministic, but a refund over $200 must never be auto-approved. Where's the line between prompting and code?",
+  "topic": "Agents and Tool Use",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)",
+  "links": [
+    {
+      "title": "How do LLM guardrails work?",
+      "url": "https://outcomeschool.com/blog/how-do-llm-guardrails-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1676,
+    "lineEnd": 1677,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1676-L1677"
+  },
+  "contentHash": "794f152c3e1e6dc51093a1e9907df470652d6d1185712fcb9f40a8069076902c",
+  "id": "Q0494",
+  "number": 494,
+  "active": true
+}

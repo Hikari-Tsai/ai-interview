@@ -1,0 +1,30 @@
+{
+  "original": "You need to quantize a model for a customer's hardware. How do you choose a scheme, and how do you prove quality hasn't regressed?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Mistral AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 780,
+    "lineEnd": 781,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L780-L781"
+  },
+  "contentHash": "e1749e93750544bc7b81fe12b42170ded55a7e752df9ae05e32e8c2da8bd7025",
+  "id": "Q0250",
+  "number": 250,
+  "active": true
+}

@@ -1,0 +1,38 @@
+{
+  "original": "Explain the architectural choices in a Llama-class model: why grouped-query attention, RoPE and SwiGLU instead of the vanilla 2017 Transformer?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention), [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding) and [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)",
+  "links": [
+    {
+      "title": "Grouped Query Attention",
+      "url": "https://outcomeschool.com/blog/grouped-query-attention"
+    },
+    {
+      "title": "Math Behind RoPE (Rotary Position Embedding)",
+      "url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding"
+    },
+    {
+      "title": "Feed-Forward Networks in LLMs",
+      "url": "https://outcomeschool.com/blog/feed-forward-networks-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 676,
+    "lineEnd": 677,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L676-L677"
+  },
+  "contentHash": "aa3e4eeb1c3c797f5251548e6655522401c8d8767e6ebaefabc2b8fc7084996a",
+  "id": "Q0219",
+  "number": 219,
+  "active": true
+}

@@ -1,0 +1,34 @@
+{
+  "original": "Design the routing layer that decides whether a user request is handled on-device, by a first-party server model, or by a third-party model.",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Apple"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing) and [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment)",
+  "links": [
+    {
+      "title": "LLM Routing",
+      "url": "https://outcomeschool.com/blog/llm-routing"
+    },
+    {
+      "title": "Cloud vs On-Device Model Deployment",
+      "url": "https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1197,
+    "lineEnd": 1198,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1197-L1198"
+  },
+  "contentHash": "032d070feef9687a8bbe03093437501a6731949de6334ef1ef0eb469419f05e4",
+  "id": "Q0357",
+  "number": 357,
+  "active": true
+}

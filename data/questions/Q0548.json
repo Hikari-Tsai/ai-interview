@@ -1,0 +1,25 @@
+{
+  "original": "Walk me through writing a finished note back into Epic. What goes wrong?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Abridge"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1888,
+    "lineEnd": 1888,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1888-L1888"
+  },
+  "contentHash": "c021a5bc4c98aaf1ce97e9a8249623a65588adc8f3bd2f15c43bb6251fb190e0",
+  "id": "Q0548",
+  "number": 548,
+  "active": true
+}

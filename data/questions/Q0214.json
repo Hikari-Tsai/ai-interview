@@ -1,0 +1,25 @@
+{
+  "original": "Alien dictionary: determine character ordering from a sorted word list.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 665,
+    "lineEnd": 665,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L665-L665"
+  },
+  "contentHash": "9b74baafc00826ce9a04f7399d29e5a4f15e1d7180c71e11e931d3bc5e9b6d6f",
+  "id": "Q0214",
+  "number": 214,
+  "active": true
+}

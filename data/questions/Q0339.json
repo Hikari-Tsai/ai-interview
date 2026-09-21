@@ -1,0 +1,26 @@
+{
+  "original": "Explain how you would design and evaluate an A/B test. What is a p-value and how do you interpret it here?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml",
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1132,
+    "lineEnd": 1132,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1132-L1132"
+  },
+  "contentHash": "c4835f3f4232e7fc4232343de0bd1d00046e68e182050e321247f000b001810c",
+  "id": "Q0339",
+  "number": 339,
+  "active": true
+}

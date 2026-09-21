@@ -1,0 +1,25 @@
+{
+  "original": "A network confuses pugs and pit bulls and some training labels are wrong. How do you modify the model and the data?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "NVIDIA"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1230,
+    "lineEnd": 1230,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1230-L1230"
+  },
+  "contentHash": "5441ddd9184998157c3316e32f848a28665271413900e83b6518a1de98582c96",
+  "id": "Q0366",
+  "number": 366,
+  "active": true
+}

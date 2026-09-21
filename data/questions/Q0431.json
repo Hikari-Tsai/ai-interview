@@ -1,0 +1,34 @@
+{
+  "original": "Compare BPE, WordPiece and Unigram tokenization. Why is tokenizers written in Rust, and what tokenizer bugs bite people in practice?",
+  "topic": "LLM Internals and Architecture",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Hugging Face"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)",
+  "links": [
+    {
+      "title": "Byte Pair Encoding",
+      "url": "https://outcomeschool.com/blog/bpe-in-llms"
+    },
+    {
+      "title": "Tokenization in Large Language Models (LLMs)",
+      "url": "https://www.youtube.com/watch?v=sK2s9I84EVI"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1454,
+    "lineEnd": 1455,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1454-L1455"
+  },
+  "contentHash": "08d5faafd4cfc16c2c6936e20f7823eb926ebc7599561c07fca3a9a9de511783",
+  "id": "Q0431",
+  "number": 431,
+  "active": true
+}

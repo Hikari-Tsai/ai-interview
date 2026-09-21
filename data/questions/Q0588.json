@@ -1,0 +1,26 @@
+{
+  "original": "Design an LLM agent that files and updates work orders in a customer's ERP: real writes to a production system. How do you make that safe?",
+  "topic": "Agents and Tool Use",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "agents",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2004,
+    "lineEnd": 2004,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2004-L2004"
+  },
+  "contentHash": "48d9f46a1b4b34dcd3da99317971c12bde52f4e75ebb0a205bc7f1a7c2c6a29e",
+  "id": "Q0588",
+  "number": 588,
+  "active": true
+}

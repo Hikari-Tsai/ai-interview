@@ -1,0 +1,30 @@
+{
+  "original": "The onboard compute budget is fixed. Walk me through quantizing and pruning a vision model without losing recall on small objects.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)",
+  "links": [
+    {
+      "title": "How does Model Quantization work?",
+      "url": "https://outcomeschool.com/blog/how-does-model-quantization-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1274,
+    "lineEnd": 1275,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1274-L1275"
+  },
+  "contentHash": "6e1a19fdadb3defac60b66350858a6e6c7f547705689f6d7586f30506ab3cc7f",
+  "id": "Q0380",
+  "number": 380,
+  "active": true
+}

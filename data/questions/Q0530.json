@@ -1,0 +1,25 @@
+{
+  "original": "Design discovery and search across millions of user-created characters.",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1815,
+    "lineEnd": 1815,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1815-L1815"
+  },
+  "contentHash": "d037529dafd363fd930aa93fbb0577b99038fecc17f80185800bb4529f8987b9",
+  "id": "Q0530",
+  "number": 530,
+  "active": true
+}

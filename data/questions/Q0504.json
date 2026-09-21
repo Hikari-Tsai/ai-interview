@@ -1,0 +1,30 @@
+{
+  "original": "A lawyer asks about a 200-page credit agreement where the operative clause on page 140 depends on a defined term on page 8. How do you build retrieval that gets this right?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)",
+  "links": [
+    {
+      "title": "Chunking Strategies for RAG",
+      "url": "https://outcomeschool.com/blog/chunking-strategies-for-rag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1717,
+    "lineEnd": 1718,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1717-L1718"
+  },
+  "contentHash": "350b69d3f82d1b1141d29b58f8a5074b6afd4815cce4156b9a511ca85d0e0b61",
+  "id": "Q0504",
+  "number": 504,
+  "active": true
+}

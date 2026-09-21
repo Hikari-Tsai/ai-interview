@@ -1,0 +1,25 @@
+{
+  "original": "Write the host-side runtime that feeds a deterministic accelerator across many chips. What is genuinely hard about it?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1375,
+    "lineEnd": 1375,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1375-L1375"
+  },
+  "contentHash": "e42299cd6ebc7cbe835395e65155942cd95d53d12ceae95ad0cb8b8580e5ad30",
+  "id": "Q0410",
+  "number": 410,
+  "active": true
+}

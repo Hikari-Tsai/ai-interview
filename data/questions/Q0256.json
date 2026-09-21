@@ -1,0 +1,31 @@
+{
+  "original": "You have an embedding model and a reranker. Why sell both? Design the two-stage retrieval pipeline and tell me when the reranker earns its latency.",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)",
+  "links": [
+    {
+      "title": "How does a Reranker work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-reranker-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 816,
+    "lineEnd": 817,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L816-L817"
+  },
+  "contentHash": "77567b71b7456ae7f02226fd7a73a8d76f5e7c81338b4c348cfd2bb5d24df293",
+  "id": "Q0256",
+  "number": 256,
+  "active": true
+}

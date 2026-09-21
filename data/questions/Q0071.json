@@ -1,0 +1,25 @@
+{
+  "original": "Design the regression gate that decides whether a prompt or model change ships.",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 315,
+    "lineEnd": 316,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L315-L316"
+  },
+  "contentHash": "ad62629be60ecd28ad74429c185407543f28dd12169df918fef7fb0f9907f482",
+  "id": "Q0071",
+  "number": 71,
+  "active": true
+}

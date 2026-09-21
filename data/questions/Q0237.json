@@ -1,0 +1,25 @@
+{
+  "original": "Write an iterator class that lazily flattens an arbitrarily nested list of lists/integers: no generators, explicit state.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 734,
+    "lineEnd": 734,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L734-L734"
+  },
+  "contentHash": "6c19a1104c2e884dfa0363b54142a36961c0119f9fb2b82bc0e30d1e89393d40",
+  "id": "Q0237",
+  "number": 237,
+  "active": true
+}

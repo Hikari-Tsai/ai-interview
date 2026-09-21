@@ -1,0 +1,25 @@
+{
+  "original": "Implement a UI from a mockup with provided CSS and API.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 540,
+    "lineEnd": 540,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L540-L540"
+  },
+  "contentHash": "72f584cbbe006401a0fca9f2f2e51738aa19b71e4636ee34e6eababea87d0908",
+  "id": "Q0160",
+  "number": 160,
+  "active": true
+}

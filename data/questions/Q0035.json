@@ -1,0 +1,31 @@
+{
+  "original": "How would you evaluate the quality of a RAG pipeline: retrieval and generation separately?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag",
+    "evaluation"
+  ],
+  "originalAnswer": "- Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)",
+  "links": [
+    {
+      "title": "LLM Evaluation",
+      "url": "https://outcomeschool.com/blog/llm-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 218,
+    "lineEnd": 220,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L218-L220"
+  },
+  "contentHash": "1289e1fdbcc9bfa93dc776a943cf77947c68daf5db75e110d817244d1dd0c56f",
+  "id": "Q0035",
+  "number": 35,
+  "active": true
+}

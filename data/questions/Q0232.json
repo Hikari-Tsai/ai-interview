@@ -1,0 +1,30 @@
+{
+  "original": "How do modern multimodal models get image and video understanding into an LLM, and what changes for video specifically?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "- Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)",
+  "links": [
+    {
+      "title": "Multimodal AI",
+      "url": "https://outcomeschool.com/blog/multimodal-ai"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 714,
+    "lineEnd": 715,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L714-L715"
+  },
+  "contentHash": "92d57976b92bac3d4b06273eeee79aa37f8e2b0ab37f25ce31210e92659d11fc",
+  "id": "Q0232",
+  "number": 232,
+  "active": true
+}

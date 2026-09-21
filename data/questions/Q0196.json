@@ -1,0 +1,25 @@
+{
+  "original": "Explain the SVD and give two places it shows up in modern deep learning.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 622,
+    "lineEnd": 622,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L622-L622"
+  },
+  "contentHash": "aac97e558e76a1257f5b1b912f05e9470121dbfadb9e20d220a3de4bfe1faffd",
+  "id": "Q0196",
+  "number": 196,
+  "active": true
+}

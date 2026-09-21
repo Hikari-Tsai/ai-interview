@@ -1,0 +1,25 @@
+{
+  "original": "How do bagging and boosting differ? What is the computational difference between XGBoost and Random Forest?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1122,
+    "lineEnd": 1122,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1122-L1122"
+  },
+  "contentHash": "6d0a97154c8746c6a0b9cfa5311935f88ca36028ce4872ad9c65b05b1da8fe53",
+  "id": "Q0333",
+  "number": 333,
+  "active": true
+}

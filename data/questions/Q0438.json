@@ -1,0 +1,25 @@
+{
+  "original": "Build the task-lifecycle core of an annotation platform. Start simple; I'll add consensus of k annotators, then priority re-review, then annotator cooldowns.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1483,
+    "lineEnd": 1483,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1483-L1483"
+  },
+  "contentHash": "f71edc1b61306f61064e4668c024f977450c6f23056c9dbb783473b85cc58776",
+  "id": "Q0438",
+  "number": 438,
+  "active": true
+}

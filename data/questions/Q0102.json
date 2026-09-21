@@ -1,0 +1,25 @@
+{
+  "original": "Design a content-moderation system combining classifiers and LLMs.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Meta"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 394,
+    "lineEnd": 395,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L394-L395"
+  },
+  "contentHash": "848422177f7eba840c5116996295e522d8af28115c86389386a6c7b0f2089eb7",
+  "id": "Q0102",
+  "number": 102,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "AutoGLM and CogAgent operate real GUIs from screenshots over tens of steps. Design the agent: perception, action space, and error recovery for a 50-step task.",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)",
+  "links": [
+    {
+      "title": "How do Computer-Use Agents work?",
+      "url": "https://outcomeschool.com/blog/how-do-computer-use-agents-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 936,
+    "lineEnd": 937,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L936-L937"
+  },
+  "contentHash": "b9fc448aceb787821511e008be9046ffc97dd540b0a11ab57964263bd12b4b12",
+  "id": "Q0289",
+  "number": 289,
+  "active": true
+}

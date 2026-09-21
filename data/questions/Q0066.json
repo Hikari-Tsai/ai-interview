@@ -1,0 +1,30 @@
+{
+  "original": "Explain reward hacking in RLHF and how labs address it.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)",
+  "links": [
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 299,
+    "lineEnd": 301,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L299-L301"
+  },
+  "contentHash": "d2e809fb93c43879fdbdeff2de3c7d376e07433edb15f8c00f98731c5020d37d",
+  "id": "Q0066",
+  "number": 66,
+  "active": true
+}

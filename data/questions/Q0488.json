@@ -1,0 +1,31 @@
+{
+  "original": "How would you evaluate an autonomous software engineering agent? Explain why SWE-bench pass rates mislead.",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)",
+  "links": [
+    {
+      "title": "AI Agent Evaluation",
+      "url": "https://outcomeschool.com/blog/ai-agent-evaluation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1645,
+    "lineEnd": 1646,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1645-L1646"
+  },
+  "contentHash": "f1480d99c00fd184e9dccc9fdde9b41c2c2a06faf618ede48ef375e62f53cedd",
+  "id": "Q0488",
+  "number": 488,
+  "active": true
+}

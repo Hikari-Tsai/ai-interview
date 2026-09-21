@@ -1,0 +1,25 @@
+{
+  "original": "Write a service that proxies streaming TTS to a browser and cancels cleanly when the user navigates away.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "ElevenLabs"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1839,
+    "lineEnd": 1839,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1839-L1839"
+  },
+  "contentHash": "e22fc09c2f81da48df1519fe15dcc3850022c5d09438538da66e7154dcf82c58",
+  "id": "Q0536",
+  "number": 536,
+  "active": true
+}

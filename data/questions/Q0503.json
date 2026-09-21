@@ -1,0 +1,30 @@
+{
+  "original": "Paired coding: write a chunker for a legal document that never splits a clause and carries enough context that a retrieved chunk is self-contained.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)",
+  "links": [
+    {
+      "title": "Chunking Strategies for RAG",
+      "url": "https://outcomeschool.com/blog/chunking-strategies-for-rag"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1712,
+    "lineEnd": 1713,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1712-L1713"
+  },
+  "contentHash": "763557b8d80a3d55b8e8e16c078d4e9acdd6638e7395a1940ef764f2b1f98a05",
+  "id": "Q0503",
+  "number": 503,
+  "active": true
+}

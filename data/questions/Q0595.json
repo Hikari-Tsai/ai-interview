@@ -1,0 +1,25 @@
+{
+  "original": "Design an application to catalog and log species while exploring an unfamiliar environment.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2021,
+    "lineEnd": 2021,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2021-L2021"
+  },
+  "contentHash": "3642dc0014730975ab46c1a728d6476a65ce8605b5a42cf7b900ceb5164fe9ec",
+  "id": "Q0595",
+  "number": 595,
+  "active": true
+}

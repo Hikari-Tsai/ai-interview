@@ -1,0 +1,25 @@
+{
+  "original": "Design a system to improve traffic in NYC.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2018,
+    "lineEnd": 2018,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2018-L2018"
+  },
+  "contentHash": "7d3f4648960d71edb5067c49441e9905ef0994dfc905166157eb2a1e52ef15c9",
+  "id": "Q0592",
+  "number": 592,
+  "active": true
+}

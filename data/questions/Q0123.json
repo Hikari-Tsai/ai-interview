@@ -1,0 +1,25 @@
+{
+  "original": "Build an OOP system for managing courses, grades and students.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 458,
+    "lineEnd": 458,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L458-L458"
+  },
+  "contentHash": "13c6a26f2d5ed5eaa6573340a85ae6c1f34e8e1d9e7aeee33ea375e5011f0769",
+  "id": "Q0123",
+  "number": 123,
+  "active": true
+}

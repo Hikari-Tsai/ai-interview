@@ -1,0 +1,25 @@
+{
+  "original": "Find duplicate files in a file system.",
+  "topic": "Coding and Data Structures",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1579,
+    "lineEnd": 1579,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1579-L1579"
+  },
+  "contentHash": "664db6cdff9c9cfb835a38fd9afa42c8e6049d83b4d144c7fd41e2afa97e8ecc",
+  "id": "Q0468",
+  "number": 468,
+  "active": true
+}

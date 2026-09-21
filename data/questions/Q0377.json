@@ -1,0 +1,25 @@
+{
+  "original": "How do you handle extreme class imbalance in rare-event detection (e.g. a child running into the road)?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1268,
+    "lineEnd": 1268,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1268-L1268"
+  },
+  "contentHash": "3639d858851cc26b6006c4dc1f108644646acb20af0d4ee5686e31790d684f02",
+  "id": "Q0377",
+  "number": 377,
+  "active": true
+}

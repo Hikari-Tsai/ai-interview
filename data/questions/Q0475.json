@@ -1,0 +1,30 @@
+{
+  "original": "How would you index a 100k-file monorepo so an AI editor can retrieve relevant context, and keep the index fresh as the user edits?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)",
+  "links": [
+    {
+      "title": "How does Cursor work?",
+      "url": "https://outcomeschool.com/blog/how-does-cursor-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1602,
+    "lineEnd": 1603,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1602-L1603"
+  },
+  "contentHash": "277de68f0f4b9ca72740e9d201bc6a32d4428b5c1b08b2359668536e6ba5a678",
+  "id": "Q0475",
+  "number": 475,
+  "active": true
+}

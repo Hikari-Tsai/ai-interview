@@ -1,0 +1,38 @@
+{
+  "original": "Design the serving stack for a consumer chat assistant at hundreds of millions of users.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "OpenAI",
+    "Google DeepMind",
+    "Meta",
+    "xAI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "- Answer: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)",
+  "links": [
+    {
+      "title": "Inside ChatGPT: What Happens After You Hit Enter",
+      "url": "https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after"
+    },
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 405,
+    "lineEnd": 407,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L405-L407"
+  },
+  "contentHash": "80e9c6fd81f8676d200417a09b92320043aa50e4435ae7d9445d3db19a8aca10",
+  "id": "Q0107",
+  "number": 107,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "How would you fuse camera, radar and IMU inputs into a single perception stack, and where would you fuse them?",
+  "topic": "Multimodal, Speech and Voice AI",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Tesla"
+  ],
+  "tags": [
+    "multimodal"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1287,
+    "lineEnd": 1287,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1287-L1287"
+  },
+  "contentHash": "cc76130fb35817dc03d18389d5fa0677e31cea9eb3877e3bf216ee9d234ab526",
+  "id": "Q0383",
+  "number": 383,
+  "active": true
+}

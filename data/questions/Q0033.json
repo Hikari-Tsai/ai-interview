@@ -1,0 +1,32 @@
+{
+  "original": "How do you choose between a sparse retriever (BM25) and a dense retriever? When do you need both?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft",
+    "Perplexity",
+    "Glean"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)",
+  "links": [
+    {
+      "title": "How does Hybrid Search work?",
+      "url": "https://outcomeschool.com/blog/how-does-hybrid-search-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 212,
+    "lineEnd": 214,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L212-L214"
+  },
+  "contentHash": "95759875f5238b3bb8bc1f070309bce5092078bdd5a1e07c8df1d41b0cabc9b6",
+  "id": "Q0033",
+  "number": 33,
+  "active": true
+}

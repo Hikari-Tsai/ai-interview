@@ -1,0 +1,30 @@
+{
+  "original": "Implement a client pool over multiple LLM providers with failover: providers fail, time out, or rate-limit, and callers should just get a completion.",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)",
+  "links": [
+    {
+      "title": "LLM Routing",
+      "url": "https://outcomeschool.com/blog/llm-routing"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1524,
+    "lineEnd": 1525,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1524-L1525"
+  },
+  "contentHash": "0ac2b652a0f3ac4131365cc0b7ef1071cf7c099b5aa118ad8307ecb40df4e1f7",
+  "id": "Q0450",
+  "number": 450,
+  "active": true
+}

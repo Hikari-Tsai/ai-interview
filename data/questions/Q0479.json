@@ -1,0 +1,26 @@
+{
+  "original": "How do you evaluate a code-editing model before shipping it? Design the offline and online eval story for tab or agent edits.",
+  "topic": "Evaluation and Observability",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "evaluation",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1611,
+    "lineEnd": 1611,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1611-L1611"
+  },
+  "contentHash": "1fb1d2786c1871fab2dfdd6df16e691e2d6e66d82088811425de35274f40059a",
+  "id": "Q0479",
+  "number": 479,
+  "active": true
+}

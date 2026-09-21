@@ -1,0 +1,25 @@
+{
+  "original": "A freight rail operator loses tens of millions a year to unplanned locomotive downtime. Decompose this into an engineering plan.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2017,
+    "lineEnd": 2017,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2017-L2017"
+  },
+  "contentHash": "ba8daefa6c3520c09a1eb555ac700495ff707f46319602261321e46384b4f5b6",
+  "id": "Q0591",
+  "number": 591,
+  "active": true
+}

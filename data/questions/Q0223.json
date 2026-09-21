@@ -1,0 +1,34 @@
+{
+  "original": "Walk me through a post-training recipe to turn a pretrained base model into a personalised assistant.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)",
+  "links": [
+    {
+      "title": "Decoding InstructGPT",
+      "url": "https://outcomeschool.com/blog/decoding-instructgpt"
+    },
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 691,
+    "lineEnd": 692,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L691-L692"
+  },
+  "contentHash": "45fca154ebea6cda7513a596666705b014e05a8e276dfee347f0142594a828b3",
+  "id": "Q0223",
+  "number": 223,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "Design a deduplication pipeline for a web-scale pretraining corpus. It has to run as a streaming process.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 747,
+    "lineEnd": 747,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L747-L747"
+  },
+  "contentHash": "afddfc63372f78278b64a8345bfa787e901ed6ce7703604b6e0625c98f4c1a8e",
+  "id": "Q0243",
+  "number": 243,
+  "active": true
+}

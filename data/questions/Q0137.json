@@ -1,0 +1,34 @@
+{
+  "original": "What matters more for an agentic coding tool like Claude Code: the model or the harness? Design the loop.",
+  "topic": "Agents and Tool Use",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work) and [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)",
+  "links": [
+    {
+      "title": "How does Claude Code work?",
+      "url": "https://outcomeschool.com/blog/how-does-claude-code-work"
+    },
+    {
+      "title": "Harness Engineering in AI",
+      "url": "https://outcomeschool.com/blog/harness-engineering-in-ai"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 485,
+    "lineEnd": 486,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L485-L486"
+  },
+  "contentHash": "b817880bf4a4036faf3975535671f90f4172824b8020a79db9bfde0c1ded978f",
+  "id": "Q0137",
+  "number": 137,
+  "active": true
+}

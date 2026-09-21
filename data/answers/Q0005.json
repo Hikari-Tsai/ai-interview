@@ -1,0 +1,54 @@
+{
+  "questionId": "Q0005",
+  "inputHash": "f69e0c94ecc520177b35b6c3c6f6240af9693fec8543f3c34c30bb4de6de3940",
+  "status": "ready",
+  "generatedAt": "2026-09-21T02:19:54.472040+00:00",
+  "model": "codex-source-reviewed",
+  "promptVersion": "seed-v1",
+  "sourceUrls": [
+    "https://outcomeschool.com/blog/decoding-flash-attention",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L129-L131",
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+  ],
+  "locales": {
+    "zh-TW": {
+      "title": "FlashAttention 為什麼算得更快？",
+      "intent": "用記憶體搬移解釋效能，而不只看 FLOPs。",
+      "hint": [
+        "N×N 的中間矩陣會被寫到哪裡？",
+        "如果一次只看一小塊，softmax 需要保留哪些統計量？"
+      ],
+      "principle": "FlashAttention 用分塊計算與 online softmax，避免將完整 N×N 注意力矩陣寫入 HBM。逐塊更新最大值、正規化總和與輸出，減少 HBM 和晶片內記憶體之間的搬移。",
+      "tradeoff": "仍是完整注意力，主要計算量仍為二次；反向傳播可用重算換取更少記憶體。數學目標相同，但浮點運算順序可能造成小差異。",
+      "implementation": "選擇支援目前 GPU、dtype、head 維度與遮罩的 kernel。用參考實作比較輸出與梯度，設定合理容差，確認實際沒有退回較慢的路徑。",
+      "production": "分開量測 prefill 與 decode 的延遲、峰值顯存和吞吐量。速度改善取決於形狀與硬體；它不會自動縮小長時間解碼累積的 KV cache。",
+      "supplementNote": "分塊與資料搬移原理依原文整理；數值容差、kernel 驗證及服務量測是 AI 補充建議。"
+    },
+    "en": {
+      "title": "Why is FlashAttention faster?",
+      "intent": "Explain performance through data movement, beyond FLOP counts.",
+      "hint": [
+        "Where does the N×N intermediate matrix get written?",
+        "Which statistics let softmax process one block at a time?"
+      ],
+      "principle": "FlashAttention combines tiling and online softmax to avoid writing the full N×N attention matrix to HBM. Running maxima, normalization sums and outputs let blocks accumulate with less traffic between HBM and on-chip memory.",
+      "tradeoff": "It remains full attention with quadratic leading computation. Backward recomputation saves memory. The mathematical operation is unchanged, though floating-point ordering can introduce small differences.",
+      "implementation": "Choose a kernel supporting your GPU, dtype, head dimension and mask. Compare outputs and gradients to a reference with suitable tolerances; verify that execution does not fall back to a slower path.",
+      "production": "Benchmark prefill and decode separately for latency, peak memory and throughput. Gains depend on shapes and hardware. FlashAttention does not automatically shrink the KV cache accumulated during decoding.",
+      "supplementNote": "Tiling and data-movement principles summarize the article. Numerical tolerances, kernel validation and serving benchmarks are AI supplements."
+    },
+    "ja": {
+      "title": "FlashAttention が速い理由は？",
+      "intent": "FLOPs だけでなく、データ移動から性能を説明する。",
+      "hint": [
+        "N×N の中間行列はどこに書き込まれるだろうか。",
+        "softmax をブロックごとに計算するには、どんな統計量が必要か。"
+      ],
+      "principle": "FlashAttention は分割計算と online softmax を組み合わせ、N×N の注意行列全体を HBM に書き込まない。最大値、正規化の和、出力を更新し、HBM とチップ内メモリ間の移動を減らす。",
+      "tradeoff": "完全な注意計算のままで、主要な計算量は二次のまま。逆伝播では再計算でメモリを節約する。数学的には同じ演算だが、浮動小数点の計算順序で微小な差は生じうる。",
+      "implementation": "GPU、dtype、head 次元、マスクに対応した kernel を選ぶ。出力と勾配を適切な許容誤差で参照実装と比較し、遅い経路に切り替わっていないか確認する。",
+      "production": "prefill と decode を分けて、遅延、最大メモリ使用量、スループットを測る。効果は形状とハードウェア次第で、デコード中に蓄積する KV キャッシュを自動で縮めるものではない。",
+      "supplementNote": "分割計算とデータ移動の原理は原文の要約です。許容誤差、kernel の検証、推論サービスの測定は AI による補足です。"
+    }
+  }
+}

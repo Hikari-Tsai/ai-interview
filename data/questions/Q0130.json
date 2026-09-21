@@ -1,0 +1,25 @@
+{
+  "original": "SQL: determine whether any user has overlapping subscription date ranges.",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Anthropic"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 465,
+    "lineEnd": 465,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L465-L465"
+  },
+  "contentHash": "ee9c25cf8dd3a298ba010bdbdafef8e89e7b1fc3c9f9cb523a2601cb24da2c0b",
+  "id": "Q0130",
+  "number": 130,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Discuss precision, recall and F1: when would you prioritise one over the others?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Precision vs Recall](https://outcomeschool.com/blog/precision-vs-recall)",
+  "links": [
+    {
+      "title": "Precision vs Recall",
+      "url": "https://outcomeschool.com/blog/precision-vs-recall"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1128,
+    "lineEnd": 1129,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1128-L1129"
+  },
+  "contentHash": "e6a7abf3a302941eef423c21d8d18508ba2286dd20b5b88b1a43742cd26cb9d5",
+  "id": "Q0337",
+  "number": 337,
+  "active": true
+}

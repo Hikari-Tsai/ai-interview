@@ -1,0 +1,26 @@
+{
+  "original": "Design the retrieval pipeline pulling from 100B web pages with sub-second latency and freshness guarantees.",
+  "topic": "AI System Design",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Perplexity"
+  ],
+  "tags": [
+    "system-design",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1545,
+    "lineEnd": 1545,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1545-L1545"
+  },
+  "contentHash": "4dd90699d6718ffad2ec453b5349031bedc9f526f0f141fb9ca39097187f3ce9",
+  "id": "Q0458",
+  "number": 458,
+  "active": true
+}

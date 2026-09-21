@@ -1,0 +1,25 @@
+{
+  "original": "Given an array nums of n integers where n > 1, return an output array (product of array except self).",
+  "topic": "Coding and Data Structures",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Meta (Superintelligence Labs, FAIR, Llama)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 661,
+    "lineEnd": 661,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L661-L661"
+  },
+  "contentHash": "86b5a2c0834705a9315433aab4a3c84e481f08717ce4c562b05610962d2bf60f",
+  "id": "Q0210",
+  "number": 210,
+  "active": true
+}

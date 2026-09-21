@@ -1,0 +1,25 @@
+{
+  "original": "A partner reports that Harvey missed a change-of-control clause in a contract it reviewed. Debug it.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Harvey"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1743,
+    "lineEnd": 1743,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1743-L1743"
+  },
+  "contentHash": "cdd66beb6cf81259daa25d25687f20c701e52212e5a4d58c593c4274c4ae06eb",
+  "id": "Q0513",
+  "number": 513,
+  "active": true
+}

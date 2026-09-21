@@ -1,0 +1,25 @@
+{
+  "original": "You have a stream of billions of events and need the top-K most frequent keys with bounded memory. Exact is impossible: what do you do?",
+  "topic": "Coding and Data Structures",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Databricks"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1344,
+    "lineEnd": 1344,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1344-L1344"
+  },
+  "contentHash": "8a5c5e6150d558ee0f4670e4fbeac8810669b1fc30b52dbb5d575b686b4f98ce",
+  "id": "Q0400",
+  "number": 400,
+  "active": true
+}

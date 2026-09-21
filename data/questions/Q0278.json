@@ -1,0 +1,30 @@
+{
+  "original": "Walk me through why you would disaggregate prefill and decode onto separate machines, as Mooncake does. What does that buy you and what does it cost?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [Prefill-Decode Disaggregation in LLM Inference](https://outcomeschool.com/blog/prefill-decode-disaggregation)",
+  "links": [
+    {
+      "title": "Prefill-Decode Disaggregation in LLM Inference",
+      "url": "https://outcomeschool.com/blog/prefill-decode-disaggregation"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 895,
+    "lineEnd": 896,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L895-L896"
+  },
+  "contentHash": "24c2973f9362aac52604eeef21c4b3e00ce718acdd95b331f2eab9b95b6a9416",
+  "id": "Q0278",
+  "number": 278,
+  "active": true
+}

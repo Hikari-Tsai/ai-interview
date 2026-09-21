@@ -1,0 +1,25 @@
+{
+  "original": "Explain the bias-variance trade-off, cross-validation, and the curse of dimensionality.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1123,
+    "lineEnd": 1123,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1123-L1123"
+  },
+  "contentHash": "fd0cdb8e9cd5b9d8fe03875c0aed7d4b6479746ac7eebba47df96674935132fb",
+  "id": "Q0334",
+  "number": 334,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "You're training on tens of thousands of GPUs and hardware fails constantly. How do you keep goodput high?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "xAI"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 745,
+    "lineEnd": 745,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L745-L745"
+  },
+  "contentHash": "1cef6c5a24e4716ccd8535bb511130c79ba1843b3f21c1176ddcd3395c9dd750",
+  "id": "Q0241",
+  "number": 241,
+  "active": true
+}

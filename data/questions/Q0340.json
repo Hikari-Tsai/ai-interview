@@ -1,0 +1,25 @@
+{
+  "original": "What is Maximum Likelihood Estimation and how does it differ from Bayesian inference?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1133,
+    "lineEnd": 1133,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1133-L1133"
+  },
+  "contentHash": "f626594aefbd7273552781b9addc6d4d40dab84bc9bc74c9d04c3788784c2859",
+  "id": "Q0340",
+  "number": 340,
+  "active": true
+}

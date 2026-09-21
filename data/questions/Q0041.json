@@ -1,0 +1,23 @@
+{
+  "original": "How do you handle tables, figures and multi-column PDFs in a retrieval pipeline?",
+  "topic": "RAG and Retrieval",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 231,
+    "lineEnd": 231,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L231-L231"
+  },
+  "contentHash": "37258205d18eb8701016212639e0ce084c76a648d7f45fb0e31963ceedd6349e",
+  "id": "Q0041",
+  "number": 41,
+  "active": true
+}

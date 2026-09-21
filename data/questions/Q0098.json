@@ -1,0 +1,30 @@
+{
+  "original": "Design an enterprise RAG assistant over 10M documents with per-user permissions.",
+  "topic": "AI System Design",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "Microsoft",
+    "Amazon",
+    "Databricks",
+    "Scale AI"
+  ],
+  "tags": [
+    "system-design",
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 384,
+    "lineEnd": 385,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L384-L385"
+  },
+  "contentHash": "86cca1eb3f8d3ce4693651da16f9818ac2600932ee9e8372bac9bf4ffe9ec010",
+  "id": "Q0098",
+  "number": 98,
+  "active": true
+}

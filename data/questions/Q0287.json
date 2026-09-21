@@ -1,0 +1,25 @@
+{
+  "original": "What is Multi-Token Prediction (MTP), why add an MTP layer, and how does it help at inference time?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Zhipu AI (GLM)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 931,
+    "lineEnd": 931,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L931-L931"
+  },
+  "contentHash": "b8811348de18d0ac938c8e5815ed9a41d818525983b789df99a1217f4d657bb3",
+  "id": "Q0287",
+  "number": 287,
+  "active": true
+}

@@ -1,0 +1,31 @@
+{
+  "original": "Explain prefix caching / prompt caching. When should you use it, and what invalidates a cached prefix?",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Moonshot AI",
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)",
+  "links": [
+    {
+      "title": "How does Prompt Caching work?",
+      "url": "https://outcomeschool.com/blog/how-does-prompt-caching-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 177,
+    "lineEnd": 179,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L177-L179"
+  },
+  "contentHash": "df8b5745019a09914dddb8f3f28af26e78de86a214907afe2ca5e11148833360",
+  "id": "Q0021",
+  "number": 21,
+  "active": true
+}

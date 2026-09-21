@@ -1,0 +1,25 @@
+{
+  "original": "You have a binary loan-approval classifier and limited access to feature weights. How do you explain a rejection?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 625,
+    "lineEnd": 625,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L625-L625"
+  },
+  "contentHash": "6a06be8aafb5ff6b366fa76992a26f57666ad6060632bacc9d029c9abbb4c0de",
+  "id": "Q0199",
+  "number": 199,
+  "active": true
+}

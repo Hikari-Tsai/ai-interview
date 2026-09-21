@@ -1,0 +1,34 @@
+{
+  "original": "Write the loss function for logistic regression and prove it has a global minimum.",
+  "topic": "ML and DL Fundamentals",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [Linear Regression vs Logistic Regression](https://outcomeschool.com/blog/linear-regression-vs-logistic-regression)",
+  "links": [
+    {
+      "title": "Math Behind Cross-Entropy Loss",
+      "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    },
+    {
+      "title": "Linear Regression vs Logistic Regression",
+      "url": "https://outcomeschool.com/blog/linear-regression-vs-logistic-regression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1118,
+    "lineEnd": 1119,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1118-L1119"
+  },
+  "contentHash": "d635f6d6c3b4ba449cb798d19a078ff79ae88abe83ff27d65ede4341457a0859",
+  "id": "Q0331",
+  "number": 331,
+  "active": true
+}

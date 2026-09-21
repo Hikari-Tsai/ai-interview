@@ -1,0 +1,26 @@
+{
+  "original": "An agent needs to iterate on code (run builds, tests, lints) without disturbing what the user sees in their editor. Architect that.",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "system-design",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1607,
+    "lineEnd": 1607,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1607-L1607"
+  },
+  "contentHash": "916c778f0de7b277929dd8c6b5b1c744d085d4a8b4ffbfa4cb76db1156f3c5b1",
+  "id": "Q0478",
+  "number": 478,
+  "active": true
+}

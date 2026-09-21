@@ -1,0 +1,25 @@
+{
+  "original": "Find and fix a double-counting bug in a function that tallies values in a HashMap.",
+  "topic": "Coding and Data Structures",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1992,
+    "lineEnd": 1992,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1992-L1992"
+  },
+  "contentHash": "5b03cfc0c961cca2f8d49bcce6561f03806a0e863a2a9093acb6a72f32f937f8",
+  "id": "Q0582",
+  "number": 582,
+  "active": true
+}

@@ -1,0 +1,25 @@
+{
+  "original": "How would you design a recommendation system to suggest books to users? How would you model a warehouse inventory problem?",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Amazon (AWS)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1153,
+    "lineEnd": 1153,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1153-L1153"
+  },
+  "contentHash": "876fd3aed96d029159667cf5cdec2299f552b9f7b877fecdec7cc93c98b44e6f",
+  "id": "Q0345",
+  "number": 345,
+  "active": true
+}

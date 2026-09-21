@@ -1,0 +1,25 @@
+{
+  "original": "Why do benchmark scores improve while users say the system got worse? Enumerate the reasons.",
+  "topic": "Evaluation and Observability",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cognition"
+  ],
+  "tags": [
+    "evaluation"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 317,
+    "lineEnd": 318,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L317-L318"
+  },
+  "contentHash": "3d4af7aa2023c72e8782b7d076621101a0731ed66a9ec8463ce3d3440127614d",
+  "id": "Q0072",
+  "number": 72,
+  "active": true
+}

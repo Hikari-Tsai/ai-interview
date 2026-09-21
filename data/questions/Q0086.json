@@ -1,0 +1,26 @@
+{
+  "original": "How would you audit a deployed model for differential performance across user groups?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Microsoft"
+  ],
+  "tags": [
+    "safety",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 350,
+    "lineEnd": 351,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L350-L351"
+  },
+  "contentHash": "512b979ec4b833deed6db89ef1a4b5d3141836d52f4a8c0c453d01c5d17908fa",
+  "id": "Q0086",
+  "number": 86,
+  "active": true
+}

@@ -1,0 +1,30 @@
+{
+  "original": "Write a streaming SSE/JSON parser that handles arbitrary chunk boundaries.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "- Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)",
+  "links": [
+    {
+      "title": "How does Token Streaming work?",
+      "url": "https://outcomeschool.com/blog/how-does-token-streaming-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 431,
+    "lineEnd": 433,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L431-L433"
+  },
+  "contentHash": "5e13194c9c4e951894b9e805c752eee63859c127a2f2c5152976b0eb2f0ec681",
+  "id": "Q0116",
+  "number": 116,
+  "active": true
+}

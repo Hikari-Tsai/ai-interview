@@ -1,0 +1,31 @@
+{
+  "original": "How do you prevent an agent with tool access from exfiltrating data via a malicious web page?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "safety",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)",
+  "links": [
+    {
+      "title": "Prompt Injection in LLMs",
+      "url": "https://outcomeschool.com/blog/prompt-injection-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 344,
+    "lineEnd": 346,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L344-L346"
+  },
+  "contentHash": "ac7962d6b2c4c1408dabaa89f9ede8925dc0be788370d20bfb5942886cbf4f9a",
+  "id": "Q0083",
+  "number": 83,
+  "active": true
+}

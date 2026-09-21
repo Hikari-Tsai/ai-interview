@@ -1,0 +1,30 @@
+{
+  "original": "An enterprise wants semantic search over ~100M documents but is balking at vector-index cost. Walk me through embedding compression options and the maths.",
+  "topic": "RAG and Retrieval",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Cohere"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "- Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)",
+  "links": [
+    {
+      "title": "How does a Vector Database work?",
+      "url": "https://outcomeschool.com/blog/how-does-a-vector-database-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 818,
+    "lineEnd": 819,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L818-L819"
+  },
+  "contentHash": "0b4e3372d9371959e2d59b659548a644911be374c6777cab0d366223cd8d3722",
+  "id": "Q0257",
+  "number": 257,
+  "active": true
+}

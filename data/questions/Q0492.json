@@ -1,0 +1,26 @@
+{
+  "original": "The agent answers from a customer's knowledge base, which contains outdated and contradictory articles. How do you prevent confidently wrong answers?",
+  "topic": "RAG and Retrieval",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Sierra"
+  ],
+  "tags": [
+    "rag",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1670,
+    "lineEnd": 1670,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1670-L1670"
+  },
+  "contentHash": "7cdd33e968547cb1ca36fee567bca0860d13a194f98b90584700a044a6cdfe4e",
+  "id": "Q0492",
+  "number": 492,
+  "active": true
+}

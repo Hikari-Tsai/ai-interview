@@ -1,0 +1,31 @@
+{
+  "original": "Your agent model outputs an edited version of a 500-line file. Applying it verbatim is slow and error-prone. How do you make “apply” fast and reliable?",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "system-design",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)",
+  "links": [
+    {
+      "title": "How does Cursor work?",
+      "url": "https://outcomeschool.com/blog/how-does-cursor-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1605,
+    "lineEnd": 1606,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1605-L1606"
+  },
+  "contentHash": "b2b27630d58afe4e4d097f4c13d74fe663c45301f30c509466a1bd72c2f85c4a",
+  "id": "Q0477",
+  "number": 477,
+  "active": true
+}

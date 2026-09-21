@@ -1,0 +1,25 @@
+{
+  "original": "Your agent drifts after a long run and confidently works on the wrong thing. Diagnose it.",
+  "topic": "Agents and Tool Use",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cognition"
+  ],
+  "tags": [
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 267,
+    "lineEnd": 268,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L267-L268"
+  },
+  "contentHash": "6d5c7ce747dad113137e5f45cb87de2d71e0e10093ed1d87d4bf6fde9e137bae",
+  "id": "Q0055",
+  "number": 55,
+  "active": true
+}

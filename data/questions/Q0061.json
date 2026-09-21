@@ -1,0 +1,35 @@
+{
+  "original": "Compare LoRA, prefix tuning, prompt tuning and full fine-tuning. When would you choose each?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Sarvam AI",
+    "Apple"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work) and [How does Prefix Tuning work?](https://outcomeschool.com/blog/how-does-prefix-tuning-work)",
+  "links": [
+    {
+      "title": "How does fine-tuning work?",
+      "url": "https://outcomeschool.com/blog/how-does-fine-tuning-work"
+    },
+    {
+      "title": "How does Prefix Tuning work?",
+      "url": "https://outcomeschool.com/blog/how-does-prefix-tuning-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 285,
+    "lineEnd": 287,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L285-L287"
+  },
+  "contentHash": "9f8bf89cb3cef737cd69af402f76dce9f7d0fb3b05c3874692ff155c17a4e199",
+  "id": "Q0061",
+  "number": 61,
+  "active": true
+}

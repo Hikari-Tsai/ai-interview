@@ -1,0 +1,25 @@
+{
+  "original": "Implement a streaming top-k with a bounded-memory sketch; implement a sliding-window rate counter.",
+  "topic": "Coding and Data Structures",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "coding"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1303,
+    "lineEnd": 1303,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1303-L1303"
+  },
+  "contentHash": "342c9b343c89b4cf0dfdd4f0fb2c2d3b4bcac8dcd2eaa297a1e49b22f62a0982",
+  "id": "Q0385",
+  "number": 385,
+  "active": true
+}

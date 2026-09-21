@@ -1,0 +1,30 @@
+{
+  "original": "Qwen3 uses strong-to-weak distillation, bootstrapping smaller models from flagship ones. How does that work and why is it cheaper?",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Alibaba (Qwen)"
+  ],
+  "tags": [
+    "finetuning"
+  ],
+  "originalAnswer": "- Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)",
+  "links": [
+    {
+      "title": "How does Knowledge Distillation work?",
+      "url": "https://outcomeschool.com/blog/how-does-knowledge-distillation-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 982,
+    "lineEnd": 983,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L982-L983"
+  },
+  "contentHash": "005dc2a37ad62003e515236583eac727ad471042acebbc3b44d62eb4253a74ce",
+  "id": "Q0300",
+  "number": 300,
+  "active": true
+}

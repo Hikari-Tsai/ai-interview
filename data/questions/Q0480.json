@@ -1,0 +1,25 @@
+{
+  "original": "You have two days in our codebase and no assigned task. What do you build, and how do you spend the time?",
+  "topic": "Behavioral and Culture",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cursor (Anysphere)"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1615,
+    "lineEnd": 1615,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1615-L1615"
+  },
+  "contentHash": "57e96f312497765e394616365c854f50c9097111a13fa54b91b1b48bc0d5b0a9",
+  "id": "Q0480",
+  "number": 480,
+  "active": true
+}

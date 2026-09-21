@@ -1,0 +1,25 @@
+{
+  "original": "Tell me about a performance optimisation you shipped. Give me the numbers, and tell me why I should believe them.",
+  "topic": "Behavioral and Culture",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "behavioral"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1401,
+    "lineEnd": 1401,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1401-L1401"
+  },
+  "contentHash": "0f4dccedc9f1e89487f003ee3b98a1d135e73fa28ddb62f79a5bcd2b14df8ecb",
+  "id": "Q0419",
+  "number": 419,
+  "active": true
+}

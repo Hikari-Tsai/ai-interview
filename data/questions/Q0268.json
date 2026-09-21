@@ -1,0 +1,31 @@
+{
+  "original": "Sketch how you would serve a 671B-parameter MoE model with low latency under GPU-memory constraints.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "DeepSeek"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization) ",
+  "links": [
+    {
+      "title": "LLM Inference Optimization",
+      "url": "https://outcomeschool.com/blog/llm-inference-optimization"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 859,
+    "lineEnd": 860,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L859-L860"
+  },
+  "contentHash": "2cda642550681de956e614d81cacb7f384320bf3fbfcafe12e91425cb717cd9b",
+  "id": "Q0268",
+  "number": 268,
+  "active": true
+}

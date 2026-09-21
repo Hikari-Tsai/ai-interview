@@ -1,0 +1,25 @@
+{
+  "original": "Design the serving system for a multimodal assistant (text + image in, streaming text out) at hundreds of millions of users.",
+  "topic": "AI System Design",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Google DeepMind and Google AI"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 634,
+    "lineEnd": 634,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L634-L634"
+  },
+  "contentHash": "86f6f2453ddbec9c5a7bfc4f35c277896f62aea13a6c5ee762f7836bb2d640ba",
+  "id": "Q0202",
+  "number": 202,
+  "active": true
+}

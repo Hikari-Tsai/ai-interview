@@ -1,0 +1,30 @@
+{
+  "original": "Our serving cost is dominated by KV cache, not weights. Get it down by an order of magnitude and tell me what you give up.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Character.AI"
+  ],
+  "tags": [
+    "inference"
+  ],
+  "originalAnswer": "- Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)",
+  "links": [
+    {
+      "title": "KV Cache Compression",
+      "url": "https://outcomeschool.com/blog/kv-cache-compression"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1805,
+    "lineEnd": 1806,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1805-L1806"
+  },
+  "contentHash": "e1900e92c8d32ef5dfb0cb1cf5eb60ef77694137099abaf48da4d7a84835ce19",
+  "id": "Q0526",
+  "number": 526,
+  "active": true
+}

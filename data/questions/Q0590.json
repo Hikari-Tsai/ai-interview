@@ -1,0 +1,26 @@
+{
+  "original": "How do you evaluate an LLM workflow before and after giving it access to production operations?",
+  "topic": "Evaluation and Observability",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "evaluation",
+    "production"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 2013,
+    "lineEnd": 2013,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L2013-L2013"
+  },
+  "contentHash": "ead9f9ff08722404965718842a7e06491af82b3ac32d81e26690d17ea56e89e9",
+  "id": "Q0590",
+  "number": 590,
+  "active": true
+}

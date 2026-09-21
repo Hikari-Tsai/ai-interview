@@ -1,0 +1,25 @@
+{
+  "original": "We have two models, 85% and 82% accuracy. Which do you pick?",
+  "topic": "ML and DL Fundamentals",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "OpenAI"
+  ],
+  "tags": [
+    "ml"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 550,
+    "lineEnd": 550,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L550-L550"
+  },
+  "contentHash": "e318520571709357cbcac446db3a99c0a2b51056d3a1a27f945aa0d0c1b07e39",
+  "id": "Q0166",
+  "number": 166,
+  "active": true
+}

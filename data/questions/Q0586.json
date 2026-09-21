@@ -1,0 +1,25 @@
+{
+  "original": "Users ask “how many open orders are blocked on a supplier issue?” Plain RAG gets this wrong. Why, and what's the right architecture?",
+  "topic": "RAG and Retrieval",
+  "group": "Forward-Deployed and Enterprise AI",
+  "companies": [
+    "Palantir"
+  ],
+  "tags": [
+    "rag"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1999,
+    "lineEnd": 1999,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1999-L1999"
+  },
+  "contentHash": "501ccc9b24142d532a1a1405126ddd7c683c8a2a8b6292f05df1316402ae302a",
+  "id": "Q0586",
+  "number": 586,
+  "active": true
+}

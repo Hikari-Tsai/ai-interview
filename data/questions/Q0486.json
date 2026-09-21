@@ -1,0 +1,26 @@
+{
+  "original": "Design the execution environment for thousands of concurrent cloud coding agents. It must survive the agent waiting forty minutes for CI.",
+  "topic": "AI System Design",
+  "group": "AI-Native Product Companies",
+  "companies": [
+    "Cognition (Devin, Windsurf)"
+  ],
+  "tags": [
+    "system-design",
+    "agents"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1640,
+    "lineEnd": 1640,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1640-L1640"
+  },
+  "contentHash": "e565d51865ad8216f6e1533f6491ec1446774bc7407e974b27f8d0eba67709bd",
+  "id": "Q0486",
+  "number": 486,
+  "active": true
+}

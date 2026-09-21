@@ -1,0 +1,25 @@
+{
+  "original": "Design the ETA prediction system for a ride-hailing marketplace. What features, what model, how do you serve it in <100 ms?",
+  "topic": "AI System Design",
+  "group": "Big Tech AI Organizations",
+  "companies": [
+    "Consumer-Scale ML Companies (Uber, Netflix, LinkedIn, Airbnb, Pinterest, Spotify)"
+  ],
+  "tags": [
+    "system-design"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1313,
+    "lineEnd": 1313,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1313-L1313"
+  },
+  "contentHash": "7ef1da95c2e66ae8f3f3554c122258b6dc4d570728922f031d3ee119479c758c",
+  "id": "Q0389",
+  "number": 389,
+  "active": true
+}

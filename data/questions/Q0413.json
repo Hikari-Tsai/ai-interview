@@ -1,0 +1,31 @@
+{
+  "original": "A 70B dense model at 8-bit weights, chips with ~230 MB of SRAM each. Walk me through the deployment and the unit economics.",
+  "topic": "Inference, Serving and GPU Performance",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Groq"
+  ],
+  "tags": [
+    "inference",
+    "production"
+  ],
+  "originalAnswer": "- Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)",
+  "links": [
+    {
+      "title": "How does an LPU work?",
+      "url": "https://outcomeschool.com/blog/how-does-an-lpu-work"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1382,
+    "lineEnd": 1383,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1382-L1383"
+  },
+  "contentHash": "5f5c7119b0271dfd6407796f48b377703f6d63957b3d7b6c579873f1c7959ec7",
+  "id": "Q0413",
+  "number": 413,
+  "active": true
+}

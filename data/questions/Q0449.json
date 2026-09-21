@@ -1,0 +1,25 @@
+{
+  "original": "A robotics customer asks for 50,000 hours of manipulation demonstrations across 12 tasks and three embodiments. Design the collection pipeline, and tell me what makes one demonstration worth keeping.",
+  "topic": "Applied and Forward-Deployed Scenarios",
+  "group": "AI Infrastructure and Platform Companies",
+  "companies": [
+    "Scale AI"
+  ],
+  "tags": [
+    "applied"
+  ],
+  "originalAnswer": "",
+  "links": [],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 1512,
+    "lineEnd": 1512,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1512-L1512"
+  },
+  "contentHash": "ddeab69108a21e3e7d581c723332855c4aec223edaaa7904b4c52e76fe85451b",
+  "id": "Q0449",
+  "number": 449,
+  "active": true
+}

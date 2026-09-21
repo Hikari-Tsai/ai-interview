@@ -1,0 +1,37 @@
+{
+  "original": "Prompting, RAG or fine-tuning: give me your decision framework with cost and latency attached.",
+  "topic": "Fine-Tuning, Post-Training and Alignment",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "OpenAI",
+    "Mistral AI",
+    "Cohere",
+    "Microsoft",
+    "Databricks",
+    "Glean"
+  ],
+  "tags": [
+    "finetuning",
+    "rag",
+    "production"
+  ],
+  "originalAnswer": "- Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)",
+  "links": [
+    {
+      "title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "url": "https://www.youtube.com/watch?v=lnfWvX66FUk"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 291,
+    "lineEnd": 293,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L291-L293"
+  },
+  "contentHash": "59c33263385e54131d5f09b76e2ff99be120ab8012a4c86407f073b6c85cfc69",
+  "id": "Q0063",
+  "number": 63,
+  "active": true
+}

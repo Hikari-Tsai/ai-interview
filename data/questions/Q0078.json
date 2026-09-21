@@ -1,0 +1,33 @@
+{
+  "original": "What is prompt injection (direct and indirect), and what is your layered defence?",
+  "topic": "Safety, Security and Responsible AI",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Anthropic",
+    "OpenAI",
+    "Microsoft",
+    "Sierra"
+  ],
+  "tags": [
+    "safety"
+  ],
+  "originalAnswer": "- Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)",
+  "links": [
+    {
+      "title": "Prompt Injection in LLMs",
+      "url": "https://outcomeschool.com/blog/prompt-injection-in-llms"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 333,
+    "lineEnd": 335,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L333-L335"
+  },
+  "contentHash": "b3cf4a74a98611c49fc1c6a94213a569a6953417089296649d80620851d9d64a",
+  "id": "Q0078",
+  "number": 78,
+  "active": true
+}

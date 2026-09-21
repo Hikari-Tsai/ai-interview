@@ -1,0 +1,31 @@
+{
+  "original": "Implement a minimal agent loop with tool dispatch, error handling and a step budget.",
+  "topic": "Coding and Data Structures",
+  "group": "Common Questions Asked Across Companies",
+  "companies": [
+    "Cognition"
+  ],
+  "tags": [
+    "coding",
+    "agents"
+  ],
+  "originalAnswer": "- Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)",
+  "links": [
+    {
+      "title": "AI Agent Loop",
+      "url": "https://outcomeschool.com/blog/ai-agent-loop"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 439,
+    "lineEnd": 441,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L439-L441"
+  },
+  "contentHash": "d1ce81e47576f9b0b80347e62c3e7854305a5c007a863da4e06241dc9a94604e",
+  "id": "Q0119",
+  "number": 119,
+  "active": true
+}

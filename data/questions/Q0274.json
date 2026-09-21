@@ -1,0 +1,34 @@
+{
+  "original": "Kimi's headline feature is very long context. When you push from 8K to hundreds of thousands of tokens, what actually breaks first, and why?",
+  "topic": "LLM Internals and Architecture",
+  "group": "Frontier AI Labs",
+  "companies": [
+    "Moonshot AI (Kimi)"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "originalAnswer": "- Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms) and [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)",
+  "links": [
+    {
+      "title": "The Lost in the Middle Problem in LLMs",
+      "url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms"
+    },
+    {
+      "title": "Why is the context window limited in LLMs?",
+      "url": "https://www.youtube.com/watch?v=CGIhxIaOg3M&lc"
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "path": "README.md",
+    "lineStart": 884,
+    "lineEnd": 885,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L884-L885"
+  },
+  "contentHash": "41f7eddfd539894359f1f3d38acf79c125084c05dde60057383be94492e9b12b",
+  "id": "Q0274",
+  "number": 274,
+  "active": true
+}

@@ -1,0 +1,22 @@
+---
+import Icon from './Icon.astro';
+import {type Messages,tagLabel} from '../lib/i18n';
+import type {Card} from '../lib/types';
+const {cards,t}=Astro.props as {cards:Card[];t:Messages};
+const tags=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.tags))];
+const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].sort();
+---
+<aside class="sidebar" id="filter-panel" inert aria-label={t.filters}>
+ <div class="sidebar-heading"><h2>{t.filters}</h2><div class="filter-heading-actions"><button type="button" class="text-button" data-reset>{t.clearFilters}</button><button type="button" id="filter-close" class="mobile-close" aria-label={t.closeFilters}><Icon name="close" size={18}/></button></div></div>
+ <form id="filter-form">
+  <label class="field-label" for="search">{t.search}</label>
+  <div class="search-field"><input type="search" name="search" id="search" placeholder={t.searchPlaceholder} autocomplete="off"/><button type="submit" aria-label={t.search}><Icon name="search" size={17}/></button></div>
+  <div class="filter-section"><label class="field-label" for="company">{t.company}</label><div class="select-wrap"><select id="company" name="company"><option value="">{t.allCompanies}</option>{companies.map(company=><option value={company}>{company}</option>)}</select><Icon name="chevron" size={14}/></div></div>
+  <fieldset class="filter-section"><legend>{t.topics}</legend>
+   <div class="match-control"><span>{t.match}</span><div class="small-segment"><button type="button" data-match="any" aria-pressed="true">{t.any}</button><button type="button" data-match="all" aria-pressed="false">{t.all}</button></div></div>
+   <div class="tag-options">{tags.map(tag=><label class="tag-option"><input type="checkbox" name="tag" value={tag}/><span class="custom-check"><Icon name="check" size={11}/></span><span>{tagLabel(t,tag)}</span><span class="tag-count">{cards.filter(c=>c.active&&c.tags.includes(tag)).length}</span></label>)}</div>
+  </fieldset>
+  <div class="filter-section status-filter"><label class="tag-option"><input type="checkbox" name="ready" id="ready" value="1"/><span class="custom-check"><Icon name="check" size={11}/></span><span>{t.ready}</span><span class="tag-count">{cards.filter(c=>c.active&&c.answer?.status==='ready').length}</span></label></div>
+ </form>
+ <div class="deck-note"><Icon name="layers" size={21}/><h3>{t.filterSummary}</h3><p>{t.filterHelp}</p><span><strong id="deck-count">{cards.filter(c=>c.active).length}</strong> {t.questionCount}</span></div>
+</aside>

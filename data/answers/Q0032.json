@@ -1,54 +1,60 @@
 {
   "questionId": "Q0032",
-  "inputHash": "8f758c3d2d3cb1eaff0caae6e8627371d5bf7c6067503ed672bde652c73a9dc6",
+  "inputHash": "090cb0cc19b1f76a0a7e94e3fda48676206267c7185de7f39805102e454592ca",
   "status": "ready",
-  "generatedAt": "2026-09-21T02:19:54.472272+00:00",
-  "model": "codex-source-reviewed",
-  "promptVersion": "seed-v1",
+  "generatedAt": "2026-09-21T03:39:02.290Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-longform-v2",
   "sourceUrls": [
-    "https://outcomeschool.com/blog/chunking-strategies-for-rag",
     "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L209-L211",
-    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/chunking-strategies-for-rag"
   ],
   "locales": {
     "zh-TW": {
-      "title": "技術文件的 RAG 要怎麼切塊？",
-      "intent": "依文件結構和檢索任務選邊界，而不是背一個固定長度。",
+      "title": "對於大型技術文件語料庫，你會採用什麼分塊策略？為什麼？",
+      "intent": "評估你能否根據文件結構、檢索精確度、上下文完整性與規模成本，設計可驗證、可維運的 RAG 分塊方案，而非只背誦固定大小。",
       "hint": [
-        "標題、程式碼與表格有哪些不能任意切斷的關係？",
-        "檢索需要精準片段，回答需要多少上下文？"
+        "先利用標題與文件結構，再處理超長章節。",
+        "區分搜尋單位與提供模型閱讀的單位。",
+        "用真實問題驗證大小、重疊與上下文補充。",
+        "說明版本、程式碼、表格及索引更新的風險。"
       ],
-      "principle": "先依標題與段落切分，保留標題路徑，再把過大的章節遞迴切小。chunk 應能獨立理解。必要時用小片段檢索、再補父章節，兼顧定位和上下文。",
-      "tradeoff": "太小會失去定義與條件，太大則混入雜訊。重疊可保住邊界資訊，卻增加索引與重複內容；語意切分另有計算成本。",
-      "implementation": "解析 Markdown/HTML 結構，保存文件版本、標題、來源位置和權限 metadata。用 tokenizer 控制大小；程式碼和說明保持關聯，超長表格以可解釋的區塊拆分。",
-      "production": "用真實問題評估 evidence recall、答案正確率與引用位置。對 API 名稱、版本差異和跨段落問題分開檢查；只為內容有變動的 chunk 重建索引。",
-      "supplementNote": "切分原理與取捨依原文整理；metadata、權限、測試集和更新策略是 AI 補充建議。"
+      "principle": "我會以「結構優先、超長部分遞迴切分」為基礎，保留標題路徑，加入少量重疊；需要完整流程的章節，再採用小塊搜尋、大塊回答。大型技術文件通常已有章節、API 說明與操作程序，應先利用這些邊界，而不是讓固定字數決定知識的邊界。\n\nRAG，也就是檢索增強生成，先找出相關內容，再提供給語言模型回答。分塊是把文件轉為可搜尋的片段；嵌入向量是嵌入模型產生的數值表示，用來比較文字的語意接近程度。索引時儲存片段及其向量，查詢時將問題轉為向量、取得候選內容，再交給模型。片段過大可能混合不同主題，過小則可能留下沒有主詞或條件的孤立句子；因此目標是保留可辨識、能支持答案的完整單位，而非一律越小越好。\n\n具體而言，先依標題建立章節樹，讓子片段繼承文件名稱與上層標題。超過大小限制的章節，才依段落、句子等較弱邊界繼續切分；相鄰的小片段可以合併，但不跨越不相關主題。token 是模型處理文字的單位，不能直接當成中文字數。必須用實際 tokenizer 計算包含標題前綴的總長度，並同時考慮嵌入模型輸入限制與回答模型的上下文預算。\n\n例如，假設「SDK v2 > 重試」寫著「只有冪等請求可自動重試」，下一段是設定範例。若只搜尋到設定值，模型可能漏掉安全前提。讓小片段帶上標題，並在命中後擴展到包含條件與範例的父章節，就能兼顧搜尋聚焦與回答完整。這是示意案例，不是實測成果；若父章節很長，也應只取有界的相關範圍，不能整章無限制塞入提示。",
+      "tradeoff": "固定大小切分便宜、容易建立基準，但可能切斷例外條件、程式碼或表格。按句子切分適合簡短敘述，卻不一定理解操作步驟與主題轉換。對有良好標題的技術文件，結構加遞迴切分較容易保留作者組織；但標題不可靠、文字擷取錯亂時，仍需退回較一般的規則與清理流程。\n\n語意分塊利用相鄰文字的嵌入相似度變化找出主題邊界，適合缺乏結構的內容，但多了嵌入成本與門檻調整。Agentic chunking 讓語言模型決定邊界，適合少量難處理且高價值的文件；對大型語料不宜直接全面採用，因為成本、處理時間與重現性都更難管理。這些選项應針對失敗類型補強，而非因為更複雜就預設更好。\n\n重疊能保護跨邊界的規則與例外，但會增加儲存、嵌入及重複檢索。文章提出技術說明可從約五百到八百 tokens、重疊約一至兩成開始試驗，這不是通用最佳值。小塊到大塊策略增加父子關聯與提示成本；從既有標題補上下文通常更可控，模型生成的上下文則須額外檢查是否加入原文沒有的資訊。",
+      "implementation": "以下是落地建議：先按 Markdown、HTML、PDF 等來源解析，清除重複導覽、頁首頁尾，同時保留章節、列表、表格與程式碼結構。盡量把範例和前提放在一起。過大的表格可依列群拆分並重複欄名，過大的程式碼可依函式邊界處理；這些例外都需明確規則，不能把「保持完整」當成忽略輸入上限的理由。\n\n每個片段儲存 document_id、chunk_id、parent_id、標題路徑、產品版本及原文位置；原始證據與新增前綴分開保存。先用五百 tokens、五十 tokens 重疊建立候選方案，再比較較小與較大的設定；這些只是試驗設定。完成合併、重疊與前綴後重新計數，對沒有可用分隔符的超長內容設置明確保底切分，避免誤信簡化遞迴程式一定符合上限。\n\n用涵蓋 API 事實、跨段落程序、例外條件和版本差異的真實問題評估，標註應命中的證據。固定檢索器與生成模型，比較前 k 個結果是否包含必要證據、答案是否完整且引用正確，以及索引大小與處理成本。採父子策略時先搜尋子塊，再選擇性擴展、依父塊去重並檢查提示預算；最後以未參與調整的問題確認效果，避免只適合調參題目。",
+      "production": "以下維運措施是工程建議，不是文章提供的線上量測。監控解析失敗、片段大小分布、超限與截斷、重複比例及缺失標題。若查詢抓到設定範例卻漏掉限制條件，應追查原始擷取、切分邊界、檢索排名與父塊擴展，而不是立即把所有片段放大；不同階段的錯誤需要不同修正。\n\n更新時以內容雜湊辨識變更，重新處理受影響片段並清除舊索引，確保子塊不指向過期父塊。版本與存取權限須在檢索與父塊擴展時一致執行，避免回答混用不同版本，或擴展後暴露使用者無權閱讀的內容。新增上下文若由模型生成，要能追溯原文；它只能輔助搜尋，不能被當成獨立的事實證據。\n\n持續用回歸題檢查邊界案例，觀察相關片段覆蓋、答案支持程度、提示 tokens、延遲與成本，並保留可回滾的索引版本。沒有實測前不承諾準確率提升。面試時可總結：以結構保留知識邊界，以遞迴切分控制大小，以標題與有界父塊補足上下文，最後用真實問題與維運檢查決定參數，而不是追求單一神奇塊大小。",
+      "supplementNote": "來源文章支持結構式與遞迴分塊的組合、上下文前綴、小塊到大塊、重疊及以真實問題調整大小。README 僅提供題目與文章連結。解析細則、識別碼、版本與權限控制、評估設計及維運監控是補充工程建議，不是作者的實測結論；SDK 案例與參數候選均為示意。"
     },
     "en": {
-      "title": "How should technical documentation be chunked for RAG?",
-      "intent": "Choose boundaries for document structure and retrieval needs, not a memorized size.",
+      "title": "What chunking strategy would you use for a large technical documentation corpus, and why?",
+      "intent": "Assess whether you can design and validate an operational RAG chunking strategy that balances document structure, retrieval precision, context completeness, and scale rather than prescribing a universal chunk size.",
       "hint": [
-        "Which relationships between headings, code and tables must survive?",
-        "Does retrieval need the same amount of context as generation?"
+        "Start with document structure, then split oversized sections.",
+        "Distinguish the retrieval unit from the context supplied for answering.",
+        "Validate size, overlap, and context enrichment with real questions.",
+        "Address code, tables, versions, and index maintenance."
       ],
-      "principle": "Split by headings and paragraphs, preserve heading paths, then recursively split oversized sections. Chunks should remain understandable alone. Retrieving small passages and expanding to parent sections can balance precision with context.",
-      "tradeoff": "Tiny chunks lose conditions; large ones dilute relevance. Overlap protects boundaries but duplicates indexed content. Semantic splitting adds computation.",
-      "implementation": "Parse Markdown/HTML structure; retain version, heading, source span and permission metadata. Bound size with a tokenizer. Keep code connected to its explanation and divide oversized tables into interpretable units.",
-      "production": "Evaluate evidence recall, answer correctness and citation spans on real questions. Check API names, version differences and cross-section questions separately. Reindex only changed chunks.",
-      "supplementNote": "Chunking principles and tradeoffs summarize the article. Metadata, permission handling, evaluation and update strategies are AI supplements."
+      "principle": "I would use structure-aware chunking with recursive splitting inside oversized sections, preserve heading paths, and add modest overlap. For sections requiring broader context, I would retrieve small children and supply bounded parent context. Technical documentation already organizes knowledge into sections, API descriptions, and procedures; those boundaries are a better starting point than arbitrary character counts.\n\nRAG, or retrieval-augmented generation, retrieves evidence before asking a language model to answer. A chunk is a searchable fragment. An embedding is a numerical representation produced by an embedding model to support semantic similarity comparisons. During indexing, chunks and their embeddings are stored; during retrieval, the question is embedded and compared with candidates. Large chunks can mix topics, while tiny chunks can lose subjects, prerequisites, or exceptions. The objective is a recognizable, answer-supporting unit, not the smallest possible fragment.\n\nFirst build a section tree from headings and attach the document name and heading path to each child. Split oversized sections at progressively weaker boundaries, such as paragraphs and sentences. Merge adjacent tiny pieces only when they belong together. Tokens are model-specific text units, not interchangeable with characters or words. Count the complete embedding input, including prefixes, using the actual tokenizer, and respect both embedding limits and the answering model's context budget.\n\nFor an illustrative example, suppose “SDK v2 > Retries” states that only idempotent requests can be retried automatically, followed by a configuration example. Retrieving only the setting could omit the safety condition. A child carrying the heading is more identifiable; expanding its match to the relevant parent context supplies both condition and example. This is an example, not an observed result. If the parent is very long, retrieve a bounded relevant portion rather than inserting the entire section.",
+      "tradeoff": "Fixed-size splitting is cheap and useful as a baseline, but can cut exceptions, code, or tables apart. Sentence splitting suits short prose yet does not necessarily preserve procedures or topic boundaries. Structure plus recursive splitting exploits well-organized technical documents, but unreliable headings or broken extraction still require cleanup and fallback rules.\n\nSemantic chunking detects topic changes through shifts in embedding similarity between neighboring text units. It can help unstructured material, but adds embedding work and threshold tuning. Agentic chunking delegates boundary decisions to a language model. I would reserve it for a limited set of difficult, valuable documents because processing cost, time, and reproducibility become harder to manage at corpus scale. Complexity alone does not justify either option.\n\nOverlap protects rules and exceptions spanning boundaries, but duplicates storage, embedding work, and retrieval results. The article suggests approximately 500–800 tokens for technical explanations and roughly 10–20 percent overlap as starting points, not universal optima. Small-to-big retrieval adds relationship management and prompt cost. Metadata-derived context is relatively controllable; model-generated context requires additional checks against unsupported additions.",
+      "implementation": "As implementation recommendations, parse Markdown, HTML, and PDFs appropriately, remove repeated navigation and page furniture, and preserve headings, lists, tables, and code structure. Keep examples near prerequisites where feasible. Oversized tables may need row groups with repeated column labels; oversized code may need function-level boundaries. Define these exceptions explicitly: preserving structure cannot mean ignoring model input limits.\n\nStore document_id, chunk_id, parent_id, heading path, product version, and source location. Keep original evidence separate from added prefixes. Build a candidate configuration with 500-token chunks and 50-token overlap, then compare smaller and larger alternatives; these are experimental settings. Recount after merging, overlap, and prefix insertion. Provide a hard fallback for oversized text without usable separators rather than assuming simplified recursive splitting always enforces a limit.\n\nEvaluate real questions covering API facts, multi-paragraph procedures, exceptions, and version differences, with required evidence labeled. Hold the retriever and generation model constant. Compare evidence presence in the top k results, answer completeness, citation correctness, index size, and processing cost. For parent-child retrieval, search children, expand selectively, deduplicate parents, and enforce the prompt budget. Confirm the selected configuration on held-out questions rather than optimizing only for the tuning set.",
+      "production": "The following operational checks are engineering recommendations, not measurements reported by the article. Monitor parsing failures, chunk-size distributions, over-limit inputs, truncation, duplication, and missing headings. If retrieval finds a configuration example but misses its restriction, inspect extraction, chunk boundaries, retrieval ranking, and parent expansion separately. Increasing every chunk's size is not a diagnosis; each failure stage calls for a different remedy.\n\nUse content hashes to identify changed material, rebuild affected chunks, and remove obsolete index entries. Ensure children never reference stale parents. Apply version and access controls consistently during both retrieval and expansion, preventing mixed-version answers or unauthorized parent content. When a model generates contextual prefixes, retain traceability to the original text. Such prefixes support retrieval; they are not independent factual evidence.\n\nMaintain regression questions for boundary cases and track evidence coverage, answer support, prompt tokens, latency, and cost. Keep index versions that can be rolled back, and promise no accuracy improvement without evaluation. My interview recap would be: preserve knowledge boundaries through structure, control size through recursive splitting, restore context with headings and bounded parent expansion, and choose parameters through real questions and operational checks—not a supposedly magical chunk size.",
+      "supplementNote": "The article supports combining structural and recursive chunking, contextual prefixes, small-to-big retrieval, overlap, and question-based size tuning. The README supplies the question and article link only. Parsing details, identifiers, version and access controls, evaluation design, and operational monitoring are supplementary engineering recommendations, not reported author measurements. The SDK scenario and candidate settings are illustrative."
     },
     "ja": {
-      "title": "技術文書を RAG 向けにどう分割する？",
-      "intent": "固定の文字数を暗記せず、文書構造と検索目的から境界を決める。",
+      "title": "大規模な技術文書コーパスには、どのようなチャンキング戦略を使いますか。また、その理由は何ですか？",
+      "intent": "一律のチャンクサイズを答えるのではなく、文書構造、検索精度、文脈の完全性、規模に伴うコストを考慮し、検証・運用できる RAG の分割方式を設計できるかを評価します。",
       "hint": [
-        "見出し、コード、表の間で残すべき関係は何か。",
-        "検索と回答生成に必要な文脈の量は同じだろうか。"
+        "文書構造を優先し、長すぎる節だけを再帰的に分割する。",
+        "検索する単位と回答モデルに渡す単位を分けて考える。",
+        "実際の質問でサイズ、重複、文脈補足を検証する。",
+        "コード、表、版の違い、索引更新のリスクを説明する。"
       ],
-      "principle": "見出しと段落で区切り、見出しの階層を保持して、大きすぎる節を再帰的に分割する。単独でも理解できる chunk にする。小さな断片で検索し、親の節を追加すると精度と文脈を両立しやすい。",
-      "tradeoff": "小さすぎると条件を失い、大きすぎると関連性が薄まる。重複部分は境界を補うが、索引と内容の重複が増える。意味に基づく分割には追加の計算が必要。",
-      "implementation": "Markdown/HTML を構造として解析し、版、見出し、出典位置、権限を metadata に残す。tokenizer でサイズを制御し、コードと説明の対応を保ち、大きな表は理解可能な単位に分ける。",
-      "production": "実際の質問で根拠の recall、回答の正しさ、引用位置を評価する。API 名、版の違い、節をまたぐ質問を分けて確認し、変更された chunk だけ索引を更新する。",
-      "supplementNote": "分割の原理と取捨選択は原文の要約です。metadata、権限、評価、更新戦略は AI による補足です。"
+      "principle": "私は、文書構造に沿った分割を基本に、長すぎる節だけを再帰的に分割します。見出し階層を保持し、少量の重複を設け、広い文脈が必要な場合は小さな子チャンクで検索して親の関連範囲を渡します。技術文書には節、API の説明、操作手順があるため、文字数よりも知識のまとまりを優先します。\n\nRAG は検索拡張生成で、関連する根拠を探してから言語モデルに回答させる方式です。チャンクは検索可能な文書の断片、埋め込みは意味の類似性を比較するためにモデルが作る数値表現です。索引作成時に断片と埋め込みを保存し、検索時に質問も埋め込みへ変換して候補を探します。大きすぎる断片は話題が混ざり、小さすぎる断片は主語や前提を失います。最小化ではなく、検索可能で回答を支える単位を作ることが目的です。\n\nまず見出しから節の木構造を作り、各子チャンクに文書名と見出しの経路を付けます。上限を超える節は段落、文などの境界で分け、短い隣接断片は同じ話題の場合だけ結合します。token はモデル固有の処理単位で、文字数とは同じではありません。実際の tokenizer で前置きも含めて数え、埋め込みモデルの入力上限と回答モデルの文脈予算を守ります。\n\n例えば「SDK v2 > リトライ」に「自動再試行は冪等な要求のみ」とあり、次の段落が設定例だとします。設定値だけを取得すると安全条件が抜けます。子チャンクに見出しを付け、検索後に条件と例を含む親の範囲へ広げれば、検索の焦点と回答の完全性を両立できます。これは説明用の例で、実測結果ではありません。親が長い場合も節全体を無制限に渡さず、関連範囲に制限します。",
+      "tradeoff": "固定長分割は安価で比較基準に向きますが、例外条件、コード、表を切断しがちです。文単位の分割は短い説明文に適していても、手順や話題の境界を保証しません。構造と再帰分割の組み合わせは整った技術文書に適しますが、見出しが不正確な場合や抽出が崩れた場合には、清掃と代替ルールが必要です。\n\n意味ベースの分割は、隣接する文章の埋め込み類似度の変化から話題の境界を探します。構造のない資料には有効な候補ですが、計算量としきい値調整が増えます。Agentic chunking は言語モデルに境界を決めさせる方式で、少数の複雑で重要な資料に限定します。全体へ適用すると費用、時間、再現性の管理が難しくなり、複雑だから優れているとは限りません。\n\n重複は境界をまたぐ規則と例外を守る一方、保存量や埋め込み処理、重複検索を増やします。記事の技術説明向け約五百〜八百 tokens、重複一〜二割は試験の出発点であり、最適値ではありません。親子方式は関連管理と入力費用が増えます。見出し由来の文脈は管理しやすい一方、モデル生成の文脈には原文にない情報の混入確認が必要です。",
+      "implementation": "以下は実装上の推奨です。Markdown、HTML、PDF に合う解析を行い、繰り返しのナビゲーションやヘッダーを除去し、見出し、リスト、表、コードを保持します。例と前提は可能な限り一緒にします。巨大な表は列名付きの行群、巨大なコードは関数境界などで分割します。構造を守ることは入力上限を無視する理由にはなりません。\n\ndocument_id、chunk_id、parent_id、見出し経路、製品の版、原文位置を保存し、原文と追加した前置きを分離します。五百 tokens、重複五十 tokens を候補として、より小さい設定と大きい設定を比較します。これは実験条件です。結合、重複、前置きの追加後に再計数し、区切りのない長文にも上限を守る最終分割を用意します。簡略な再帰処理だけで上限が守れると仮定しません。\n\nAPI の事実、複数段落の手順、例外、版の違いを含む実質問に必要な根拠を付けて評価します。検索器と生成モデルを固定し、上位 k 件の根拠包含、回答の完全性、引用の正確さ、索引量と処理費用を比較します。子を検索した後は選択的に親へ広げ、親の重複を除去して入力予算を確認します。調整に使わなかった質問でも検証します。",
+      "production": "以下の運用確認は記事の実測報告ではなく、工学的な推奨です。解析失敗、サイズ分布、上限超過、切り捨て、重複、見出し欠落を監視します。設定例は見つかるのに制約が抜ける場合、原文抽出、分割境界、検索順位、親への展開を個別に追跡します。すべてのチャンクを大きくするだけでは、原因に対応した修正にはなりません。\n\n内容のハッシュで変更を検出し、影響する断片を再処理して古い索引を削除します。子が古い親を参照しないようにし、版とアクセス権の条件を検索時と親への展開時の両方で適用します。異なる版の混在や、展開による権限外情報の露出を防ぐためです。モデルが文脈を補う場合も原文へ追跡可能にし、補足文を独立した事実の根拠として扱いません。\n\n境界事例を回帰テストに残し、根拠の取得範囲、回答の裏付け、入力 tokens、遅延、費用を確認します。索引は旧版へ戻せるようにし、評価なしに精度向上を約束しません。面接では、構造で知識の境界を守り、再帰分割でサイズを制御し、見出しと制限付きの親展開で文脈を補い、実質問と運用確認で設定を決める、とまとめます。万能なサイズを探す方針ではありません。",
+      "supplementNote": "記事が支持するのは、構造と再帰分割の組み合わせ、文脈の前置き、小から大への検索、重複、実質問によるサイズ調整です。README は質問と記事リンクのみを提供しています。解析の詳細、識別子、版・権限管理、評価設計、運用監視は追加の工学的推奨であり、著者の実測結果ではありません。SDK の事例と設定候補は説明用です。"
     }
   }
 }

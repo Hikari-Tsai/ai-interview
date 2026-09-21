@@ -1,55 +1,61 @@
 {
   "questionId": "Q0002",
-  "inputHash": "0b955d41c7a22c09883ae229b89973c0dc1063cd260399644e298fcdb0bfe979",
+  "inputHash": "9814150aab71a520effeca6b927be91fecfec88e7fe41cf1d7f9fd0f1231e5af",
   "status": "ready",
-  "generatedAt": "2026-09-21T02:19:54.471371+00:00",
-  "model": "codex-source-reviewed",
-  "promptVersion": "seed-v1",
+  "generatedAt": "2026-09-21T03:37:19.644Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-longform-v2",
   "sourceUrls": [
-    "https://outcomeschool.com/blog/kv-cache-in-llms",
-    "https://outcomeschool.com/blog/kv-cache-compression",
     "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L120-L122",
-    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/kv-cache-in-llms",
+    "https://outcomeschool.com/blog/kv-cache-compression"
   ],
   "locales": {
     "zh-TW": {
-      "title": "KV cache 要用多少記憶體？",
-      "intent": "說明哪些計算能重用，並從張量維度推導容量。",
+      "title": "什麼是 KV cache？大規模部署時有哪些記憶體影響？請推導公式。",
+      "intent": "評估你是否理解自回歸推論與注意力快取，能從張量形狀推導容量，並將上下文長度、併發、模型架構及精度連結到實際服務的容量與延遲取捨。",
       "hint": [
-        "每層、每個舊 token，要留住哪兩個向量？",
-        "列出請求數、序列長度、KV head 數與每個數值的位元組數。"
+        "從每個 token、每層、每個 KV head 的 K 與 V 元素數開始。",
+        "區分 query head 數、KV head 數，以及實際長度與配置容量。",
+        "將每序列成本乘上併發，並分開討論容量與讀取頻寬。",
+        "說明哪些最佳化保留 token，哪些會失去歷史資訊。"
       ],
-      "principle": "因果解碼保留各層舊 token 的 K、V，新 query 可直接讀取，省去重算。等長批次、K/V head 維度相同時，容量為 2×B×T×L×Hkv×dhead×s 位元組：2 代表 K 與 V，s 是每個數值的位元組數。",
-      "tradeoff": "以記憶體換計算；容量隨上下文和並行請求增加。快取不會消除新 query 對舊 keys 的注意力運算。量化或丟棄 token 還可能影響品質。",
-      "implementation": "例如 B=1、T=4096、L=32、Hkv=8、dhead=128、s=2，需要 512 MiB。這是快取本體，不含權重、暫存張量與配置開銷；變長請求用各序列長度總和取代 B×T。",
-      "production": "容量規劃要涵蓋輸入與預計輸出 token。監控快取使用率、驅逐與等待時間，設定 token 預算及准入限制，並為配置碎片預留空間。",
-      "supplementNote": "原文支援快取機制與容量因子；一般化公式、數值例子及實作與營運規劃含 AI 補充。"
+      "principle": "KV cache 是自回歸 Transformer 在推論時保存各層歷史 token 的 Key 與 Value，以額外記憶體避免重算。標準等長批次的資料量為 M = 2 × B × T × L × Hkv × d × s bytes；因此長上下文和高併發會相乘放大成本，不只是模型權重需要顯示記憶體。\n\ntoken 是模型處理的文字單位。注意力以 Query（Q，當前位置要找的資訊）比對 Key（K，用於匹配的向量），再加權組合 Value（V，承載內容的向量）。因果注意力禁止位置讀取未來，所以在模型、前綴與位置設定不變時，加入後續 token 不會改變既有位置的 K、V；這是重用成立的前提，而不是任意修改提示後仍可沿用快取。\n\nprefill 是處理提示並建立各層快取的階段；decode 則逐步處理新 token，計算其 Q、K、V，追加 K、V，再用當前 Q 讀取可見歷史以預測下一個 token。舊 Q 不參與未來位置的注意力，因此不必保留。快取省去歷史位置的重算，但完整注意力仍須讀取增長中的 K、V，不能把每步整體成本說成固定。\n\n推導時，一個 head 的 K、V 各有 d 個元素，共 2d；乘 Hkv 個 KV heads、L 層、T 個已快取 token、B 條序列，以及每元素 s bytes，即得公式。這假設各層規格相同、K 與 V 維度相等，且無壓縮、共享或額外配置開銷。T 包含已處理的提示與生成內容，不是只有輸出長度。一般多頭注意力的 Hkv 等於 query head 數；共享 K、V 的架構則不一定。例設 L=32、Hkv=8、d=128、s=2，每 token 為 131,072 bytes，即 128 KiB；T=8192 時每序列 1 GiB，B=16 時為 16 GiB。這是示例推算，非量測；GiB 為 2 的 30 次方 bytes。",
+      "tradeoff": "不使用快取可省下持續保存 K、V 的空間，但生成每一步會重做歷史計算，適合小型正確性對照或極受限情境，不宜當作長輸出服務的預設。完整快取保留注意力可用的歷史資訊，卻讓容量及讀取負擔隨上下文增加；所以最佳批次大小必須同時考慮延遲目標。\n\n量化是用較少位元表示快取數值。16-bit 改成 8-bit，在不計尺度等額外資料時，s 減半且 token 不減少；代價是近似誤差和轉換成本。K、V 的數值分布可能不同，不能保證同一量化策略都適用，更不能把理論容量比例當成速度提升。既有模型若有適當核心支援，可先評估這條路。\n\n淘汰 token 直接限制 T，可保留近期位置、重要位置及 attention sinks，也就是常吸收注意力的起始位置；但刪除的細節可能在稍後才被詢問，精確檢索不宜輕率採用。跨 heads 共享 K、V 則降低 Hkv，屬模型架構選擇，不能任意合併既有模型的 heads。分頁配置是另一個管理選項：改善配置浪費，並不改變每個已儲存 token 的原始資料量。",
+      "implementation": "以下是由公式延伸的建議工程實務。先從模型設定確認層數、KV head 數、head 維度和快取 dtype；權重量化不代表 KV cache 也量化。檢查實際張量形狀，分別累計 K、V 的元素數乘元素 bytes，與公式交叉驗證，避免誤用 query head 數而高估共享架構的成本。\n\n對不同長度的請求，原始總量應用 M = 2 × L × Hkv × d × s × ΣTi，其中 Ti 為第 i 條序列已快取長度。若引擎預留最大長度，或按固定大小區塊配置，實際配置要改用預留或向上取整後的容量。將邏輯資料量、配置量與配置器保留量分開；分散式部署也須依各裝置實際分片或複製情形計算，而非直接除以 GPU 數。\n\n驗證可固定模型與提示，比較有無快取的下一 token logits，也就是取樣前的分數，允許合理浮點誤差；再檢查每步長度、位置與遮罩。容量測試逐一改變 B 或 T，確認成長斜率符合預期；量化或淘汰則另測長距離資訊回憶，不能只看短對話是否流暢。",
+      "production": "以下維運規劃同樣是建議，而非來源提供的部署量測。GPU 預算除了 KV 還包括權重、暫存張量、運算工作區及配置開銷。接納請求時應估算提示加允許輸出的成長，保留經壓力測試確認的餘裕；只看當下快取大小，可能在多條長回覆同時增長時發生記憶體不足。\n\n監控活躍 token 數、已配置區塊、顯示記憶體、排隊時間、首 token 延遲及每個輸出 token 的延遲。若延遲隨上下文變長，除了計算也要查快取讀取的記憶體頻寬；若公式估算低卻配置高，要查預留、碎片、複製與未釋放請求。取消、逾時及完成路徑都應確認釋放區塊，並用混合長短請求測試尖峰。\n\n錯誤重用也可能造成答案異常：前綴不符、位置偏移或遮罩錯誤都值得排查。跨請求共享必須確認模型與相關設定一致、前綴精確匹配，並維持租戶隔離；壓縮則要持續檢查遺忘與精度退化。面試收尾可說：KV cache 用記憶體換重算，以每 token 每層的 K、V 推導成本，再依長度、併發、架構與精度規劃容量，同時驗證延遲及品質。",
+      "supplementNote": "來源支持 KV cache 的運作、記憶體隨長度與併發增加、量化、token 淘汰及跨 heads 共享的方向。公式的一般化、原創數值示例、GiB 單位釐清，以及分頁、分散式估算、測試與維運細節是基於這些原理的補充工程解釋，不是作者聲稱的實測成果。所提供的壓縮文章在 heads 共享段落中途結束，因此不推論未提供的低秩方法細節。"
     },
     "en": {
-      "title": "How much memory does a KV cache need?",
-      "intent": "Identify reusable computation and derive capacity from tensor dimensions.",
+      "title": "What is the KV cache, and what are its memory implications at scale? Derive the formula.",
+      "intent": "Assess whether you understand autoregressive inference, can derive cache capacity from tensor shapes, and can connect context length, concurrency, architecture, and precision to serving capacity and latency.",
       "hint": [
-        "Which two vectors must remain for every previous token in every layer?",
-        "Count requests, tokens, KV heads and bytes per value."
+        "Start with K and V elements per token, per layer, per KV head.",
+        "Distinguish query heads from KV heads, and live length from allocated capacity.",
+        "Scale per-sequence memory by concurrency, then consider read bandwidth separately.",
+        "Explain which optimizations preserve tokens and which discard history."
       ],
-      "principle": "Causal decoding retains previous tokens' K and V at every layer for new queries. For equal-length batches and equal K/V head dimensions, cache bytes = 2×B×T×L×Hkv×dhead×s. The factor 2 counts K and V; s is bytes per value.",
-      "tradeoff": "Caching exchanges memory for computation. Context length and concurrency increase capacity demands. Attention to previous keys still costs work; quantization or eviction can affect quality.",
-      "implementation": "B=1, T=4096, L=32, Hkv=8, dhead=128, s=2 gives 512 MiB. This excludes weights, workspaces and allocation overhead. For variable lengths, replace B×T with the sum of sequence lengths.",
-      "production": "Budget prompt and generated tokens together. Monitor cache occupancy, evictions and queueing; enforce token admission limits and reserve headroom for fragmentation.",
-      "supplementNote": "The articles explain caching and memory factors. The generalized formula, worked example and implementation/production guidance include AI supplements."
+      "principle": "The KV cache stores historical Key and Value vectors at each layer during autoregressive Transformer inference, trading memory for avoided recomputation. For a uniform-length batch, its raw size is M = 2 × B × T × L × Hkv × d × s bytes. Long contexts and concurrency therefore multiply memory demand; model weights are not the only GPU allocation.\n\nA token is a unit of text processed by the model. Attention compares a Query (Q, what the current position seeks) with Keys (K, matching vectors), then combines Values (V, content vectors) using the resulting weights. Causal attention prevents positions from accessing future tokens. With the model, prefix, and positional settings unchanged, appending tokens does not change earlier K and V vectors. Arbitrarily editing the prompt invalidates that assumption.\n\nPrefill processes the prompt and initializes the cache. Decode processes each new token, computes its Q, K, and V, appends K and V, and uses its Q against visible history to predict the next token. Old queries are unnecessary for future positions. Caching avoids historical recomputation, but full attention still reads a growing history: total work per decoding step is not constant.\n\nTo derive the formula, one head stores d elements for K and d for V: 2d elements. Multiply by Hkv KV heads, L layers, T cached tokens, B sequences, and s bytes per element. This assumes uniform layers, equal K/V dimensions, and no compression, sharing, or allocation overhead. T includes processed prompt and generated tokens. Ordinary multi-head attention has as many KV heads as query heads; shared-KV architectures need not. As an illustrative calculation, L=32, Hkv=8, d=128, and s=2 give 131,072 bytes, or 128 KiB, per token. At T=8192, that is 1 GiB per sequence and 16 GiB for B=16. These are calculated examples, not measurements; one GiB is 2 to the power of 30 bytes.",
+      "tradeoff": "Disabling caching saves persistent KV storage but repeats historical computation during generation. It is useful as a small correctness reference or under exceptional constraints, not the default for long-output serving. Full caching retains accessible history while increasing capacity and read demand with context, so batch sizing must also consider latency targets.\n\nQuantization represents cached numbers with fewer bits. Moving from 16-bit to 8-bit halves s before scale metadata and other overhead, without removing tokens. Costs include approximation error and conversion work. K and V can have different numerical distributions, so one quantization policy may not suit both. Existing models with suitable kernels can evaluate this option, but theoretical capacity savings are not guaranteed speedups.\n\nToken eviction bounds T by retaining recent tokens, important positions, and attention sinks—initial positions that often absorb attention. Removed details might matter later, making eviction risky for exact retrieval. Sharing K and V across heads reduces Hkv but is an architectural choice, not arbitrary merging of an existing model's heads. Paged allocation offers a separate management improvement: reducing allocation waste does not reduce the raw payload per stored token.",
+      "implementation": "The following steps are recommended engineering practice derived from the model, not reported deployment results. Read layer count, KV-head count, head dimension, and cache dtype from configuration. Quantized weights do not imply a quantized cache. Inspect actual K/V tensor shapes and sum element counts times element bytes to check the formula; using query-head count can overestimate shared-KV architectures.\n\nFor unequal request lengths, use M = 2 × L × Hkv × d × s × ΣTi, where Ti is sequence i's cached length. If the engine reserves maximum lengths or allocates fixed-size blocks, substitute reserved or rounded-up capacity when estimating allocation. Separate logical payload, allocated memory, and allocator-reserved memory. For distributed serving, account for actual sharding and replication on each device rather than automatically dividing by GPU count.\n\nVerify correctness using a fixed model and prompt: compare next-token logits, the scores before sampling, with and without caching, allowing appropriate floating-point tolerance. Check cache length, positions, and masks at each step. Vary B or T independently to verify memory-growth slopes. For quantization or eviction, add distant-detail recall tests; fluent short conversations are insufficient evidence.",
+      "production": "Operational planning here is also recommended practice, not source-provided benchmarking. Budget for weights, temporary tensors, workspaces, and allocation overhead alongside KV storage. Admission control should consider prompt length plus allowed output growth, with headroom established through stress testing. Looking only at current cache occupancy risks out-of-memory failures when several long responses grow together.\n\nMonitor active tokens, allocated blocks, GPU memory, queueing, time to first token, and latency per output token. If latency rises with context, investigate cache-read memory bandwidth as well as computation. If allocation greatly exceeds the formula, inspect reservations, fragmentation, replication, and unreleased requests. Verify cleanup on completion, cancellation, and timeout; test peaks using mixed short and long requests.\n\nIncorrect reuse can also corrupt answers: inspect prefix mismatches, positional offsets, and attention masks. Cross-request sharing requires matching model settings and exact prefixes, plus tenant isolation. Compression needs continuing checks for forgotten details and precision degradation. An interview-ready recap is: KV caching exchanges memory for avoided recomputation; derive its cost from per-token, per-layer K and V, then plan for length, concurrency, architecture, and precision while validating latency and quality.",
+      "supplementNote": "The sources support the cache mechanism, growth with length and concurrency, quantization, token eviction, and the direction of cross-head sharing. The generalized formula, original numerical example, binary-unit clarification, and details on paging, distributed accounting, testing, and operations are supplementary engineering explanations, not author-reported measurements. The supplied compression excerpt stops during head sharing, so no missing low-rank-method details are inferred."
     },
     "ja": {
-      "title": "KV キャッシュにはどれだけメモリが必要？",
-      "intent": "再利用できる計算を特定し、テンソルの次元から容量を導く。",
+      "title": "KV cache とは何ですか。大規模運用ではメモリにどのような影響がありますか。式を導出してください。",
+      "intent": "自己回帰推論と注意機構のキャッシュを理解し、テンソル形状から容量を導出して、文脈長、同時実行数、モデル構造、精度をサービスの容量と遅延に結び付けられるかを評価します。",
       "hint": [
-        "各層の過去の token について、どの二つのベクトルを残す必要があるか。",
-        "リクエスト数、token 数、KV head 数、要素あたりのバイト数を数えてみる。"
+        "まず1トークン、1層、1つの KV head にある K と V の要素数を数える。",
+        "query head 数と KV head 数、使用中の長さと確保容量を区別する。",
+        "系列当たりの容量に同時実行数を掛け、読み出し帯域も別に考える。",
+        "トークンを残す最適化と、履歴を捨てる最適化を区別する。"
       ],
-      "principle": "因果的なデコードでは、各層で過去の K と V を保存し、新しい query で再利用する。等長バッチで K/V の head 次元が同じなら、容量は 2×B×T×L×Hkv×dhead×s バイト。2 は K と V、s は要素あたりのバイト数を表す。",
-      "tradeoff": "計算を減らす代わりにメモリを使い、文脈長と同時実行数に比例して増える。過去の key への注意計算は残る。量子化や token の削除は品質に影響しうる。",
-      "implementation": "B=1、T=4096、L=32、Hkv=8、dhead=128、s=2 なら 512 MiB。重み、一時領域、割り当ての余分な領域は含まない。可変長なら B×T を各系列長の合計に置き換える。",
-      "production": "入力と生成予定の token を合わせて容量を見積もる。使用率、追い出し、待ち時間を監視し、token 予算と受け入れ制限を設け、断片化の余裕を確保する。",
-      "supplementNote": "原文はキャッシュの仕組みと容量の要因を説明しています。一般化した式、計算例、実装・運用上の提案には AI の補足が含まれます。"
+      "principle": "KV cache は、自己回帰 Transformer の推論で各層の過去トークンの Key と Value を保存し、メモリと引き換えに再計算を避ける仕組みです。等長バッチの本体容量は M = 2 × B × T × L × Hkv × d × s bytes です。長い文脈と同時実行数は掛け算で効くため、GPU メモリを消費するのは重みだけではありません。\n\nトークンはモデルが処理する文字列の単位です。注意機構は Query（Q、現在位置が探す情報）を Key（K、照合用ベクトル）と比較し、その重みで Value（V、内容を持つベクトル）を合成します。因果的注意は未来の参照を禁止します。モデル、接頭辞、位置設定が同じなら、末尾への追加で既存位置の K、V は変わりません。プロンプトを変更しても再利用できる、という意味ではありません。\n\nprefill は入力を処理して各層のキャッシュを作る段階です。decode では新しいトークンの Q、K、V を計算し、K、V を追加して、現在の Q から参照可能な履歴を読み、次のトークンを予測します。過去の Q は将来位置で使わないので保存不要です。履歴の再計算は省けますが、完全な注意では増え続ける K、V を読むため、各ステップの全処理が定数時間になるわけではありません。\n\n導出では、1 head の K と V がそれぞれ d 要素なので計 2d。これに KV head 数 Hkv、層数 L、保存トークン数 T、系列数 B、要素当たり s bytes を掛けます。各層が同じ構成で K と V の次元が等しく、圧縮、共有、確保時の余分な領域がない前提です。T は処理済みの入力と生成部分を含みます。通常の多頭注意では Hkv は query head 数と同じですが、KV 共有構造では異なります。計算例として L=32、Hkv=8、d=128、s=2 なら1トークンは131,072 bytes、つまり128 KiB。T=8192 で1系列1 GiB、B=16 で16 GiBです。実測値ではなく、1 GiB は2の30乗 bytesです。",
+      "tradeoff": "キャッシュを無効にすると永続的な KV 領域は減りますが、生成のたびに履歴を再計算します。小さな正しさの比較用や特殊な制約下には使えても、長い出力を返すサービスの標準には向きません。完全なキャッシュは参照可能な履歴を保つ一方、文脈に応じて容量と読み出し量が増えるため、バッチ数は遅延目標も踏まえて決めます。\n\n量子化は数値を少ないビットで表す方法です。16-bit から8-bit にすれば、尺度などの付加情報を除く s は半分になり、トークンは残ります。ただし近似誤差と変換処理が加わります。K と V の数値分布は異なり得るため同じ方式が最適とは限らず、容量削減率を速度向上率とは見なせません。既存モデルで対応カーネルが使える場合の候補です。\n\nトークン削除は T に上限を設け、最近の位置、重要な位置、注意を集めやすい先頭位置である attention sinks を残します。しかし捨てた詳細が後で必要になるため、厳密な検索では慎重さが必要です。heads 間の KV 共有は Hkv を減らす構造上の選択で、既存モデルの heads を勝手に統合はできません。ページ単位の確保は領域の無駄を減らす別の方法であり、保存トークン当たりの本体容量は変えません。",
+      "implementation": "以下は式から導く推奨実務であり、資料の運用実績ではありません。設定から層数、KV head 数、head 次元、キャッシュの dtype を確認します。重みの量子化は KV の量子化を意味しません。実テンソルの形状を調べ、K、V の要素数と要素 bytes の積を合計して式と照合します。query head 数を使うと共有構造の容量を過大評価し得ます。\n\n系列長が異なる場合は M = 2 × L × Hkv × d × s × ΣTi とし、Ti は系列 i の保存済み長さです。最大長を予約する実装や固定ブロック確保では、確保量の見積もりに予約容量や切り上げ後の容量を使います。本体量、確保量、アロケータの予約量を区別します。分散時も GPU 数で単純に割らず、各装置での実際の分割と複製を反映します。\n\n検証ではモデルと入力を固定し、キャッシュ有無で次トークンの logits、つまり抽選前のスコアを比較し、適切な浮動小数点誤差を許容します。各ステップの長さ、位置、マスクも確認します。B と T を個別に変えて容量増加の傾きを調べ、量子化や削除には遠い過去の詳細を問う試験を追加します。短い会話の自然さだけでは不十分です。",
+      "production": "ここも資料の測定結果ではなく運用上の推奨です。GPU 予算には KV 以外に重み、一時テンソル、作業領域、確保の付加コストを含めます。受付時には入力長と許可する出力の増加を見積もり、負荷試験で確認した余裕を残します。現在の使用量だけを見ると、複数の長い応答が同時に伸びてメモリ不足になります。\n\n使用中トークン数、確保ブロック、GPU メモリ、待ち時間、最初のトークンまでの遅延、出力1トークン当たりの遅延を監視します。文脈とともに遅くなるなら計算だけでなく読み出し帯域を確認します。式より確保量が大きければ、予約、断片化、複製、終了済み要求の解放漏れを調べます。完了、取消、タイムアウトの解放経路と、長短混在時のピークも試験します。\n\n誤った再利用では接頭辞の不一致、位置のずれ、マスクを確認します。要求間共有にはモデル設定と接頭辞の一致、テナント分離が必要です。圧縮では詳細の忘却と精度低下を継続確認します。面接では「KV cache はメモリで再計算を省き、各トークン・各層の K、V から容量を導く。長さ、同時実行数、構造、精度で予算を立て、遅延と品質も検証する」とまとめられます。",
+      "supplementNote": "資料が裏付けるのはキャッシュの仕組み、長さと同時実行数による増加、量子化、トークン削除、heads 間共有の方向性です。式の一般化、独自の計算例、二進単位の明確化、ページ管理、分散容量計算、検証と運用の詳細は補足的な工学説明であり、著者の実測報告ではありません。提供された圧縮記事は heads 共有の途中で終わるため、未提供の低ランク手法の詳細は推測していません。"
     }
   }
 }

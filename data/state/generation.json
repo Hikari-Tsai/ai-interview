@@ -1,60 +1,59 @@
 {
   "Q0001": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "38ad98dfef2442433c0a381d7aa2fe9e5f6ac0671e06237ed8daf9b2f9d4b79b",
+    "attempts": 1,
+    "inputHash": "6b35db93cac5934b719fb16528ad76d64e1aff8506536b40b61eafc7bd0b1947",
     "sourceHash": "aae53e7a1fb1d62f9cae50d66527d816f8a920df973b72e806e987396bf3c294",
-    "updatedAt": "2026-09-21T02:24:21.954Z"
+    "updatedAt": "2026-09-21T03:34:19.840Z"
   },
   "Q0002": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "0b955d41c7a22c09883ae229b89973c0dc1063cd260399644e298fcdb0bfe979",
+    "attempts": 1,
+    "inputHash": "9814150aab71a520effeca6b927be91fecfec88e7fe41cf1d7f9fd0f1231e5af",
     "sourceHash": "e36b541b0d3673733e93a76a1edab18e9846695a3a9597adddd06e4bc58cb92d",
-    "updatedAt": "2026-09-21T02:24:21.956Z"
+    "updatedAt": "2026-09-21T03:37:19.649Z"
   },
   "Q0003": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "86ccd4e863e5e7d7b90c9533daf1d182240677b4d601fcfe6404342cb06502b1",
+    "attempts": 1,
+    "inputHash": "73cd2272035d35ab2eec51bf5a596263e1182165efc05d2ca1658fbb45a0e16a",
     "sourceHash": "b287246f05f41e7365c25a7924a2c337b3dfe0a91f102add2d438fcbd06e8dff",
-    "updatedAt": "2026-09-21T02:24:21.956Z"
+    "updatedAt": "2026-09-21T03:37:15.280Z"
   },
   "Q0004": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "5d6f3077a040173cbe6861470922bd3ad6f04d89cc4e845dd32b31bf1bf21c58",
+    "attempts": 2,
+    "inputHash": "677c8fe8251e9718986a6ed2d8ee2f4f84ac74e586a7f75e43fc6e142974ab9f",
     "sourceHash": "1ffdb5e3b51c8a7f9fb174d444cc7cf290c4b2e7c56b927e4fb73a8d9b81e3f5",
-    "updatedAt": "2026-09-21T03:15:24.924Z"
+    "updatedAt": "2026-09-21T03:37:16.017Z"
   },
   "Q0005": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "f69e0c94ecc520177b35b6c3c6f6240af9693fec8543f3c34c30bb4de6de3940",
+    "attempts": 1,
+    "inputHash": "8e9ad2c4054b126a156e67e46b70870e6ae809e6a0404a5594e185b6df99bcc5",
     "sourceHash": "279c6a404aa126c4eabf4551dd8bb05b30e557d2f849dd4376df092770b0a621",
-    "updatedAt": "2026-09-21T02:24:21.957Z"
+    "updatedAt": "2026-09-21T03:37:17.983Z"
   },
   "Q0006": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "269cf3b5ae0854e068ef0a6f3eeeea91dd324f1650bdf32a2207f346378b7458",
+    "attempts": 2,
+    "inputHash": "38cf0d6c0f449035d94ddfc54d8e47ab5d5b7373e8b0940bab9fb886de216927",
     "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
-    "updatedAt": "2026-09-21T03:16:37.344Z"
+    "updatedAt": "2026-09-21T03:37:31.223Z"
   },
   "Q0007": {
-    "status": "failed",
-    "attempts": 1,
-    "inputHash": "1ff27267d454f77895c71cf43c1d593b27f3fdde73af29b3a4640117ec9685e4",
-    "error": "Article snapshot unavailable within fetch limit; retry next run.",
-    "updatedAt": "2026-09-21T03:16:37.380Z",
-    "nextRetryAt": "2026-09-21T04:16:37.380Z"
+    "status": "ready",
+    "attempts": 2,
+    "inputHash": "1722b460762ecdfdac1e9c95688fe8757ff1fb2804b221453f6bec47fb2b68d1",
+    "sourceHash": "f6d5bd5bf58598488b29985350d7147876258d2633a3133ba313da9b03077200",
+    "updatedAt": "2026-09-21T03:39:11.078Z"
   },
   "Q0008": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "175a02eeadac3b0424f1ddebaac0dc444fdb42577448f3545a15664ad1b26ecc",
+    "attempts": 2,
+    "inputHash": "2ae7b4979f2c0141f0c1c35041389058bceeceb54861a5f11078366615f94255",
     "sourceHash": "1b30e7f06c91bb1b6f662d6c821157d2389392205a44ef79987b3dc94f957bdf",
-    "updatedAt": "2026-09-21T03:17:42.184Z"
+    "updatedAt": "2026-09-21T03:37:19.958Z"
   },
   "Q0009": {
     "status": "pending",
@@ -65,94 +64,94 @@
   },
   "Q0010": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "9f83a329095f48abc87c8b6245dc957f8c52ecee4dd41ed3ce6e4d889617c9fe",
+    "attempts": 2,
+    "inputHash": "be150b8bf7d8b60292b6e86223dbe995fc3484ac68fb6c1709d2b4a6732293e1",
     "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
-    "updatedAt": "2026-09-21T03:18:39.507Z"
+    "updatedAt": "2026-09-21T03:37:14.592Z"
   },
   "Q0011": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "f9f1758dcac539e4585f3ce07f772321edef5aa3a837585c4b596c795bd48e2b",
+    "attempts": 2,
+    "inputHash": "e32b168a3bd374f5a02ddb89e8f4467691a095ebe2a665cbd4a4fcef26bf3481",
     "sourceHash": "db6b57dac0d38b7183d7c6ed807f8e7a58b7d468fae07b359ec6a50a16edd99c",
-    "updatedAt": "2026-09-21T03:19:44.234Z"
+    "updatedAt": "2026-09-21T03:37:17.938Z"
   },
   "Q0012": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "5a325b712f50ab67f0525a1be35021ed0ae3c52ef5d5b55c090a048397e6df1f",
+    "attempts": 2,
+    "inputHash": "dc1f4c1e908fc31126134681de9037d94d7a5589cc692af94cccdc9818dd8a68",
     "sourceHash": "fb4620cb94fb889376be7fc08e5e0ba1bbc8f5bd0ccbd0cc1310635688d10ef7",
-    "updatedAt": "2026-09-21T03:21:02.965Z"
+    "updatedAt": "2026-09-21T03:37:13.004Z"
   },
   "Q0013": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "708da3977d5562042049d09a286f6c31d6db8205454aeded3c9ab6dceee49396",
+    "attempts": 2,
+    "inputHash": "0f873adeb5bedc8f8c8101bd9dfacdd312169c058d6172758faea34af5f45562",
     "sourceHash": "546aeae8e3071f69cc69088af0b84207570646988dbed6be5a2e457713bd1f03",
-    "updatedAt": "2026-09-21T03:22:08.363Z"
+    "updatedAt": "2026-09-21T03:37:20.049Z"
   },
   "Q0014": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "7aee03722ccbf7b568a47f9ad62cc9f05c6b6d2440524b0a1e53fa43c6db9047",
+    "attempts": 2,
+    "inputHash": "6d39bcb276ec7813f01f4a31d1ea43444c36ddbdd14696bc37f78317a23084db",
     "sourceHash": "3c9b72f63b112177cc76e3a577a5d7e98aeb6a7fe4269082c0eaa8a62b73f4ff",
-    "updatedAt": "2026-09-21T03:23:11.087Z"
+    "updatedAt": "2026-09-21T03:37:20.361Z"
   },
   "Q0015": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "b9ef6a21a6c67f0ee03c8e61ec4644034e6727b9c353b445436819a4a3540d07",
+    "attempts": 2,
+    "inputHash": "f632d17e1bbb1d22d7bc712684c307542ffcb0db0564702e39dbabcf3bdad073",
     "sourceHash": "ff81b4fd27d848c2915ae177080d6a2428ea1d8f4651055f150aad9fd9630216",
-    "updatedAt": "2026-09-21T03:24:20.577Z"
+    "updatedAt": "2026-09-21T03:37:21.643Z"
   },
   "Q0016": {
     "status": "ready",
-    "attempts": 1,
-    "inputHash": "33fb3e2e608c7f2d50bc0a7c14623ef5bfe72726670d6fca1e83ec4c25a81ceb",
+    "attempts": 2,
+    "inputHash": "62d074bc21a5ad980890fd2f67e803ce563d2f075abef4d507c2dc1c6d3038a5",
     "sourceHash": "57a0bd16e927ba5266d25d40877341b41002fdc94634453fb17c256058b1030c",
-    "updatedAt": "2026-09-21T03:25:48.183Z"
+    "updatedAt": "2026-09-21T03:39:01.002Z"
   },
   "Q0017": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "efa6ac2d7405432907a5bec113e4a559d49af76364d8bde69cf7140763374f7c",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.961Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5c8536c78c5695052b55f151b7e0b9f624a67ae0fbd821d7f25ea9ae10d31d44",
+    "sourceHash": "4f33d9938aea8976ba65a629c9138115e1e2c9d5c89eab8f2c7fadfec6e7cc07",
+    "updatedAt": "2026-09-21T03:39:09.114Z"
   },
   "Q0018": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b9bb154cd8d1236281ee57c5876e5609266631e9bce07c5151a01f5353ecad5a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.962Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "56f9d539eda6bd469d2a418ab03665bad46417d368f21be9e1a310d8f1f61d5f",
+    "sourceHash": "2e58ad3cbf049d33e4a704a703a634a24dd3207eb4e2b6d89e64560dfca6a950",
+    "updatedAt": "2026-09-21T03:39:05.431Z"
   },
   "Q0019": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "906f82d959dcbd6f4aeefd66d3544bd039ba7cd31608a7342c4f7940f211fa98",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.962Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "7be95cba0f9536ced15615fefef59107280be6b16c8891df88b8ab335a35bf57",
+    "sourceHash": "f45d76104a6420388587d69823c3edac19fa5230c5f6ccd3ec0dc6cbe0217361",
+    "updatedAt": "2026-09-21T03:39:11.148Z"
   },
   "Q0020": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "28b7bdc057bf56b1c6456ead871864691d1ba610796064c44f9e355c674c8594",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.962Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6bdff99b924e5fc0a52e990cc05773a0f072d70271fda578013dccf70f982346",
+    "sourceHash": "17684ddffe211b51e5ae5dc02e249b4f17b6dbc076c366b901852a47805216f4",
+    "updatedAt": "2026-09-21T03:39:10.787Z"
   },
   "Q0021": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9558a70ed6a4dd08549a6ae39ce9e4aa4216c38feaba8fb3482ad6b7e8d3d7ec",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.962Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "0a094e0f44a78c981b9ee1a9b7fb28c435f19fd957c41f076f07a0ddf7f5c953",
+    "sourceHash": "e2bc71cdb7dc5fbcb7acb20188d5471188775e036fdca982fe203973dbf341a9",
+    "updatedAt": "2026-09-21T03:39:10.446Z"
   },
   "Q0022": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "558822a7a3e7f3b6a99d7eede36e0bec11b1b00b7736c8b9558877d0fec0a04b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.963Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "27299363d57942851d7dcb6948d59815819bd76d75eab445431462120e2d1a68",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T03:39:23.046Z"
   },
   "Q0023": {
     "status": "pending",
@@ -162,39 +161,39 @@
     "updatedAt": "2026-09-21T02:24:21.963Z"
   },
   "Q0024": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7d73cd7567523983f7ad85cc08ec6959e3623f7ea64ff70a2b7b8943917ae4cd",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.963Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a37fe59ef3a067030ccba53706906abfe5db1768905fd9743128788e149ae36b",
+    "sourceHash": "10fb232c4a366aa02306e0e5f4a4c6860bc29b275643873f206733dc58aca823",
+    "updatedAt": "2026-09-21T03:40:52.803Z"
   },
   "Q0025": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ff4ad44a2da0ae4eef5b390a07f248cb499b554a57f4f97cc123b8fc8f5dad49",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.963Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e8e017d6e02de7599f7dc2fea7fa2a8a6849e67e283b54a2a88c544156a40dc3",
+    "sourceHash": "4f33d9938aea8976ba65a629c9138115e1e2c9d5c89eab8f2c7fadfec6e7cc07",
+    "updatedAt": "2026-09-21T03:40:56.631Z"
   },
   "Q0026": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e9ee274be1d35562df3b0dd11b62e1a536dc37e0a11820e81da4e1f5fae7b157",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.963Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "983ab3fd9af929b561b71ba1845423c604e66f945fbea4c53bfc24044ffbae38",
+    "sourceHash": "4f33d9938aea8976ba65a629c9138115e1e2c9d5c89eab8f2c7fadfec6e7cc07",
+    "updatedAt": "2026-09-21T03:40:54.350Z"
   },
   "Q0027": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "abe6094e9d3ce1fdab425737748a30f707b219688bfd742707b951b9353cc320",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.964Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b9659d8d429eb70ab85625ad70f2d689bcb8712baf9fd9484bb2e95e83cbfa70",
+    "sourceHash": "0c3988fe614e1f3b1ee5788a00651e3c707ae0552a5ee41be07e0e330d9166e4",
+    "updatedAt": "2026-09-21T03:40:54.177Z"
   },
   "Q0028": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b185d670812aed569be6f96fb839eeb0b95e65aa03a59ad00bc10f436a70316e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.964Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d7ae8eb09daca9202a8b3a4b7b786357edda80cd3dc645028929f71e8817c202",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T03:41:08.541Z"
   },
   "Q0029": {
     "status": "pending",
@@ -211,53 +210,53 @@
     "updatedAt": "2026-09-21T02:24:21.964Z"
   },
   "Q0031": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9f21397ffe3750303b83ee7a03e4d359bfa5bbb6ad935f7e5a998b29a264b423",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.965Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9b68835aa17cb9e80576bd1c8ffbafe121002362efc7a70c68a1f60d31e0fe98",
+    "sourceHash": "3d9b6bc3584d558ad0312786d3b52bcaf80b1a8bb5207b33b74de80bb2323726",
+    "updatedAt": "2026-09-21T03:41:00.018Z"
   },
   "Q0032": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "8f758c3d2d3cb1eaff0caae6e8627371d5bf7c6067503ed672bde652c73a9dc6",
+    "attempts": 1,
+    "inputHash": "090cb0cc19b1f76a0a7e94e3fda48676206267c7185de7f39805102e454592ca",
     "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
-    "updatedAt": "2026-09-21T02:24:21.965Z"
+    "updatedAt": "2026-09-21T03:39:02.295Z"
   },
   "Q0033": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "90293f8592490530687be367e556c1443da3360a36e566a4f682180483e517d7",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.965Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d83f0e5328f41862b1e3d45be7db8aa5a7e0558f94f7bdb4de392a1a3357b502",
+    "sourceHash": "da8ab3bdc645b1227150c7874cb569fcb5e49d9d562ae262f7d0732bbc9401ec",
+    "updatedAt": "2026-09-21T03:41:00.826Z"
   },
   "Q0034": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "2767b140ee32b1b41fecfeb6e900b4de15b1ae5a81c07932a3c56530710dfb79",
+    "attempts": 1,
+    "inputHash": "109121aca795ea1111aa0231e8174f6143601565386786e3d6cb0bb447101aff",
     "sourceHash": "2e7d48be3952c5a33661ec02c2a02a3bdb64703e10a7aa166d7bac4f35fd98eb",
-    "updatedAt": "2026-09-21T02:24:21.966Z"
+    "updatedAt": "2026-09-21T03:39:09.234Z"
   },
   "Q0035": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d820d9bd8d9a1b9d93a1deaac6c9e908bd9ff83feb142b0e9f589e84a56ef6ae",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.966Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "de45190b6185a57350db0fac5209fbed2cc0c5e19d32e30f23e111d95ebc20c8",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:41:00.991Z"
   },
   "Q0036": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "afc4d83a8105763ad755a33204831f92d1a6a9d809751d5fb3629f4fc77e43ec",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.966Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e211c24cd71c5de24a19c02a3039948a3ca0be24fe40bbf10aaa5e588e9e3747",
+    "sourceHash": "8b6888c13b127d3a7ea4b41d5f8958435c4acf09510218438a6ec5bb33f1bf6a",
+    "updatedAt": "2026-09-21T03:41:03.449Z"
   },
   "Q0037": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "860a0fdb1bac7385d112e9802d5ce294737b15fa96221375ebf31f4b05546250",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.967Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "76b95165ded5585aa49abc54548301d6b15b8774a6837912af918643148ca169",
+    "sourceHash": "cb143e2790a923a1d4452665414f43cd19e173fcafd053c6ea24d1f725c958dd",
+    "updatedAt": "2026-09-21T03:40:59.000Z"
   },
   "Q0038": {
     "status": "pending",
@@ -274,11 +273,11 @@
     "updatedAt": "2026-09-21T02:24:21.967Z"
   },
   "Q0040": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "10e0aa845e62c9c2fe6799ef86b758b75e23ddc2b6c80fc792427b69b46d2572",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.967Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "efd627f7f026379f5a37071dcaa5cba2ee40b7af5a35377825b397411ca8b455",
+    "sourceHash": "9322ae908c8f1c3be0d20ba7a4234a79169f71cd9f942ffe733a99165f3b9048",
+    "updatedAt": "2026-09-21T03:41:14.735Z"
   },
   "Q0041": {
     "status": "pending",
@@ -303,31 +302,31 @@
   },
   "Q0044": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "cda4bc8e04a14a0a6c3ae529f65b666110665526111cc09f99527cdbbfb1f593",
+    "attempts": 1,
+    "inputHash": "92bf0f95482f3a75afe246ce2a3cec8bf4132bed25c70f3b8baf8ac16ce20791",
     "sourceHash": "7d0128f77d4a5bb1f51af5251fe432d63bb12c74f45ddc13c65223289a39d26f",
-    "updatedAt": "2026-09-21T02:24:21.968Z"
+    "updatedAt": "2026-09-21T03:39:04.147Z"
   },
   "Q0045": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1d65a238d97ed90b33113f6ad5235bec198d48d36bfec76e16794716d398b916",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.968Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "459c7a91c850dc91f9788eea5c4cb5dd3053f6ab34f6ddd8cb273a57dfb48f78",
+    "sourceHash": "3094d75f127ca06602ff38bfc20bf505abc0421a08e9155cc01e1cf73323d997",
+    "updatedAt": "2026-09-21T03:42:34.472Z"
   },
   "Q0046": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9d68830e97705ab0ebebc321f52e3fd621fec3737fa4b92fe6509f0d176c58f6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.969Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c5fbfb6555b6115cdcddc89190c85ee3390204a3ef0ee912daacb020e480070f",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T03:42:34.936Z"
   },
   "Q0047": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4f8936e7261f040e483d3674fa2d253d43673d17ba9d65db50c830c7ba9e3289",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.969Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "321f26847206c6a6906e350e1d278da3be27e0a11eda2f77fe003a2b358a027b",
+    "sourceHash": "551427d64d4ccbafaf2e4d7ebdbaa0693db660f21f17768b419e1d8c1235db04",
+    "updatedAt": "2026-09-21T03:42:41.485Z"
   },
   "Q0048": {
     "status": "pending",
@@ -337,32 +336,32 @@
     "updatedAt": "2026-09-21T02:24:21.969Z"
   },
   "Q0049": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "679140bc6d8ca169e2657f7f71495dd65ffa49808393b22354ade9bd8e2cbba3",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.969Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e3110537535c3e17e537ec5516ea8ba4191bf517fc5e4daa997e1b3d5fabb70e",
+    "sourceHash": "29348b618a8fa86391be9dd7cd374141e04c1d25f249b440d79c9dbc176a97d5",
+    "updatedAt": "2026-09-21T03:42:39.641Z"
   },
   "Q0050": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "397105926dcdeec940587d5114009b3e942510898a76d3dc397ad238498f3182",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.970Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "73a344e3c14ecd1181c02145bcd656ef3fc839d8180cd8fcc2ca4125b63bfa78",
+    "sourceHash": "66fa9695e9985ffaf86bcb4ac7f8c2e8a7606024594a0dc7dddd5da5e12afca7",
+    "updatedAt": "2026-09-21T03:42:45.908Z"
   },
   "Q0051": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "801d3d7c2be42ba22f63908102a9df0fc8be1ea277c47908c540d314bf04718a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.970Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "1c38b67e4a1afc4190970605bdeb1a20a64a69ab3f3b6af32c6bac041eec49ea",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T03:42:46.211Z"
   },
   "Q0052": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "293fa6477f075e65e63b708fb5a9e997811031ab81d12179f36f7eae60d5df6d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.970Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e3c882750fabc24824f11a7b3f86c6cb01d4bdf7b6025cd2e1e7bc32c1319ab4",
+    "sourceHash": "3094d75f127ca06602ff38bfc20bf505abc0421a08e9155cc01e1cf73323d997",
+    "updatedAt": "2026-09-21T03:42:44.292Z"
   },
   "Q0053": {
     "status": "pending",
@@ -386,53 +385,53 @@
     "updatedAt": "2026-09-21T02:24:21.970Z"
   },
   "Q0056": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5336d3e7f528105b482cafa5206898a94d53cd0d623082d77801f9a98ab9c7f6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.971Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4e0caec6216e603328347d271077a9c43d69c4cc6b14f4ae30c3ff822b573ad6",
+    "sourceHash": "112ea15c31a6bdd7a209d23d0994be593bc8d86c2246962edd5d25ceb152749f",
+    "updatedAt": "2026-09-21T03:42:47.799Z"
   },
   "Q0057": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "03394617c9cd3bab8c15112d09823e7e82f63bcda4f07c64e8321da0e84a85e9",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.971Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "8257e9526d02e7721d62106fb08eeac4ae46d179a4b9f2e6f903acf51e8f204d",
+    "sourceHash": "a56a7b1296a184f300700a4354399a8f3b83a83dbbe401a155983cf10a291852",
+    "updatedAt": "2026-09-21T03:42:49.146Z"
   },
   "Q0058": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5c11e053fe924403460ba490949a5901d7be0fb18e0fcdc2f657c9194c4a6889",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.971Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6a394132e2761faa4ee3d5eed8db1962560b67f136f120022dbfa563a3fa9935",
+    "sourceHash": "66b30b4b82c4b725572fd7120ae61477d700fbf07927bf29dc25cc1b2e979075",
+    "updatedAt": "2026-09-21T03:42:47.544Z"
   },
   "Q0059": {
     "status": "ready",
-    "attempts": 0,
-    "inputHash": "b5fad3f0d5ab5a9f7aef2cd842553f003b4acd343599d574d175d96439e71e56",
+    "attempts": 2,
+    "inputHash": "e9db4109caff614b7c916b22f483d82932fbdf81ed495b773cf919d18432b005",
     "sourceHash": "d4899f5899f3e3d30b7de017080e637176706b7fcbbeb7efb65b8b95e9787574",
-    "updatedAt": "2026-09-21T02:24:21.971Z"
+    "updatedAt": "2026-09-21T03:40:54.366Z"
   },
   "Q0060": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "71513a8134b2c8f1e437a965c69b07595022630cebe94f86360d4d5127a2839a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.972Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c935755c65784588f9938e7230e675554f7a546e1ee7da70d6de709348e8a6b0",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T03:43:02.343Z"
   },
   "Q0061": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8e4ad8a09c2b11c0192f62a501f3583c309d3b8f73c5c7fccb7e47388411bf29",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.972Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5d7182d9fb917061fc67db078e72c04cb4f8f23fc93cec3186d31ae1bcf1545d",
+    "sourceHash": "e4eaabc2d7cb17ffc2d73030c50859456b58e82ce2b707748abde0d132bbc677",
+    "updatedAt": "2026-09-21T03:43:10.199Z"
   },
   "Q0062": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "2c2cd4de0b9957931e672dc22e58986d50717c25e764c49d1134e20dddfe6898",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.972Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c19744ab15f0e5b6c619429a8598ce9ddb5e29643c1a1b240b322e7d785547f4",
+    "sourceHash": "88412bff56d374b1574a8c9563aa7a836f370fca81830e057a8140a3d1b45792",
+    "updatedAt": "2026-09-21T03:44:24.677Z"
   },
   "Q0063": {
     "status": "pending",
@@ -449,32 +448,32 @@
     "updatedAt": "2026-09-21T02:24:21.972Z"
   },
   "Q0065": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "2af3ee24a2ed012f75e048a7b49bf4bbe9e6b9d5b983232b42d37d8b9cba153b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.972Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "0b6dfe8f69e3aa5b2e10229ee368b2c8bcc6e770ac7928e298b9d39c89a8884d",
+    "sourceHash": "66b30b4b82c4b725572fd7120ae61477d700fbf07927bf29dc25cc1b2e979075",
+    "updatedAt": "2026-09-21T03:44:30.230Z"
   },
   "Q0066": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8c61d3362acb395c11daec25a723a0f2644ce2729856776125f02539631ee8a6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.973Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "28b108b538decdc8aaef1c695912dec005803ab80121922904ad0c00f1ade877",
+    "sourceHash": "ec1fafd28d1ee9d11ba74290660239ac950aa0cc68b8a4c77a876a6e60f40b36",
+    "updatedAt": "2026-09-21T03:44:33.347Z"
   },
   "Q0067": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d2935c909cba4fa3a3c78d91e5482d34058a1140ffbb9ff01f5f050de5805bf6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.973Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "882c4f3547db508b2bd42e870d23a383398826c84e4bf9c7a93cac681ee3b06e",
+    "sourceHash": "9f43f743a14374c9358da7cf5eafc4b36d4e068d95c9278a363dd75491c1baca",
+    "updatedAt": "2026-09-21T03:44:35.308Z"
   },
   "Q0068": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c9526e4b8c352156eb7e8e65289606d9e691fc6f970f52ee31b9f787cba25ed7",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.973Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5db9234b82112d973e4fd2f3af8327719f7df61f14c75db1e62bcb8c9fb35995",
+    "sourceHash": "d8100aff427545d033ab88a1df0f0eb1ac4c261d68e106908ff80f9111a5394a",
+    "updatedAt": "2026-09-21T03:44:31.957Z"
   },
   "Q0069": {
     "status": "pending",
@@ -505,18 +504,18 @@
     "updatedAt": "2026-09-21T02:24:21.973Z"
   },
   "Q0073": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9d7a6e95a31fcc9aafb8a811bc973d7ffe44bc2068560f677e17ba628fdebdbe",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.973Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b2225b52ddb2362b3ccce4b003935031423e4bb29d92444f2082909329bf0abf",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:44:42.321Z"
   },
   "Q0074": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9475da58e1d3da6b1c0e30652f0b6972b083b29455ad14ba80be031af19ff57d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.974Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b3e7945bf14290122bead168cfbc062a185081be4d364608f654786455f7eb30",
+    "sourceHash": "379c048a99c940e8a9df11ab66dd40e07c43134076904f3a2eff7cdaaffb0460",
+    "updatedAt": "2026-09-21T03:44:35.442Z"
   },
   "Q0075": {
     "status": "pending",
@@ -533,18 +532,18 @@
     "updatedAt": "2026-09-21T02:24:21.974Z"
   },
   "Q0077": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7edc3cb9cd39c6dfdc10d165c2191ad1b4ddf4b1ae345a0d7ceafc728f9fc649",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.974Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "7a7d536492baade93d14ee9021d1adb7d7238a8d286722dea779ed954c91ed24",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T03:44:38.054Z"
   },
   "Q0078": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "72b35325c99fde41fb5e8685b5cf3e6cbd30b4783e3fd11571db66ea44bf47ef",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.974Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "da8d92ae7de130203370e10c40eb0c6b16c679bd5d28be047d4cde2687a2b0be",
+    "sourceHash": "66bf04241d01c9885ccb674c52fac45f976de1e76892785b953fe61c60867383",
+    "updatedAt": "2026-09-21T03:44:49.976Z"
   },
   "Q0079": {
     "status": "pending",
@@ -554,18 +553,18 @@
     "updatedAt": "2026-09-21T02:24:21.974Z"
   },
   "Q0080": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9050c78ce74134d8525f3897cdf35949461a8cda607f7e00b78f698c219cc105",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.975Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2a8ce40cf9ef13166161049f5ecc7773325de28d7c11a8bd3886108ef560c265",
+    "sourceHash": "66bf04241d01c9885ccb674c52fac45f976de1e76892785b953fe61c60867383",
+    "updatedAt": "2026-09-21T03:44:40.433Z"
   },
   "Q0081": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "338f17f92ac2ab705e6d0988fc0e56b8af4d819e6f78a77de2642cdcc9049fdc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.975Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "f02bdcc67ed22f0515d69bbcbf84bf21df2f41f35859e9624b7eaad2885d83f4",
+    "sourceHash": "2c4d867fae81dc8459ad139d8bccd8352be9b07f5cc28ba46b1bc92475682b25",
+    "updatedAt": "2026-09-21T03:45:00.196Z"
   },
   "Q0082": {
     "status": "pending",
@@ -575,11 +574,11 @@
     "updatedAt": "2026-09-21T02:24:21.975Z"
   },
   "Q0083": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e5ee3f7bf179f3ebfe3543412df5bd040dca735ee54cac019269062e7af2c28e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.975Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ffc2318c2e7e6aca5c07013d0b37f8f69bb7a3064bf8fb16381a54188809bec1",
+    "sourceHash": "66bf04241d01c9885ccb674c52fac45f976de1e76892785b953fe61c60867383",
+    "updatedAt": "2026-09-21T03:45:07.450Z"
   },
   "Q0084": {
     "status": "pending",
@@ -603,18 +602,18 @@
     "updatedAt": "2026-09-21T02:24:21.975Z"
   },
   "Q0087": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7a0988e248a8eef7d0e802a41a80e1b125f4de19eb13b55ab417e4f2b3393105",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.976Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "14e2304cf6635d0c14af2f7b3c4974c89c4aa0b1bd25de26a61ffc7629d5377b",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:46:10.328Z"
   },
   "Q0088": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e145c1d2bc7679ea6e32f9f05eaf4b01b15a06c26105aa5710c6533a867c8025",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.976Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "72ba17fe0ae3de0e4d61f781da70d8e8b621c3043cb89e40af4cf4cac360c676",
+    "sourceHash": "fccbc6ed56984eddc76d19644b8589f8b3baf179a6a95dc315facb56550d5832",
+    "updatedAt": "2026-09-21T03:46:19.813Z"
   },
   "Q0089": {
     "status": "pending",
@@ -624,25 +623,25 @@
     "updatedAt": "2026-09-21T02:24:21.976Z"
   },
   "Q0090": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "02f40df8d2a3a248d556de1127964a5dc6fdacbc5249da0574630177c8843fdc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.976Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a2fa3619817683211a5b2db3c0bb060fec449eeed1bff50bd0c39bb990e67102",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T03:46:31.024Z"
   },
   "Q0091": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "271461eda43d70c304f366fecd54dcd76fe7bf4cd8b4de318b38b628eda6a3e2",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.977Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a58b9e814a23808d1e95cc9e9b52a257565a7b1c13beefca68e1aacb4fa89603",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T03:46:22.906Z"
   },
   "Q0092": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4646818b31b6f71b256ab49169e2b047f664ac5c96f9057d48974efbb160b65f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.977Z"
+    "status": "ready",
+    "attempts": 2,
+    "inputHash": "68b17a9ef44c40f48f472b7266186b22f73f26dd47c9810be9a049b3f016e290",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T03:48:26.268Z"
   },
   "Q0093": {
     "status": "pending",
@@ -673,11 +672,11 @@
     "updatedAt": "2026-09-21T02:24:21.977Z"
   },
   "Q0097": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8387e40524c68ff4b7246e0e6e87c3de139cb9e997cc8c8e089564b0d8e5c2d7",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.977Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "de0aac2a03d1df97e733e93652e7ed58dce22117dbd1ca19a6f505224ede7bf0",
+    "sourceHash": "7bd0e51b4a6b1a1fe4e5c0992a03ea0942fcdb3d9481f0891e37a99c8c19431e",
+    "updatedAt": "2026-09-21T03:46:23.864Z"
   },
   "Q0098": {
     "status": "pending",
@@ -687,11 +686,11 @@
     "updatedAt": "2026-09-21T02:24:21.977Z"
   },
   "Q0099": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5b01a33dcef231936a6a58613b4f6ef38798ec004a02ce8933201cb30c5450a3",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.978Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ff8b90e1016527d574efbe822d11fa21a7ceba0e47f3d947dbe42266af7ad19e",
+    "sourceHash": "c98865dc7b01b32c3f17c4fd1f0017c983e18fcc81f29f5c3389d8f8ea444e41",
+    "updatedAt": "2026-09-21T03:46:25.085Z"
   },
   "Q0100": {
     "status": "pending",
@@ -701,11 +700,11 @@
     "updatedAt": "2026-09-21T02:24:21.978Z"
   },
   "Q0101": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "72d386923f2043e2de6c929156cc48c354d6898ee74609d92ef8a150cf7d1d49",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.978Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5671502a0dbcafc2a4f9f9cb93a32e9791a1886ee19d9a6d2c9759dce9da0f45",
+    "sourceHash": "c28a29f4647cacf7e14c9b2f96fe61cd4e77ad8505988af6bdb38a978981167b",
+    "updatedAt": "2026-09-21T03:46:39.376Z"
   },
   "Q0102": {
     "status": "pending",
@@ -736,53 +735,53 @@
     "updatedAt": "2026-09-21T02:24:21.978Z"
   },
   "Q0106": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "af46fc8c037c3ce60524ee0cba9f26476003c5f5ba03f95c4c2e9a0e16125f39",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.978Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a0d7fedcf9fe1fbeb0f3ea57d3ee997178056954f3f8d376bd7e50187118a63a",
+    "sourceHash": "38a8b53d5c40c21cf968e8f9a9504e29d55ec3bfdc1ea3abed800dbc7d321437",
+    "updatedAt": "2026-09-21T03:46:42.698Z"
   },
   "Q0107": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5a1f85986ec7fd925c822363ff5925e6ad3f9b0ed472b46f14bb30f00e187e6e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.979Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c8582a168a1ea2fe26cd223d49d447eeec1a65ec06ac1eaf60a11e10d443326b",
+    "sourceHash": "e7714a79085858afd0e80aa7b2e56f6a4ef47c8b62cda4eef54a36c61293a24c",
+    "updatedAt": "2026-09-21T03:46:37.971Z"
   },
   "Q0108": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "61fa4e4d362fa50d9f35252581219b5f6e38a5ac68a4081f98720dc2cd6b202b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.979Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2081cfbc8a70c02b03c050c034acf96855b81672d742b32ef360a865c2a965bd",
+    "sourceHash": "572593597bb6f1636c7e3576a724f45fcba7e0857ac366da1415628fabffb086",
+    "updatedAt": "2026-09-21T03:46:42.175Z"
   },
   "Q0109": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "f3d05bea940d0a162a83cf49e94a872cd65275e7e954c18ec2897accf05f2c36",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.979Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4e5c9b87329251068b10274eb8001f1f55a26a5b45be7424e82a64eb3d2aae80",
+    "sourceHash": "88f268c0584d90c0308b9160019700a0758c5a4f2a712164c52d1d862a5b0c5c",
+    "updatedAt": "2026-09-21T03:46:58.305Z"
   },
   "Q0110": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a75a6289cfd321b17a42e22495dbef2cb27db871d1a00402bc935a8c13ed89f5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.979Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9f2611ccd029b2ccbab30771059d2f06526df8d9b08513225267cd5387bcd4a5",
+    "sourceHash": "40648e49848f9340984671cab02be378272de3cd4accc85654776f8d6387e16d",
+    "updatedAt": "2026-09-21T03:47:56.616Z"
   },
   "Q0111": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "f25f02e928f7c377d915971e6b86c17489d0f6c4346a9b13539e9d9d742556aa",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.979Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "70861ad6809065793014357dc8eb7a1a565dab92fe09784fd3b6bad501e2a686",
+    "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
+    "updatedAt": "2026-09-21T03:48:09.714Z"
   },
   "Q0112": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4020a8288e12060f206dce4fc7e5df0557115746e789fad2050f82974c387dcb",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.981Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "be2486dfac90d856c2de1963172a4f78c9df370b48969932ad53a1193f49371c",
+    "sourceHash": "fb4620cb94fb889376be7fc08e5e0ba1bbc8f5bd0ccbd0cc1310635688d10ef7",
+    "updatedAt": "2026-09-21T03:48:11.580Z"
   },
   "Q0113": {
     "status": "pending",
@@ -806,32 +805,32 @@
     "updatedAt": "2026-09-21T02:24:21.981Z"
   },
   "Q0116": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "57b6b0a769ef091f4bc600c81133d3627d8be33f7826ecc0c1266a3d45f2d62b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.982Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9434210e5e7a757f0873b1079875b2414e2b1d0268b502cbe6b4409d75d07769",
+    "sourceHash": "92a039810549ad83855d4c49b41129ea757dff24c1cceb810185b45998359405",
+    "updatedAt": "2026-09-21T03:48:15.061Z"
   },
   "Q0117": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8b57586dda44e9662287137ee9dd4c423d4cc4dd29d4ff4336e6546baeacbf8b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.982Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ff52fc06688da81d1ce099d3986781ef0088d5671a8f215734fbd1bb2129b175",
+    "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
+    "updatedAt": "2026-09-21T03:48:12.612Z"
   },
   "Q0118": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "fc73a4827c511114d67158f27010f3dbae13dcd574f937709c0aa3f40f395280",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.982Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9e96804e65d3174b1d33d6086bfb5d2044341e1a5e1210b6280be146a7bae225",
+    "sourceHash": "ec31ce2f8fd425b873bcf4e153b9fc6473e75b85b45429710b98e0e7a336ad96",
+    "updatedAt": "2026-09-21T03:48:28.188Z"
   },
   "Q0119": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "fc43a77f3d9047c5387b260148c5c8dc6fc9e1c0f891048d7b904a70f34cd0e3",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.982Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a0416951c381236752bd1c019fa299490f4d227baed9ad92087adc1d36fa998b",
+    "sourceHash": "3094d75f127ca06602ff38bfc20bf505abc0421a08e9155cc01e1cf73323d997",
+    "updatedAt": "2026-09-21T03:48:21.366Z"
   },
   "Q0120": {
     "status": "pending",
@@ -918,11 +917,11 @@
     "updatedAt": "2026-09-21T02:24:21.983Z"
   },
   "Q0132": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "eb02552724eae9c48b944591514107329885ba98323929de18a236ded11df812",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.984Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "1d7c31f6593a0ce47c4faf56a14f997d4dd1d6b4197854aa3a7ff95d6466cefc",
+    "sourceHash": "57a0bd16e927ba5266d25d40877341b41002fdc94634453fb17c256058b1030c",
+    "updatedAt": "2026-09-21T03:48:29.233Z"
   },
   "Q0133": {
     "status": "pending",
@@ -932,39 +931,39 @@
     "updatedAt": "2026-09-21T02:24:21.984Z"
   },
   "Q0134": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "71a23884360772f39046061b265b63c6e21881770cde8c73c6beb923fe10929a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.984Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "3418394f7b83ee0f5dde5c2afcc3110713d33c64e06333aa7d2cb5281155ffe1",
+    "sourceHash": "4df8406d8ab32cc3f241499b76c58f6a4d05712dbbd98a2fbd6ce2fc2de54da4",
+    "updatedAt": "2026-09-21T03:48:27.304Z"
   },
   "Q0135": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6f60b0325a5bb0d382d14579aa4e9714780b73507de7b09c181a0e68780a7d03",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.984Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "1f71efd3d566ccc2c1796da667b9abd1c9f6d77042e8de2db4cf5902c130e203",
+    "sourceHash": "2e58ad3cbf049d33e4a704a703a634a24dd3207eb4e2b6d89e64560dfca6a950",
+    "updatedAt": "2026-09-21T03:48:29.056Z"
   },
   "Q0136": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "68a30feb66745bf04f468c8490a6a8d90464fa692678bed971330f57329afa03",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.985Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "dfa57d3790c5609a27e65455091a589b894e945a65a016cd6399d3fe8b4cdd88",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T03:48:54.808Z"
   },
   "Q0137": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "bab4471f9b30adffc9fd2cea83f99f3c32a126db7c32284c10eb334cd4d7a286",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.985Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "8cf9761cbbbc2f31f5f1df12f41fc8bef75eae2327db19d3d20e3514d5536075",
+    "sourceHash": "f3d327473799590d670ec89073e5cb2609ee8b240512fe6de75bdcdf47540fa1",
+    "updatedAt": "2026-09-21T03:49:41.939Z"
   },
   "Q0138": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c8f00a8007067e1e9954e2bea2e395f4b467870b00fe32f12915f3841a7cbeee",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.985Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "198dce300e734d6b9f1af9b316638a76fe3032f03534698bf9581a40cb09496a",
+    "sourceHash": "bf47e9edb476db833e74a0cfb8d85d544d4e45abbdc8a325aebc23a9e76a9c01",
+    "updatedAt": "2026-09-21T03:49:55.647Z"
   },
   "Q0139": {
     "status": "pending",
@@ -1023,11 +1022,11 @@
     "updatedAt": "2026-09-21T02:24:21.985Z"
   },
   "Q0147": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "801c1176d44bb56b3d69bdd2e62c0d01a3e92ab53908372314f6449f69b1defd",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.985Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d5f7b060195df7298994f9296aeddcdf92ca1db14858dfeee78d86162c2b0a0d",
+    "sourceHash": "66bf04241d01c9885ccb674c52fac45f976de1e76892785b953fe61c60867383",
+    "updatedAt": "2026-09-21T03:50:05.863Z"
   },
   "Q0148": {
     "status": "pending",
@@ -1149,11 +1148,11 @@
     "updatedAt": "2026-09-21T02:24:21.987Z"
   },
   "Q0165": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "996f9576559232184c8573268fc43c3a6699731a4722c22885173ae724ddd898",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.987Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d096c13d805c05dd048ab5680e79618650a173299c692984deb42d7a3c7cae79",
+    "sourceHash": "28287dbe4caed44cb5e4225a94cf2cdf9768b7a8ac04e279f61c3dee4ff25c23",
+    "updatedAt": "2026-09-21T03:50:00.423Z"
   },
   "Q0166": {
     "status": "pending",
@@ -1170,18 +1169,18 @@
     "updatedAt": "2026-09-21T02:24:21.987Z"
   },
   "Q0168": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6b87d9a8100fbc79ce3e08d267d2b6c65f2745f998a03ac9d55c7ab1e0792264",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.987Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2582f338a40125fcb89957dd4538db5cd322145413ba9b66a3a57d6ecb5a5896",
+    "sourceHash": "86c498c8bd8e5fd3c14120a0b90ef0320284c3be9ead1ceb86db37cc84c23f87",
+    "updatedAt": "2026-09-21T03:50:04.377Z"
   },
   "Q0169": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "41af5800141800f1a8cfb3eda5e7df873485665297a6a7752bec1d6ef69cf509",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.988Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "09e747a829f7e890299622a5fa2f393ca577655b3a60a8f41fc244902c681ee2",
+    "sourceHash": "28287dbe4caed44cb5e4225a94cf2cdf9768b7a8ac04e279f61c3dee4ff25c23",
+    "updatedAt": "2026-09-21T03:50:05.528Z"
   },
   "Q0170": {
     "status": "pending",
@@ -1191,11 +1190,11 @@
     "updatedAt": "2026-09-21T02:24:21.988Z"
   },
   "Q0171": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1b4e02d3718819b959aeb71abd031057580ad4066171c8669554df7a945a6a68",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.988Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6a71aec34712577baecced82e876873b147b4baa24c9eade1ccd8b4948293f9a",
+    "sourceHash": "33d7a74aaa0b2d8ea688b5c075ac4b4c13077101aad9f2f49247e6d5e3c3383b",
+    "updatedAt": "2026-09-21T03:50:10.444Z"
   },
   "Q0172": {
     "status": "pending",
@@ -1205,11 +1204,11 @@
     "updatedAt": "2026-09-21T02:24:21.988Z"
   },
   "Q0173": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c574c8b01aac0f0e5ef6ccd0358e195175d2c39a9f42918b364d91c479910cfb",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.988Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "302f38aa9d75b311f2d65721f263a7d0c406768b5a80b68a0ddd3e33503021cd",
+    "sourceHash": "982620be304493c0375b97cd5296d08e78dd15fff7ba5f0a13e3c6eea5a166a5",
+    "updatedAt": "2026-09-21T03:50:15.516Z"
   },
   "Q0174": {
     "status": "pending",
@@ -1352,18 +1351,18 @@
     "updatedAt": "2026-09-21T02:24:21.989Z"
   },
   "Q0194": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ba309769984675c1d55d087b7a51204503671b5afa2031e34b4aea0cf54e406b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.989Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "bd76135026ac4494f8c56af0a6192363e2659be8dd56b605ab6f10e4ae31f6ec",
+    "sourceHash": "7363c20f0a9d490762d4757f37cab56ef1a1291657a01c54a8418f4fade8129f",
+    "updatedAt": "2026-09-21T03:50:06.690Z"
   },
   "Q0195": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "beb18ce69676a17e812ea80212855f6053158419fbacb88af5ce090b49cff7f9",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.990Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "526cf18e1c7574507b8a18558bcb57c7954cbf95d042949a0d2fa397cc6ba313",
+    "sourceHash": "c7b54521dc3f63a4f1e5aa5f994e2ff160e987943490a828a164c5f78085f1af",
+    "updatedAt": "2026-09-21T03:50:08.851Z"
   },
   "Q0196": {
     "status": "pending",
@@ -1429,11 +1428,11 @@
     "updatedAt": "2026-09-21T02:24:21.990Z"
   },
   "Q0205": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0c108211796bd49dbf5f5f36103fd3c26130206f470ae18fb5b3e04e2d0c4a94",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.990Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "be12853360f53d03935a190696980f43797a40752c502e723d4edb918f5593ee",
+    "sourceHash": "6b2df7e17870eca4c996ad73adaad4f1845f1d54af148c467bccce2c94eb4f44",
+    "updatedAt": "2026-09-21T03:50:09.406Z"
   },
   "Q0206": {
     "status": "pending",
@@ -1443,11 +1442,11 @@
     "updatedAt": "2026-09-21T02:24:21.990Z"
   },
   "Q0207": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7cb6d513b7c0d2720bbe0248d252cf906c5ed45a52853b0082daebd780cd545d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.991Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "098faa0fd805bce52934378b934e661273f2003cd8056a43155ac3786b485e01",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:50:36.104Z"
   },
   "Q0208": {
     "status": "pending",
@@ -1527,11 +1526,11 @@
     "updatedAt": "2026-09-21T02:24:21.991Z"
   },
   "Q0219": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "2e70a75a1663b5c0e630dd080d70bffd80d608cd6d13ab858a733cba87eaf6ae",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.991Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "90c387bb59d4d6d1c84973108e88d3f891581a6c9721bd177dde349bb961b9e1",
+    "sourceHash": "57217642c2b448636097ca63c669c51b2d22a6aae43b57444ff34ef575b22f83",
+    "updatedAt": "2026-09-21T03:51:44.617Z"
   },
   "Q0220": {
     "status": "pending",
@@ -1541,11 +1540,11 @@
     "updatedAt": "2026-09-21T02:24:21.991Z"
   },
   "Q0221": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "3025fa41764f05f6a079c44973b848d26b9fd0a796142cf8bd5a862bd42946ff",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.992Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "f8da759e6bb6594975c52e443ee0cb7a2873ff214dd226e89324523b96c10748",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T03:51:48.110Z"
   },
   "Q0222": {
     "status": "pending",
@@ -1555,11 +1554,11 @@
     "updatedAt": "2026-09-21T02:24:21.992Z"
   },
   "Q0223": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b211439f48499c3d812669f9367beffbc1ad849f56418dcd18e65185fd4a1eb9",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.992Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "bef3550acde5f5c12278289517b71925fefdd8f4e78572824a220dec790fd6de",
+    "sourceHash": "db6b57dac0d38b7183d7c6ed807f8e7a58b7d468fae07b359ec6a50a16edd99c",
+    "updatedAt": "2026-09-21T03:51:46.939Z"
   },
   "Q0224": {
     "status": "pending",
@@ -1604,11 +1603,11 @@
     "updatedAt": "2026-09-21T02:24:21.994Z"
   },
   "Q0230": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "3c79ccd3c4500e4a0dd935e5f4ed267c4de703028cc91c22c8ca4d8337330d6d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.994Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "23bbbe3ecb5cf34127a79490f9fa561b11a74afff152c129bf9757dd1777a003",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:51:56.841Z"
   },
   "Q0231": {
     "status": "pending",
@@ -1618,11 +1617,11 @@
     "updatedAt": "2026-09-21T02:24:21.995Z"
   },
   "Q0232": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0c671457aebaf00adbb608f18ebc88667a5d7c791b5ae168fe56066e9c0a4e81",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.995Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5e43af051cc244e5f62f33c95f72aed857e51e73b55c720634e7c3d782f141d6",
+    "sourceHash": "e555b9276d0a4158b43260d4b740ef5ede7cbb3ebb3acaefad1a56f4e5dc540f",
+    "updatedAt": "2026-09-21T03:51:55.101Z"
   },
   "Q0233": {
     "status": "pending",
@@ -1667,11 +1666,11 @@
     "updatedAt": "2026-09-21T02:24:21.995Z"
   },
   "Q0239": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7e0e06ccea5848c352f10a6338851c3d769c0f6e7669f23a2d304d47ae279f9f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.995Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6cd883142718c6471150bb7501979332d1b4c1cbf1e5cc9d3b03c467376554c8",
+    "sourceHash": "e36b541b0d3673733e93a76a1edab18e9846695a3a9597adddd06e4bc58cb92d",
+    "updatedAt": "2026-09-21T03:51:58.471Z"
   },
   "Q0240": {
     "status": "pending",
@@ -1723,46 +1722,46 @@
     "updatedAt": "2026-09-21T02:24:21.996Z"
   },
   "Q0247": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d9023001c8a4bc91b7a0fbe12ae070b924e3c518343954f3ec2bbbd13a7fd908",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.996Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4eb08615f2ed46323199189adbdd0a1dfd836dda0ed4e1ed50e15416e1e26b07",
+    "sourceHash": "6b9041a0aa1bd35af2cde3791ce607844612679eb8c39e4cdddd08fda83aec0a",
+    "updatedAt": "2026-09-21T03:51:59.471Z"
   },
   "Q0248": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4fd5f6eb48e56244ca22f4ee955122b919c82fb59ce95e7b854896077fa045d8",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.996Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ef10af3b1a7545d12a63b85bccf413d98b41dcb2844dff7902dd4c74d89f2ef8",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:51:59.106Z"
   },
   "Q0249": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "fcd26c929903260afc064ccf850e8bc07dd65a6d41e7de5d715ab468da72a76c",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "01ccfa6c2cb8e74fb50e13b72f23d3782bba6d107af8b3ccabe530e22d0f492f",
+    "sourceHash": "150b631ab293ce860da2e3607e6c08f30c6cf53234f0e7fd29af1211fa32da8e",
+    "updatedAt": "2026-09-21T03:52:00.554Z"
   },
   "Q0250": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e0e646822811f734e5763b7fd76ff841e50bf4e0f8bd5707845abd3882260917",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "38b612547fb06ad054ab26a88c3a600f8723fa8b53ec44fd9bb4fcc7b1ab5285",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T03:52:04.737Z"
   },
   "Q0251": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "931572173ed76e7f17f658b3f5ec601e782bfbaa3ce531a4d9518516d5800f84",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "66366f84d22b4686ded3b650faec459d718bb8abc51c2b8bc186f81ac9ba0f1c",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T03:51:57.370Z"
   },
   "Q0252": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "f1445046bbf89a2b18a45a1654890e94a0e1fcbff26697a7e5e1e132cc481c17",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6be69fe4ae7c2cfd07fc2a5054e8133d2afa8e30cb113e817f718dd0eb601281",
+    "sourceHash": "88412bff56d374b1574a8c9563aa7a836f370fca81830e057a8140a3d1b45792",
+    "updatedAt": "2026-09-21T03:52:25.546Z"
   },
   "Q0253": {
     "status": "pending",
@@ -1779,25 +1778,25 @@
     "updatedAt": "2026-09-21T02:24:21.997Z"
   },
   "Q0255": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "aa86649f7716259e185d70e844c2469e59dfb0d3075ef56242f84d2c46e637d5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e113fd8e1851aa5b8f9a6b8a7a3ef10626e3dee5be772b0a690fe45e8aa32e1e",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:53:31.429Z"
   },
   "Q0256": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "89edad32ee701ce3e2742f0dd43444a0d53084e65db2c01d008a1cf9c1ce0452",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "29a6127acba552865b41fe8f1bee0751acd1b9147abfd3af6af29aaac29799c0",
+    "sourceHash": "2e7d48be3952c5a33661ec02c2a02a3bdb64703e10a7aa166d7bac4f35fd98eb",
+    "updatedAt": "2026-09-21T03:53:35.987Z"
   },
   "Q0257": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "dd2b472f1e65fe42fc1bfded53e25ba90d6952d6f2d2c3744ed5fd62d23b85a8",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.997Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "037a4cfa50b3521d2a7a0c71fcff0ae2920cfdb9ca619ede49b8078d4761b509",
+    "sourceHash": "ec31ce2f8fd425b873bcf4e153b9fc6473e75b85b45429710b98e0e7a336ad96",
+    "updatedAt": "2026-09-21T03:53:36.352Z"
   },
   "Q0258": {
     "status": "pending",
@@ -1842,11 +1841,11 @@
     "updatedAt": "2026-09-21T02:24:21.998Z"
   },
   "Q0264": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "53271603bde7bec8468e78c792f7c35b73ee9ff44dd06f0c9c38a58bea0d10dc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.998Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "729f90626fa65bb678db1027b6b891a44f969b37d92c03cb61427df9c8f88058",
+    "sourceHash": "139e874dd4956f2502e0caf7b8dede079e3fa03cbcf056a7b3b238debd5e5ae4",
+    "updatedAt": "2026-09-21T03:53:45.387Z"
   },
   "Q0265": {
     "status": "pending",
@@ -1856,32 +1855,32 @@
     "updatedAt": "2026-09-21T02:24:21.998Z"
   },
   "Q0266": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "cdfe5beb8d9f6948089799858ab80d688b1ea000a1271237a772b8f570a4f6a0",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.998Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9a93fc7a4aab7194bfd7564d5fba163041f55e7f49aa94f9c704ad8af564d2c2",
+    "sourceHash": "95fec06a87a576a8195e3a3f504fb1e7c298266199cfd6aec5c25cb849afb759",
+    "updatedAt": "2026-09-21T03:53:41.532Z"
   },
   "Q0267": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b856cff961f49a3b1008faa4e424b64f4babff378ffe6d14b2745da4940a13ad",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.998Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ff8fab96acf9ac272a0f9a87ad5978c78c52037331a73d0eb635b5bd97b0c703",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:53:50.977Z"
   },
   "Q0268": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4192fa341b4e8e767272a6f10ed68276ec54311d169c408fe3b4b6d8921d589e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.999Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9da0f6126617ef07652d6c43031313cb85559a036f4675162309043dec03a4f5",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T03:53:49.658Z"
   },
   "Q0269": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9275fdb829c51c0cef9eebbeca8e5f72e86c49bd9578c56aa5826a50c22031f5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.999Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "dce24321fff0306e4f1f803f26bcdc98dd0bcf7b8f21da77c2a452d125337889",
+    "sourceHash": "6e71380906860d389c34722a9162a61adfd24acdcbf98c604df3494b674d0116",
+    "updatedAt": "2026-09-21T03:53:53.467Z"
   },
   "Q0270": {
     "status": "pending",
@@ -1912,53 +1911,53 @@
     "updatedAt": "2026-09-21T02:24:21.999Z"
   },
   "Q0274": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1b024207006df4dd029d0a7ad6033a650b4e8fa2762c3632d2ec29ba26ba745e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.999Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "14db11554f3163b0d670d40d479667f7cf1651fd11c849ec0c72fcdb2fd8ec11",
+    "sourceHash": "546aeae8e3071f69cc69088af0b84207570646988dbed6be5a2e457713bd1f03",
+    "updatedAt": "2026-09-21T03:53:51.302Z"
   },
   "Q0275": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a6f7b7d2753cbf9b166d6acec9838975842c46d087e880548f23111d607a69fc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.999Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "786e6da68d2ed4029f2eaaf879a3ec54e43664359d6b86332cf05a263cf572ea",
+    "sourceHash": "00c47f779d72505bf73a4ece1fb718e400cfacab6da027b3f32f8b14cd19cff1",
+    "updatedAt": "2026-09-21T03:53:49.395Z"
   },
   "Q0276": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "daab9dbfee5aa6e96cc6189c0c85b839c5dbfbe8b59f954b0ed03f1d41f9a002",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:21.999Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "10c880d9438e09be4fda467f80552732787861f6fcebc60f986f966e7df42740",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:53:53.449Z"
   },
   "Q0277": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "51f95f13cf46d066a5c5bcc0dbb2be4f06ff75162a269c85c0f5525af42593cb",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.000Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "03877b563128e92f5d49cef6ab09bc1ef5033fb270cf6cb6d402a6e9c76e9367",
+    "sourceHash": "1b30e7f06c91bb1b6f662d6c821157d2389392205a44ef79987b3dc94f957bdf",
+    "updatedAt": "2026-09-21T03:54:13.714Z"
   },
   "Q0278": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "eb56eb712e37f12004357312402afeb62de50e1176e416830cc12ba2cdf38f1d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.000Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6a79e917d26a586d38ce0da34fd9cd49c5548e5a66c7bb591d8187db8c8f19fd",
+    "sourceHash": "3d9b6bc3584d558ad0312786d3b52bcaf80b1a8bb5207b33b74de80bb2323726",
+    "updatedAt": "2026-09-21T03:55:19.758Z"
   },
   "Q0279": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "066a31e6b0f1c1c40f230a636f126cace45b182bfdcff44f9f8df7d4abbd4754",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.000Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "3282c94f90be10a4fa03f8634485c996548ae0ba76dc8a16180b69169572cc30",
+    "sourceHash": "e2bc71cdb7dc5fbcb7acb20188d5471188775e036fdca982fe203973dbf341a9",
+    "updatedAt": "2026-09-21T03:55:19.090Z"
   },
   "Q0280": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ede66e800c5fc80457cbb82584c9b7b8ae23db800d80ef62cc6b1b49f86a85d7",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.000Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "19261053c0f9a5ac6e9dca1e34551234eb37d623ef06a7fd3e379d954e85edd2",
+    "sourceHash": "546aeae8e3071f69cc69088af0b84207570646988dbed6be5a2e457713bd1f03",
+    "updatedAt": "2026-09-21T03:55:22.234Z"
   },
   "Q0281": {
     "status": "pending",
@@ -1975,32 +1974,32 @@
     "updatedAt": "2026-09-21T02:24:22.000Z"
   },
   "Q0283": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "78f31bbbea6531b302582eecaf1bb1aa8ec0b927e62147ab8c35787bc9203e12",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.000Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "22f2fe7465a33272da9232bae97e16e2583a9f4216a3f2b3a7f432daae274ba7",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T03:55:22.794Z"
   },
   "Q0284": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6cf83da16cbd99de4a1c005cf77399600f8626ccd9135db7fb9166843da19313",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.001Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b0e62806fa366592465d88dc213e3ed329f317fe3358e942608014337179f297",
+    "sourceHash": "668f193faa1100fe822fbfc9636d1dd17e222ef626b8c75bfe1892ca96a12221",
+    "updatedAt": "2026-09-21T03:55:35.759Z"
   },
   "Q0285": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "081d1c8c61dcfd5310824debd3b5c402affd9271aa355fdfa088d7c48cff6662",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.001Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ed1e493ad44f1085e8bbd77662a996f9458f12e1dfc9738a8121cdb13c2c9bf1",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:55:37.335Z"
   },
   "Q0286": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "278c00ec615365a0058f076f46f352019a2f0e98a898257c2390071e64e81f52",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.001Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6e0ace2e60b407de02bc5a0a754235606fb79303ee54212c5a055c5b06ab8bde",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:55:32.402Z"
   },
   "Q0287": {
     "status": "pending",
@@ -2017,18 +2016,18 @@
     "updatedAt": "2026-09-21T02:24:22.001Z"
   },
   "Q0289": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5be28480ee18e50a51024467abe4852538b5f92b3210b85f97ddf45bb48efc91",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.002Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "8ae3459d90dc564bb5212595596aa81bcc1cb25f1d181752af0e8a7e0abfa202",
+    "sourceHash": "4cf775f08ec3485abba34015ac7713661944abe2ddd7518a54ca3c1414973884",
+    "updatedAt": "2026-09-21T03:55:38.384Z"
   },
   "Q0290": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6f6e76841b4b368ab543e91396e5ac6fc53746487bb440f9614ae5e06f7148e6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.002Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e5854c832bed4523b90f787d7a83f3a1e89458feb2874371e7dd8b751571fd5b",
+    "sourceHash": "a6d8b7c1c9c87cc431acbb1cd49d2ccec5d4037910e877f6289cc185c6e6421b",
+    "updatedAt": "2026-09-21T03:55:41.162Z"
   },
   "Q0291": {
     "status": "pending",
@@ -2038,25 +2037,25 @@
     "updatedAt": "2026-09-21T02:24:22.002Z"
   },
   "Q0292": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4b4eadb9c3a038c5596a39a55e0747c7b30f217b977c58feaba4c085acf2342e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.002Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "829685729ba533b40280546d043246ef3811d4ec6713c0b8fbe708a177ef497c",
+    "sourceHash": "9ae79056ce6e4675a708840285d399a2d71c99a0f6005589e01ef6581e2b1f2e",
+    "updatedAt": "2026-09-21T03:55:51.091Z"
   },
   "Q0293": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "634dafb7e242d5f82b9aec278e1092def4c5a1f53a144cc21881abf5db753b0f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.003Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "90bdb07e92af047246df8a615fea9e3c05086ab7f12f98544b9c5fc7847657ea",
+    "sourceHash": "4cf775f08ec3485abba34015ac7713661944abe2ddd7518a54ca3c1414973884",
+    "updatedAt": "2026-09-21T03:55:48.779Z"
   },
   "Q0294": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "64c28773bb0ee1e424919856288c9eb5818de5761c8ab84da9a0a4146439f33b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.004Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5e825f782ec15bfba111a7d687aa66c727961a12e3963dea456b1c9cf9ec74e6",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T03:56:11.075Z"
   },
   "Q0295": {
     "status": "pending",
@@ -2066,60 +2065,60 @@
     "updatedAt": "2026-09-21T02:24:22.004Z"
   },
   "Q0296": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "557e1e59cb3befc2a9ff38f11c55e7bc651821c825473bc98f310d3c683844e8",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.004Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2b931dd2d2c8500bf55ddebd3512bc06271615f45b863489c735a7b812bb1453",
+    "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
+    "updatedAt": "2026-09-21T03:57:08.894Z"
   },
   "Q0297": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a41c0bceacc1b9674b266e9e708b9afa35dd4cfe0b9e902160928426749b5070",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.004Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "38c282710921656e0b299894bfa54bce51843461802658143c90c43ebc8e024d",
+    "sourceHash": "6e71380906860d389c34722a9162a61adfd24acdcbf98c604df3494b674d0116",
+    "updatedAt": "2026-09-21T03:57:11.882Z"
   },
   "Q0298": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1cfb8de40eebeaae9f2cd6dd2f7ff42de6cb4f5c776a0e28bf1d5e9c76ff8070",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.004Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5a707e912ae0fbc1b729482b8526be40b153b101341086815925fe7dc3107244",
+    "sourceHash": "b3990ddfe5c854410fa51af83febaa41b4ba180100e475e1bba67857969abb41",
+    "updatedAt": "2026-09-21T03:57:16.224Z"
   },
   "Q0299": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c61bac5e706b2683ec429aad305d700969e1ac8f777c9c7a814c891f52ba2ce0",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.004Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b8d01f5578bdf858941bdd18e5a6486cb65e0c8b55c9a2b9cea7980805099596",
+    "sourceHash": "1b30e7f06c91bb1b6f662d6c821157d2389392205a44ef79987b3dc94f957bdf",
+    "updatedAt": "2026-09-21T03:57:15.951Z"
   },
   "Q0300": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1227ef14ab7f4cdd168c9a2da64e45ba4dbd7102eec182f922419d2f7683ef24",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "f1df608d5ade939a985ea1466b646c5d1a252251fb3132ab7b23cc8239e52a11",
+    "sourceHash": "9f43f743a14374c9358da7cf5eafc4b36d4e068d95c9278a363dd75491c1baca",
+    "updatedAt": "2026-09-21T03:57:23.243Z"
   },
   "Q0301": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d8eb44c28584f48bf453b39bd5fe6a74dbd078ae9842df9f283b5cb7742bbce6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d22296e60dd5f46e05570987d6deb5627d2315fa93130377e679dc009ae4709b",
+    "sourceHash": "66b30b4b82c4b725572fd7120ae61477d700fbf07927bf29dc25cc1b2e979075",
+    "updatedAt": "2026-09-21T03:57:26.031Z"
   },
   "Q0302": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1c9b898d3dd3d7b61f0f887b11eb9447a93f60f3a12e2aad7a1ad8b0f2614df1",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ba6b17ffd09db3574aa42aabde2fb33f6d785fe5e0b91650dfe80c5151f2b77e",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:57:25.867Z"
   },
   "Q0303": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "026132bd3842ede191c66cc16c664c72dcc05215486f2762f8c51cd010ecb171",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e82eed299c36bfc6c790a1d63bcaadd24521b3dacf235d8b7a43236b1712c0dd",
+    "sourceHash": "e1992e22a5d007726fb575afe9737cd3936794a3c920b487d46abcdbacbc7335",
+    "updatedAt": "2026-09-21T03:57:30.300Z"
   },
   "Q0304": {
     "status": "pending",
@@ -2129,25 +2128,25 @@
     "updatedAt": "2026-09-21T02:24:22.005Z"
   },
   "Q0305": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8c89a70d7b4c903c7cd451754f4a0785fdd12bf48f04e123f8c4c71dd0d6cb3d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "42758516dd5f9de3ac2922c1ce94163e4885e942193d147a1a167d2762446459",
+    "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
+    "updatedAt": "2026-09-21T03:57:30.364Z"
   },
   "Q0306": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9a0e86a14049ce34fd4da2daca9d2790237886acd361d930dd5fde372b499b0b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.005Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e45de0644739d97ea8eb12468e11fe93abec064fead204444087d31fb1c9f640",
+    "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
+    "updatedAt": "2026-09-21T03:57:45.087Z"
   },
   "Q0307": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "791fa7c357ed1f9baee2b8c336d8ad193e402169e6d8052f23391dc42449cd30",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.006Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ef85ee81524e52d29cd6fb5a0e0a7a9c2941c5d6dfd0d6fbf804558790d557c3",
+    "sourceHash": "017dff67b6c74b36219a74290beabed334420b5d51790d7f4fe916792e6c324a",
+    "updatedAt": "2026-09-21T03:57:49.997Z"
   },
   "Q0308": {
     "status": "pending",
@@ -2157,39 +2156,39 @@
     "updatedAt": "2026-09-21T02:24:22.006Z"
   },
   "Q0309": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ecde1751dfa289a0efc75dc1c79a53047933b008eeeb51c57d64a553a6a1614f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.006Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9270a26213c3a2d6f0bf53dfe05e80c1455bb8fcd64a882272ac530bb29ac08e",
+    "sourceHash": "3c60c7c1eb973c13f99c2da10a113f0255373f07382e8249b8c68675f7a8f20d",
+    "updatedAt": "2026-09-21T03:58:01.871Z"
   },
   "Q0310": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9173a6d30da27b2221c6a60a69b3f75c909451bc267ae89b75e58b8abd1af7bc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.006Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "1a90cce41df306ad842836acacc6df181b71d19b821ce960fcabc92043baa1be",
+    "sourceHash": "34c71127972ec3d0cac01f477523f19743c5dea4af770ba7303305a84e138549",
+    "updatedAt": "2026-09-21T03:59:01.072Z"
   },
   "Q0311": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d1b92352e4b0962620f512af466e38e82902fa78fd6b7b96428086fae9118354",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.006Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "95d47bca0e9e7d338091376404a248af0a7f8546afc297c33839b5633acdb493",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T03:59:14.567Z"
   },
   "Q0312": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5ecd96746af6796d400a603c54b09bf4ab1faa99355efe8129db453e282bc281",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.006Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ac33fb247e901493d3cd651669832fff787340a37d519ddd58b9cf33c9453c81",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:59:09.671Z"
   },
   "Q0313": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "04076b4497d7191d55deeb0c6e29129dd198ca59f2d6beb76eae688965978699",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.007Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "fae9a6a892be41fed0fda0d55b05ffab2793bbf728ba13c57da208bf98c50eb4",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T03:59:12.989Z"
   },
   "Q0314": {
     "status": "pending",
@@ -2220,25 +2219,25 @@
     "updatedAt": "2026-09-21T02:24:22.007Z"
   },
   "Q0318": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "599abe346b808cbace8afbe5607706b11af7848f667cbaa447f7c55e052e200f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.007Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "244b474fdadfa39d3b72c2722fb285413e5bbba9d22bc5b4618cafe7bdd6dba2",
+    "sourceHash": "f34289b304251ad473ba6f08028283243d911527a330055c152bc9871161289e",
+    "updatedAt": "2026-09-21T03:59:04.993Z"
   },
   "Q0319": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b4e7ae576d8fdc8362fd7818ae5a8c8c92104d407b5dfac327750a30b222bb40",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.007Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4058e7eb3aa97df125a9b0fdf4eae2e9c4dcbd522f7139964df050facc2a55cf",
+    "sourceHash": "4f33d9938aea8976ba65a629c9138115e1e2c9d5c89eab8f2c7fadfec6e7cc07",
+    "updatedAt": "2026-09-21T03:59:19.630Z"
   },
   "Q0320": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6e5a9ab1e34bdad474d239f80d19536226d715b1ff4580ddeaa0fdb647ceaf9b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.007Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d7f7fd058d094b2c1446d34a028729ca0a4dd26601555530f64a0c0b4b061007",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T03:59:21.039Z"
   },
   "Q0321": {
     "status": "pending",
@@ -2255,18 +2254,18 @@
     "updatedAt": "2026-09-21T02:24:22.008Z"
   },
   "Q0323": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0f88053c431f45604145aba3d9fca0faec8d415c073977a617a07f89bd8363d2",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.008Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "afceb64e3f3231a82fa99cb861a5542842637cc7626aaa8dd39ce1894b29497e",
+    "sourceHash": "56289e9a8da55212efb1b67904b508bb7185ec3b6fd6130a80eca56931e43b45",
+    "updatedAt": "2026-09-21T03:59:20.329Z"
   },
   "Q0324": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ad4b9c1f34b650b26e4ac52c96f8d441990eac3daa94ff3399b0303b9dc41d81",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.008Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e2ff3e54468e230264b4550410a7a1393217d2ef21c6efe33e9303e920f438c8",
+    "sourceHash": "66bf04241d01c9885ccb674c52fac45f976de1e76892785b953fe61c60867383",
+    "updatedAt": "2026-09-21T03:59:23.376Z"
   },
   "Q0325": {
     "status": "pending",
@@ -2297,32 +2296,32 @@
     "updatedAt": "2026-09-21T02:24:22.008Z"
   },
   "Q0329": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "945dfe519545051efc0feb52caef9b406e160588d37d9d8ad96bc32caf44852a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.008Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "73cc91890fe4589241f62aeecf028328266c8d3f6318c029c3f48838de1b5eb3",
+    "sourceHash": "3f734c57bc1e0a6793df50bb91872b62c1d6b2546a739f862da8555813cee646",
+    "updatedAt": "2026-09-21T03:59:35.531Z"
   },
   "Q0330": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a0f9f9c09feb4ce35208558ac882090d3995c79f905aa7f9b3df6d634d5fd823",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.009Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9a750952bcd73662c7159e839a4787508d7306be448f32d8e23c979987c8963d",
+    "sourceHash": "7363c20f0a9d490762d4757f37cab56ef1a1291657a01c54a8418f4fade8129f",
+    "updatedAt": "2026-09-21T03:59:42.186Z"
   },
   "Q0331": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0314ac03a053c7037a42bd0e6b5211a0de6c448fa242d538d81adde4c5f1f0f5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.009Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d4818be514b0a452d06632caeb04108284e641d5919b973a8e88dc450d62b0bd",
+    "sourceHash": "700a6ef66dabab53ec6c744871e004602e79d7e346e999f1634c1c6ddc95e520",
+    "updatedAt": "2026-09-21T03:59:48.981Z"
   },
   "Q0332": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b346b2cc05aa79c262f6b84938c7dcdfc97958de8b997ad8ebcfd664db384fee",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.010Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2c19b977eef6280e628227f70658e91f39901e892ed40a7f99da7c880ad4b6cc",
+    "sourceHash": "1990dae1e2a47e9c8f3544c626ded5f3d12658a4a400df736b4f031e59516144",
+    "updatedAt": "2026-09-21T04:00:49.867Z"
   },
   "Q0333": {
     "status": "pending",
@@ -2339,32 +2338,32 @@
     "updatedAt": "2026-09-21T02:24:22.011Z"
   },
   "Q0335": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9cbd3ce6ddd2721ecf9e2d29ac78d7b532c66294ec0c10fcc8fc1648cfe78186",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.011Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4ebd3abe0a92a4b0dcf47415a2be732c2e33054b60c687af36048aad9bf476d6",
+    "sourceHash": "37b22c6c39e2497f7c5bde10149db5a2eef079ed3e1cad81c2db396c78f6c9a0",
+    "updatedAt": "2026-09-21T04:00:57.842Z"
   },
   "Q0336": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "40d7b0a0f684a1623faadb3306ca5f9f2092b69028bd88460dced309fedcdba5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.011Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "390b2b878f99676d755dc9a00f87397906b3088a758e492b79cf9c1f7919f600",
+    "sourceHash": "4df8406d8ab32cc3f241499b76c58f6a4d05712dbbd98a2fbd6ce2fc2de54da4",
+    "updatedAt": "2026-09-21T04:00:56.981Z"
   },
   "Q0337": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d9537443a11f0551a9c3f0b7bfa167748690b1ef620d55eb7266d1c5fab4c69d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.012Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "772573fcc822d4d738d4e4d5502bb3407e99cd86d4d84dd97133bffa527f820c",
+    "sourceHash": "6b2df7e17870eca4c996ad73adaad4f1845f1d54af148c467bccce2c94eb4f44",
+    "updatedAt": "2026-09-21T04:01:08.164Z"
   },
   "Q0338": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "1f60cf712844a36e5d9cf9922da3fb10334264149781aa99279e5ec93afe18cc",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.012Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "9811bd90ceea688546b3a06c1caffa7078ccfad69ccd71b49a9c578a13ced5d3",
+    "sourceHash": "f17d1b0e17a9024f749963ee960e1b98b89fa5ed90984b97fd66ba099c8646ba",
+    "updatedAt": "2026-09-21T04:01:09.839Z"
   },
   "Q0339": {
     "status": "pending",
@@ -2381,25 +2380,25 @@
     "updatedAt": "2026-09-21T02:24:22.012Z"
   },
   "Q0341": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ea7c384d5ac94318fb035ada7df0c4f4dbbb968d0d729aa5d608914ee6011940",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.012Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "b9ae547e1b9ced3a020e3c5318b6d24ea52c49368ffab75b0a207bf42535c2d3",
+    "sourceHash": "4ff1832875c8f1ea16927c96d9627264b6e9d6ed212d8c01047336a4e191d175",
+    "updatedAt": "2026-09-21T04:01:05.750Z"
   },
   "Q0342": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a27233aeb70e47d25a0362242277c402d6951fae1e83c5ef760cc751bbd723ce",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.012Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "86272ef67674572776138ae2d90f1bc9975487b59adba0e4e931b0602b5c109f",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T04:01:12.716Z"
   },
   "Q0343": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "745dc4e2da58f8c14f63617d4181509fb87bd26f1fcccb50d2fb9e0fdb7c2975",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.013Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "21ae16b828d8424ce9b4529907529d1e490449426ab6b0938dfa5cfd5854cb42",
+    "sourceHash": "4cf775f08ec3485abba34015ac7713661944abe2ddd7518a54ca3c1414973884",
+    "updatedAt": "2026-09-21T04:01:07.287Z"
   },
   "Q0344": {
     "status": "pending",
@@ -2444,25 +2443,25 @@
     "updatedAt": "2026-09-21T02:24:22.013Z"
   },
   "Q0350": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a92c976ecea17402d5c205dd5145115ded3bd64aac7b645873175f2d6bc8a368",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.013Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "afbc806bbc65d927a902a7358b35dbfd6bf9599ab96dae265f1ecfb9b66c7289",
+    "sourceHash": "b65cc84b8b152e0fe609509b8e8a1fe6f9d9e0ad494acc041618a0f76e9d1052",
+    "updatedAt": "2026-09-21T04:01:15.792Z"
   },
   "Q0351": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "61727155813008f92bb940f3296fedf8ad9ecec88fb12a774fe1f5999dcfef56",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.013Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "990060c5b676d39a795d10c5807f19b24801382f3831b996cb63a10c94205956",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T04:01:28.858Z"
   },
   "Q0352": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6dbe5b0fec3e34ef6db765dc73097bf6b4b136023e26d245d6645506abf14ab2",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.014Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "043652bdb9d3617364f3fc76ee64c131bfd0712589a8bb90a2c435494528dc0e",
+    "sourceHash": "e36b541b0d3673733e93a76a1edab18e9846695a3a9597adddd06e4bc58cb92d",
+    "updatedAt": "2026-09-21T04:01:35.564Z"
   },
   "Q0353": {
     "status": "pending",
@@ -2472,18 +2471,18 @@
     "updatedAt": "2026-09-21T02:24:22.014Z"
   },
   "Q0354": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "dbf9786c203364de04da78f2c8827280e11d8bd9de116566adb964addc114c53",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.014Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ac5a13c948905bda2cc32fa292abe21bf96c7e46945d4bc3dd518643d50735fb",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T04:01:37.126Z"
   },
   "Q0355": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "16ff06ae48cb0c48605dc565c6fe9e4ab71b4b7f50922a0760d84f978f46df85",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.014Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e1de752b7ca4a6c6975faeeb6aa512628151dae6030d7e878d91ba0b0f849df3",
+    "sourceHash": "d4899f5899f3e3d30b7de017080e637176706b7fcbbeb7efb65b8b95e9787574",
+    "updatedAt": "2026-09-21T04:02:41.994Z"
   },
   "Q0356": {
     "status": "pending",
@@ -2493,18 +2492,18 @@
     "updatedAt": "2026-09-21T02:24:22.014Z"
   },
   "Q0357": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "a01fdcc674deb55243c2c432c08b5cc9920ec891e124ff9e795069ff8e447f4a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.014Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "84ef3c6b9e11ac85da4f6ce8efafc6f15f5708483d79a0a463b243d3fdc59e65",
+    "sourceHash": "6b17579ad48b23650d7b1aab76cfe5ebaf517a91e017074c32976e2ddeb2af7c",
+    "updatedAt": "2026-09-21T04:02:52.168Z"
   },
   "Q0358": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0a3390b8fe0ef0c0034af2477fd9c7026b986d03fe36e479e7aedd4242347bcb",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.015Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "80e281e82282efc8328bd7c2b13db809667744df7b31b1e5d0debbc7624c3b4a",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T04:02:57.569Z"
   },
   "Q0359": {
     "status": "pending",
@@ -2521,18 +2520,18 @@
     "updatedAt": "2026-09-21T02:24:22.015Z"
   },
   "Q0361": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "54bcf84aa88d1fe8879a810f65d2a9cffca2310261b40f090e3c66013dd0cb15",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.015Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "476186344605f4b9369b2837afdf82fe578b24fa504521d04da0f373d73d8494",
+    "sourceHash": "4a5be71168463a391f4ba29e484d3f5261844f15e899a88dcd0ff8e8e81dfc4e",
+    "updatedAt": "2026-09-21T04:02:54.954Z"
   },
   "Q0362": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9b07d669fa779e60606da78aa73df89f87262b204160ed7bf93782f11bf6dad5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.015Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "84bffec816f4e132ca5ee94ae36945e677ae0c5b11559bcfb4748175058c3913",
+    "sourceHash": "bfb41c79023267a061a38b81ffbdb13bfe348dfd2ddd1eaaa6533087fcda0508",
+    "updatedAt": "2026-09-21T04:03:00.083Z"
   },
   "Q0363": {
     "status": "pending",
@@ -2570,18 +2569,18 @@
     "updatedAt": "2026-09-21T02:24:22.015Z"
   },
   "Q0368": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ddcbe120a5c0009666ee7a00ea5893aee9bf266574d19d0106e67aa8837bea75",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.015Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a32772d94fb93d334b67efb1b615c1cc6e3e37197ce5bb749965fb28ef60d6ca",
+    "sourceHash": "45054c5cd7a157ad4cd5b510e1273fb5208b373a98b43bb0ac8e611bc5ed8dc0",
+    "updatedAt": "2026-09-21T04:03:00.865Z"
   },
   "Q0369": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "11c2c73e7e7b3fd838bbf38ceb78617a384dc849111e0a88e4bad7ccbdbc6256",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.016Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "99dd1c445502171bfa6067446250ce078aacbbf90766560ed02265c5c1cf763d",
+    "sourceHash": "90cdafb4572a9dc70b947610543201b4b870bda145de02eea47937c883a89bd5",
+    "updatedAt": "2026-09-21T04:03:10.142Z"
   },
   "Q0370": {
     "status": "pending",
@@ -2598,11 +2597,11 @@
     "updatedAt": "2026-09-21T02:24:22.016Z"
   },
   "Q0372": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "39bec6e82403f0cfefa2ba442515f9e4b848e3a205905cbfc3b851acb5f38328",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.016Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5716580e612319066267b7b6f85bf5459e808aec8f7a2b64fea2ed38b51b2add",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T04:03:19.482Z"
   },
   "Q0373": {
     "status": "pending",
@@ -2654,11 +2653,11 @@
     "updatedAt": "2026-09-21T02:24:22.016Z"
   },
   "Q0380": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "96c6941dc7260e9488d63efec4c5b0b55148af9133d86f9457c97684b4fb0837",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.017Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c78e047f018983f9b76b314ff3c207fc8262463275ce4aaf5d3a62ab3e16f969",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T04:03:16.619Z"
   },
   "Q0381": {
     "status": "pending",
@@ -2752,11 +2751,11 @@
     "updatedAt": "2026-09-21T02:24:22.018Z"
   },
   "Q0394": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "40a3ee8fc0217621b857dcd29bca9e93c40993928586e1eaade762daa506b46b",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.018Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "fc4fa7ed6d2407bf313da1c04ff2974091b56907b83a1801346af89e5d43af33",
+    "sourceHash": "7bd0e51b4a6b1a1fe4e5c0992a03ea0942fcdb3d9481f0891e37a99c8c19431e",
+    "updatedAt": "2026-09-21T04:03:24.382Z"
   },
   "Q0395": {
     "status": "pending",
@@ -2822,11 +2821,11 @@
     "updatedAt": "2026-09-21T02:24:22.019Z"
   },
   "Q0404": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "87933e4f1d8127e34c265ef03578611d3d19e1bddb7ea71cf04c6b07525ae1bf",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.019Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "de9289336cc8698956397822593258fb8e09a8b3923e548d28b018bbcf949ed3",
+    "sourceHash": "2ce8be68773c0c0973083cbe22258180fc15444b0d99b5227bc35df6cd6bc3ce",
+    "updatedAt": "2026-09-21T04:03:34.178Z"
   },
   "Q0405": {
     "status": "pending",
@@ -2878,32 +2877,32 @@
     "updatedAt": "2026-09-21T02:24:22.019Z"
   },
   "Q0412": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5ceb5cb903019bbc137b5f3b0bb4cdc8613668867910198e7bf507e506884242",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.019Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e50128dca1b559de5d613db4d0ce043454a046e0d6fd51c432752b82671d1681",
+    "sourceHash": "63f79e4c0dfb5248299cf085e241f89fcd91fe54a10f1861f0373d563a8f45fc",
+    "updatedAt": "2026-09-21T04:03:29.883Z"
   },
   "Q0413": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b462d99f6902dbd3b4aa8a4a5596abb0eae40743fbae957d9cd6796d92f92f80",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "61245cd31b04e3aefa6bf38b476bb532dbada5c9fd9cafab6b9d44c834233877",
+    "sourceHash": "63f79e4c0dfb5248299cf085e241f89fcd91fe54a10f1861f0373d563a8f45fc",
+    "updatedAt": "2026-09-21T04:04:47.090Z"
   },
   "Q0414": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c9bb13f173901b829cdd16b831ceabe2fb88dd6b7af37bb756a2f929d26eda2a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5f92f4b2a0ea2a0d7038c1b8a4d582b2646091529344bedbbdd7316f006b5b31",
+    "sourceHash": "63f79e4c0dfb5248299cf085e241f89fcd91fe54a10f1861f0373d563a8f45fc",
+    "updatedAt": "2026-09-21T04:04:57.601Z"
   },
   "Q0415": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4184b5ac73b9c2be8e03e192a5146739ae43b6f352c60153d37bffe37c6b515f",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a4e97d6d960cd2a28031acf4d5802a867c3e47edecaebb223b8e47d32407f84b",
+    "sourceHash": "63f79e4c0dfb5248299cf085e241f89fcd91fe54a10f1861f0373d563a8f45fc",
+    "updatedAt": "2026-09-21T04:04:49.460Z"
   },
   "Q0416": {
     "status": "pending",
@@ -2913,11 +2912,11 @@
     "updatedAt": "2026-09-21T02:24:22.020Z"
   },
   "Q0417": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "65fc9c8aecd45a0d1e88ebabb2e8a9e38f17e76ab74035df0f8b01b35ddf3cb5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "00d055c847cf725ab264e4f0e019c545da3d77eccdfb1ff99ebf95c0b11475fa",
+    "sourceHash": "18548b0892900027eef28ece62822588aa2ee01312af98126230adcb890403aa",
+    "updatedAt": "2026-09-21T04:04:51.217Z"
   },
   "Q0418": {
     "status": "pending",
@@ -2934,25 +2933,25 @@
     "updatedAt": "2026-09-21T02:24:22.020Z"
   },
   "Q0420": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ee1033eb2faf062a7b820ebc82d44c80024bb0e11e499d9a7f5d5c4122ef6593",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "69288a4fdb253586dc80c8a41c958350a0bd0a18ed23f231ba305fcc59d0b7a6",
+    "sourceHash": "92a039810549ad83855d4c49b41129ea757dff24c1cceb810185b45998359405",
+    "updatedAt": "2026-09-21T04:04:50.131Z"
   },
   "Q0421": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8ee8d490eff43319eacb17ae312d4f3c261199ce50176219028a88b6a02f21e1",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.020Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "eab8babe7e1cb376f8b2270ce1e9858d9a8cfb01f4b81030e22e8e17721724de",
+    "sourceHash": "5b18778696a190735f4507501c3c34327b9c6fbfa971ac73427b0ae5ecda01bf",
+    "updatedAt": "2026-09-21T04:04:55.349Z"
   },
   "Q0422": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8d24e59965377a891f6862d2cc4363793783643e4f72e0ec2dbd6244c5a6be4a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.021Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a300c49ce786f259b0130bfd99089136a49fe82ce13f11c43a9adb1ad7369134",
+    "sourceHash": "e5fe3474b6f5d641c21f86f677c6817ee3c82f7ef9e4cdaa056278ab7d1588f5",
+    "updatedAt": "2026-09-21T04:05:05.964Z"
   },
   "Q0423": {
     "status": "pending",
@@ -2969,11 +2968,11 @@
     "updatedAt": "2026-09-21T02:24:22.021Z"
   },
   "Q0425": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b4e616805203db5dd7acd44b05d2854de08a2c83ffc88821e2991cacdd7b1b42",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.021Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e8cbfbb70a6b075a247a7d18057cfe286a117533057fb00fa60f7ecd20df3198",
+    "sourceHash": "b724b9a9b7c14cf137333611a5c1056f1fa6361ef637121add12247035b1499e",
+    "updatedAt": "2026-09-21T04:05:04.288Z"
   },
   "Q0426": {
     "status": "pending",
@@ -3011,11 +3010,11 @@
     "updatedAt": "2026-09-21T02:24:22.021Z"
   },
   "Q0431": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c5d6f6d1ef4f2f609a1df8cd4605578273eb6abcc5d33fcb67f625bc3aafbd31",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.021Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5ced29d9c011a4817b6bac93bd7f9f802f03cae639f1cf5969bca7e13646e7c0",
+    "sourceHash": "9ded52b8182ac1f1bc2484b5ea00456c7a2ee69a61d4edc4d956ff8cb5ff5007",
+    "updatedAt": "2026-09-21T04:05:13.691Z"
   },
   "Q0432": {
     "status": "pending",
@@ -3025,11 +3024,11 @@
     "updatedAt": "2026-09-21T02:24:22.022Z"
   },
   "Q0433": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b6a9aa05498b5580adecf696b738857f5fbf103d9b3d0444170df1879b6a8d81",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.022Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "0c021dcf6033be08632c8d8fcab103f8462835a14c813e9989d5f1faff3a70c7",
+    "sourceHash": "34c71127972ec3d0cac01f477523f19743c5dea4af770ba7303305a84e138549",
+    "updatedAt": "2026-09-21T04:05:19.463Z"
   },
   "Q0434": {
     "status": "pending",
@@ -3074,11 +3073,11 @@
     "updatedAt": "2026-09-21T02:24:22.022Z"
   },
   "Q0440": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "9907061a6d81f7b7922b82ccefff1e4a4669f901af73cbe1c824226e33a78bd5",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.022Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2dadb59775eea3c620f5949bb7cb402a6170a09754a78fc42fa4336673937072",
+    "sourceHash": "a767c7d6ea0f17aa887837ce317b98f8c6f34d8059168fd4179848155ae1983d",
+    "updatedAt": "2026-09-21T04:05:28.205Z"
   },
   "Q0441": {
     "status": "pending",
@@ -3088,11 +3087,11 @@
     "updatedAt": "2026-09-21T02:24:22.022Z"
   },
   "Q0442": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "bc8bd3040729d9f1a2fefbf273f95606e3562ef7b7a57305bb0b71cacf12ca24",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.023Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ce84b0a7aed5d68fbeed5fbb4aed139d887ff9f9e18b2142277050c09fd5cab9",
+    "sourceHash": "ec1fafd28d1ee9d11ba74290660239ac950aa0cc68b8a4c77a876a6e60f40b36",
+    "updatedAt": "2026-09-21T04:05:30.918Z"
   },
   "Q0443": {
     "status": "pending",
@@ -3109,11 +3108,11 @@
     "updatedAt": "2026-09-21T02:24:22.023Z"
   },
   "Q0445": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8907b548312b74da7d9b086cf73eead99c8ec5168fb139111aadef684d159bde",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.023Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "46fd4a9a5ce5344b5470b96f874addfd4144f2c57f757b0b9034d7f73e13c908",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T04:06:36.358Z"
   },
   "Q0446": {
     "status": "pending",
@@ -3144,11 +3143,11 @@
     "updatedAt": "2026-09-21T02:24:22.023Z"
   },
   "Q0450": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "da74186d33ce29c2734a4d76bc986c1dabced0dafb693a338630fa47e289b9e1",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.023Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "16d9dd5560ad4b587db8f8c61ff3b9706ead5dedf6379a6ca837be3e3b05b39d",
+    "sourceHash": "3eab66369aed271732386f13c7e34ccd3f27a78e992aff27372bc12c501eb894",
+    "updatedAt": "2026-09-21T04:06:37.051Z"
   },
   "Q0451": {
     "status": "pending",
@@ -3179,18 +3178,18 @@
     "updatedAt": "2026-09-21T02:24:22.024Z"
   },
   "Q0455": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "88e82ae01c7d3e7d24831597402309db0ad4283decf6d7e5fe7efe4553d1eacd",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.024Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "21ad0695a81d5f8a6523f9f5fa564ad2ce7c25278a491cde3049497b7a7857e0",
+    "sourceHash": "29f44fbf9561439728e5b918f42a9fba99256de4982c8b8c84ec2ae090d444da",
+    "updatedAt": "2026-09-21T04:06:42.293Z"
   },
   "Q0456": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "0051a73fbace325803a09576b98a2f87cdb1dbca2401f3b165449b751848b0ed",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.024Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "e612912e5f1f454eb9bb6ae8bf483016a2b7937555bb58c0f8fbc595fd85f77d",
+    "sourceHash": "2e7d48be3952c5a33661ec02c2a02a3bdb64703e10a7aa166d7bac4f35fd98eb",
+    "updatedAt": "2026-09-21T04:06:38.873Z"
   },
   "Q0457": {
     "status": "pending",
@@ -3207,11 +3206,11 @@
     "updatedAt": "2026-09-21T02:24:22.024Z"
   },
   "Q0459": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "7d2bd1fe410f7ee0fb7bee2de71ea2c86b5ef440adb87dcc754f3caef46b3d12",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.024Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "06a83f4191bb4df1120b74905967dca1821a21e742748bcc906b2d959fc7ac8b",
+    "sourceHash": "7bb83420dceef339b2704d5fecfc958f49b7a13d70e27ec98fd6092dd7e4b115",
+    "updatedAt": "2026-09-21T04:06:45.437Z"
   },
   "Q0460": {
     "status": "pending",
@@ -3228,11 +3227,11 @@
     "updatedAt": "2026-09-21T02:24:22.024Z"
   },
   "Q0462": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c1d9b1ef474ca393ece5f6e6245fc856dfcebe41023dc53ccb463351f0f20d5e",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.025Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "09b2d956e3ceea942e34035f952399b6e38fb9661c2f155fee9c586e304d7a8c",
+    "sourceHash": "0ec20c42e3789c4a52ee4e08a395c65b5d41035cf9c8bcdb68f1a8d0cc08d75c",
+    "updatedAt": "2026-09-21T04:06:46.146Z"
   },
   "Q0463": {
     "status": "pending",
@@ -3284,25 +3283,25 @@
     "updatedAt": "2026-09-21T02:24:22.027Z"
   },
   "Q0470": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4957ff14616ea5bc6b0ba2c1121e41fe4a53f3add77628f2500b539a567e7cd4",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.027Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "903b171ab28438336f1644ca2c16be7d893ea88a8ef0e1269d1e986983eace21",
+    "sourceHash": "2d3f49fa8d3d0907ccfbd3ad59fd7bdba50ca77fd7b4f9f0b76c31645c1ddbf6",
+    "updatedAt": "2026-09-21T04:06:51.543Z"
   },
   "Q0471": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "30de4a4d64f48c49bef32b3058fe0d876d6295d582aae808b12b26b66c2bf046",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.027Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "1945f4d19ef081356a07cf6e907d5e44082725d2539051e10c58d6d8cf61f9e4",
+    "sourceHash": "0410f47f48d8503044642a969885f31290defa256b7861cb1f016fcb2798ad75",
+    "updatedAt": "2026-09-21T04:06:52.306Z"
   },
   "Q0472": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "f0f32874373204018c97495c2941ea7f22a9fe603eded0fdec02091dba5de4f0",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.028Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "171ac8d4d26ebff154bf70a9c535d1ede7ace83a7d60201aacee8c28b39089bf",
+    "sourceHash": "31bcb359cff8e76e50bb8ceafb0264a1d880df730dbb40048347817a23fb0b51",
+    "updatedAt": "2026-09-21T04:07:02.035Z"
   },
   "Q0473": {
     "status": "pending",
@@ -3312,18 +3311,18 @@
     "updatedAt": "2026-09-21T02:24:22.028Z"
   },
   "Q0474": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6e374b8715b5df98b9fd1bfb2912d99b9c5138b8189d7655b1bcca0496a61709",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.028Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "6e773a856e5b491d7c3c153edddb904a3c7fbd98afa74bfa72977dedac8731ed",
+    "sourceHash": "2d3f49fa8d3d0907ccfbd3ad59fd7bdba50ca77fd7b4f9f0b76c31645c1ddbf6",
+    "updatedAt": "2026-09-21T04:07:07.282Z"
   },
   "Q0475": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "eda5eb1ccb4e1404e4e8791e5bbb7efac73923310a005ceda7793972bcd346b3",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.028Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "70ac20dd4f8c03e8632a1264a0fdae777fcf076bf55c614a82fcbf079140c3cc",
+    "sourceHash": "2d3f49fa8d3d0907ccfbd3ad59fd7bdba50ca77fd7b4f9f0b76c31645c1ddbf6",
+    "updatedAt": "2026-09-21T04:07:15.956Z"
   },
   "Q0476": {
     "status": "pending",
@@ -3333,11 +3332,11 @@
     "updatedAt": "2026-09-21T02:24:22.028Z"
   },
   "Q0477": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "b3e40aef30bdfaff3477e515a2b786a0111ae77dbd3952f1ec346588af510780",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.028Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "25099b1d4def9729a20e1a5769b01d89aa74b68af57a3632bbfc2a95c7fcf937",
+    "sourceHash": "2d3f49fa8d3d0907ccfbd3ad59fd7bdba50ca77fd7b4f9f0b76c31645c1ddbf6",
+    "updatedAt": "2026-09-21T04:07:15.672Z"
   },
   "Q0478": {
     "status": "pending",
@@ -3375,18 +3374,18 @@
     "updatedAt": "2026-09-21T02:24:22.028Z"
   },
   "Q0483": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ea633bab6bbea516c53f549cf794a7d02e9d91fff710c154683caee1abda3063",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.029Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5abd4fb356b5ecec325de809dadafad0b3d64d4bd8a3066b8b91d41aa18360ec",
+    "sourceHash": "4848091756d975fce2239c1b9144ddca0766c21dab8b4bfa2d42d625d00c9440",
+    "updatedAt": "2026-09-21T04:08:19.124Z"
   },
   "Q0484": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "79017aca1ac174e70f1958421556bc04c1f3950f90d6ef3c15a6f14190429c84",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.029Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "35f863a87b50b6aad67f5aeb405fc003526da63863f4980c76b9d542d358a1e0",
+    "sourceHash": "bf47e9edb476db833e74a0cfb8d85d544d4e45abbdc8a325aebc23a9e76a9c01",
+    "updatedAt": "2026-09-21T04:08:27.646Z"
   },
   "Q0485": {
     "status": "pending",
@@ -3410,11 +3409,11 @@
     "updatedAt": "2026-09-21T02:24:22.029Z"
   },
   "Q0488": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "64a59961c1b8e3abcca0a2123c26a01ccf3ba0595484cd876d3ed9ed79ead521",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.029Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "c6af4a718ac951e1e4c39b0972fd4e4dc9b2fcc23525ecdc7699e9433cf8ebee",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T04:08:17.445Z"
   },
   "Q0489": {
     "status": "pending",
@@ -3445,18 +3444,18 @@
     "updatedAt": "2026-09-21T02:24:22.029Z"
   },
   "Q0493": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "232a5c162c1f9d276e221c4216e1665598e8a560b8396cef68143aa442286f97",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.030Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "aa6ccd86980f828d650edd281b3810913d8766e4edd181d43a05ae82620dd07d",
+    "sourceHash": "2c4d867fae81dc8459ad139d8bccd8352be9b07f5cc28ba46b1bc92475682b25",
+    "updatedAt": "2026-09-21T04:08:35.723Z"
   },
   "Q0494": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "d77546d41da70da10f76398d8ae6b501cb21da47165e74411033bdd26958e780",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.030Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "00f13d92d78d9ba91db883322434c2d26f631196a08d438fef5d2ad3177a9656",
+    "sourceHash": "2c4d867fae81dc8459ad139d8bccd8352be9b07f5cc28ba46b1bc92475682b25",
+    "updatedAt": "2026-09-21T04:08:34.321Z"
   },
   "Q0495": {
     "status": "pending",
@@ -3466,11 +3465,11 @@
     "updatedAt": "2026-09-21T02:24:22.030Z"
   },
   "Q0496": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "600be5f77db527408f5aa6920bd6cdecce2c2201dec3309b43bfc14346bb9a97",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.030Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "d97e99aea49044d8567cb6b5af7a48138e7b2bbd8ecb3ceee444271cedc0d2ff",
+    "sourceHash": "64c08624917806dfab560c4652a5d058039f826bd95e5a920ceff98fab3fd90e",
+    "updatedAt": "2026-09-21T04:08:37.137Z"
   },
   "Q0497": {
     "status": "pending",
@@ -3487,18 +3486,18 @@
     "updatedAt": "2026-09-21T02:24:22.030Z"
   },
   "Q0499": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "4f885b5f2d931efd794cc05ddb1d385aa1b40f8169814d64ec7d07a09eb07c8a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.030Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "96a93dc0c901cdb6fff0beb8347f8f4964eefa2fe21b9129ceee72e1c76dfb80",
+    "sourceHash": "17aa311e89a3806c9d2f85254e1b5a6a76d14b9537e7a9b9c67721505dc22107",
+    "updatedAt": "2026-09-21T04:08:49.702Z"
   },
   "Q0500": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e7ff9bfe6534eeae90a957f0cea2ea422806504785e0619b55934a329dbbdcdd",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.030Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5c116ca60e4a3c6636c0b05b2b6d38eb4af78fa17696ea25fe4787d6ad5440db",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T04:08:43.261Z"
   },
   "Q0501": {
     "status": "pending",
@@ -3515,25 +3514,25 @@
     "updatedAt": "2026-09-21T02:24:22.030Z"
   },
   "Q0503": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "c27b6a6c84a88ebc010f2cbc71dd827d83bbe48235d5d1a76136b2021d338d4d",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.031Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "84febeb500168863baaf8e1e7afcac74109628c63a52058b0a4acf641144f2c9",
+    "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
+    "updatedAt": "2026-09-21T04:08:45.679Z"
   },
   "Q0504": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e5209665eb38c229f2fba30b8390328ab8934d534be86babb8f73ea422b79aaf",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.031Z"
+    "status": "ready",
+    "attempts": 2,
+    "inputHash": "c9b0abda58d07440bccacc842d37856e149d6e61b4e2076ae6584e951f82a43a",
+    "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
+    "updatedAt": "2026-09-21T04:10:44.101Z"
   },
   "Q0505": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8c0ba7adbc56b642df72767865a89e35c220fe9e9552e0f68115d7a17199e3ba",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.031Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "a3fc7f5e517666c152032896099b6d5dc6a9174ddb33834c94be1dde9c61b04a",
+    "sourceHash": "546aeae8e3071f69cc69088af0b84207570646988dbed6be5a2e457713bd1f03",
+    "updatedAt": "2026-09-21T04:09:00.624Z"
   },
   "Q0506": {
     "status": "pending",
@@ -3606,11 +3605,11 @@
     "updatedAt": "2026-09-21T02:24:22.031Z"
   },
   "Q0516": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "89ed38fd1dd8fb3dacfbba61f4a030759a3f7fc914973b71c0c8fa2749cd6766",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.032Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "53682923a840c5dd27b5dc0b338081a2ff10e2d6c60c9c49cc34b75b24aabd9e",
+    "sourceHash": "6e1fc3405b25b075115ce3b09c07445bc3f150cbfa9bc1cd0e86b426bb6ec6a8",
+    "updatedAt": "2026-09-21T04:09:10.183Z"
   },
   "Q0517": {
     "status": "pending",
@@ -3627,11 +3626,11 @@
     "updatedAt": "2026-09-21T02:24:22.032Z"
   },
   "Q0519": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "ff181e54b3ce8718e1b4719f56275e4bf2bcf8d48ba8b288d4fc60abf4e066a1",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.032Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "baff49219f1a646ffb0cf68f73a9b5c46ae14c582d9515db5cbb83e779932bd0",
+    "sourceHash": "a8ce9d34fdb499742abfa93a4bd801ce6ba9ce5277500f254858e9ac0055bb94",
+    "updatedAt": "2026-09-21T04:10:07.207Z"
   },
   "Q0520": {
     "status": "pending",
@@ -3641,11 +3640,11 @@
     "updatedAt": "2026-09-21T02:24:22.032Z"
   },
   "Q0521": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "dd83372a7b6a051491b99b653b2bb9e0583d5500f00d47c4950745f8736f0741",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.032Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "380eb9addf28f16da36f2991345043c7f1002ddb9a3281c9f6c5a3c9f06939da",
+    "sourceHash": "5ca15f65f4f35c08d73156d6596e01fcb9918a72e7579875302f25479dc3cc2b",
+    "updatedAt": "2026-09-21T04:10:17.583Z"
   },
   "Q0522": {
     "status": "pending",
@@ -3662,39 +3661,39 @@
     "updatedAt": "2026-09-21T02:24:22.032Z"
   },
   "Q0524": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "e5b90d23aeb34e26c3ac80a1f31b0f3776bd7bbe74de9dabe66aa5296642c086",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.033Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "06ce4f5fcf30b4fef9d5bf2142b8a34d0d7492376a89da8ae9c7f027b5c810cf",
+    "sourceHash": "2638c437e675bad270b8c7d56ca68170d991e1b84a407ae7e094341bf735538f",
+    "updatedAt": "2026-09-21T04:10:24.606Z"
   },
   "Q0525": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "85ea8f34f892e7c9e653e2d9b851b221ba1fbca03c3a16bee0e87fb226160938",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.033Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "5d83116528f53bea061a1e72f096a1e3cc06670ae579ad1c9818cc05949b1290",
+    "sourceHash": "18e5c61e5b1bd8375eb1dfd217bfdbe94b00d954a7f0bd26fbc9a7feba35e532",
+    "updatedAt": "2026-09-21T04:10:27.838Z"
   },
   "Q0526": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "409509efd4a9059ba81258d237495a41e6ba11c6343d58d96201dc454819d7ad",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.033Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "843a06835d15a1b6da805dda7892217b018d21bf011bf9b71368d0111edd88b2",
+    "sourceHash": "1ffdb5e3b51c8a7f9fb174d444cc7cf290c4b2e7c56b927e4fb73a8d9b81e3f5",
+    "updatedAt": "2026-09-21T04:10:31.524Z"
   },
   "Q0527": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "69a17c6ab4a54aaa5e6de828e22d8b54cc2ad5b7cb5daf8e504546de5e3168a6",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.033Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2e2afff43ca26e1a43910361194f94b60677e496892372b5f546cf7bfaf2ea24",
+    "sourceHash": "e2bc71cdb7dc5fbcb7acb20188d5471188775e036fdca982fe203973dbf341a9",
+    "updatedAt": "2026-09-21T04:10:29.784Z"
   },
   "Q0528": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "8e4330cc0ad16111f234861ed5db0076001422820cda400984d79761f6342caf",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.033Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "4e7776eba77cfd6528e653c9866fb21a998fa095fafc9d13a43c9729ab821a4c",
+    "sourceHash": "29a81da918557467288b34b4af450a8d23d1d644c2539dbd3cdb7cc95f998f6d",
+    "updatedAt": "2026-09-21T04:10:29.911Z"
   },
   "Q0529": {
     "status": "pending",
@@ -3725,11 +3724,11 @@
     "updatedAt": "2026-09-21T02:24:22.033Z"
   },
   "Q0533": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "17e99572bea99f0186639a0c363e7f7cb78817c14cb62d0c919a0af93ad32c0a",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.034Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "ec309451b0473f27e9b3018400e0e51b750c2a01d94b7926d2ca2a03bfa6b822",
+    "sourceHash": "2c4d867fae81dc8459ad139d8bccd8352be9b07f5cc28ba46b1bc92475682b25",
+    "updatedAt": "2026-09-21T04:10:36.456Z"
   },
   "Q0534": {
     "status": "pending",
@@ -3767,11 +3766,11 @@
     "updatedAt": "2026-09-21T02:24:22.034Z"
   },
   "Q0539": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "6067118b47b7a9f12b10db98cfcac71e3a4cdb7dbabf92c1672ded90ba06c4ee",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.035Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "423ce2758b5a007570c6f00f97a9771ec1626760d44f16e9cf4f22e87a6d3ad6",
+    "sourceHash": "a53e387439173b69dd0b70b4142e76e4a66da99637f62794e0a9525e0769338e",
+    "updatedAt": "2026-09-21T04:10:46.096Z"
   },
   "Q0540": {
     "status": "pending",
@@ -3823,11 +3822,11 @@
     "updatedAt": "2026-09-21T02:24:22.035Z"
   },
   "Q0547": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "dccb38057c46ec88c3fa4084c7328e7bb5092095abf059c28af0f90df47b4d1c",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.035Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "219c175b6c65e713ae33cb27ec3af7d806402364d20dcc29e7546ea779939143",
+    "sourceHash": "4b5d93c53416e178bd4bddc1e101661a8e32338a53795e8026f8996b045b0864",
+    "updatedAt": "2026-09-21T04:10:45.384Z"
   },
   "Q0548": {
     "status": "pending",
@@ -4117,11 +4116,11 @@
     "updatedAt": "2026-09-21T02:24:22.037Z"
   },
   "Q0589": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "5f745480891844482e864405e8f63cc50553bfb0f6262bafd705f29e1f66f5c0",
-    "error": "Configure LLM_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.",
-    "updatedAt": "2026-09-21T02:24:22.038Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "18173b95bb389786832760adfcc16832d8036e0a5e4cbaa69a0b74ca2480902e",
+    "sourceHash": "3eab66369aed271732386f13c7e34ccd3f27a78e992aff27372bc12c501eb894",
+    "updatedAt": "2026-09-21T04:10:57.792Z"
   },
   "Q0590": {
     "status": "pending",

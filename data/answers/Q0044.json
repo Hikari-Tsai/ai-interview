@@ -1,55 +1,61 @@
 {
   "questionId": "Q0044",
-  "inputHash": "cda4bc8e04a14a0a6c3ae529f65b666110665526111cc09f99527cdbbfb1f593",
+  "inputHash": "92bf0f95482f3a75afe246ce2a3cec8bf4132bed25c70f3b8baf8ac16ce20791",
   "status": "ready",
-  "generatedAt": "2026-09-21T02:19:54.472662+00:00",
-  "model": "codex-source-reviewed",
-  "promptVersion": "seed-v1",
+  "generatedAt": "2026-09-21T03:39:04.140Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-longform-v2",
   "sourceUrls": [
-    "https://outcomeschool.com/blog/react-agent",
-    "https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work",
     "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L239-L240",
-    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/react-agent",
+    "https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work"
   ],
   "locales": {
     "zh-TW": {
-      "title": "ReAct 比單純逐步推理多了什麼？",
-      "intent": "區分模型內的推理，與能接收外界回饋的行動迴圈。",
+      "title": "說明 ReAct 模式，以及它相較於單獨使用 chain-of-thought 解決了哪些問題。",
+      "intent": "評估你是否理解推理與外部行動的差異、工具觀察如何改變後續決策，以及如何把 ReAct 迴圈實作成可驗證且有邊界的系統。",
       "hint": [
-        "推理需要的新事實，從哪裡來？",
-        "工具回傳的結果應該怎麼影響下一步？"
+        "先區分「分步推理」與「取得外部證據並執行行動」。",
+        "說明 Thought、Action、Observation 如何形成回饋迴圈。",
+        "用需要先查資料再計算的例子，凸顯步驟間的相依性。",
+        "補充成本、停止條件與工具結果不一定可信的限制。"
       ],
-      "principle": "ReAct 把推理、工具行動與觀察串成迴圈：決定下一步、執行工具、讀結果，再決定繼續或回答。CoT 本身只組織推理；ReAct 能補入外部證據並依結果調整。",
-      "tradeoff": "工具能補知識與計算能力，但增加延遲、費用和失敗點。錯誤觀察仍可能讓迴圈偏離目標，不能把工具使用等同於正確性。",
-      "implementation": "控制器負責工具 schema 驗證、執行與記錄結果；設定步數和時間預算。把工具回傳視為資料，使用明確成功、失敗與完成狀態，不必公開模型的私有推理。",
-      "production": "追蹤任務成功率、工具錯誤、迴圈次數與成本。對有副作用的工具限制權限，使用冪等鍵與必要的人工核准；保留操作和觀察的稽核紀錄。",
-      "supplementNote": "ReAct 與 CoT 的差異依原文整理；狀態設計、私有推理處理、權限及營運控管是 AI 補充建議。"
+      "principle": "ReAct 把推理與工具行動交錯執行，讓模型根據外部觀察調整下一步；相較於只有 chain-of-thought，它補上了取得新資訊、實際執行工作及依結果修正路徑的能力，而不只是把回答想得更長。\n\nChain-of-Thought（CoT，思維鏈）提示要求大型語言模型（LLM）在回答前拆解中間步驟。文章區分不提供範例的 zero-shot，以及提供已解題範例的 few-shot。中間步驟成為後續生成的上下文，能協助處理相依的子問題，但不會自行連上資料庫或驗證外界狀態。若起始事實錯誤，後續推導即使通順也可能錯誤；可讀的解釋不是正確性的證明。\n\nReAct 是 Reasoning + Acting，也是一種建立 agent 的模式，不是所有 agent 的同義詞。其經典循環為 Thought（判斷下一步）、Action（選擇工具與參數）、Observation（工具實際回傳的結果）。模型提出呼叫，控制器才負責執行；控制器再把結果加入歷史，交給模型決定繼續查詢或結束。文章列出的組成包括模型、系統提示、工具、記憶與迴圈控制器。此處記憶主要指任務歷史，不必理解成長期資料庫；工具輸出也不能由模型自行捏造。\n\n例如，假設任務是計算某倉庫目前庫存的百分之十五。這是示意情境，不是實測：庫存工具回傳可用數量為二百件，計算工具執行 200 × 0.15 = 30，因此答案為三十件，前提是回傳數量確實代表該倉庫當下的可用庫存。若先回傳「有多個同名倉庫」，模型應釐清識別碼，而非繼續算。差異正在於下一步由觀察決定；CoT 單獨使用時只能處理已給定或模型既有的資訊，不能完成這次外部查核。",
+      "tradeoff": "依文章的能力差異，選型上的工程建議是：資訊完整、無須外部操作的題目，可用直接回答或 CoT，避免為簡單問題增加工具相依。需要最新資料、外部計算或根據查詢結果決定後續工作的任務，才較適合 ReAct。不能只因問題有多個步驟，就認定一定需要 agent。\n\n另一種選擇是固定工作流程：若流程永遠是查庫存後計算比例，以一般程式串接通常更容易測試與限制權限。當查詢可能遇到歧義、缺漏或不同分支，而且下一步無法預先完全確定時，ReAct 的動態選擇才更有價值。這是工程比較，不是文章提供的效能排名。\n\n代價是多次模型與工具往返，增加延遲、生成文字成本及故障點；歷史持續增長也會占用上下文。工具可能降低憑空猜測，卻不能保證來源正確或模型解讀正確。互不相依的呼叫可平行執行，但上述計算依賴庫存結果，不能提前並行。應追求完成任務所需的最少有效行動，而不是最多推理文字。",
+      "implementation": "實作時先定義工具名稱、用途及輸入 schema，也就是可接受參數的結構與型別，再設定何時呼叫、何時回答、何時要求澄清。依文章建議，使用模型 API 的 tool/function calling，不要依賴解析自由文字中的 Action。原生格式較容易處理，但下列驗證仍是建議工程實務：執行端必須檢查型別、值域、工具白名單與使用者權限，不能把格式合法等同操作獲准。\n\n控制器初始化系統提示與問題，每輪送出歷史和工具定義。收到呼叫後，保存模型呼叫訊息及識別碼，驗證參數，執行工具，再把對應結果加入歷史。下一輪必須看到實際 Observation，才能使用該結果。收到最終答案就結束；若沒有有效呼叫也沒有答案，應視為協定異常。經典 Thought 格式是教學表達，不必要求產品公開完整內部推理；可保留簡短決策摘要與可查證的操作紀錄。\n\n驗證不能只看答案是否為三十。用固定回傳值的假工具，檢查計算參數是否來自庫存結果、識別碼是否配對，以及答案是否保留倉庫與時間等前提。另測試空結果、歧義、錯誤參數及工具失敗，確認不會編造成功。除文章提到的步數上限，建議再設總時間與費用預算；超限時回報已確認資訊與尚未完成部分。",
+      "production": "以下是延伸的上線建議，不是來源提供的生產實測。常見風險包括反覆查同一工具、過早回答，以及把錯誤訊息當資料。記錄工具名稱、經遮蔽的參數、結果狀態、耗時及停止原因，可以區分模型選錯工具、資料源故障或控制器接錯結果。偵測重複且無進展的操作，搭配硬性上限，避免只靠提示要求模型自行停止。\n\n對逾時或暫時性錯誤採有限重試；沒有證據時，答案應明確標示缺漏，不可讓流暢敘述掩蓋失敗。若工具會寄信或修改庫存，重試可能造成重複副作用，因此需權限控管、重要操作確認與冪等設計，也就是同一操作重送不會重複生效。查詢所得文字一律是未受信任資料，不能當成新指令，尤其不可因此擴張權限或洩漏敏感資訊。\n\n上線前後持續檢查任務成功率、證據與答案一致性、呼叫次數、延遲、費用及各種退出原因，並與較簡單的 CoT 或固定流程比較；來源沒有提供可直接引用的改善幅度。稽核紀錄應保留必要來源資訊，同時遮蔽敏感資料。面試收尾可說：CoT 改善已知資訊上的推導；ReAct 增加行動與觀察形成回饋，但可靠性仍取決於工具品質、執行驗證與明確停止邊界。",
+      "supplementNote": "來源支持 CoT 的分步提示、zero-shot／few-shot 區分，以及 ReAct 的組成、工具回饋迴圈、原生工具呼叫與步數限制。固定流程比較、權限與參數驗證、測試、監控、冪等及未受信任輸入防護是補充工程建議；庫存數字為原創示例，不是文章案例或觀測基準。"
     },
     "en": {
-      "title": "What does ReAct add beyond reasoning alone?",
-      "intent": "Distinguish internal reasoning from an action loop that receives external feedback.",
+      "title": "Explain the ReAct pattern and what it solves over chain-of-thought alone.",
+      "intent": "Assess whether you distinguish reasoning from external action, understand how observations influence subsequent decisions, and can implement a bounded, verifiable ReAct loop.",
       "hint": [
-        "Where do new facts needed by the reasoning come from?",
-        "How should a tool result change the next step?"
+        "Separate stepwise reasoning from acquiring evidence and executing actions.",
+        "Explain the feedback loop between Thought, Action, and Observation.",
+        "Use a lookup-then-calculation example to expose dependencies.",
+        "Discuss cost, termination, and the limits of trusting tool results."
       ],
-      "principle": "ReAct interleaves reasoning, tool actions and observations: decide, execute, inspect, then continue or answer. CoT alone organizes reasoning; ReAct can obtain external evidence and adapt to results.",
-      "tradeoff": "Tools add knowledge and computation, but also latency, cost and failure points. Incorrect observations can still derail the loop; tool use does not guarantee correctness.",
-      "implementation": "Let a controller validate tool schemas, execute calls and append results. Enforce step and time budgets. Treat tool output as data and represent success, failure and completion explicitly; exposing private model reasoning is unnecessary.",
-      "production": "Track task success, tool errors, loop length and cost. Restrict permissions for side effects, use idempotency keys and require human approval where appropriate. Audit actions and observations.",
-      "supplementNote": "The ReAct/CoT distinction summarizes the articles. State design, private-reasoning handling, permissions and operational controls are AI supplements."
+      "principle": "ReAct interleaves reasoning with tool actions, allowing a model to adapt its next step to external observations. Compared with chain-of-thought alone, it adds access to new information, actual task execution, and feedback-driven adjustment—not simply a longer explanation.\n\nChain-of-Thought (CoT) prompting asks a large language model (LLM) to break a problem into intermediate steps before answering. The article distinguishes zero-shot prompting, without examples, from few-shot prompting, with worked examples. Intermediate steps become context for subsequent generation, helping connect dependent subproblems. However, they do not independently access a database or verify external state. A coherent derivation can still begin with an incorrect fact; readable reasoning is not proof of correctness.\n\nReAct means Reasoning + Acting. It is an agent-building pattern, not a synonym for every agent. Its classic cycle is Thought, deciding what comes next; Action, selecting a tool and arguments; and Observation, receiving the tool's actual result. The model proposes a call, while a controller executes it and appends the result to history. The model then decides whether another action or a final answer is appropriate. The article identifies five components: model, system prompt, tools, memory, and loop controller. Memory here primarily means task history, not necessarily a persistent database. A model-generated guess cannot substitute for a tool observation.\n\nFor an original illustrative example, suppose the task is to calculate fifteen percent of a warehouse's current available stock. A stock tool returns 200 items; a calculator evaluates 200 × 0.15 = 30. The answer is 30 items, assuming the lookup actually describes that warehouse's current available stock. If the lookup instead reports several matching warehouses, the next action should resolve the identifier, not calculate. These are example values, not measurements. The important difference is that observations determine subsequent actions; CoT alone can manipulate supplied or previously learned information but cannot perform that external check.",
+      "tradeoff": "Engineering guidance derived from this distinction is to prefer a direct answer or CoT when the necessary information is already available and no external operation is required. ReAct is more appropriate for fresh data, external computation, or tasks whose next step depends on a lookup. Having several reasoning steps does not automatically justify an agent.\n\nA fixed workflow is another realistic option. If every task always looks up stock and calculates a percentage, ordinary application code is usually easier to test and constrain. ReAct adds value when ambiguity, missing data, or branching makes the next operation difficult to predetermine. This is an engineering comparison, not a performance ranking reported by the articles.\n\nThe costs include repeated model and tool round trips, greater latency, generated-text cost, more failure points, and growing context history. Tools can reduce unsupported guessing without guaranteeing accurate sources or interpretation. Independent calls may run concurrently, but the stock-dependent calculation cannot. Optimize for the fewest useful actions needed to complete the task, not the longest reasoning transcript.",
+      "implementation": "Define each tool's name, purpose, and input schema—the permitted argument structure and types—and specify when to act, answer, or request clarification. Following the ReAct article, use the model API's native tool/function calling rather than parsing free-text Action strings. As additional engineering practice, validate types, ranges, allowed tools, and user authorization in the executor. Structurally valid arguments do not establish permission.\n\nInitialize history with the system instructions and question, then send history and tool definitions each turn. Preserve the model's tool-call message and call identifier, validate arguments, execute the tool, and append the matching result. Only then should the next turn use that observation. Stop on a final answer; treat a response containing neither a valid call nor an answer as a protocol error. The classic Thought notation is explanatory: a product need not expose full internal reasoning. Brief decision summaries and verifiable action records are sufficient operational artifacts.\n\nTest more than the final number. Stub tools with fixed results and verify that calculator arguments derive from the lookup, call identifiers match, and the answer preserves warehouse and time assumptions. Include empty results, ambiguity, invalid arguments, and tool failures; ensure failures are not reported as success. Beyond the article's step limit, recommended safeguards include elapsed-time and spending budgets. On exhaustion, report confirmed information and unresolved work.",
+      "production": "The following are deployment recommendations, not production measurements supplied by the sources. Watch for repeated calls without progress, premature answers, and errors misread as data. Record tool names, redacted arguments, result status, duration, and termination reasons. These help separate poor tool selection, upstream failure, and incorrectly connected results. Detect repeated unproductive operations and enforce hard limits rather than relying solely on prompting the model to stop.\n\nUse bounded retries for transient failures and timeouts. When evidence is missing, state that limitation instead of disguising it with fluent prose. For tools that send messages or modify stock, retries can duplicate side effects: use authorization, confirmation for consequential operations, and idempotency, meaning repeated execution of the same operation does not duplicate its effect. Treat retrieved text as untrusted data, never as authority to expand permissions or disclose sensitive information.\n\nBefore and after deployment, assess task success, answer-evidence consistency, call counts, latency, cost, and exit reasons against simpler CoT or fixed-workflow baselines. The sources provide no improvement figures to quote. Retain necessary provenance in audit records while protecting sensitive data. Interview recap: CoT improves derivation over available information; ReAct adds an action-observation feedback loop, whose reliability still depends on tool quality, execution checks, and explicit stopping boundaries.",
+      "supplementNote": "The sources support stepwise CoT prompting, zero-shot versus few-shot, and ReAct's components, tool-feedback loop, native tool calling, and step limits. Fixed-workflow comparisons, authorization and argument checks, testing, monitoring, idempotency, and untrusted-input defenses are additional engineering recommendations. The stock numbers are an original illustration, not a source example or measured benchmark."
     },
     "ja": {
-      "title": "ReAct は推論だけの場合に何を加える？",
-      "intent": "モデル内の推論と、外部から結果を受け取る行動ループを区別する。",
+      "title": "ReAct パターンと、chain-of-thought 単独に比べて何を解決するのかを説明してください。",
+      "intent": "推論と外部への行動を区別し、観測結果が次の判断を変える仕組みと、検証可能で制限のある ReAct ループの実装を理解しているかを評価する。",
       "hint": [
-        "推論に必要な新しい事実はどこから得るのか。",
-        "ツールの結果は次の行動にどう反映されるべきか。"
+        "段階的な推論と、外部証拠の取得・操作の実行を分ける。",
+        "Thought、Action、Observation のフィードバックを説明する。",
+        "検索後に計算する例で、処理の依存関係を示す。",
+        "コスト、終了条件、ツール結果の信頼性の限界も述べる。"
       ],
-      "principle": "ReAct は推論、ツールによる行動、観察を交互に行う。次の行動を決め、実行結果を読み、続行か回答かを判断する。CoT 単体は推論を組み立てるが、ReAct は外部の根拠を取得して方針を変えられる。",
-      "tradeoff": "知識と計算能力を補える一方、遅延、費用、失敗箇所が増える。誤った観察で目標から逸れることもあり、ツール利用だけで正しさは保証されない。",
-      "implementation": "制御コードでツールの schema を検証し、呼び出して結果を記録する。回数と時間を制限し、成功・失敗・完了を明示する。ツール出力はデータとして扱い、モデルの非公開の推論を開示する必要はない。",
-      "production": "タスク成功率、ツールエラー、ループ回数、費用を追う。副作用のあるツールは権限を制限し、冪等キーや必要な人の承認を使う。行動と観察の監査記録を残す。",
-      "supplementNote": "ReAct と CoT の違いは原文の要約です。状態設計、非公開の推論の扱い、権限、運用上の制御は AI による補足です。"
+      "principle": "ReAct は推論とツールによる行動を交互に進め、外部の観測結果に応じて次の手順を変えるパターンです。chain-of-thought 単独に対し、新しい情報の取得、実際の操作、結果に基づく方針修正を加えます。単に説明を長くする手法ではありません。\n\nChain-of-Thought（CoT、思考の連鎖）プロンプティングは、大規模言語モデル（LLM）に問題を中間手順へ分解させる方法です。記事は、例を与えない zero-shot と、解答例を示す few-shot を区別しています。中間手順が後続の生成の文脈となり、依存する小問題をつなぐ助けになります。しかし、それ自体がデータベースへ接続したり、外界の状態を確認したりするわけではありません。出発点の事実が誤っていれば、筋の通った説明でも結論を誤ります。\n\nReAct は Reasoning + Acting を意味し、agent を構築する一つの方式です。すべての agent と同義ではありません。典型的な循環は、次を判断する Thought、ツールと引数を選ぶ Action、実際の結果を受け取る Observation です。モデルが呼び出しを提案し、コントローラーが実行して結果を履歴へ追加します。その後、モデルが継続か最終回答かを判断します。記事の構成要素は、モデル、システムプロンプト、ツール、メモリ、ループ制御です。ここでのメモリは主に処理履歴であり、長期保存用データベースとは限りません。\n\n独自の例として、ある倉庫の現在の利用可能在庫の十五パーセントを求めます。在庫ツールが二百個を返し、計算ツールが 200 × 0.15 = 30 を求めれば、答えは三十個です。数値は仮定であり実測ではなく、対象倉庫の現在の利用可能数を取得できたことが前提です。同名倉庫が複数あるという結果なら、計算より先に識別子を確認します。観測が次の行動を決める点が重要です。CoT 単独では、与えられた情報や既存知識を処理できても、この外部確認を実行できません。",
+      "tradeoff": "能力の違いから導く設計上の推奨は、必要な情報がそろい外部操作も不要なら、直接回答や CoT を選ぶことです。最新情報、外部計算、検索結果によって次の処理が変わる仕事には ReAct が適しています。推論が複数段階というだけで agent を導入する必要はありません。\n\n固定ワークフローも比較対象です。必ず在庫を取得して割合を計算するだけなら、通常のコードで接続する方がテストや権限制限を容易にできます。曖昧さ、欠損、分岐によって次の操作を事前に決めきれない場合に、ReAct の動的選択が役立ちます。これは設計上の比較であり、記事が示す性能順位ではありません。\n\n代償はモデルとツールの往復による遅延、生成量の費用、障害箇所の増加です。履歴の増大はコンテキストも消費します。ツールは根拠のない推測を減らせても、情報源や解釈の正しさまでは保証しません。独立した呼び出しは並列化できますが、在庫結果に依存する計算は先行できません。目標は長い推論記録ではなく、完了に必要な最小限の有効な操作です。",
+      "implementation": "まずツール名、用途、入力 schema、つまり引数の構造と型を定義し、呼び出し・回答・確認質問の条件を決めます。記事に従い、自由文の Action を解析するより、API の tool/function calling を使います。ただし、以下は追加の実装推奨です。実行側で型、値域、許可ツール、利用者権限を検査してください。形式が正しくても操作の許可を意味しません。\n\nシステム指示と質問で履歴を初期化し、各周回で履歴とツール定義をモデルへ渡します。呼び出しメッセージと識別子を保存し、引数検証、実行、対応する結果の追記を行います。次の周回では実際の Observation を使います。最終回答なら終了し、有効な呼び出しも回答もなければプロトコル異常として扱います。古典的な Thought 表記は説明用であり、製品で内部推論の全文を公開する必要はありません。短い判断要約と検証可能な操作記録を残せます。\n\nテストでは答えが三十かだけを見ません。固定値を返す模擬ツールで、計算引数が在庫結果に由来するか、識別子が対応するか、倉庫や時点の前提が回答に残るかを確認します。空結果、曖昧さ、不正引数、実行失敗も試し、成功を捏造しないことを検証します。記事のステップ上限に加え、総時間と費用の予算も推奨します。超過時は確認済み情報と未完了部分を伝えます。",
+      "production": "以下は運用上の追加提案であり、出典の本番測定ではありません。同じ呼び出しの反復、早すぎる回答、エラーをデータと誤認する問題を監視します。ツール名、機密部分を隠した引数、結果状態、所要時間、終了理由を記録すると、選択ミス、情報源の障害、結果の接続ミスを切り分けられます。進展のない反復を検出し、停止を促す指示だけでなく強制上限を設けます。\n\n一時的な障害やタイムアウトには回数を限定した再試行を使い、証拠がなければ不足を明示します。メール送信や在庫更新では再試行が副作用を重複させるため、権限制御、重要操作の確認、冪等性が必要です。冪等性とは同じ操作を再送しても効果が重複しない性質です。取得した文章は未信頼のデータであり、権限拡張や機密開示を命じる指示として扱ってはいけません。\n\n導入前後には、タスク成功、証拠と回答の整合性、呼び出し数、遅延、費用、終了理由を調べ、単純な CoT や固定処理と比較します。出典に引用可能な改善率はありません。監査記録は必要な出所情報を残しつつ機密を保護します。面接でのまとめは、CoT が既知情報からの推論を助けるのに対し、ReAct は行動と観測の循環を加えること、ただし信頼性にはツール品質、実行検証、明確な停止境界が必要、という点です。",
+      "supplementNote": "出典に基づく内容は、CoT の段階的推論、zero-shot／few-shot の区別、ReAct の構成、ツール結果のフィードバック、ネイティブなツール呼び出し、ステップ上限です。固定処理との比較、権限・引数検証、テスト、監視、冪等性、未信頼入力への対策は追加の設計提案です。在庫数は独自の説明例であり、出典の事例や実測ベンチマークではありません。"
     }
   }
 }

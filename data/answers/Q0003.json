@@ -1,54 +1,60 @@
 {
   "questionId": "Q0003",
-  "inputHash": "86ccd4e863e5e7d7b90c9533daf1d182240677b4d601fcfe6404342cb06502b1",
+  "inputHash": "73cd2272035d35ab2eec51bf5a596263e1182165efc05d2ca1658fbb45a0e16a",
   "status": "ready",
-  "generatedAt": "2026-09-21T02:19:54.471639+00:00",
-  "model": "codex-source-reviewed",
-  "promptVersion": "seed-v1",
+  "generatedAt": "2026-09-21T03:37:15.275Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-longform-v2",
   "sourceUrls": [
-    "https://outcomeschool.com/blog/grouped-query-attention",
     "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L123-L125",
-    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/grouped-query-attention"
   ],
   "locales": {
     "zh-TW": {
-      "title": "MQA、GQA 省下什麼，又犧牲什麼？",
-      "intent": "區分 query heads 與 KV heads，說清楚架構和服務成本的關係。",
+      "title": "什麼是 Multi-Query Attention（MQA）與 Grouped-Query Attention（GQA）？它們犧牲了什麼？",
+      "intent": "評估你是否理解注意力頭的共享方式、KV Cache 的記憶體成本，以及如何在表示能力、模型品質與實際推論效能之間做出可驗證的取捨。",
       "hint": [
-        "多個 query 可以共用同一組什麼資料？",
-        "把 MHA 和 MQA 想成群組數的兩個端點。"
+        "先說清楚：共享的是 K、V，不是 Q。",
+        "用查詢頭數 H 與 KV 頭數 G 比較三種架構。",
+        "區分 KV Cache 縮減比例與實際加速比例。",
+        "說明品質驗證，以及為何不能只修改模型設定。"
       ],
-      "principle": "MQA 讓所有 query heads 共用一組 K/V；GQA 則每組 query heads 共用一組 K/V。query 仍各自獨立。固定其他條件，KV 容量相對 MHA 變為 Hkv/Hq。",
-      "tradeoff": "K/V 表示的自由度變少，能降低快取與讀取流量，但品質可能下降。GQA 在容量與品質間提供中間選項；品質接近 MHA 必須靠評估確認。",
-      "implementation": "從模型設定讀取 Hq 和 Hkv，保留實際 KV head 數來配置快取。驗證 head 分組與張量形狀，避免把共享 K/V 實體複製成 Hq 份而失去節省效果。",
-      "production": "在目標上下文長度和並行量下量測品質、每 token 延遲與吞吐量。這是模型架構選擇，不能把任意 MHA checkpoint 切個開關就視為等價 GQA。",
-      "supplementNote": "原理與取捨依原文整理；設定檢查、快取配置與上線評估方法是 AI 補充建議。"
+      "principle": "MQA 讓所有查詢頭共用一組 Key、Value；GQA 則將查詢頭分組，每組共用一組 Key、Value。兩者保留各頭獨立的 Query，以較少的 KV Cache 與資料讀取需求，交換較少的獨立 K、V 表示能力；GQA 是可調整共享程度的折衷，而非保證無損的壓縮。\n\n先理解多頭注意力 MHA：Query（Q）表示目前位置要尋找什麼，Key（K）用來計算與各位置的匹配程度，Value（V）提供加權彙整的內容。每個頭有自己的 Q、K、V 投影。自回歸生成每次產生一個 token，即文字切分單位；過去位置的 K、V 存入 KV Cache，避免下一步重新計算。歷史 Q 不需要存入這個快取，因此減少 K、V 頭數才直接縮小它。\n\n設查詢頭數為 H，KV 頭數為 G，假設等大小分組且 H 可被 G 整除，每組有 H/G 個查詢頭。先計算 H 組 Q 與 G 組 K、V，再將新 K、V 加入各組快取。第 i 頭使用所屬組 g(i)，計算 softmax(Q_i K_g(i)^T / √d)V_g(i)，其中 d 是每頭維度，softmax 將分數轉為權重，並套用因果遮罩以排除未來位置。最後串接各頭輸出並投影。Q 仍不同，所以共用 K、V 不代表注意力權重也相同。\n\nG=H 就是 MHA，G=1 就是 MQA，中間則是通常所說的 GQA。假設各層規格一致、K 與 V 維度相同，快取資料量為 2LBTGds bytes：L 是層數、B 是批次大小、T 是快取長度、s 是每元素位元組數，2 代表 K 與 V，不含配置與中繼資料開銷。示意例中 H=12、G=3，每四個查詢頭共享一組 KV，快取是 MHA 的四分之一；MQA 則是十二分之一。這是相同條件下的容量比例，不是實測加速倍數。",
+      "tradeoff": "犧牲的是各頭獨立選擇 K、V 特徵空間的自由度，而不是查詢頭數或可見的歷史 token 數。不同 Q 仍可從同一組 K、V 找出不同資訊，但共享投影限制了可學習的表示。文章指出 MQA 可能降低品質，也提到訓練不穩定的風險；這些是風險，不能說每個 MQA 模型必然較差。\n\n在其他條件相近時，MHA 適合記憶體足夠、且驗證顯示保留獨立 KV 確有品質價值的情境。MQA 適合快取容量非常吃緊、且任務評估可接受品質變化的情境。GQA 則適合長對話或高併發服務：以多組 KV 保留部分表示彈性，又降低快取成本。選 G 應根據品質門檻與部署預算，而不是固定認定某個組數最佳。\n\n較小快取在逐 token 解碼受記憶體頻寬限制時特別有價值，也可能容納更多請求。然而，各查詢頭仍要計算注意力分數與輸出，模型權重和其他運算也仍存在。提示詞預填與逐步解碼的瓶頸不同，因此四倍快取縮減不能推論為四倍總速度。文章對 GQA 接近 MHA 品質的描述，應視為設計目標與一般觀察，不能直接當成特定任務的保證。",
+      "implementation": "以下是依文章機制延伸的實作建議。先檢查 checkpoint 的 num_attention_heads、num_key_value_heads 與每頭維度，確認 H/G 為整數且推論框架支援此配置。概念上的 Q 張量形狀為 [B,T,H,d]，K、V 則為 [B,T,G,d]；快取必須保存 G 個 KV 頭，而不是為方便計算永久複製成 H 個。\n\n使用支援共享 KV 的注意力核心，讓查詢頭映射到正確群組；邏輯廣播不應變成完整實體複製。同步確認位置編碼、因果遮罩與快取追加位置一致。若將既有 MHA 轉為 GQA，文章介紹的方法是將每組內的 K 投影權重取平均，V 也如此，再繼續訓練調整；這是初始化與再訓練流程，不是改一個設定就能保留原模型行為。\n\n驗證時，先用小型張量比較分組核心與明確展開 KV 的參考計算，在數值容許誤差內確認一致。再比較完整序列前向與使用快取逐步解碼的輸出，檢查是否漏 token 或錯配群組。最後以相同資料與解碼條件評估任務品質、長上下文表現及記憶體占用；權重平均本身不能證明品質已恢復。",
+      "production": "以下為部署工程建議，來源並未提供服務環境的效能量測。分開量測提示詞預填、第一個 token 延遲、後續 token 延遲與吞吐量，並記錄輸入長度、輸出長度、批次與精度。以實際快取配置量核對公式估算，也要另外計入模型權重、暫存張量與記憶體配置開銷，避免把快取節省當成整張 GPU 的同等節省。\n\n若快取變小卻沒有加速，檢查核心是否將 KV 展開成實體副本、是否回退到較慢實作，以及瓶頸是否其實在其他運算。若長序列輸出異常，優先排查群組映射、位置索引、遮罩及快取更新。上下文與併發持續增加仍可能耗盡記憶體；MQA、GQA 只降低每個 token 的快取成本，不會讓長度增長的成本消失。\n\n上線前設定品質回歸門檻，以短文、長文及重要業務任務比較候選配置，並保留可回退的 checkpoint 與服務設定。若品質未達標，可增加 G 或重新調整訓練，而非只看吞吐量決策。面試總結：MQA 全部共享 KV，GQA 分組共享 KV；用獨立 KV 表示能力換快取與潛在解碼效益，最終由品質評估和目標硬體量測決定共享程度。",
+      "supplementNote": "來源支持 MHA／MQA／GQA 的共享機制、KV Cache 縮減、品質取捨、設定名稱與權重平均後再訓練的轉換方法。注意力與容量公式是依機制補充的標準推導；張量驗證、核心檢查、部署量測與回退策略是工程建議，不是作者提供的生產實測。H=12、G=3 是原創示意假設，非觀測基準。"
     },
     "en": {
-      "title": "What do MQA and GQA save—and trade away?",
-      "intent": "Distinguish query heads from KV heads and connect architecture to serving cost.",
+      "title": "What are Multi-Query Attention (MQA) and Grouped-Query Attention (GQA), and what do they trade away?",
+      "intent": "Assess understanding of attention-head sharing, KV Cache memory costs, and how to verify the tradeoff between representational freedom, model quality, and inference performance.",
       "hint": [
-        "What can several queries share?",
-        "Treat MHA and MQA as endpoints of the group count."
+        "Clarify that K and V are shared, not Q.",
+        "Compare the architectures using query-head count H and KV-head count G.",
+        "Separate cache reduction from actual speedup.",
+        "Explain quality validation and why changing configuration alone is insufficient."
       ],
-      "principle": "MQA shares one K/V head across all query heads. GQA shares one K/V head within each query group. Queries stay separate. With other dimensions fixed, cache capacity relative to MHA becomes Hkv/Hq.",
-      "tradeoff": "Sharing reduces K/V representation freedom, cache size and memory traffic, but may reduce quality. GQA offers an intermediate choice; near-MHA quality requires measurement.",
-      "implementation": "Read Hq and Hkv from model configuration. Allocate only actual KV heads; validate grouping and tensor shapes. Avoid physically expanding cached K/V to Hq copies.",
-      "production": "Measure quality, per-token latency and throughput at target context lengths and concurrency. This is an architectural choice: switching an arbitrary MHA checkpoint to GQA is not an equivalent runtime toggle.",
-      "supplementNote": "Principles and tradeoffs summarize the article. Configuration checks, cache layout and deployment evaluation are AI supplements."
+      "principle": "MQA shares one Key and Value set across all query heads; GQA shares one set within each group of query heads. Both retain independent Queries, trading independent K/V representations for a smaller KV Cache and potentially less memory traffic. GQA makes that compromise adjustable; it is not guaranteed lossless compression.\n\nIn Multi-Head Attention (MHA), a Query (Q) represents what a position seeks, a Key (K) determines matching scores, and a Value (V) supplies the content being combined. Each head has independent Q, K, and V projections. Autoregressive generation produces one token, a unit of text, at a time. Previously computed K and V are stored in the KV Cache to avoid recomputation. Historical Queries are not stored in this cache, so reducing KV heads directly reduces its size.\n\nLet H be the query-head count and G the KV-head count. Assuming equal groups and H divisible by G, each group contains H/G query heads. Compute H Queries and G Key/Value sets, append new K/V entries to the cache, and map each query head i to group g(i). Its attention output is softmax(Q_i K_g(i)^T / √d)V_g(i), where d is head dimension and softmax converts scores into weights. A causal mask excludes future positions. Concatenate the head outputs and apply the output projection. Distinct Queries can still produce different attention weights despite shared K/V.\n\nG=H gives MHA, G=1 gives MQA, and intermediate values give ordinary GQA. With uniform layers and equal K/V dimensions, cache payload is 2LBTGds bytes: L layers, batch size B, cached length T, head dimension d, and s bytes per element. The factor two accounts for K and V; allocation overhead is excluded. As an illustrative assumption, H=12 and G=3 means four query heads per group and one-quarter of MHA's cache. MQA needs one-twelfth. These are capacity ratios under identical conditions, not measured speedups.",
+      "tradeoff": "The sacrifice is each head's freedom to learn independent K/V feature spaces, not the number of query heads or accessible historical tokens. Different Queries can extract different information from shared K/V, but shared projections constrain representation. The article identifies possible MQA quality degradation and training instability; these are risks, not proof that every MQA model is worse.\n\nWith other conditions comparable, MHA is appropriate when memory is available and evaluation shows value from independent KV heads. MQA suits severe cache constraints when task quality remains acceptable. GQA is useful for long conversations or concurrent serving, retaining several KV representations while lowering cache costs. Choose G from quality requirements and deployment budgets rather than assuming a universally optimal group count.\n\nSmaller caches are especially helpful when token-by-token decoding is memory-bandwidth-bound, and may permit more concurrent requests. However, every query head still computes attention scores and outputs; model weights and other operations remain. Prompt prefill and incremental decoding have different bottlenecks. A fourfold cache reduction therefore does not imply fourfold overall speed. Treat the article's near-MHA quality characterization as a design goal and general observation, not a task-specific guarantee.",
+      "implementation": "The following is recommended engineering practice extending the article's mechanism. Inspect the checkpoint's num_attention_heads, num_key_value_heads, and head dimension. Verify that H/G is integral and the inference framework supports the configuration. Conceptually, Q has shape [B,T,H,d], while K and V have shape [B,T,G,d]. Persist G KV heads in the cache, rather than permanently duplicating them into H heads for convenience.\n\nUse an attention kernel that supports shared KV and maps query heads correctly; logical broadcasting should not become full physical replication. Check positional encoding, causal masking, and cache append positions together. For MHA conversion, the article describes averaging K projection weights within each group, doing the same for V, and continuing training. This is initialization followed by adaptation, not a configuration-only change that preserves the original model's behavior.\n\nVerify a small grouped-kernel computation against a reference that explicitly expands KV, allowing numerical tolerance. Then compare full-sequence forward results with cached incremental decoding to detect missing tokens or incorrect grouping. Finally, evaluate task quality, long-context behavior, and memory use with identical data and decoding settings. Weight averaging alone does not demonstrate recovered quality.",
+      "production": "These are operational recommendations; the source supplies no production performance measurements. Measure prompt prefill, time to first token, subsequent token latency, and throughput separately, recording input/output lengths, batch size, and precision. Compare allocated cache payload against the formula, while separately accounting for weights, temporary tensors, and allocator overhead. Cache savings are not equivalent to the same percentage reduction in total GPU memory.\n\nIf a smaller cache does not improve speed, investigate physical KV expansion, slower kernel fallbacks, or bottlenecks elsewhere. If long sequences produce incorrect results, inspect group mapping, position indices, masks, and cache updates. Growing context or concurrency can still exhaust memory: MQA and GQA reduce cache cost per token, but do not eliminate growth with sequence length.\n\nBefore deployment, set quality regression thresholds across short inputs, long inputs, and important business tasks, retaining a rollback checkpoint and serving configuration. If quality fails, increase G or revisit training rather than selecting solely on throughput. Interview recap: MQA shares KV globally; GQA shares KV within groups. Both exchange independent KV representations for cache savings and potential decoding benefits, with the final sharing level determined by quality evaluation and target-hardware measurements.",
+      "supplementNote": "The source supports the sharing mechanisms, cache reduction, quality tradeoffs, configuration names, and conversion through weight averaging followed by further training. Attention and cache formulas are standard derivations added to explain the mechanism. Tensor tests, kernel checks, operational measurements, and rollback procedures are engineering recommendations, not the author's production findings. H=12 and G=3 are original illustrative assumptions, not observed benchmarks."
     },
     "ja": {
-      "title": "MQA と GQA は何を節約し、何を失う？",
-      "intent": "query head と KV head を区別し、構造と推論コストの関係を説明する。",
+      "title": "Multi-Query Attention（MQA）と Grouped-Query Attention（GQA）とは何ですか。また、何を犠牲にしますか？",
+      "intent": "注意ヘッドの共有方式、KV Cache のメモリコスト、表現の自由度・モデル品質・実際の推論性能のトレードオフを、検証可能な形で説明できるかを評価します。",
       "hint": [
-        "複数の query が共有できる情報は何だろうか。",
-        "MHA と MQA をグループ数の両端として考える。"
+        "共有するのは Q ではなく K と V。",
+        "クエリヘッド数 H と KV ヘッド数 G で比較する。",
+        "キャッシュ削減率と実際の高速化率を区別する。",
+        "品質検証と、設定変更だけでは変換できない理由を述べる。"
       ],
-      "principle": "MQA は全 query head で一組の K/V を共有する。GQA は query のグループごとに一組を共有し、query は独立のまま。他の次元が同じなら、KV 容量は MHA の Hkv/Hq になる。",
-      "tradeoff": "K/V の表現の自由度を減らし、容量とメモリアクセスを節約するが、品質が下がる可能性がある。GQA は中間の選択肢であり、MHA に近い品質かは評価が必要。",
-      "implementation": "モデル設定から Hq と Hkv を読み、実際の KV head 数でキャッシュを確保する。グループ対応と形状を検証し、K/V を Hq 個に実体コピーしない。",
-      "production": "想定する文脈長と同時実行数で品質、token ごとの遅延、スループットを測る。モデル構造の変更なので、任意の MHA checkpoint を単なる設定変更で同等の GQA にできるわけではない。",
-      "supplementNote": "原理と取捨選択は原文の要約です。設定確認、キャッシュ配置、運用前の評価方法は AI による補足です。"
+      "principle": "MQA は全クエリヘッドで一組の Key と Value を共有し、GQA はヘッドをグループ化して各組で共有します。どちらも独立した Query を維持し、K、V の独立した表現能力を制限する代わりに、KV Cache とメモリ読み出し量を減らします。GQA は共有の程度を調整する方式であり、無損失の圧縮を保証するものではありません。\n\n多頭注意 MHA では、Query（Q）が探す情報を表し、Key（K）が各位置との一致度を決め、Value（V）が重み付きで集約する内容を提供します。各ヘッドに独立した Q、K、V の射影があります。自己回帰生成はテキストの分割単位である token を一つずつ生成します。過去の K、V を KV Cache に保存して再計算を避けますが、過去の Q はこのキャッシュに保存しません。そのため KV ヘッドの削減が容量削減に直結します。\n\nクエリヘッド数を H、KV ヘッド数を G とします。等分できると仮定すると一組は H/G ヘッドです。H 個の Q と G 組の K、V を計算し、新しい K、V をキャッシュへ追加します。ヘッド i は所属グループ g(i) を使い、softmax(Q_i K_g(i)^T / √d)V_g(i) を計算します。d はヘッド次元で、softmax はスコアを重みに変換し、因果マスクで未来の位置を除外します。各出力を連結して最終射影します。Q が異なるため、KV の共有は注意の重みまで同じになることを意味しません。\n\nG=H が MHA、G=1 が MQA、その中間が通常の GQA です。各層が同じ構成で K、V の次元が等しい場合、キャッシュ本体は 2LBTGds bytes です。L は層数、B はバッチ数、T は保存長、s は要素当たりのバイト数で、2 は K と V を表します。管理領域は含みません。説明用に H=12、G=3 とすると、四つの Q ヘッドで一組の KV を共有し、容量は MHA の四分の一、MQA なら十二分の一です。これは同一条件での容量比であり、実測の高速化率ではありません。",
+      "tradeoff": "失うのは各ヘッドが独立した K、V の特徴空間を学ぶ自由度であり、Q ヘッド数や参照できる過去 token 数ではありません。異なる Q は共有 KV から異なる情報を取り出せますが、射影の共有は表現を制約します。記事は MQA の品質低下や学習不安定化の可能性を挙げています。ただし、すべての MQA モデルが必ず劣るという意味ではありません。\n\n他の条件が近い場合、MHA はメモリに余裕があり、独立した KV の品質上の価値を検証できる場合に適します。MQA は容量制約が厳しく、タスク品質の変化を許容できる場合の候補です。GQA は長い会話や多数の同時リクエストに対し、複数の KV 表現を残しつつ容量を抑えます。G は品質要件と配備予算から選び、万能な組数を前提にしません。\n\n逐次デコードがメモリ帯域で制約される場合、キャッシュ削減は特に有効で、同時処理数も増やせる可能性があります。一方、各 Q ヘッドのスコアと出力の計算、モデル重み、他の演算は残ります。入力を処理するプリフィルと逐次デコードではボトルネックも異なります。容量が四分の一でも全体が四倍速とは限らず、記事の「MHA に近い品質」も個別タスクへの保証ではありません。",
+      "implementation": "ここからは記事の仕組みを踏まえた実装上の推奨です。checkpoint の num_attention_heads、num_key_value_heads、ヘッド次元を確認し、H/G が整数で実行基盤も対応していることを確かめます。概念上、Q は [B,T,H,d]、K、V は [B,T,G,d] です。キャッシュには G ヘッドを保存し、計算の都合で H ヘッドへ恒久的に複製しないようにします。\n\n共有 KV に対応した注意カーネルで正しくグループへ対応付け、論理的なブロードキャストを完全な実体コピーにしないことが重要です。位置符号化、因果マスク、追加位置も整合させます。MHA からの変換について記事は、組内の K 射影重みと V 射影重みをそれぞれ平均し、追加学習する方法を紹介しています。これは初期化と再適応であり、設定だけを変えて元の動作を維持する方法ではありません。\n\n小さなテンソルで、分組カーネルと KV を明示的に展開する参照計算を数値許容誤差内で比較します。次に全系列の一括計算とキャッシュ付き逐次計算を比べ、token の欠落や組の誤対応を検出します。最後に同じデータと生成条件でタスク品質、長文性能、メモリ使用量を評価します。重みを平均しただけでは品質回復の証明にはなりません。",
+      "production": "以下は運用上の推奨で、記事は本番環境の性能測定を提示していません。プリフィル、最初の token までの遅延、後続 token の遅延、スループットを分けて測り、入出力長、バッチ数、精度も記録します。実際のキャッシュ容量を式と照合し、重み、一時テンソル、メモリ管理の追加領域は別に集計します。キャッシュの削減率を GPU 全体の削減率と混同しないことが重要です。\n\n容量が減っても速くならなければ、KV の実体展開、遅いカーネルへの切り替え、他の演算のボトルネックを調べます。長文で出力がおかしい場合は、グループ対応、位置番号、マスク、キャッシュ更新を優先確認します。文脈長や同時実行数が増えればメモリ不足は起こり得ます。両方式が減らすのは token 当たりの保存コストであり、系列長に伴う増加自体ではありません。\n\n公開前に短文、長文、重要業務タスクの品質劣化の許容基準を定め、戻せる checkpoint と配信設定を保持します。品質が不足すれば G を増やすか学習を見直し、処理量だけで決めません。面接での要約は、MQA は全体で、GQA は組内で KV を共有し、独立した KV 表現をキャッシュ削減と潜在的なデコード効率に交換する方式です。最終的な共有度は品質評価と対象ハードウェアでの測定で決めます。",
+      "supplementNote": "共有機構、キャッシュ削減、品質のトレードオフ、設定名、重み平均と追加学習による変換は出典に基づきます。注意計算と容量の式は機構を説明するための標準的な導出です。テンソル検証、カーネル確認、運用測定、ロールバックは追加の工学的推奨であり、著者の本番実測ではありません。H=12、G=3 は独自の説明用仮定で、観測されたベンチマークではありません。"
     }
   }
 }

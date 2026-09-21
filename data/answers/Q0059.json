@@ -1,54 +1,60 @@
 {
   "questionId": "Q0059",
-  "inputHash": "b5fad3f0d5ab5a9f7aef2cd842553f003b4acd343599d574d175d96439e71e56",
+  "inputHash": "e9db4109caff614b7c916b22f483d82932fbdf81ed495b773cf919d18432b005",
   "status": "ready",
-  "generatedAt": "2026-09-21T02:19:54.473127+00:00",
-  "model": "codex-source-reviewed",
-  "promptVersion": "seed-v1",
+  "generatedAt": "2026-09-21T03:40:54.361Z",
+  "model": "gpt-6-astra",
+  "promptVersion": "grounded-longform-v2",
   "sourceUrls": [
-    "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
     "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L280-L281",
-    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms"
   ],
   "locales": {
     "zh-TW": {
-      "title": "LoRA 的低秩分解怎麼省下訓練成本？",
-      "intent": "從矩陣形狀說明參數節省，再用評估選 rank。",
+      "title": "從數學上解釋 LoRA 分解。它為什麼有效，以及如何選擇秩 r？",
+      "intent": "評估你能否正確推導低秩更新、區分經驗假設與數學保證，並依驗證品質、資源預算和部署需求選擇 r。",
       "hint": [
-        "如果只學習權重的變化，需要動到整個 W 嗎？",
-        "兩個狹長矩陣相乘，能表示多少個獨立更新方向？"
+        "先寫出矩形權重與 A、B 的維度，再說明 rank(BA) 的上限。",
+        "區分原始權重的秩與任務更新所需的秩。",
+        "用參數量公式與控制變因的驗證實驗選 r。",
+        "說明零初始化、縮放與合併部署的注意事項。"
       ],
-      "principle": "凍結 W∈R^(d×k)，學習 ΔW=(α/r)BA，其中 B∈R^(d×r)、A∈R^(r×k)。可訓練參數由 dk 降為 r(d+k)。直覺是任務調整常可用少量方向表達，而非重學所有權重。",
-      "tradeoff": "小 r 省參數，但限制更新容量；低秩是否足夠取決於任務。LoRA 減少梯度與 optimizer state，基礎模型權重與 activation 仍占記憶體。",
-      "implementation": "確認基礎權重凍結，初始化使 BA=0。固定資料切分後比較數個 rank、目標模組與學習率，依驗證品質和實測記憶體選擇，不能只看參數比例。",
-      "production": "把 adapter 與基礎 checkpoint、tokenizer 和訓練設定一起版本化。驗證合併前後輸出，測試目標任務與一般能力回歸，並保留可回滾的 adapter。",
-      "supplementNote": "分解與參數取捨依原文整理；訓練比較、記憶體限制和部署版本控管含 AI 補充建議。"
+      "principle": "LoRA 的做法是凍結預訓練權重 W，只學習低秩更新 ΔW=(α/r)BA；它假設任務適應所需的有效變化可由少數方向表示。我會把 r 當作容量與成本的超參數，以驗證集找出滿足品質要求的最小值，而不是視為固定常數。\n\n先看維度：令 W∈R^(d×k)，輸入 x∈R^k，A∈R^(r×k)，B∈R^(d×r)，則 h=Wx+(α/r)B(Ax)。矩陣的秩是線性獨立方向的數目，因此 rank(BA)≤r；r 是秩的上限，不保證訓練後恰好等於 r。A 先將輸入映射到 r 維，B 再映射回 d 維，形成加在原輸出上的修正。這不是把 W 本身壓成低秩，也不需要先分解 W。\n\n原文以預訓練模型已有通用能力來解釋有效性：新任務可能只需沿少數重要方向調整，而不是重學全部權重。更精確地說，這是對更新結構的有用假設，不是所有任務的定理；低秩也不代表更新幅度必然小。若任務差異大、所選層不適合或 r 不足，受限的更新就可能無法表達所需變化。\n\n單一矩陣的完整更新有 dk 個參數，LoRA 則有 r(d+k) 個，比例為 r(d+k)/(dk)，假設只訓練 A、B。例如示意設定 d=k=1024、r=8，完整更新有 1,048,576 個參數，LoRA 有 16,384 個，是前者的 1/64；這是算術範例，不是效能實測。α/r 是調整支路強度的縮放係數；α=2r 只是原文提到的常見設定，並非必要條件。參數減少主要節省梯度與最佳化器狀態，不能直接推論總顯存或訓練時間也縮成同樣比例。",
+      "tradeoff": "小 r 適合先做低成本基線，尤其任務接近預訓練能力、資料有限時；容量限制也可能抑制過度擬合，但不是保證。大 r 提供更多更新方向，可能改善欠擬合，代價是更多可訓練參數、最佳化器狀態與支路計算。完整微調不受這個低秩限制，適合資源足夠且 LoRA 品質持續不足的情境，但訓練與每任務權重儲存成本更高。\n\nr 必須連同插入位置一起看。原文指出 W_Q、W_V 是常見起點；涵蓋所有注意力投影或前饋層則增加可調整的位置。建議比較「少數層用較大 r」與「更多層用較小 r」，而不是只看 r 的數字。跨層的可訓練參數總量是各層 r_l(d_l+k_l) 的總和，同樣 r 在不同模型上未必代表相同成本。\n\n選擇方法屬於工程建議：可從原文所述的 8–64 範圍挑候選，例如 8、16、32，固定資料切分、目標模組與可比較的訓練預算。事先定義驗證指標和資源上限，選達標的最小 r。若增加 r 的收益小於重跑波動，就沒有充分理由加大；若所有候選都差，先查資料品質、訓練設定和模組覆蓋，而非無限提高 r。",
+      "implementation": "依原文流程先凍結基礎模型，再對指定線性層加入 A、B，只把這些參數交給最佳化器。A 使用小隨機值，B 設為零，讓初始 BA=0，輸出等同原模型。不要把兩者都設成零：由乘積的梯度可知，這會使兩邊一開始都無法取得有效學習訊號。當 B=0 而 A 非零時，B 可先取得梯度，A 的任務損失梯度在第一步則為零。\n\n實作時算 B(Ax)，不必在每次前向傳遞先產生完整 BA。確認函式庫的權重方向、矩形維度和縮放慣例，避免把 A、B 接反。建議測試初始輸出與基礎模型一致、基礎權重未被更新，以及訓練開始後支路能取得梯度。即使 W 凍結，為了訓練較前層的支路仍可能需要反向傳播，不能把整個基礎模型粗暴地包在禁止梯度的區域。\n\n掃描 r 時也要記錄 α、學習率、批次大小與訓練步數。若固定 α 卻改變 r，α/r 也會改變，品質差異就不能全歸因於容量；可先固定 α/r 作較易解讀的比較，再個別調整設定。以獨立驗證資料看任務品質與訓練落差，對候選設定重跑確認穩定性，最後才用保留測試集做最終評估。",
+      "production": "以下是延伸的工程建議，原文沒有提供正式環境量測。訓練前估算整體記憶體，而非只數 A、B：基礎權重、啟用值和序列長度仍影響顯存。若記憶體不足，先查看尖峰配置與批次、序列設定；若品質差，聯合檢查訓練與驗證損失。兩者都差可能是容量或最佳化不足，只有驗證變差則可能是過度擬合或資料分布問題，不能僅憑症狀斷定要加大 r。\n\n單一任務可合併為 W_merged=W+(α/r)BA，使該線性層不再需要額外支路；這是計算結構的性質，不是服務延遲的實測保證。多任務切換則保留獨立 adapter，接受額外支路與載入管理成本。保留未修改的基礎權重及 adapter，便能重建或回滾，不應把合併理解成數學上永遠不可逆；有限精度下直接相減也不宜當作可靠的還原流程。\n\n發布前以相同輸入比較合併前後輸出，依數值精度設定容許誤差；若涉及量化，要特別驗證重新量化造成的差異。版本資訊應綁定基礎 checkpoint、tokenizer、目標模組、r 與 α，並檢查任務品質及通用能力退化。面試收尾可說：LoRA 限制的是更新的秩，以少量參數利用既有能力；r 靠受控驗證選定，最後再驗證部署正確性與實際成本。",
+      "supplementNote": "來源支持 LoRA 的矩陣形式、初始化、縮放、參數節省、常見目標層與合併方式。秩上限與初始化梯度是數學推論；受控選 r、診斷、版本管理及部署檢查是補充工程建議，不是作者提供的生產實測。示例數字只用來說明參數計算。"
     },
     "en": {
-      "title": "How does LoRA's low-rank update reduce training cost?",
-      "intent": "Explain parameter savings through matrix shapes, then choose rank using evaluation.",
+      "title": "Explain the LoRA decomposition mathematically. Why does it work, and how do you choose the rank r?",
+      "intent": "Assess whether you can derive low-rank updates, distinguish an empirical assumption from a mathematical guarantee, and select r using validation quality, resource constraints, and deployment requirements.",
       "hint": [
-        "Does learning a weight change require updating all of W?",
-        "How many independent update directions can two thin matrices represent?"
+        "Give the rectangular dimensions and the upper bound on rank(BA).",
+        "Distinguish the rank of the original weights from the rank needed for adaptation.",
+        "Use parameter counts and controlled validation experiments to choose r.",
+        "Explain initialization, scaling, and deployment checks."
       ],
-      "principle": "Freeze W∈R^(d×k) and learn ΔW=(α/r)BA, with B∈R^(d×r) and A∈R^(r×k). Trainable parameters become r(d+k), versus dk. Task adaptation can often use relatively few update directions.",
-      "tradeoff": "Small r saves parameters but limits capacity; sufficient rank is task-dependent. LoRA reduces gradients and optimizer states, while base weights and activations still consume memory.",
-      "implementation": "Verify frozen base weights and initialize BA=0. With a fixed data split, compare ranks, target modules and learning rates. Choose by validation quality and measured memory, not parameter ratios alone.",
-      "production": "Version adapters with the base checkpoint, tokenizer and training configuration. Check outputs before and after merging, test task quality and general-capability regressions, and retain rollback adapters.",
-      "supplementNote": "Decomposition and parameter tradeoffs summarize the article. Training comparisons, memory caveats and deployment versioning include AI supplements."
+      "principle": "LoRA freezes pretrained weights W and learns a low-rank update ΔW=(α/r)BA. It works when useful task adaptation can be expressed through relatively few directions. I treat r as a capacity–cost hyperparameter and select the smallest value meeting validation requirements, rather than assuming a universal rank.\n\nLet W∈R^(d×k), x∈R^k, A∈R^(r×k), and B∈R^(d×r). The forward pass is h=Wx+(α/r)B(Ax). Rank counts linearly independent directions, so rank(BA)≤r: r is an upper bound, not necessarily the learned rank. A maps the input into r dimensions, and B maps it back into d output dimensions to produce a correction. LoRA constrains the update, not W itself; it does not require first decomposing the pretrained matrix.\n\nThe article explains effectiveness through existing pretrained capabilities: adaptation may require a few useful changes rather than relearning every weight. More carefully, low-rank adaptation is a useful structural assumption, not a theorem covering every task. Low rank also does not imply small update magnitude. A substantial task shift, unsuitable target layers, or insufficient r can make the constrained update inadequate.\n\nFor one matrix, a full update has dk parameters, whereas LoRA has r(d+k), giving the ratio r(d+k)/(dk), assuming only A and B are trained. As an illustrative example, d=k=1024 and r=8 give 1,048,576 versus 16,384 parameters, or 1/64 as many. This is arithmetic, not a benchmark. The factor α/r scales the adapter contribution; α=2r is a common setting mentioned by the article, not a requirement. Savings primarily concern trainable gradients and optimizer states: total memory and training time do not necessarily decrease by the same factor.",
+      "tradeoff": "Small r provides an inexpensive baseline, especially for related tasks or limited data. Restricted capacity may discourage overfitting, but does not guarantee it. Larger r offers more update directions and may alleviate underfitting, while increasing parameters, optimizer states, and adapter computation. Full fine-tuning removes this low-rank constraint and is worth considering when resources permit and LoRA remains inadequate, but costs more to train and store per task.\n\nRank must be considered alongside placement. The article identifies W_Q and W_V as common starting targets; adapting all attention projections or feed-forward layers offers more adjustment locations. Compare higher ranks on fewer matrices against lower ranks on more matrices. Total trainable parameters are the sum of r_l(d_l+k_l) over adapted layers, so identical ranks do not imply identical costs across models.\n\nAs engineering guidance, test candidates such as 8, 16, and 32 within the article’s suggested 8–64 range, using fixed data splits, target modules, and comparable training budgets. Define quality metrics and resource limits first, then choose the smallest passing rank. Improvements smaller than rerun variability do not justify enlargement. If every candidate performs poorly, inspect data, optimization, and module coverage before continually increasing r.",
+      "implementation": "Following the article, freeze the base model, attach A and B to selected linear layers, and give only adapter parameters to the optimizer. Initialize A with small random values and B with zeros, making BA=0 and preserving initial behavior. Do not initialize both to zero: product gradients would initially vanish for both. With random A and zero B, B can receive a gradient immediately, while A’s task-loss gradient is initially zero.\n\nCompute B(Ax) rather than materializing BA on every forward pass. Check library weight orientation, rectangular dimensions, and scaling conventions. Verify initial output agreement, unchanged base weights, and working adapter gradients as training proceeds. Frozen weights do not eliminate all backpropagation: gradients may still need to traverse base operations to reach earlier adapters, so disabling gradient tracking around the entire base is incorrect.\n\nRecord α, learning rate, batch size, and training steps during rank sweeps. Changing r with fixed α also changes α/r, confounding capacity with scaling. Holding α/r constant provides a more interpretable initial comparison, followed by configuration-specific tuning. Evaluate independent validation quality and the training–validation gap, repeat promising configurations to assess stability, and reserve the held-out test set for final evaluation.",
+      "production": "These are recommended engineering practices; the article supplies no production measurements. Budget total memory, including base weights and activations, rather than counting adapters alone. For memory failures, inspect peak allocation, batch size, and sequence length. For poor quality, examine training and validation losses together: both being poor may indicate insufficient capacity or optimization; validation-only degradation may indicate overfitting or distribution mismatch. Neither symptom proves that r should increase.\n\nFor a single task, merge W_merged=W+(α/r)BA to remove the extra linear branch. This is a computational property, not a measured service-latency guarantee. For task switching, retain separate adapters and accept branch and loading-management overhead. Preserve the original base and adapters for reconstruction and rollback. Merging is not mathematically irreversible, but subtracting an update in finite precision is not a dependable restoration process.\n\nBefore release, compare merged and unmerged outputs on identical inputs with precision-appropriate tolerances, especially if merging involves requantization. Bind artifacts to the base checkpoint, tokenizer, target modules, r, and α; check task quality and regressions in general capabilities. My interview recap is: LoRA constrains update rank to exploit existing capabilities with fewer parameters; choose r through controlled validation, then verify deployment correctness and actual resource costs.",
+      "supplementNote": "The source supports the LoRA formulation, initialization, scaling, parameter savings, common target layers, and merging. Rank bounds and initialization gradients are mathematical deductions. Controlled rank selection, diagnostics, versioning, and deployment checks are additional engineering recommendations, not production findings reported by the author. Example numbers illustrate parameter arithmetic only."
     },
     "ja": {
-      "title": "LoRA の低ランク更新はなぜ学習コストを減らす？",
-      "intent": "行列の形状からパラメータ数を説明し、評価で rank を選ぶ。",
+      "title": "LoRA の分解を数学的に説明してください。なぜ機能し、ランク r はどう選びますか？",
+      "intent": "低ランク更新を正しく導出し、経験的な仮定と数学的保証を区別したうえで、検証品質、資源制約、デプロイ要件から r を選べるかを評価します。",
       "hint": [
-        "重みの変化を学ぶには、W 全体を更新する必要があるだろうか。",
-        "細い二つの行列の積で、独立した更新方向をいくつ表せるか。"
+        "長方形の重みと A、B の形状を示し、rank(BA) の上限を説明する。",
+        "元の重みのランクと、適応に必要な更新のランクを区別する。",
+        "パラメータ数と条件を揃えた検証実験で r を選ぶ。",
+        "初期化、スケーリング、マージ後の検証に触れる。"
       ],
-      "principle": "W∈R^(d×k) を固定し、ΔW=(α/r)BA を学ぶ。B∈R^(d×r)、A∈R^(r×k) なので、学習するパラメータ数は dk から r(d+k) になる。タスクへの適応は、少数の更新方向で表せる場合が多い。",
-      "tradeoff": "r が小さいほど省メモリだが、表現できる更新が限られる。必要な rank はタスク次第。勾配と optimizer state は減るが、基礎モデルの重みと activation のメモリは必要。",
-      "implementation": "基礎重みの固定を確認し、BA=0 となるように初期化する。データ分割を固定し、rank、対象モジュール、学習率を比較する。パラメータ比率だけでなく検証品質と実測メモリで選ぶ。",
-      "production": "adapter を基礎 checkpoint、tokenizer、学習設定と組にして版管理する。重みへの統合前後の出力を確認し、対象タスクと一般能力の退行を測り、戻せる adapter を残す。",
-      "supplementNote": "分解とパラメータ数の取捨選択は原文の要約です。学習条件の比較、メモリの注意点、配備時の版管理には AI の補足が含まれます。"
+      "principle": "LoRA は事前学習済みの重み W を凍結し、低ランク更新 ΔW=(α/r)BA だけを学習します。タスク適応に有効な変化を少数の方向で表せるときに機能します。r は容量とコストを調整するハイパーパラメータと考え、検証品質を満たす最小値を選びます。\n\nW∈R^(d×k)、入力 x∈R^k、A∈R^(r×k)、B∈R^(d×r) とすると、順伝播は h=Wx+(α/r)B(Ax) です。ランクは線形独立な方向の数なので、rank(BA)≤r となります。r は上限であり、学習後のランクが必ず r になるわけではありません。A で入力を r 次元へ写し、B で d 次元へ戻して補正を加えます。W 自体を低ランク化する方法ではなく、事前に W を分解する必要もありません。\n\n記事は、事前学習モデルが既に汎用的な能力を持ち、適応では少数の重要な方向を変えればよいことを理由に挙げています。ただし、これは更新構造についての有用な仮定であり、全タスクで成り立つ定理ではありません。また、低ランクでも更新量が小さいとは限りません。タスクの隔たりが大きい、対象層が不適切、r が不足するといった場合には、必要な変化を表現できない可能性があります。\n\n一つの行列では、完全な更新が dk 個、LoRA が r(d+k) 個のパラメータを持ち、比率は r(d+k)/(dk) です。A、B だけを学習する前提です。説明用に d=k=1024、r=8 とすると、1,048,576 個に対して 16,384 個、つまり 1/64 です。これは計算例であり実測値ではありません。α/r は補正の強さを調整し、記事の α=2r は一般的な設定例であって必須ではありません。主に勾配とオプティマイザ状態を節約でき、総メモリや学習時間が同じ比率で減るとは限りません。",
+      "tradeoff": "小さい r は、既存能力に近いタスクや少量データで低コストの基準を作るのに適します。容量制限が過学習を抑える場合もありますが、保証はありません。大きい r は更新方向を増やし、学習不足を改善し得る一方、パラメータ、最適化状態、追加計算を増やします。完全微調整は低ランク制約がなく、資源が十分で LoRA の品質が不足する場合の候補ですが、学習とタスク別保存の費用が増します。\n\nr と挿入位置は一緒に考えます。記事では W_Q、W_V が代表的な開始点で、全注意力投影やフィードフォワード層への適用も紹介しています。推奨する比較は、少数の行列で r を大きくする方法と、多数の行列で小さくする方法です。総パラメータ数は各層の r_l(d_l+k_l) の和なので、同じ r でもモデル間でコストは異なります。\n\n選定手順は工学的な提案です。記事の目安である 8–64 から、例えば 8、16、32 を選び、データ分割、対象モジュール、比較可能な学習予算を揃えます。品質指標と資源上限を先に決め、合格する最小値を採用します。改善が再実行のばらつき以下なら増やす根拠は弱く、全候補が悪ければデータ、最適化、対象層を先に調べます。",
+      "implementation": "記事の手順では、基盤モデルを凍結し、指定した線形層に A、B を追加して、そのパラメータだけを最適化します。A は小さな乱数、B はゼロで初期化すると BA=0 となり、初期出力を保てます。両方をゼロにすると積の勾配が両側でゼロになるため避けます。A が非ゼロなら B は最初から勾配を受け取れますが、初回の A のタスク損失勾配はゼロです。\n\n順伝播では完全な BA を毎回生成せず、B(Ax) を計算します。ライブラリの重みの向き、長方形の形状、スケーリング規約を確認します。初期出力の一致、基盤重みが不変であること、学習開始後の勾配をテストします。凍結していても前段の adapter へ勾配を伝える必要があるため、基盤モデル全体の勾配追跡を無条件に無効化してはいけません。\n\nr の比較では α、学習率、バッチサイズ、学習ステップ数も記録します。α を固定して r を変えると α/r も変わり、容量だけの比較ではなくなります。まず α/r を揃え、その後に各構成を調整すると解釈しやすくなります。独立した検証データで品質と学習時との差を調べ、有望な設定を再実行して安定性を確認し、テストセットは最終評価に残します。",
+      "production": "以下は推奨実務であり、記事に本番計測はありません。メモリ見積もりには adapter だけでなく基盤重みと活性値も含めます。メモリ不足ならピーク使用量、バッチ、系列長を調べます。品質不足なら学習損失と検証損失を比較し、両方悪ければ容量や最適化、検証だけ悪ければ過学習や分布差を疑います。ただし、その症状だけで r の増加が正解とは断定できません。\n\n単一タスクでは W_merged=W+(α/r)BA にマージし、追加の線形分岐を除去できます。これは計算構造の性質であり、サービス遅延の実測保証ではありません。タスク切り替えには adapter を分離し、追加分岐とロード管理の負担を受け入れます。元の基盤重みと adapter を保存すれば再構築やロールバックが可能です。マージは数学的に不可逆ではありませんが、有限精度で更新を引くだけの復元は信頼できません。\n\n公開前には同一入力でマージ前後を比較し、数値精度に応じた誤差を許容します。再量子化がある場合は特に差を検証します。基盤 checkpoint、tokenizer、対象モジュール、r、α をバージョンに紐付け、タスク品質と汎用能力の退行も確認します。面接では、更新のランクを制限して既存能力を活用し、制御した検証で r を選び、最後に運用上の正しさと実コストを確かめる、とまとめます。",
+      "supplementNote": "出典は LoRA の数式、初期化、スケーリング、パラメータ節約、代表的な対象層、マージを裏付けます。ランク上限と初期勾配は数学的帰結です。r の比較手順、障害診断、バージョン管理、デプロイ検証は追加の工学的提案であり、著者の本番実測ではありません。数値例はパラメータ計算の説明用です。"
     }
   }
 }

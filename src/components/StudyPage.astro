@@ -1,6 +1,7 @@
 ---
 import type {Card,Locale} from '../lib/types';
 import {messages,pathFor} from '../lib/i18n';
+import {projectRepoUrl} from '../lib/project';
 import Icon from './Icon.astro';
 import Sidebar from './Sidebar.astro';
 import QuestionCard from './QuestionCard.astro';
@@ -15,7 +16,7 @@ const json=(x:unknown)=>JSON.stringify(x).replace(/</g,'\\u003c');
 <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content={t.pageSubtitle}/><meta name="theme-color" content="#f5f4ef"/><title>{card.id} · {card.answer?.locales[locale]?.title||card.original} — Recall</title><link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`}/>{(['zh-TW','en','ja'] as Locale[]).map(l=><link rel="alternate" hreflang={l} href={new URL(pathFor(l,card.id),Astro.site)}/>)}<link rel="canonical" href={new URL(pathFor(locale,card.id),Astro.site)}/></head>
 <body>
  <a class="skip-link" href="#question-title">{t.question}</a>
- <header class="site-header"><a href={pathFor(locale,card.id)} class="brand" aria-label="Recall"><span class="brand-symbol"><span></span><span></span><span></span></span><span>recall<span class="brand-period">.</span></span><span class="brand-description">{t.appDescriptor}</span></a><nav class="header-actions" aria-label={t.language}><a class="github-link" href={card.source.repo} target="_blank" rel="noopener noreferrer"><Icon name="github" size={18}/><span>GitHub</span></a><div class="language-switch">{(['zh-TW','en','ja'] as Locale[]).map(l=><a href={pathFor(l,card.id)} data-locale={l} lang={l} aria-current={l===locale?'page':undefined}>{l==='zh-TW'?'繁中':l==='en'?'EN':'日本語'}</a>)}</div></nav></header>
+ <header class="site-header"><a href={pathFor(locale,card.id)} class="brand" aria-label="Recall"><span class="brand-symbol"><span></span><span></span><span></span></span><span>recall<span class="brand-period">.</span></span><span class="brand-description">{t.appDescriptor}</span></a><nav class="header-actions" aria-label={t.language}>{projectRepoUrl && <><a class="github-link" href={projectRepoUrl} target="_blank" rel="noopener noreferrer" aria-label={t.projectRepo} title={t.projectRepo}><Icon name="github" size={18}/><span>GitHub</span></a><a class="project-star" href={projectRepoUrl} target="_blank" rel="noopener noreferrer"><Icon name="star" size={16}/><span>{t.starRepo}</span></a></>}<div class="language-switch">{(['zh-TW','en','ja'] as Locale[]).map(l=><a href={pathFor(l,card.id)} data-locale={l} lang={l} aria-current={l===locale?'page':undefined}>{l==='zh-TW'?'繁中':l==='en'?'EN':'日本語'}</a>)}</div></nav></header>
  <div class="app-shell"><Sidebar cards={cards} t={t}/><main id="main-content">
   <div class="page-intro"><h1>{t.pageTitle}</h1><p>{t.pageSubtitle}</p></div>
   <div class="practice-toolbar"><button class="mobile-filter button" id="mobile-filter" disabled aria-expanded="false" aria-controls="filter-panel"><Icon name="filter" size={16}/>{t.viewFilters}</button><div class="deck-summary"><span class="tiny-dot"></span><strong id="result-count">{cards.filter(c=>c.active).length}</strong><span>{t.questionCount}</span></div><div class="mode-switch" role="group" aria-label={t.mode}><button type="button" disabled data-hydrate data-mode="sequential" aria-pressed="true"><Icon name="list" size={16}/>{t.sequential}</button><button type="button" disabled data-hydrate data-mode="random" aria-pressed="false"><Icon name="shuffle" size={16}/>{t.random}</button></div></div>
@@ -26,7 +27,7 @@ const json=(x:unknown)=>JSON.stringify(x).replace(/</g,'\\u003c');
    <div class="keyboard-note"><span><kbd>←</kbd><kbd>→</kbd>{t.keyboard}</span><span class="practice-line"></span><span>{t.learningPath}</span></div>
   </div>
   <section id="empty-state" class="empty-state" hidden><Icon name="search" size={36}/><h2>{t.emptyTitle}</h2><p>{t.emptyDescription}</p><button class="button button-primary" data-reset>{t.clearFilters}</button></section>
-  <footer class="page-footer"><p>{t.sourceNote}</p><a href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}<Icon name="external" size={12}/></a></footer>
+  <footer class="page-footer"><p>{t.sourceNote}</p><div class="footer-repositories">{projectRepoUrl && <a class="project-repo-link" href={projectRepoUrl} target="_blank" rel="noopener noreferrer">{t.projectRepo}<Icon name="external" size={12}/></a>}<a class="source-repo-link" href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}<Icon name="external" size={12}/></a></div></footer>
  </main></div>
  <script type="application/json" id="study-meta" set:html={json(meta)}/>
 

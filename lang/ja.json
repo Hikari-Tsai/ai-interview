@@ -86,5 +86,7 @@
     "production": "本番運用",
     "other": "その他"
   },
-  "learningPath": "原理 → 本番運用"
+  "learningPath": "原理 → 本番運用",
+  "projectRepo": "このプロジェクトの Repo",
+  "starRepo": "スターをつける"
 }

@@ -14,3 +14,20 @@ main{padding:43px 56px 24px;min-width:0;max-width:1130px;width:100%;margin:0 aut
 @media(max-width:760px){.tag-pill,.mode-switch button,.small-segment button,.tag-option,.mobile-filter,.language-switch a,.text-button,.github-link,.active-tags button{min-height:44px}.language-switch a{display:flex;align-items:center}.language-switch{padding:1px}.github-link{display:flex;align-items:center}.tag-option input{height:44px;top:0}.mode-switch button{padding:8px}.card-source-strip a{min-height:32px}.site-header{padding:0 16px}.header-actions{gap:12px}}
 
 .answer-intro time{display:block;margin-top:5px;text-align:right}.filter-heading-actions{display:flex;align-items:center;gap:16px}.mobile-close{display:none;background:transparent}.answer-intro span{line-height:1.7}@media(max-width:760px){.mobile-close{display:flex;align-items:center;justify-content:center;min-height:44px;min-width:44px}.answer-intro time{text-align:left}.header-actions .language-switch a{min-width:40px}}
+
+/* Project repository links are separate from question-source attribution. */
+.header-actions{gap:18px}
+.project-star{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:36px;padding:7px 11px;border:1px solid var(--line);border-radius:6px;background:#fff9;font-size:11px;color:#64715f;white-space:nowrap}
+.project-star>svg{color:#a48951}
+.project-star:hover{background:#fff;border-color:#a8b7a7;color:var(--accent)}
+.footer-repositories{display:flex;align-items:center;justify-content:flex-end;gap:17px;flex-wrap:wrap}
+@media(max-width:760px){
+ .site-header:has(.project-star){height:auto;min-height:112px;padding:12px 16px;align-items:start;gap:10px}
+ .site-header:has(.project-star) .brand{margin-top:8px}
+ .header-actions:has(.project-star){display:grid;grid-template-columns:24px auto;gap:2px 9px;align-items:center}
+ .header-actions:has(.project-star) .github-link{min-height:44px}
+ .header-actions:has(.project-star) .project-star{min-height:44px;padding:8px 9px;font-size:10px}
+ .header-actions:has(.project-star) .language-switch{grid-column:1 / -1;grid-row:2;justify-self:end}
+ .footer-repositories{justify-content:center;gap:18px}
+ .footer-repositories a{min-height:44px}
+}

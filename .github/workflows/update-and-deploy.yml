@@ -25,7 +25,7 @@ concurrency:
 jobs:
   update-build-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -57,6 +57,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MAX_TOKENS: ${{ vars.LLM_MAX_TOKENS || '16000' }}
           GENERATION_LIMIT: 10
           GENERATION_SOURCE_FETCH_LIMIT: 30
         run: npm run generate

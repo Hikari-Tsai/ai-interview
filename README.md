@@ -25,7 +25,7 @@ npm run dev
 
 Open [the local website](http://127.0.0.1:4321).
 
-The starter dataset contains **598 questions** and **8 complete trilingual answer sets**. Select **With answers** to try them. Further generation requires a configured model, API key, and usable source material; other answers remain pending.
+The dataset contains **598 questions**. Select **With answers** to practice questions with complete trilingual explanations. Answers are rewritten from the original question and linked article text, not expanded from an earlier short answer. Traditional Chinese explanations target roughly **2,000 characters**, with equivalent detail in English and Japanese. Questions without readable original explanations remain pending.
 
 See the [maintenance and deployment guide](docs/maintenance.md) for setup, synchronization, and GitHub Pages deployment.
 
@@ -34,7 +34,7 @@ See the [maintenance and deployment guide](docs/maintenance.md) for setup, synch
 The [GitHub Actions workflow](.github/workflows/update-and-deploy.yml) runs daily at **02:17 UTC / 10:17 Taiwan time** and can also be started manually from the Actions tab.
 
 - Tracks the upstream repository and downloads its README only when its content changes or the parser requires a refresh.
-- Refreshes due external sources on a weekly cache cycle and retries pending answer generation, with at most 10 model attempts per run.
+- Refreshes due external sources on a weekly cache cycle and retries pending answer generation, with at most 10 model attempts per run. Changes to the writing specification also queue existing answers for regeneration. New answers must pass language-specific length, structure, and source-link checks.
 - Validates data, runs tests, and commits updated records. When site content changes, it rebuilds and deploys to GitHub Pages if deployment is enabled.
 
 The page footer shows the latest recorded question sync or answer generation time in **UTC+8**. Reloading the page does not change this timestamp. Push-triggered runs validate and build the site; they skip source synchronization and answer generation.

@@ -8,13 +8,14 @@ async function main(){
  const key=process.env.LLM_API_KEY||process.env.OPENAI_API_KEY;
  const model=process.env.LLM_MODEL;
  const force=process.argv.includes('--force');
+ const selected=new Set((process.env.GENERATION_IDS??'').split(',').filter(Boolean));
  const state=await readJson<Record<string,Job>>('data/state/generation.json',{});
- const maxTokens=limitFromEnv('LLM_MAX_TOKENS',7000,16000);
+ const maxTokens=limitFromEnv('LLM_MAX_TOKENS',16000,24000);
  const sourceCharacters=limitFromEnv('LLM_SOURCE_CHAR_LIMIT',30000,120000);
  if(maxTokens<100||sourceCharacters<1000)throw new Error('LLM budgets must be at least 100 output tokens and 1000 source characters');
- const cap=limitFromEnv('GENERATION_LIMIT',10,100);const fetchCap=limitFromEnv('GENERATION_SOURCE_FETCH_LIMIT',10,100);
+ const cap=limitFromEnv('GENERATION_LIMIT',10,1000);const fetchCap=limitFromEnv('GENERATION_SOURCE_FETCH_LIMIT',10,200);
  let generated=0,attempted=0,fetched=0;
- for(const q of (await readDirectory<Question>('data/questions')).filter(q=>q.active)) {
+ for(const q of (await readDirectory<Question>('data/questions')).filter(q=>q.active&&(!selected.size||selected.has(q.id)))) {
   const answerFile=`data/answers/${q.id}.json`;
   const old=await readJson<Answer|undefined>(answerFile,undefined);
   const override=await readJson<{pin:boolean;answer:Answer}|undefined>(`data/overrides/${q.id}.json`,undefined);
@@ -28,7 +29,7 @@ async function main(){
   }
   let dependencyHash=hash(grounded.map(r=>({url:r.url,contentHash:r.contentHash})).sort((a,b)=>a.url.localeCompare(b.url)));
   const previous=state[q.id];
-  if(old?.status==='ready'&&old.model==='codex-source-reviewed'&&old.inputHash===answerContentHash(q)&&!force&&(!previous?.sourceHash||previous.sourceHash===dependencyHash)) {
+  if(old?.status==='ready'&&old.model==='codex-source-reviewed'&&old.promptVersion===PROMPT_VERSION&&old.inputHash===answerContentHash(q)&&!force&&(!previous?.sourceHash||previous.sourceHash===dependencyHash)) {
    validateAnswer(old,q,q.links.map(l=>l.url),true);
    state[q.id]={status:'ready',attempts:0,inputHash:old.inputHash,sourceHash:dependencyHash,updatedAt:previous?.updatedAt??new Date().toISOString()};continue;
   }
@@ -60,7 +61,7 @@ async function main(){
    const parameters=/^gpt-6-astra(?:-|$)/.test(model)
     ?{max_completion_tokens:maxTokens,reasoning_effort:'low'}
     :{max_tokens:maxTokens,temperature:0.2};
-   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(120000)});
+   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(300000)});
    if(!response.ok)throw new Error(`Model HTTP ${response.status}`);
    const result:any=await response.json();const choice=result.choices?.[0];
    if(choice?.message?.refusal)throw new Error('Model refused to generate this answer.');
@@ -73,6 +74,7 @@ async function main(){
    const answer=validateAnswer({...payload,questionId:q.id,inputHash,status:'ready',generatedAt:new Date().toISOString(),model,promptVersion:PROMPT_VERSION},q,sources.map(s=>s.url));
    await writeJson(answerFile,answer);
    state[q.id]={status:'ready',attempts:(previous?.attempts??0)+1,inputHash,sourceHash:dependencyHash,updatedAt:new Date().toISOString()};generated++;
+   console.log(`${q.id}: generated ${PROMPT_VERSION} (${generated}/${cap})`);
   } catch(e:any) {
    const attempts=(previous?.attempts??0)+1;
    state[q.id]={...previous,status:'failed',attempts,inputHash,error:String(e.message).slice(0,500),updatedAt:new Date().toISOString(),nextRetryAt:new Date(Date.now()+Math.min(86400000,3600000*2**Math.min(attempts-1,5))).toISOString()};

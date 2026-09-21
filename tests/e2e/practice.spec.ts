@@ -31,10 +31,11 @@ test('tag filtering bounds sequential deck and all-match may show empty state',a
 });
 test('random uses a reproducible non-repeating filtered deck and previous follows it',async({page})=>{
  await page.goto(start+'?ready=1&tag=llm');await loaded(page);
+ const total=Number(await page.locator('#result-count').innerText());
  await page.locator('[data-mode=random]').click();await expect(page).toHaveURL(/mode=random/);
  await expect(page.locator('article')).toHaveAttribute('data-question','Q0001');
  const seen=['Q0001'];
- for(let i=0;i<3;i++){await page.locator('#next').click();await expect(page.locator('#next')).toHaveAttribute('data-reshuffle',i===2?'true':'false');seen.push((await page.locator('article').getAttribute('data-question'))!);}
+ for(let i=0;i<3;i++){await page.locator('#next').click();await expect(page.locator('#next')).toHaveAttribute('data-reshuffle',i+2===total?'true':'false');seen.push((await page.locator('article').getAttribute('data-question'))!);}
  expect(new Set(seen).size).toBe(4);
  await page.locator('#previous').click();await expect(page.locator('article')).toHaveAttribute('data-question',seen[2]);
  await page.reload();await expect(page.locator('article')).toHaveAttribute('data-question',seen[2]);

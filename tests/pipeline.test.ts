@@ -83,7 +83,9 @@ for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates
  const dir=await mkdtemp(join(tmpdir(),'recall-pipeline-'));
  const q={...reconcile([],parseReadme(md,context))[0],id:'Q0002',number:2};let calls=0,valid=false,finishReason='stop',refusal:string|null=null;let contentOverride:string|null|undefined;const requests:any[]=[];
  const text={title:'Title',intent:'Intent',hint:['Hint'],principle:'Principle',tradeoff:'Tradeoff',implementation:'Implementation',production:'Production',supplementNote:'Additional advice is distinguished from source explanation.'};
- const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);requests.push(input);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{finish_reason:finishReason,message:{refusal,content:contentOverride!==undefined?contentOverride:JSON.stringify({sourceUrls:[q.source.url,q.source.repo,valid?q.links[0].url:'https://invented.test'],locales:{en:text,'zh-TW':text,ja:text}})}}]}));});});
+ const longText=(body:string)=>({...text,principle:body,tradeoff:body,implementation:body,production:body});
+ const contentLocales={en:longText('Engineering example explains the mechanism with explicit assumptions and checks. '.repeat(20)),'zh-TW':longText('這是測試用的原理說明與工程檢查。'.repeat(30)),ja:longText('仕組みと前提条件を説明し、運用時に確認します。'.repeat(25))};
+ const server=createServer((req,res)=>{let body='';req.on('data',c=>body+=c);req.on('end',()=>{calls++;const input=JSON.parse(body);requests.push(input);assert.match(input.messages[1].content,/source-grounded|grounded/);res.setHeader('content-type','application/json');res.end(JSON.stringify({choices:[{finish_reason:finishReason,message:{refusal,content:contentOverride!==undefined?contentOverride:JSON.stringify({sourceUrls:[q.source.url,q.source.repo,valid?q.links[0].url:'https://invented.test'],locales:contentLocales})}}]}));});});
  await new Promise<void>(r=>server.listen(0,'127.0.0.1',r));
  const port=(server.address() as any).port;
  try {
@@ -178,4 +180,12 @@ test('answer fingerprint ignores structural metadata but tracks question, README
  const baseline=answerInputHash(q,sources,'model');
  assert.equal(answerInputHash({...q,companies:['Different company'],tags:['rag'],topic:'Moved topic',group:'Moved group',contentHash:hash('changed structural metadata')},sources,'model'),baseline);
  for(const changed of [{...q,original:q.original+' Explain why.'},{...q,originalAnswer:q.originalAnswer+' New explanation.'},{...q,links:[...q.links,{title:'New source',url:'https://outcomeschool.com/blog/new'}]}]) assert.notEqual(answerInputHash(changed,sources,'model'),baseline);
+});
+
+test('long-form profile rejects short answers while legacy records remain readable',()=>{
+ const q=reconcile([],parseReadme(md,context))[0];
+ const t={title:'Title',intent:'Intent',hint:['Hint'],principle:'Short',tradeoff:'Short',implementation:'Short',production:'Short',supplementNote:'Supplement'};
+ const a={questionId:q.id,status:'ready',inputHash:q.contentHash,generatedAt:new Date().toISOString(),model:'gpt-6-astra',promptVersion:'grounded-longform-v2',sourceUrls:[q.source.url,q.links[0].url],locales:{en:t,'zh-TW':t,ja:t}};
+ assert.throws(()=>validateAnswer(a,q,[q.links[0].url]),/length|long.form|篇幅/i);
+ assert.doesNotThrow(()=>validateAnswer({...a,promptVersion:'grounded-four-sections-v1'},q,[q.links[0].url]));
 });

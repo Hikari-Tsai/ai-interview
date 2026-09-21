@@ -1,8 +1,12 @@
 # Recall — AI 面試題卡
 
-[English README](README.md)
+Recall 是 **AI 面試題庫**，也是 [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise) 的獨立社群版本。本專案建立了多語言靜態網頁，使用 LLM 將來源資料精簡整理成結構化解答，並透過 GitHub Actions 自動追蹤上游變動、更新題庫。
 
-Recall 將 AI 工程面試題庫轉換成多語言單字卡式網站。每次練習一道題目，先查看答題提示，再展開依照 **原理 → 取捨 → 實作 → 上線實務** 整理的答案。
+**目前許多題目尚未有解答，或仍需要更完整的說明。** 歡迎大家參與討論，一起完善答案。請從[前端網站](https://hikari-tsai.github.io/ai-interview/)找到想討論的題目，再點選題卡下方的「**討論這題**」進入討論區。
+
+每次練習一道題目，先查看答題提示，再展開依照 **原理 → 取捨 → 實作 → 上線實務** 整理的答案。
+
+[English README](README.md)
 
 ## 功能
 

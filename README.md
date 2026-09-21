@@ -1,8 +1,12 @@
 # Recall — AI Interview Cards
 
-[Traditional Chinese translation](README.zh-TW.md)
+Recall is an **AI interview question bank** and an independent community edition of [AI Engineering Interview Questions Company Wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise). It provides a multilingual static website and uses LLMs to condense source materials into structured study answers. GitHub Actions automatically tracks upstream changes and updates the question bank.
 
-Recall turns an AI engineering interview question collection into a multilingual flashcard website. Practice one question at a time, ask for a hint, and reveal an answer organized around **Principle → Trade-off → Implementation → Production**.
+**Many questions still lack answers or need more complete explanations.** Everyone is welcome to discuss approaches and help improve them. To participate, open the [website](https://hikari-tsai.github.io/ai-interview/), find a question, and use **Discuss this question** below the card to enter its discussion area.
+
+Practice one question at a time, ask for a hint, and reveal an answer organized around **Principle → Trade-off → Implementation → Production**.
+
+[Traditional Chinese translation](README.zh-TW.md)
 
 ## Features
 

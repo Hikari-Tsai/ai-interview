@@ -1,8 +1,8 @@
 {
   "appName": "Recall",
   "appDescriptor": "AI 面試題卡",
-  "pageTitle": "一次一題，把觀念想清楚。",
-  "pageSubtitle": "先留一點時間思考，準備好再展開答案。",
+  "pageTitle": "AI 公司面試題庫",
+  "pageSubtitle": "整理自公開題庫，收錄各家公司 AI 職缺的面試題。先試著回答，再看提示與解說。",
   "practice": "開始練習",
   "sourceRepo": "原始 Repo",
   "lastUpdated": "資料最後更新",

@@ -1,8 +1,8 @@
 {
   "appName": "Recall",
   "appDescriptor": "AI 面接カード",
-  "pageTitle": "一問ずつ、理解を深める。",
-  "pageSubtitle": "まずは自分で考えてから、答えを開いてみましょう。",
+  "pageTitle": "AI企業の面接問題集",
+  "pageSubtitle": "公開の問題集をもとに、各社のAI職の面接問題をまとめました。まず自分で答えてから、ヒントや解説を確認できます。",
   "practice": "練習",
   "sourceRepo": "元の Repo",
   "lastUpdated": "データ最終更新",

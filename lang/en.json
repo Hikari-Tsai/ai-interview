@@ -1,8 +1,8 @@
 {
   "appName": "Recall",
   "appDescriptor": "AI interview cards",
-  "pageTitle": "One question. A deeper understanding.",
-  "pageSubtitle": "Make space to think. Reveal the answer when you’re ready.",
+  "pageTitle": "AI company interview questions",
+  "pageSubtitle": "Practice questions for AI roles across companies, collected from a public question bank. Try an answer, then check the hints and explanations.",
   "practice": "Practice",
   "sourceRepo": "Original repo",
   "lastUpdated": "Data last updated",

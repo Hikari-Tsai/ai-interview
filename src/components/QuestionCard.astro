@@ -3,8 +3,13 @@ import type { Card, Locale } from '../lib/types';
 import {type Messages,tagLabel} from '../lib/i18n';
 import Icon from './Icon.astro';
 import Sources from './Sources.astro';
+import Contribute from './Contribute.astro';
+import CommunityCredit from './CommunityCredit.astro';
+import {renderCommunityMarkdown} from '../lib/community';
 const {card,t,locale}=Astro.props as {card:Card;t:Messages;locale:Locale};
 const answer=card.answer?.status==='ready'?card.answer.locales[locale]:undefined;
+const community=card.community?.[locale];
+const answerDate=community?.updatedAt??card.aiGeneratedAt??card.answer?.generatedAt;
 const steps=['principle','tradeoff','implementation','production'] as const;
 ---
 <article class="question-card" data-question={card.id}>
@@ -28,12 +33,15 @@ const steps=['principle','tradeoff','implementation','production'] as const;
  </div>
  <div id="answer-panel" hidden>
   {answer ? <div class="answer-body">
-   <div class="answer-intro"><p>{t.answerTitle}</p><span>{t.generated}<time datetime={card.answer!.generatedAt}>{new Intl.DateTimeFormat(locale,{year:"numeric",month:"short",day:"numeric"}).format(new Date(card.answer!.generatedAt))}</time></span></div>
+   <div class="answer-intro"><p>{community?t.communityAnswer:t.answerTitle}</p><span>{community?t.communityUpdated:t.generated}<time datetime={answerDate}>{new Intl.DateTimeFormat(locale,{year:"numeric",month:"short",day:"numeric"}).format(new Date(answerDate!))}</time></span></div>
+   {community&&<CommunityCredit answer={community} locale={locale}/>}
    <div class="answer-roadmap">{steps.map((step,i)=><a href={`#${step}`}><span>{String(i+1).padStart(2,'0')}</span>{t[step].split(' · ')[0]}</a>)}</div>
-   {steps.map((step,i)=><section id={step} class="answer-section"><span class="step-number">{String(i+1).padStart(2,'0')}</span><div><h3>{t[step]}</h3>{answer[step].split('\n').filter(Boolean).map(p=><p>{p}</p>)}</div></section>)}
+   {steps.map((step,i)=><section id={step} class="answer-section"><span class="step-number">{String(i+1).padStart(2,'0')}</span><div><h3>{t[step]}</h3>{community?<div class="community-prose" set:html={renderCommunityMarkdown(answer[step])}/>:answer[step].split('\n').filter(Boolean).map(p=><p>{p}</p>)}</div></section>)}
+   {community?.advanced&&<details class="community-advanced"><summary>{t.communityAdvanced}</summary><div class="community-prose" set:html={renderCommunityMarkdown(community.advanced)}/></details>}
    {answer.supplementNote&&<p class="supplement-note"><strong>{t.supplement}</strong>{answer.supplementNote}</p>}
   </div> : <div class="pending-answer"><Icon name="book" size={28}/><h3>{t.pendingTitle}</h3><p>{t.pendingDescription}</p></div>}
-  <Sources card={card} t={t}/>
+  <Sources card={card} t={t} locale={locale}/>
  </div>
+ <Contribute card={card} locale={locale}/>
  <div class="card-source-strip"><span class="source-dot"></span><a href={card.source.url} target="_blank" rel="noopener noreferrer">{t.originalQuestionLink}<Icon name="external" size={12}/></a><span class="source-separator">/</span><a href={card.source.repo} target="_blank" rel="noopener noreferrer">{t.sourceRepo}</a></div>
 </article>

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discuss interview questions / 討論面試題
+    url: https://github.com/Hikari-Tsai/ai-interview/discussions/categories/q-a
+    about: Compare solutions and ask questions before proposing a formal change.
+  - name: Contribution guide / 投稿指南
+    url: https://github.com/Hikari-Tsai/ai-interview/blob/main/CONTRIBUTING.md
+    about: Learn how to contribute an answer in English, Traditional Chinese, or Japanese.

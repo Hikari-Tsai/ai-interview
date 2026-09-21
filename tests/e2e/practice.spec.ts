@@ -64,3 +64,18 @@ test('switching to sequential discards the random forward branch',async({page})=
  await page.locator('#previous').click();await expect(page).toHaveURL(/Q0001/);
  await page.locator('[data-mode=sequential]').click();await page.locator('#next').click();await expect(page).toHaveURL(/Q0002/);
 });
+test('contribution entries work independently of answer disclosure, locale and answer availability',async({page})=>{
+ for(const locale of ['zh-TW','en','ja']){
+  await page.goto(`/${locale}/questions/Q0009/`);await loaded(page);
+  await expect(page.locator('#answer-panel')).toBeHidden();await expect(page.locator('.contribute')).toBeVisible();
+  await expect(page.locator('.contribute-actions > *')).toHaveCount(3);
+  const suggest=new URL((await page.locator('[data-contribution=suggest]').getAttribute('href'))!);
+  expect(suggest.hostname).toBe('github.com');expect(suggest.searchParams.get('question_id')).toBe('Q0009');expect(suggest.searchParams.get('language')).toBe(locale);
+  const edit=new URL((await page.locator('[data-contribution=edit]').getAttribute('href'))!);expect(edit.searchParams.get('filename')).toBe(`content/community/Q0009/${locale}.md`);
+  await page.locator('.discussion-options summary').click();await expect(page.locator('[data-contribution=discuss]')).toBeVisible();await expect(page.locator('[data-contribution=new-discussion]')).toBeVisible();
+  expect(new URL((await page.locator('[data-contribution=new-discussion]').getAttribute('href'))!).searchParams.get('title')).toContain('[Q0009]');
+  expect(await page.evaluate(()=>document.querySelector('[data-contribution=\"new-discussion\"]')!.getBoundingClientRect().bottom<=document.querySelector('.question-card')!.getBoundingClientRect().bottom)).toBeTruthy();
+ }
+ await page.setViewportSize({width:390,height:844});await page.goto('/zh-TW/questions/Q0044/?ready=1&tag=agents');await loaded(page);await page.locator('.discussion-options summary').click();
+ await expect(page.locator('[data-contribution=new-discussion]')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});

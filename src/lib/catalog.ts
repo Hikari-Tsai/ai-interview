@@ -2,13 +2,14 @@ import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { Answer, Card, Question, SourceRecord } from './types';
 import {answerInputHash,answerContentHash} from '../../scripts/lib/answers';
+import {readCommunity,communityHash,validateCommunityPaths} from './community';
 const read = (path:string) => JSON.parse(readFileSync(path,'utf8'));
 export function loadCards(): Card[] {
  const directory=resolve('data/questions');
  if(!existsSync(directory)) return [];
  const sourcesDir=resolve('data/sources');
  const sources:SourceRecord[]=existsSync(sourcesDir)?readdirSync(sourcesDir).filter(n=>n.endsWith('.json')).map(n=>read(resolve(sourcesDir,n))):[];
- return readdirSync(directory).filter(n=>/^Q\d+\.json$/.test(n)).map(name=>{
+ const cards=readdirSync(directory).filter(n=>/^Q\d+\.json$/.test(n)).map(name=>{
    const q=read(resolve(directory,name)) as Question;
    const path=resolve('data/answers',name);
    let answer: Answer|undefined=existsSync(path)?read(path):undefined;
@@ -23,8 +24,16 @@ export function loadCards(): Card[] {
     }
    }
    if(answer?.model==='codex-source-reviewed' && answer.inputHash!==answerContentHash(q)) answer={...answer,status:'stale'};
-   return {...q, answer};
+   const aiGeneratedAt=answer?.generatedAt;
+   const community=readCommunity(q,sources),contributions=Object.values(community);
+   if(contributions.length){
+    const generatedAt=[answer?.generatedAt,...contributions.map(a=>a.updatedAt)].filter((v):v is string=>!!v).sort((a,b)=>Date.parse(a)-Date.parse(b)).at(-1)!;
+    answer={questionId:q.id,inputHash:communityHash(q,sources),status:'ready',generatedAt,model:'community-reviewed',promptVersion:'community-v1',sourceUrls:[...new Set([...(answer?.sourceUrls??[]),...contributions.flatMap(a=>a.sourceUrls)])],locales:{...(answer?.status==='ready'?answer.locales:{}),...community}};
+   }
+   return {...q,answer,community,aiGeneratedAt,communityHash:communityHash(q,sources)};
  }).sort((a,b)=>a.number-b.number);
+ validateCommunityPaths(cards);
+ return cards;
 }
 export function publicIndex(cards:Card[]) {
  return cards.map(c=>({id:c.id,number:c.number,original:c.original,topic:c.topic,tags:c.tags,companies:c.companies,active:c.active,

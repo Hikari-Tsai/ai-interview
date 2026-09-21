@@ -90,5 +90,20 @@
   "learningPath": "原理 → 上線實務",
   "projectRepo": "本專案 Repo",
   "starRepo": "賞我星星",
-  "socialImageAlt": "Recall AI 公司面試題庫分享封面：米白底、深綠題卡與 AI 節點插圖。"
+  "socialImageAlt": "Recall AI 公司面試題庫分享封面：米白底、深綠題卡與 AI 節點插圖。",
+  "contributeTitle": "一起完善這題",
+  "contributeDescription": "分享你的解法、補充實務經驗，或幫忙修正答案。",
+  "contributeGuide": "投稿指南",
+  "discussQuestion": "討論這題",
+  "viewDiscussions": "查看同題討論",
+  "startDiscussion": "開啟新討論",
+  "suggestAnswer": "補充／修正答案",
+  "editAnswer": "編輯答案",
+  "communityAnswer": "社群共筆答案",
+  "communityAuthors": "貢獻者：",
+  "communityHistory": "查看修改紀錄",
+  "communityNeedsReview": "原題或來源已有更新，這份社群答案需要重新複核；目前保留原有內容。",
+  "communityReferences": "社群答案參考來源",
+  "communityUpdated": "最後修訂",
+  "communityAdvanced": "進階解析"
 }

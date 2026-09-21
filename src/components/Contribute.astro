@@ -1,0 +1,19 @@
+---
+import type {Card,Locale} from '../lib/types';
+import {messages,pathFor} from '../lib/i18n';
+import {projectRepoUrl} from '../lib/project';
+import {contributionLinks} from '../lib/contributions';
+import Icon from './Icon.astro';
+const {card,locale}=Astro.props as {card:Card;locale:Locale};
+const t=messages[locale];
+const links=projectRepoUrl?contributionLinks(card,locale,projectRepoUrl,new URL(pathFor(locale,card.id),Astro.site).href):undefined;
+---
+{links&&<section class="contribute" aria-label={t.contributeTitle}>
+ <div class="contribute-heading"><h3>{t.contributeTitle}</h3><a href={links.guide} target="_blank" rel="noopener noreferrer">{t.contributeGuide}<Icon name="external" size={12}/></a></div>
+ <p>{t.contributeDescription}</p>
+ <div class="contribute-actions">
+  <details class="discussion-options"><summary><Icon name="discussion" size={16}/>{t.discussQuestion}<Icon name="chevron" size={14}/></summary><div class="discussion-links"><a data-contribution="discuss" href={links.discuss} target="_blank" rel="noopener noreferrer">{t.viewDiscussions}</a><a data-contribution="new-discussion" href={links.newDiscussion} target="_blank" rel="noopener noreferrer">{t.startDiscussion}</a></div></details>
+  <a data-contribution="suggest" href={links.suggest} target="_blank" rel="noopener noreferrer"><Icon name="bulb" size={16}/>{t.suggestAnswer}</a>
+  <a data-contribution="edit" href={links.edit} target="_blank" rel="noopener noreferrer"><Icon name="edit" size={16}/>{t.editAnswer}</a>
+ </div>
+</section>}

@@ -17,7 +17,11 @@ export interface Answer {
   model: string; promptVersion: string; sourceUrls: string[];
   locales: Partial<Record<Locale, AnswerText>>;
 }
-export interface Card extends Question { answer?: Answer }
+export interface CommunityAnswer extends AnswerText {
+ questionId:string;locale:Locale;authors:string[];updatedAt:string;reviewedAgainst:string;
+ sourceUrls:string[];advanced?:string;needsReview:boolean;
+}
+export interface Card extends Question { answer?: Answer;community?:Partial<Record<Locale,CommunityAnswer>>;communityHash?:string;aiGeneratedAt?:string }
 export interface SourceRecord {
   url: string; title: string; status: 'ok' | 'failed' | 'unsupported';
   contentHash?: string; checkedAt: string; etag?: string; lastModified?: string; error?: string;

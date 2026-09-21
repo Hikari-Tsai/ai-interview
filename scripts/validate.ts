@@ -3,6 +3,7 @@ import {readDirectory,readJson} from './lib/io.ts';
 import {validateAnswer,answerInputHash,answerContentHash} from './lib/answers.ts';
 import {hash,REPO} from './lib/pipeline.ts';
 import type {Question,Answer,SourceRecord} from '../src/lib/types.ts';
+import {readCommunity,validateCommunityPaths} from '../src/lib/community.ts';
 const digest=z.string().regex(/^[a-f0-9]{64}$/);
 const https=z.string().url().refine(u=>u.startsWith('https://'));
 const questionSchema=z.object({id:z.string().regex(/^Q\d{4,}$/),number:z.number().int().positive(),original:z.string().min(1),topic:z.string().min(1),group:z.string().min(1),companies:z.array(z.string()),tags:z.array(z.string()).min(1),originalAnswer:z.string(),links:z.array(z.object({title:z.string(),url:https}).strict()),source:z.object({repo:z.literal(REPO),commit:z.string().regex(/^[a-f0-9]{40}$/),path:z.literal('README.md'),lineStart:z.number().int().positive(),lineEnd:z.number().int().positive(),url:https}).strict(),contentHash:digest,active:z.boolean()}).strict();
@@ -26,6 +27,8 @@ async function main(){
  }
  const sources=await readDirectory<SourceRecord>('data/sources');
  for(const s of sources)sourceSchema.parse(s); // strict schema rejects full prose or HTML in public records
+ validateCommunityPaths(questions);
+ for(const q of questions)readCommunity(q,sources);
  const overrides=await readDirectory<{pin:boolean;answer:Answer}>('data/overrides');
  const pinnedIds=new Set(overrides.filter(o=>o.pin).map(o=>o.answer.questionId));
  const answers=await readDirectory<Answer>('data/answers');

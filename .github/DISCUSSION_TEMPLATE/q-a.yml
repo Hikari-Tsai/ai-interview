@@ -1,0 +1,30 @@
+title: "[Qxxxx] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Discuss approaches, assumptions, trade-offs, and production experience. English, 繁體中文, 日本語 are welcome.
+        Search the question ID first and keep it in your title so all languages can share the same discussion.
+        An accepted discussion answer is not automatically published on the website. Use an Issue or PR for a reviewed change.
+  - type: input
+    id: question_id
+    attributes:
+      label: Question ID / 題號
+      placeholder: Q0001
+    validations:
+      required: true
+  - type: input
+    id: question_url
+    attributes:
+      label: Question page / 題目頁面
+  - type: textarea
+    id: discussion
+    attributes:
+      label: Your question or approach / 想討論的問題或解法
+      description: Explain your assumptions and the part of the answer you want to discuss.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References or examples / 參考資料或範例

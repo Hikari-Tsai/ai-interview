@@ -1,0 +1,68 @@
+name: Answer contribution / 答案補充與修正
+description: Add a missing answer, deepen an explanation, fix an error, or improve a translation.
+title: "[Qxxxx] "
+labels: [answer-contribution, needs-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English, 繁體中文, 日本語 are welcome. You do not need to write code or open a PR.
+        Please keep the question ID in the title. Maintainers review submissions before publishing them.
+  - type: input
+    id: question_id
+    attributes:
+      label: Question ID / 題號
+      placeholder: Q0001
+    validations:
+      required: true
+  - type: input
+    id: question_url
+    attributes:
+      label: Question page / 題目頁面
+      placeholder: https://hikari-tsai.github.io/ai-interview/en/questions/Q0001/
+    validations:
+      required: true
+  - type: input
+    id: original_source
+    attributes:
+      label: Original repository source / 原題來源
+  - type: input
+    id: language
+    attributes:
+      label: Language / 語言
+      description: en, zh-TW, or ja
+      value: en
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution_type
+    attributes:
+      label: Contribution type / 投稿類型
+      options:
+        - Missing answer / 補上答案
+        - Correction / 修正錯誤
+        - Deeper explanation / 深入說明
+        - Translation / 翻譯
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_answer
+    attributes:
+      label: Proposed answer or correction / 建議內容
+      description: Use Principle, Trade-off, Implementation, and Production where relevant. For a small correction, explain the specific problem and fix. Advanced derivations and code examples are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References and evidence / 參考資料與驗證方式
+      description: Link to primary sources or reproducible examples. Separate documented facts, your own reasoning, and personal experience. Do not paste entire third-party articles.
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution_terms
+    attributes:
+      label: Contribution confirmation / 投稿確認
+      options:
+        - label: I can contribute this text under this project's Apache-2.0 license and have credited external sources.
+          required: true

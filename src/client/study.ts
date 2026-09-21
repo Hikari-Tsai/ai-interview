@@ -1,12 +1,12 @@
 import {filterCards,orderedIds,readFilters} from '../lib/session';
 import {historyFor,recordVisit,type VisitHistory} from '../lib/history';
-import type {Card} from '../lib/types';
-type Meta={locale:string;id:string;base:string;labels:Record<string,string>};
+import type {Card,Locale} from '../lib/types';
+type Meta={locale:Locale;id:string;base:string;labels:Record<string,string>};
 const meta=JSON.parse(document.getElementById('study-meta')!.textContent!) as Meta;
 const $=<T extends HTMLElement=HTMLElement>(selector:string)=>document.querySelector<T>(selector)!;
 const all=<T extends HTMLElement=HTMLElement>(selector:string)=>Array.from(document.querySelectorAll<T>(selector));
 const base=meta.base.replace(/\/$/,'');
-const questionUrl=(id:string,params:URLSearchParams,locale=meta.locale)=>`${base}/${locale}/questions/${id}/${params.size?'?'+params.toString():''}`;
+const questionUrl=(id:string,params:URLSearchParams,locale:string=meta.locale)=>`${base}/${locale}/questions/${id}/${params.size?'?'+params.toString():''}`;
 try{localStorage.setItem('recall-locale',meta.locale);}catch{}
 // Disclosure controls remain usable even when the catalog cannot be fetched.
 for(const [buttonId,panelId,closed,open] of [['hint-button','hint-panel','hint','hideHint'],['answer-button','answer-panel','reveal','hideAnswer']]){
@@ -30,10 +30,10 @@ async function setup(){
  const freshSeed=()=>crypto.getRandomValues(new Uint32Array(1))[0];
  function render(allowNavigation=true){
   const filters=readFilters(params);
-  const filtered=filterCards(cards,filters);
+  const filtered=filterCards(cards,filters,meta.locale);
   deck=orderedIds(filtered,filters.mode,filters.seed,filters.anchor);
   const current=deck.indexOf(meta.id);
-  const historyKey=JSON.stringify({tags:[...filters.tags].sort(),match:filters.match,company:filters.company,search:filters.search,ready:filters.ready});
+  const historyKey=JSON.stringify({locale:meta.locale,tags:[...filters.tags].sort(),match:filters.match,company:filters.company,search:filters.search,ready:filters.ready});
   visits=historyFor(visits,historyKey,meta.id);persistVisits();
   // An unfiltered retired permalink remains readable, but does not re-enter active decks.
   const retired=cards.find(c=>c.id===meta.id)?.active===false && !params.size;

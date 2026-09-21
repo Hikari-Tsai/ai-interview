@@ -1,0 +1,14 @@
+---
+import type {CommunityAnswer,Locale} from '../lib/types';
+import {messages} from '../lib/i18n';
+import {projectRepoUrl} from '../lib/project';
+const {answer,locale}=Astro.props as {answer:CommunityAnswer;locale:Locale};
+const t=messages[locale];
+---
+<div class="community-credit">
+ <strong>{t.communityAnswer}</strong>
+ <p>{t.communityAuthors} {answer.authors.map((author,index)=><>{index>0?' · ':''}<a href={`https://github.com/${author}`} target="_blank" rel="noopener noreferrer">@{author}</a></>)}</p>
+ {projectRepoUrl&&<a href={`${projectRepoUrl}/commits/main/content/community/${answer.questionId}/${locale}.md`} target="_blank" rel="noopener noreferrer">{t.communityHistory}</a>}
+ {answer.needsReview&&<p class="notice">{t.communityNeedsReview}</p>}
+ <details><summary>{t.communityReferences}</summary><ul>{answer.sourceUrls.map(url=><li><a href={url} target="_blank" rel="noopener noreferrer">{url}</a></li>)}</ul></details>
+</div>

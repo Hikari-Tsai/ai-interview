@@ -90,5 +90,20 @@
   "learningPath": "原理 → 本番運用",
   "projectRepo": "このプロジェクトの Repo",
   "starRepo": "スターをつける",
-  "socialImageAlt": "Recall AI企業面接問題集のカバー。アイボリーの背景に深緑の学習カードとノードのイラスト。"
+  "socialImageAlt": "Recall AI企業面接問題集のカバー。アイボリーの背景に深緑の学習カードとノードのイラスト。",
+  "contributeTitle": "この解答を一緒に改善する",
+  "contributeDescription": "別の解法や実務経験の共有、解答の修正を歓迎します。",
+  "contributeGuide": "投稿ガイド",
+  "discussQuestion": "この問題を議論する",
+  "viewDiscussions": "既存の議論を見る",
+  "startDiscussion": "新しい議論を始める",
+  "suggestAnswer": "解答の補足・修正を提案",
+  "editAnswer": "解答を編集",
+  "communityAnswer": "コミュニティの解答",
+  "communityAuthors": "貢献者：",
+  "communityHistory": "変更履歴を見る",
+  "communityNeedsReview": "問題または参照資料が更新されています。この解答を保持したまま、再レビューを待っています。",
+  "communityReferences": "コミュニティ解答の参考資料",
+  "communityUpdated": "最終改訂",
+  "communityAdvanced": "発展的な解説"
 }

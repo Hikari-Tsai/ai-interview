@@ -25,9 +25,15 @@ npm run dev
 
 Open [the local website](http://127.0.0.1:4321).
 
-The dataset contains **598 questions**. Select **With answers** to practice questions with complete trilingual explanations. Answers are rewritten from the original question and linked article text, not expanded from an earlier short answer. Traditional Chinese explanations target roughly **2,000 characters**, with equivalent detail in English and Japanese. Questions without readable original explanations remain pending.
+The dataset contains **598 questions**. Select **With answers** to practice questions with an answer in the current language. Answers are rewritten from the original question and linked article text, not expanded from an earlier short answer. Traditional Chinese explanations target roughly **2,000 characters**, with equivalent detail in English and Japanese. Questions without readable original explanations remain pending.
 
 See the [maintenance and deployment guide](docs/maintenance.md) for setup, synchronization, and GitHub Pages deployment.
+
+## Contribute an answer
+
+Each card offers **Discuss this question**, **Suggest an answer or fix**, and **Edit the answer**. Use [Discussions](https://github.com/Hikari-Tsai/ai-interview/discussions) to compare approaches, an Issue form to submit text without Git knowledge, or a PR to edit a community Markdown answer. Contributions in any one of the three languages are welcome, including answers to currently pending questions.
+
+Community answers are stored separately from AI output and take priority in their language. Scheduled generation never overwrites them. Maintainers review and merge contributions before the site automatically rebuilds. See the [contribution guide](CONTRIBUTING.md).
 
 ## Automatic updates
 

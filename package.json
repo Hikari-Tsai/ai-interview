@@ -23,8 +23,12 @@
     "astro": "^7.3.3",
     "linkedom": "^0.18.12",
     "mdast-util-to-string": "^4.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
     "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
     "unified": "^11.0.5",
+    "yaml": "^2.9.1",
     "zod": "^3.25.0"
   },
   "devDependencies": {

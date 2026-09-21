@@ -1,12 +1,12 @@
-import type { Card } from './types';
+import type { Card,Locale } from './types';
 export interface Filters { tags: string[]; match: 'any'|'all'; company: string; search: string; ready: boolean; mode:'sequential'|'random'; seed:number; anchor:string }
 export function readFilters(params: URLSearchParams): Filters {
  const seed = Number(params.get('seed') ?? 1);
  return { tags:[...new Set(params.getAll('tag').filter(Boolean))], match:params.get('match')==='all'?'all':'any', company:params.get('company')||'', search:params.get('search')||'', ready:params.get('ready')==='1', mode:params.get('mode')==='random'?'random':'sequential', seed:Number.isSafeInteger(seed)?seed:1, anchor:params.get('anchor')||'' };
 }
-export function filterCards(cards: Card[], filters: Filters): Card[] {
+export function filterCards(cards: Card[], filters: Filters,locale?:Locale): Card[] {
  const query=filters.search.trim().toLocaleLowerCase();
- return cards.filter(card=>card.active && (!filters.company||card.companies.includes(filters.company)) && (!filters.ready||card.answer?.status==='ready') &&
+ return cards.filter(card=>card.active && (!filters.company||card.companies.includes(filters.company)) && (!filters.ready||(card.answer?.status==='ready'&&(!locale||!!card.answer.locales[locale]))) &&
  (!filters.tags.length || (filters.match==='all' ? filters.tags.every(t=>card.tags.includes(t)) : filters.tags.some(t=>card.tags.includes(t)))) &&
  (!query || [card.id,card.original,card.topic,...card.tags,...Object.values(card.answer?.locales||{}).map(a=>a?.title||'')].join(' ').toLocaleLowerCase().includes(query)));
 }

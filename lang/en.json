@@ -90,5 +90,20 @@
   "learningPath": "Principle → Production",
   "projectRepo": "Project repository",
   "starRepo": "Star on GitHub",
-  "socialImageAlt": "Recall AI company interview questions cover with ivory paper, forest-green flashcards and a connected-node illustration."
+  "socialImageAlt": "Recall AI company interview questions cover with ivory paper, forest-green flashcards and a connected-node illustration.",
+  "contributeTitle": "Help improve this question",
+  "contributeDescription": "Share your approach, add practical experience, or suggest a correction.",
+  "contributeGuide": "Contribution guide",
+  "discussQuestion": "Discuss this question",
+  "viewDiscussions": "View existing discussions",
+  "startDiscussion": "Start a discussion",
+  "suggestAnswer": "Suggest an answer or fix",
+  "editAnswer": "Edit the answer",
+  "communityAnswer": "Community answer",
+  "communityAuthors": "Contributors:",
+  "communityHistory": "View revision history",
+  "communityNeedsReview": "The question or its sources changed. This community answer is kept available and needs another review.",
+  "communityReferences": "Community references",
+  "communityUpdated": "Last revised",
+  "communityAdvanced": "Advanced explanation"
 }

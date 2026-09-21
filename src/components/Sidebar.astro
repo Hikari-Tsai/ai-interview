@@ -1,8 +1,8 @@
 ---
 import Icon from './Icon.astro';
 import {type Messages,tagLabel} from '../lib/i18n';
-import type {Card} from '../lib/types';
-const {cards,t}=Astro.props as {cards:Card[];t:Messages};
+import type {Card,Locale} from '../lib/types';
+const {cards,t,locale}=Astro.props as {cards:Card[];t:Messages;locale:Locale};
 const tags=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.tags))];
 const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].sort();
 ---
@@ -16,7 +16,7 @@ const companies=[...new Set(cards.filter(c=>c.active).flatMap(c=>c.companies))].
    <div class="match-control"><span>{t.match}</span><div class="small-segment"><button type="button" data-match="any" aria-pressed="true">{t.any}</button><button type="button" data-match="all" aria-pressed="false">{t.all}</button></div></div>
    <div class="tag-options">{tags.map(tag=><label class="tag-option"><input type="checkbox" name="tag" value={tag}/><span class="custom-check"><Icon name="check" size={11}/></span><span>{tagLabel(t,tag)}</span><span class="tag-count">{cards.filter(c=>c.active&&c.tags.includes(tag)).length}</span></label>)}</div>
   </fieldset>
-  <div class="filter-section status-filter"><label class="tag-option"><input type="checkbox" name="ready" id="ready" value="1"/><span class="custom-check"><Icon name="check" size={11}/></span><span>{t.ready}</span><span class="tag-count">{cards.filter(c=>c.active&&c.answer?.status==='ready').length}</span></label></div>
+  <div class="filter-section status-filter"><label class="tag-option"><input type="checkbox" name="ready" id="ready" value="1"/><span class="custom-check"><Icon name="check" size={11}/></span><span>{t.ready}</span><span class="tag-count">{cards.filter(c=>c.active&&c.answer?.status==='ready'&&c.answer.locales[locale]).length}</span></label></div>
  </form>
  <div class="deck-note"><Icon name="layers" size={21}/><h3>{t.filterSummary}</h3><p>{t.filterHelp}</p><span><strong id="deck-count">{cards.filter(c=>c.active).length}</strong> {t.questionCount}</span></div>
 </aside>

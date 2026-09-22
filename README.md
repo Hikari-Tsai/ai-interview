@@ -1,4 +1,4 @@
-[Traditional Chinese translation](README.zh-TW.md)
+[![ENGLISH](https://img.shields.io/badge/ENGLISH-456956?style=flat-square)](README.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-737C75?style=flat-square)](README.zh-TW.md)
 
 # Recall — AI Interview Cards
 

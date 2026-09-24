@@ -16,7 +16,8 @@
     "sync": "tsx scripts/sync.ts",
     "generate": "tsx scripts/generate.ts",
     "validate": "tsx scripts/validate.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "summarize-commit": "tsx scripts/summarize-commit.ts"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",

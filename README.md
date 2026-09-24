@@ -94,6 +94,7 @@ The [GitHub Actions workflow](.github/workflows/update-and-deploy.yml) runs dail
 - Tracks the upstream repository and downloads its README only when its content changes or the parser requires a refresh.
 - Refreshes due external sources on a weekly cache cycle and retries pending answer generation, with at most 10 model attempts per run. Changes to the writing specification also queue existing answers for regeneration. New answers must pass language-specific length, structure, and source-link checks.
 - Validates data, runs tests, and commits updated records. When site content changes, it rebuilds and deploys to GitHub Pages if deployment is enabled.
+- For scheduled and manual data updates, one additional LLM call summarizes staged content changes in the commit message. It reuses the existing model/key, sends at most 12,000 characters of change details, and skips metadata-only changes. Missing credentials, timeouts or invalid output fall back to a deterministic message without blocking the update.
 
 The page footer shows the latest recorded question sync or answer generation time in **UTC+8**. Reloading the page does not change this timestamp. Push-triggered runs validate and build the site; they skip source synchronization and answer generation.
 

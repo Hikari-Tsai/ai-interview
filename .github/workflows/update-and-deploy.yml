@@ -83,12 +83,20 @@ jobs:
         run: npm run build
       - name: Commit validated durable data
         if: github.event_name != 'push'
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/questions data/answers data/sources data/state
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: update validated interview data'
+            if ! npm run summarize-commit -- "$RUNNER_TEMP/interview-update-commit.txt"; then
+              printf '%s\n' 'chore: update validated interview data' > "$RUNNER_TEMP/interview-update-commit.txt"
+            fi
+            git commit -F "$RUNNER_TEMP/interview-update-commit.txt"
             git push
           fi
       # Article prose stays only on the ephemeral runner. Never upload .private

@@ -1,7 +1,7 @@
 {
   "questionId": "Q0052",
   "inputHash": "e3c882750fabc24824f11a7b3f86c6cb01d4bdf7b6025cd2e1e7bc32c1319ab4",
-  "status": "ready",
+  "status": "stale",
   "generatedAt": "2026-09-21T03:42:44.287Z",
   "model": "gpt-6-astra",
   "promptVersion": "grounded-longform-v2",

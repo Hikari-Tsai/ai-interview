@@ -8,22 +8,26 @@
   "tags": [
     "coding"
   ],
-  "originalAnswer": "- Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)",
+  "originalAnswer": "- Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning) and [How do CUDA Kernels work?](https://outcomeschool.com/blog/how-do-cuda-kernels-work)",
   "links": [
     {
       "title": "How does a GPU work for Deep Learning?",
       "url": "https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning"
+    },
+    {
+      "title": "How do CUDA Kernels work?",
+      "url": "https://outcomeschool.com/blog/how-do-cuda-kernels-work"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "14c0106e2794bd4d355e6a9145b375a19b912bac",
+    "commit": "60c9a22a0d72ba3849f1650ddfdedccc2db23cbe",
     "path": "README.md",
     "lineStart": 1220,
     "lineEnd": 1221,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/14c0106e2794bd4d355e6a9145b375a19b912bac/README.md#L1220-L1221"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/60c9a22a0d72ba3849f1650ddfdedccc2db23cbe/README.md#L1220-L1221"
   },
-  "contentHash": "d7843d5c1f4f89e6fb272aba80416d5f9381164fbd871e373677f004e3d5e145",
+  "contentHash": "cd35305dd2316c2781b3db7a59cfccc65a6ccca8946bdc5b87ad351d2608b8af",
   "id": "Q0361",
   "number": 361,
   "active": true

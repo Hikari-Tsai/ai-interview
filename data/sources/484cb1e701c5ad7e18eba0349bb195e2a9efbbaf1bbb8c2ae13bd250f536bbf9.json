@@ -1,7 +1,8 @@
 {
   "url": "https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after",
   "title": "Inside ChatGPT: What Happens After You Hit Enter",
-  "status": "ok",
+  "status": "failed",
   "contentHash": "984240f26ace1320af87e7af043ad809f9ddb7d02d50f45021db22ee734d298e",
-  "checkedAt": "2026-09-21T02:20:01.611Z"
+  "checkedAt": "2026-09-30T02:40:12.644Z",
+  "error": "HTTP 403"
 }

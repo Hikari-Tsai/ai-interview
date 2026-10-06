@@ -8,22 +8,26 @@
   "tags": [
     "rag"
   ],
-  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)",
+  "originalAnswer": "- Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag) and [How does Contextual Retrieval work?](https://outcomeschool.com/blog/how-does-contextual-retrieval-work)",
   "links": [
     {
       "title": "Chunking Strategies for RAG",
       "url": "https://outcomeschool.com/blog/chunking-strategies-for-rag"
+    },
+    {
+      "title": "How does Contextual Retrieval work?",
+      "url": "https://outcomeschool.com/blog/how-does-contextual-retrieval-work"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "a024e22ace6f11e1fd25eeb589e9fd041cf2ffbf",
+    "commit": "b62705cf83f38c7a876c12d94ea22a556544a7e8",
     "path": "README.md",
     "lineStart": 1717,
     "lineEnd": 1718,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/a024e22ace6f11e1fd25eeb589e9fd041cf2ffbf/README.md#L1717-L1718"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/b62705cf83f38c7a876c12d94ea22a556544a7e8/README.md#L1717-L1718"
   },
-  "contentHash": "350b69d3f82d1b1141d29b58f8a5074b6afd4815cce4156b9a511ca85d0e0b61",
+  "contentHash": "09413f34986fde54cec900f19987bd50b6f8d7e751812f7fdef49a7933cb8def",
   "id": "Q0504",
   "number": 504,
   "active": true

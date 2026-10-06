@@ -10,7 +10,7 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)",
+  "originalAnswer": "- Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI) and [Tokenization in LLMs](https://outcomeschool.com/blog/tokenization-in-llms)",
   "links": [
     {
       "title": "Byte Pair Encoding",
@@ -19,17 +19,21 @@
     {
       "title": "Tokenization in Large Language Models (LLMs)",
       "url": "https://www.youtube.com/watch?v=sK2s9I84EVI"
+    },
+    {
+      "title": "Tokenization in LLMs",
+      "url": "https://outcomeschool.com/blog/tokenization-in-llms"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "60c9a22a0d72ba3849f1650ddfdedccc2db23cbe",
+    "commit": "a024e22ace6f11e1fd25eeb589e9fd041cf2ffbf",
     "path": "README.md",
     "lineStart": 132,
     "lineEnd": 134,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/60c9a22a0d72ba3849f1650ddfdedccc2db23cbe/README.md#L132-L134"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/a024e22ace6f11e1fd25eeb589e9fd041cf2ffbf/README.md#L132-L134"
   },
-  "contentHash": "8a2af56fdfed194fbad5ced98ece17c817ddfc90467d762d682c390842dee6eb",
+  "contentHash": "4036ba4553cc960a3c682724cd107ba9c11604c245e89208ce0750253a1a18f7",
   "id": "Q0006",
   "number": 6,
   "active": true

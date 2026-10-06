@@ -2,8 +2,8 @@
   "url": "https://outcomeschool.com/blog/scaling-dot-product-attention",
   "title": "Why Do We Scale Attention by √dₖ? The Math Behind the Scaling Factor",
   "status": "ok",
-  "contentHash": "806dc056f96cd6e9e14de292595481521ded7064864b5d8d187625cbc5138afe",
-  "checkedAt": "2026-09-28T02:44:07.546Z",
-  "etag": "W/\"a8b33e75d0632e688aac657f8e84ffcf\"",
-  "lastModified": "Sun, 27 Sep 2026 07:36:26 GMT"
+  "contentHash": "6b3714d5864670c73aeab35c585eac30123cb9c57ea8433cb1948670a130deea",
+  "checkedAt": "2026-10-06T02:39:46.220Z",
+  "etag": "W/\"ca17803e91224316f4627a6a24ca343e\"",
+  "lastModified": "Mon, 05 Oct 2026 05:44:28 GMT"
 }

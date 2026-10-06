@@ -42,3 +42,15 @@ test('model message uses bounded input and Astra parameters; failures fall back'
   assert.match(await commitMessage(changes,{key:'test',model:'gpt-6-astra',request}),/^chore: update validated interview data/);
  }
 });
+
+test('commit summary sends GPT-6.1 Sol compatible parameters',async()=>{
+ const changes={counts:{questions:1,answers:0,sources:0,state:0},contentChanged:true,details:[],omitted:0};
+ await commitMessage(changes,{key:'test',model:'gpt-6.1-sol',request:async(_url,init)=>{
+  const body=JSON.parse(String(init?.body));
+  assert.equal(body.max_completion_tokens,4096);
+  assert.equal(body.reasoning_effort,'low');
+  assert.equal(body.max_tokens,undefined);
+  assert.equal(body.temperature,undefined);
+  return new Response(JSON.stringify({choices:[{finish_reason:'stop',message:{content:JSON.stringify({subject:'chore: update Q0001',body:'- Update Q0001.'})}}]}));
+ }});
+});

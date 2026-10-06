@@ -3,6 +3,7 @@ import { loadText,fetchArticle,sourcePath } from './lib/sources.ts';
 import { answerInputHash,answerContentHash,validateAnswer,shouldGenerate,buildPrompt,PROMPT_VERSION,boundSources } from './lib/answers.ts';
 import {hash} from './lib/pipeline.ts';
 import {findNewlyStale} from './lib/freshness.ts';
+import {modelParameters} from './lib/model-parameters.ts';
 import type { Answer, Question, SourceRecord } from '../src/lib/types.ts';
 type Job={status:'ready'|'pending'|'failed';attempts:number;inputHash?:string;sourceHash?:string;nextRetryAt?:string;error?:string;updatedAt:string};
 async function main(){
@@ -58,10 +59,7 @@ async function main(){
    const endpoint=new URL(process.env.LLM_BASE_URL||'https://api.openai.com/v1');
    if(endpoint.protocol!=='https:'&&!(endpoint.protocol==='http:'&&['localhost','127.0.0.1'].includes(endpoint.hostname)))throw new Error('LLM_BASE_URL must use HTTPS (except local providers)');
    endpoint.pathname=endpoint.pathname.replace(/\/$/,'')+'/chat/completions';
-   // Astra's completion budget includes reasoning; sampling controls are unsupported.
-   const parameters=/^gpt-6-astra(?:-|$)/.test(model)
-    ?{max_completion_tokens:maxTokens,reasoning_effort:'low'}
-    :{max_tokens:maxTokens,temperature:0.2};
+   const parameters=modelParameters(model,maxTokens);
    const lengthFeedback=previous?.error?.startsWith('Long-form length')
     ?`\nA previous attempt failed the length check: ${previous.error} Regenerate from the supplied original sources. Aim for the middle of each language's requested range. Add missing explanations, assumptions and concrete examples when short; remove repetition when long. Do not merely pad the text.`:'';
    const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,messages:[{role:'system',content:'You write careful source-grounded interview study notes and valid JSON.'},{role:'user',content:buildPrompt(q,boundSources(sources,sourceCharacters))+lengthFeedback}],response_format:{type:'json_object'},...parameters}),signal:AbortSignal.timeout(300000)});

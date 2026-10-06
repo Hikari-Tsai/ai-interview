@@ -78,7 +78,7 @@ test('source fetch refuses an off-allowlist redirect before following it',async(
  globalThis.fetch=async(input)=>{calls.push(String(input));return new Response(null,{status:302,headers:{location:'http://127.0.0.1/private'}});};
  try {const record=await fetchArticle('https://outcomeschool.com/blog/test-security');assert.equal(record.status,'failed');assert.match(record.error??'',/allowlist/);assert.deepEqual(calls,['https://outcomeschool.com/blog/test-security']);assert.equal('text' in record,false);} finally {globalThis.fetch=originalFetch;}
 });
-for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates ${model} requests, retries rejected output, and skips unchanged work`,async()=>{
+for(const model of ['test-local-model','gpt-6-astra','gpt-6.1-sol']) test(`generator validates ${model} requests, retries rejected output, and skips unchanged work`,async()=>{
  const {mkdtemp,mkdir,writeFile,readFile,rm}=await import('node:fs/promises');
  const {tmpdir}=await import('node:os');const {join,resolve}=await import('node:path');
  const {createServer}=await import('node:http');const {execFile}=await import('node:child_process');const {promisify}=await import('node:util');
@@ -102,9 +102,9 @@ for(const model of ['test-local-model','gpt-6-astra']) test(`generator validates
   await run();const failed=JSON.parse(await readFile(join(dir,'data/state/generation.json'),'utf8'));assert.equal(failed.Q0002.status,'failed');assert.match(failed.Q0002.error,/source/i);
   assert.equal(requests[0].model,model);
   assert.deepEqual(requests[0].response_format,{type:'json_object'});
-  if(model==='gpt-6-astra'){
-   assert.equal('temperature' in requests[0],false,'Astra rejects temperature');
-   assert.equal('max_tokens' in requests[0],false,'Astra uses completion token budget');
+  if(model!=='test-local-model'){
+   assert.equal('temperature' in requests[0],false,'GPT-6 reasoning models reject temperature');
+   assert.equal('max_tokens' in requests[0],false,'GPT-6 reasoning models use completion token budget');
    assert.equal(requests[0].max_completion_tokens,7000);
    assert.equal(requests[0].reasoning_effort,'low');
   }else{

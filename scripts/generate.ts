@@ -2,6 +2,7 @@ import { readDirectory,readJson,writeJson,limitFromEnv } from './lib/io.ts';
 import { loadText,fetchArticle,sourcePath } from './lib/sources.ts';
 import { answerInputHash,answerContentHash,validateAnswer,shouldGenerate,buildPrompt,PROMPT_VERSION,boundSources } from './lib/answers.ts';
 import {hash} from './lib/pipeline.ts';
+import {findNewlyStale} from './lib/freshness.ts';
 import type { Answer, Question, SourceRecord } from '../src/lib/types.ts';
 type Job={status:'ready'|'pending'|'failed';attempts:number;inputHash?:string;sourceHash?:string;nextRetryAt?:string;error?:string;updatedAt:string};
 async function main(){
@@ -86,6 +87,21 @@ async function main(){
    console.error(`${q.id}: ${state[q.id].error}`);
   }
   await writeJson('data/state/generation.json',state);
+ }
+ // Later jobs may refresh shared source metadata after earlier questions were seen.
+ // Mark affected answers stale now so validation can commit the successful batch.
+ const questions=await readDirectory<Question>('data/questions');
+ const answers=await readDirectory<Answer>('data/answers');
+ const records=await readDirectory<SourceRecord>('data/sources');
+ const pinnedIds=new Set((await readDirectory<{pin:boolean;answer:Answer}>('data/overrides')).filter(item=>item.pin).map(item=>item.answer.questionId));
+ const newlyStale=findNewlyStale(questions,answers,records,pinnedIds);
+ for(const id of newlyStale){
+  const answer=answers.find(item=>item.questionId===id)!;
+  await writeJson(`data/answers/${id}.json`,{...answer,status:'stale'});
+  // Keep retry eligibility and the previous successful source baseline.
+  const previous=state[id];
+  state[id]={...previous,status:'pending',attempts:previous?.attempts??0,updatedAt:new Date().toISOString()};
+  console.log(`${id}: marked stale after a shared source changed during generation`);
  }
  await writeJson('data/state/generation.json',state);
  console.log(`Generated ${generated}; attempted ${attempted}; ${Object.values(state).filter(j=>j.status!=='ready').length} pending/failed jobs. ${key&&model?'Provider configured.':'No model requests made: credentials/model missing.'}`);

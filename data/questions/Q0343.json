@@ -8,22 +8,26 @@
   "tags": [
     "agents"
   ],
-  "originalAnswer": "- Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)",
+  "originalAnswer": "- Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work) and [How do Browser Agents work?](https://outcomeschool.com/blog/how-do-browser-agents-work)",
   "links": [
     {
       "title": "How do Computer-Use Agents work?",
       "url": "https://outcomeschool.com/blog/how-do-computer-use-agents-work"
+    },
+    {
+      "title": "How do Browser Agents work?",
+      "url": "https://outcomeschool.com/blog/how-do-browser-agents-work"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "b62705cf83f38c7a876c12d94ea22a556544a7e8",
+    "commit": "16bfa3f154931e02d6d0fbf9253bdafa421b6266",
     "path": "README.md",
     "lineStart": 1147,
     "lineEnd": 1148,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/b62705cf83f38c7a876c12d94ea22a556544a7e8/README.md#L1147-L1148"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/16bfa3f154931e02d6d0fbf9253bdafa421b6266/README.md#L1147-L1148"
   },
-  "contentHash": "f9a875f1a26486f579139ce8ac2db59d854e5a3bd75173dd7deed7af6405dfac",
+  "contentHash": "493ff58d1a6c7020fa2c11697aa82a19d3ba8d4cb7b4aaad02f65df0d3fe169f",
   "id": "Q0343",
   "number": 343,
   "active": true

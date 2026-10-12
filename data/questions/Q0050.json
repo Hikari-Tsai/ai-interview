@@ -8,22 +8,26 @@
   "tags": [
     "agents"
   ],
-  "originalAnswer": "- Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)",
+  "originalAnswer": "- Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)",
   "links": [
     {
       "title": "AI Agent Memory",
       "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    },
+    {
+      "title": "How does ChatGPT remember you?",
+      "url": "https://outcomeschool.com/blog/how-does-chatgpt-remember-you"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "16bfa3f154931e02d6d0fbf9253bdafa421b6266",
+    "commit": "42e4e135d8cb92f3947116a43e60d5226a071cbc",
     "path": "README.md",
     "lineStart": 256,
     "lineEnd": 258,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/16bfa3f154931e02d6d0fbf9253bdafa421b6266/README.md#L256-L258"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/42e4e135d8cb92f3947116a43e60d5226a071cbc/README.md#L256-L258"
   },
-  "contentHash": "30fd7788c021a1205f263ab5f396146c57541612019eb3e21f7bef80354adabc",
+  "contentHash": "749cc5df41878d3a77651512aa5e1c597a384fb27f57efd8bd2f52d5caa6a248",
   "id": "Q0050",
   "number": 50,
   "active": true

@@ -9,22 +9,30 @@
     "multimodal",
     "agents"
   ],
-  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)",
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent) and [What is barge-in in a voice AI agent?](https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent)",
   "links": [
     {
       "title": "Design a Real-Time Voice AI Agent",
       "url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent"
+    },
+    {
+      "title": "What is turn-taking in a voice AI agent?",
+      "url": "https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent"
+    },
+    {
+      "title": "What is barge-in in a voice AI agent?",
+      "url": "https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "42e4e135d8cb92f3947116a43e60d5226a071cbc",
+    "commit": "4c2cecde5b53f4dcf1aff6c3e16864b8c16e73b5",
     "path": "README.md",
     "lineStart": 365,
     "lineEnd": 367,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/42e4e135d8cb92f3947116a43e60d5226a071cbc/README.md#L365-L367"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/4c2cecde5b53f4dcf1aff6c3e16864b8c16e73b5/README.md#L365-L367"
   },
-  "contentHash": "e0e03420b04b4587bd8411a3f8e2b7dbb4e08b6c2698a807c28afedb4fa9f6c4",
+  "contentHash": "291b1940046f961ab4824b6b775e3d9c7778a9e16feb5581a3d44f9211e85758",
   "id": "Q0091",
   "number": 91,
   "active": true

@@ -10,7 +10,7 @@
     "production",
     "agents"
   ],
-  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent) and [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget)",
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency) and [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio)",
   "links": [
     {
       "title": "Design a Real-Time Voice AI Agent",
@@ -19,17 +19,25 @@
     {
       "title": "How do you build a latency budget for a voice AI agent?",
       "url": "https://outcomeschool.com/blog/voice-agent-latency-budget"
+    },
+    {
+      "title": "How does the voice-to-voice latency of a voice agent get measured?",
+      "url": "https://outcomeschool.com/blog/voice-to-voice-latency"
+    },
+    {
+      "title": "Why does the time-to-first-audio matter more than total response time?",
+      "url": "https://outcomeschool.com/blog/time-to-first-audio"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "3b2a5ba6d35a75aefb889bc73928a08dc14e793a",
+    "commit": "f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a",
     "path": "README.md",
     "lineStart": 1037,
     "lineEnd": 1038,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/3b2a5ba6d35a75aefb889bc73928a08dc14e793a/README.md#L1037-L1038"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a/README.md#L1037-L1038"
   },
-  "contentHash": "887faeb7056ec0335e30667a11d9b1a22a3ecf43bc605bc8b511c2a670d0bf89",
+  "contentHash": "5d5c1202cad738a088482c955d35e8feae4c03e390624e939aa5cb5f490e757e",
   "id": "Q0311",
   "number": 311,
   "active": true

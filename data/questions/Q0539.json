@@ -10,7 +10,7 @@
     "production",
     "agents"
   ],
-  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent) and [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget)",
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency) and [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio)",
   "links": [
     {
       "title": "Design a Real-Time Voice AI Agent",
@@ -19,17 +19,25 @@
     {
       "title": "How do you build a latency budget for a voice AI agent?",
       "url": "https://outcomeschool.com/blog/voice-agent-latency-budget"
+    },
+    {
+      "title": "How does the voice-to-voice latency of a voice agent get measured?",
+      "url": "https://outcomeschool.com/blog/voice-to-voice-latency"
+    },
+    {
+      "title": "Why does the time-to-first-audio matter more than total response time?",
+      "url": "https://outcomeschool.com/blog/time-to-first-audio"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "3b2a5ba6d35a75aefb889bc73928a08dc14e793a",
+    "commit": "f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a",
     "path": "README.md",
     "lineStart": 1851,
     "lineEnd": 1852,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/3b2a5ba6d35a75aefb889bc73928a08dc14e793a/README.md#L1851-L1852"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a/README.md#L1851-L1852"
   },
-  "contentHash": "964da5be1c5ae157a1f3c9f15a9e43103a43e88d725f8ca47f71818667596e34",
+  "contentHash": "8d2772fcfb1a673d3455803188c90699c490f4c5dbd01905bc49e9fae8604edc",
   "id": "Q0539",
   "number": 539,
   "active": true

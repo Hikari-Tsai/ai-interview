@@ -8,17 +8,26 @@
   "tags": [
     "multimodal"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does sentence chunking feed LLM output into TTS faster?](https://outcomeschool.com/blog/sentence-chunking-for-tts) and [How does a TTS model start speaking before the full sentence arrives?](https://outcomeschool.com/blog/streaming-tts)",
+  "links": [
+    {
+      "title": "How does sentence chunking feed LLM output into TTS faster?",
+      "url": "https://outcomeschool.com/blog/sentence-chunking-for-tts"
+    },
+    {
+      "title": "How does a TTS model start speaking before the full sentence arrives?",
+      "url": "https://outcomeschool.com/blog/streaming-tts"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a",
+    "commit": "f07f8f47d32004f29ead658b14382a27dc7cb2f4",
     "path": "README.md",
     "lineStart": 375,
-    "lineEnd": 376,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f1b8b45005d0e61a810c1a9abfb1cbbd092ff01a/README.md#L375-L376"
+    "lineEnd": 377,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f07f8f47d32004f29ead658b14382a27dc7cb2f4/README.md#L375-L377"
   },
-  "contentHash": "b73dff1e786e2970457bffc30f48bbcceda9464655f6b3ef0c5e6f7ebfec8aab",
+  "contentHash": "920efdb79a30038ead3cb8dcb0717fc552f36cd5b4e9ffdec356a5d92fa3c7e4",
   "id": "Q0095",
   "number": 95,
   "active": true

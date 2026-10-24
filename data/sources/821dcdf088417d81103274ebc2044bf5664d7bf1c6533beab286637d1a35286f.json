@@ -2,8 +2,8 @@
   "url": "https://outcomeschool.com/blog/causal-masking-in-attention",
   "title": "What is Causal Masking in Attention and Why Do LLMs Need It?",
   "status": "ok",
-  "contentHash": "392a964091208c9ca126e44e1e5677aabc127e8068b2110e12ab713b3b5dc153",
-  "checkedAt": "2026-10-19T02:37:22.223Z",
-  "etag": "W/\"71ec0e79de8284f3a9e5a728d4fc39ab\"",
-  "lastModified": "Sun, 18 Oct 2026 13:41:25 GMT"
+  "contentHash": "cbec99f5d75350c03a8fb99090dcb79cbea994c00da5f41bd99f2ec73e29c23b",
+  "checkedAt": "2026-10-24T02:41:15.664Z",
+  "etag": "W/\"c979ec30603cd0d86b1c8ffd10c97728\"",
+  "lastModified": "Sat, 24 Oct 2026 02:41:15 GMT"
 }

@@ -15,10 +15,10 @@
   },
   "Q0003": {
     "status": "ready",
-    "attempts": 4,
-    "inputHash": "125f76ceff1fdb75d6b63ecd3d97582850b9fb2c132dddeded640fb4cb69547e",
-    "sourceHash": "7cec7f64e259241ed52bfe0bed050870d3ade3c361514de0bcd3183e6514111c",
-    "updatedAt": "2026-10-06T04:22:53.305Z"
+    "attempts": 5,
+    "inputHash": "694008d9e57d6dbf0e299d9382470fb895f8bebfcf086e61d53d2f5a91de6b53",
+    "sourceHash": "2537cbbd9a3659fdb5977d6f88ac654f60eba3c7e0266a3ad26c115b5f3df096",
+    "updatedAt": "2026-10-24T02:34:50.370Z"
   },
   "Q0004": {
     "status": "ready",
@@ -43,12 +43,12 @@
   },
   "Q0007": {
     "status": "failed",
-    "attempts": 19,
+    "attempts": 20,
     "inputHash": "76bca49d811cfa28bebf4eb822a09092f0e6c270b25578cc3107d27b33e929e2",
     "sourceHash": "f6d5bd5bf58598488b29985350d7147876258d2633a3133ba313da9b03077200",
-    "updatedAt": "2026-10-22T02:46:29.435Z",
+    "updatedAt": "2026-10-24T02:34:50.508Z",
     "error": "Article snapshot unavailable within fetch limit; retry next run.",
-    "nextRetryAt": "2026-10-23T02:46:29.435Z"
+    "nextRetryAt": "2026-10-25T02:34:50.508Z"
   },
   "Q0008": {
     "status": "ready",
@@ -303,13 +303,11 @@
     "updatedAt": "2026-09-21T02:24:21.968Z"
   },
   "Q0044": {
-    "status": "failed",
-    "attempts": 4,
+    "status": "ready",
+    "attempts": 5,
     "inputHash": "c5c6b3144fd47d5ba14d29e07a1171ba1e008d3a74c95360f60de69f85be69e4",
-    "sourceHash": "f037c4a72e57ede78e494793a7b57f1cb9c735041d7fa9ab448f4c2882675a92",
-    "updatedAt": "2026-10-23T02:44:43.141Z",
-    "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"locales\",\n      \"zh-TW\",\n      \"supplementNote\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
-    "nextRetryAt": "2026-10-23T10:44:43.141Z"
+    "sourceHash": "68a01be76f31e45fb13fe2da9a3064c74b7d7285ad5a82ca2e6658ec8ac618c6",
+    "updatedAt": "2026-10-24T02:36:24.262Z"
   },
   "Q0045": {
     "status": "ready",
@@ -397,10 +395,10 @@
   },
   "Q0057": {
     "status": "ready",
-    "attempts": 3,
-    "inputHash": "792b177b24b08a344801784ce1c8967ab5d85412667953f39c0f733202894761",
-    "sourceHash": "5a09bed89b33a371fac8e5ea200c2bcc6047ad1796749fc0e1c71bd9c3e64cfa",
-    "updatedAt": "2026-10-09T02:49:02.307Z"
+    "attempts": 4,
+    "inputHash": "b037b322e0ecbeb863e8ce5f2d00d9ae86b0a2ec005928a165dd5778a80bc937",
+    "sourceHash": "c187b29ccc916bd24b30b43ecc9f771fd4c5370fc2e2be64eb8d27fdf5b09f6f",
+    "updatedAt": "2026-10-24T02:37:56.265Z"
   },
   "Q0058": {
     "status": "ready",
@@ -425,10 +423,10 @@
   },
   "Q0061": {
     "status": "ready",
-    "attempts": 3,
-    "inputHash": "857e7445cad00ee143ec13825fdcf68982ad062652023c2fb1754d7e9a255b6e",
-    "sourceHash": "3d23f1678ade9c1a64dc620442344612d6a725148fcf5a7a5266425d1bc36448",
-    "updatedAt": "2026-10-09T02:55:25.368Z"
+    "attempts": 4,
+    "inputHash": "817674fa690dfd7c07b31151e21b6589ae18f82b4e299aa57518d24a0be525c5",
+    "sourceHash": "2ef05f6ffbaf4b5ded2dd0b17a04fc182ecbfe03678cd5d0033d5e29a8edb279",
+    "updatedAt": "2026-10-24T02:39:31.217Z"
   },
   "Q0062": {
     "status": "ready",
@@ -662,11 +660,11 @@
     "updatedAt": "2026-09-21T02:24:21.977Z"
   },
   "Q0095": {
-    "status": "pending",
-    "attempts": 0,
-    "inputHash": "35da1c2bf2104ff7a8a4cf185a4b2d88102c6fc372d730b75eade79e64feb820",
-    "error": "No supported extracted source material is available yet.",
-    "updatedAt": "2026-09-21T02:24:21.977Z"
+    "status": "ready",
+    "attempts": 1,
+    "inputHash": "2a9f9a6f97441d37cb56141bba0b00ba805bfbeb5e58d1e2c82ae1a7f8e12233",
+    "sourceHash": "6ae2105e8d37024ebfd82b0674aa22f4cf94ca1b890b0392f889c3bf7fbc9f2f",
+    "updatedAt": "2026-10-24T02:41:15.356Z"
   },
   "Q0096": {
     "status": "pending",
@@ -747,33 +745,33 @@
   },
   "Q0107": {
     "status": "failed",
-    "attempts": 10,
+    "attempts": 11,
     "inputHash": "c7f74047e699b66135db59f7199d13ffeff94949418ac69c0eaf03b9bb92cd1e",
     "sourceHash": "e7714a79085858afd0e80aa7b2e56f6a4ef47c8b62cda4eef54a36c61293a24c",
-    "updatedAt": "2026-10-20T02:37:27.834Z",
+    "updatedAt": "2026-10-24T02:41:15.500Z",
     "error": "Article snapshot unavailable within fetch limit; retry next run.",
-    "nextRetryAt": "2026-10-21T02:37:27.834Z"
+    "nextRetryAt": "2026-10-25T02:41:15.500Z"
   },
   "Q0108": {
     "status": "ready",
-    "attempts": 2,
-    "inputHash": "9b774022d4b1ecaa8fac1d07a1d003f45ac845f200822473abe4289ff0bf4333",
-    "sourceHash": "f3ed58d995af9fe506bd88891e9c99b36391f3618a9176702432871563ed47da",
-    "updatedAt": "2026-10-11T02:59:03.630Z"
+    "attempts": 3,
+    "inputHash": "1e3218d004867ea46eb5354647b07b75f27a0a27cc9df08cff8cade37ef838da",
+    "sourceHash": "826cc68e5abbad5dd7495f91d3b27acd8d773931d96b272d4199327f389761e1",
+    "updatedAt": "2026-10-24T02:42:50.806Z"
   },
   "Q0109": {
     "status": "ready",
-    "attempts": 2,
-    "inputHash": "d25d7b3eb15951060ffa6f042ed393f509b2b8f26b5cfe93be7a28b333702698",
-    "sourceHash": "826c080880f3362628fbd7f5b90bd4f0f751c7279e590d5143a535e4a2fbdd55",
-    "updatedAt": "2026-10-12T02:54:09.153Z"
+    "attempts": 3,
+    "inputHash": "475bde5e6d99d1c02a990c9c9c5aaff8521c055cd6663f4ed9a1db61828fd55a",
+    "sourceHash": "80148885dd4d1aa0723b86b1afbd82fb606b46d50cddca842b127fd3aee92c6d",
+    "updatedAt": "2026-10-24T02:44:33.824Z"
   },
   "Q0110": {
     "status": "ready",
-    "attempts": 2,
-    "inputHash": "6be2c7064d6b4213a0d4e13335c8c3f188e07359817ed64e28d2ea52a5d83945",
-    "sourceHash": "faf74efa3a1586b874fa54ae1c0dc854fe82d58f8c3216fa6403d502fc798ac4",
-    "updatedAt": "2026-10-12T02:55:39.610Z"
+    "attempts": 3,
+    "inputHash": "5ccae6a552abfed20ea31a6d9d123281ca74698afcc3944819a6612ab14e7780",
+    "sourceHash": "506a690c3df59942df5baf95a0e62d3e4db0c763830ba25f722b2d64005ccadf",
+    "updatedAt": "2026-10-24T02:46:18.043Z"
   },
   "Q0111": {
     "status": "ready",
@@ -826,17 +824,17 @@
   },
   "Q0118": {
     "status": "ready",
-    "attempts": 2,
-    "inputHash": "2aecbd152cfc5720f10bddf8e181218a416661d8e3e4aa55d73cb80e0e501765",
-    "sourceHash": "c9a92174dc4ae02ddf13fe80e771cff557494e39ac524b4fefafd5fcb65a9001",
-    "updatedAt": "2026-10-12T03:03:21.450Z"
+    "attempts": 3,
+    "inputHash": "89094e63a6906985b82036e13a72eb97148b4d128bc81b626370c073d68f6897",
+    "sourceHash": "dd8147b3d1d22b27f5c575455129c7cb5c1b1e2a1edb7d6c2106c63cfb4a11eb",
+    "updatedAt": "2026-10-24T02:48:06.654Z"
   },
   "Q0119": {
     "status": "ready",
-    "attempts": 2,
-    "inputHash": "4b74964cb6a37b3dfa1ea815be7d5ee90876e7282a69357d7de57e4f26811285",
-    "sourceHash": "ba1f7ad038554eb27cafe4e7ae45716ebf851d0e6985dfbd3c0e049d81d37ab7",
-    "updatedAt": "2026-10-12T03:04:50.786Z"
+    "attempts": 3,
+    "inputHash": "db560a1c4cc257cf4af9e113f99161d02218e7733d05e26ae0c99abce362e277",
+    "sourceHash": "9af0de27f5192f2315cbf34535f7f66cae23fd1215d177337819c49a3144b1d0",
+    "updatedAt": "2026-10-24T02:49:43.490Z"
   },
   "Q0120": {
     "status": "pending",

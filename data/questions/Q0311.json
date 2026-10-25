@@ -10,7 +10,7 @@
     "production",
     "agents"
   ],
-  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency) and [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio)",
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency), [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio), [How does speculative LLM generation start replying before the user finishes?](https://outcomeschool.com/blog/speculative-generation-in-voice-agents) and [How do filler phrases hide latency in a voice agent?](https://outcomeschool.com/blog/filler-phrases-in-voice-agents)",
   "links": [
     {
       "title": "Design a Real-Time Voice AI Agent",
@@ -27,17 +27,25 @@
     {
       "title": "Why does the time-to-first-audio matter more than total response time?",
       "url": "https://outcomeschool.com/blog/time-to-first-audio"
+    },
+    {
+      "title": "How does speculative LLM generation start replying before the user finishes?",
+      "url": "https://outcomeschool.com/blog/speculative-generation-in-voice-agents"
+    },
+    {
+      "title": "How do filler phrases hide latency in a voice agent?",
+      "url": "https://outcomeschool.com/blog/filler-phrases-in-voice-agents"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "f07f8f47d32004f29ead658b14382a27dc7cb2f4",
+    "commit": "748bb247e2142ad616a0888569164fdacba1b93c",
     "path": "README.md",
     "lineStart": 1038,
     "lineEnd": 1039,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f07f8f47d32004f29ead658b14382a27dc7cb2f4/README.md#L1038-L1039"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/748bb247e2142ad616a0888569164fdacba1b93c/README.md#L1038-L1039"
   },
-  "contentHash": "5d5c1202cad738a088482c955d35e8feae4c03e390624e939aa5cb5f490e757e",
+  "contentHash": "efdd9fb13f5ce44edef4884726ddf954a0be1321303c444b0db4b21e4a9c1732",
   "id": "Q0311",
   "number": 311,
   "active": true

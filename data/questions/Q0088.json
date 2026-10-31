@@ -9,7 +9,7 @@
   "tags": [
     "multimodal"
   ],
-  "originalAnswer": "- Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai) and [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)",
+  "originalAnswer": "- Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai) and [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit) and [How does a Vision-Language Model (VLM) work?](https://outcomeschool.com/blog/vision-language-model-vlm)",
   "links": [
     {
       "title": "Multimodal AI",
@@ -18,17 +18,21 @@
     {
       "title": "Decoding Vision Transformer (ViT)",
       "url": "https://outcomeschool.com/blog/decoding-vision-transformer-vit"
+    },
+    {
+      "title": "How does a Vision-Language Model (VLM) work?",
+      "url": "https://outcomeschool.com/blog/vision-language-model-vlm"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "748bb247e2142ad616a0888569164fdacba1b93c",
+    "commit": "8fcbddc4ff6910daacf6c371f5056c48c4f2a06a",
     "path": "README.md",
     "lineStart": 357,
     "lineEnd": 359,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/748bb247e2142ad616a0888569164fdacba1b93c/README.md#L357-L359"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/8fcbddc4ff6910daacf6c371f5056c48c4f2a06a/README.md#L357-L359"
   },
-  "contentHash": "7b88a98cef390f5e4851096002e1a8a5e98f2bd501d54051431e99501e99b180",
+  "contentHash": "fd744fdb39019ae5a4593efffd9c7567a5f6c8f55b10077cbb1f54b7e4e5dc87",
   "id": "Q0088",
   "number": 88,
   "active": true

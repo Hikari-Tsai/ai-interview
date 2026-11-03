@@ -8,17 +8,22 @@
   "tags": [
     "ml"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [What are Optimizers in Deep Learning? SGD, Momentum, RMSProp, and Adam Explained](https://outcomeschool.com/blog/optimizers-in-deep-learning)",
+  "links": [
+    {
+      "title": "What are Optimizers in Deep Learning? SGD, Momentum, RMSProp, and Adam Explained",
+      "url": "https://outcomeschool.com/blog/optimizers-in-deep-learning"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "8fcbddc4ff6910daacf6c371f5056c48c4f2a06a",
+    "commit": "b64f9335977bf25abbe50f14157ec8fcae9d03f7",
     "path": "README.md",
     "lineStart": 1230,
-    "lineEnd": 1230,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/8fcbddc4ff6910daacf6c371f5056c48c4f2a06a/README.md#L1230-L1230"
+    "lineEnd": 1231,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/b64f9335977bf25abbe50f14157ec8fcae9d03f7/README.md#L1230-L1231"
   },
-  "contentHash": "9d99ab6ccb9396f99c811a50af16c54680115ad87ffc8631a87e0e2c71ba1a06",
+  "contentHash": "a1f3caaebbdcc10bce42a35a12c28ac2dd280441aab3b624df33bd1f30f59ead",
   "id": "Q0365",
   "number": 365,
   "active": true

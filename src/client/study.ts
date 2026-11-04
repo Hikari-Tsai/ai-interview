@@ -1,4 +1,5 @@
 import {setupShare} from './share';
+import {loadStars} from './stars';
 import {filterCards,orderedIds,readFilters} from '../lib/session';
 import {historyFor,recordVisit,type VisitHistory} from '../lib/history';
 import type {Card,Locale} from '../lib/types';
@@ -9,6 +10,7 @@ const all=<T extends HTMLElement=HTMLElement>(selector:string)=>Array.from(docum
 const base=meta.base.replace(/\/$/,'');
 const questionUrl=(id:string,params:URLSearchParams,locale:string=meta.locale)=>`${base}/${locale}/questions/${id}/${params.size?'?'+params.toString():''}`;
 setupShare();
+void loadStars(meta.locale);
 try{localStorage.setItem('recall-locale',meta.locale);}catch{}
 // Disclosure controls remain usable even when the catalog cannot be fetched.
 for(const [buttonId,panelId,closed,open] of [['hint-button','hint-panel','hint','hideHint'],['answer-button','answer-panel','reveal','hideAnswer']]){

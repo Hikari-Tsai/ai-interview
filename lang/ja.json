@@ -90,6 +90,7 @@
   "learningPath": "原理 → 本番運用",
   "projectRepo": "このプロジェクトの Repo",
   "starRepo": "スターをつける",
+  "starCountAria": "スターをつける、現在 {n} スター",
   "socialImageAlt": "Recall AI企業面接問題集のカバー。アイボリーの背景に深緑の学習カードとノードのイラスト。",
   "contributeTitle": "この解答を一緒に改善する",
   "contributeDescription": "この問題集には Outcome School の解答がまだ付いていない問題が多く、既存の解説も専門家にとっては掘り下げが足りない場合があります。さまざまな分野の方に議論へ参加していただき、解法や実務経験を持ち寄って、このリポジトリを一緒に充実させていきたいと考えています。",

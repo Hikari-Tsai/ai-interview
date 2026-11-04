@@ -90,6 +90,7 @@
   "learningPath": "原理 → 上線實務",
   "projectRepo": "本專案 Repo",
   "starRepo": "賞我星星",
+  "starCountAria": "賞我星星，目前 {n} 顆星星",
   "socialImageAlt": "Recall AI 公司面試題庫分享封面：米白底、深綠題卡與 AI 節點插圖。",
   "contributeTitle": "一起完善這題",
   "contributeDescription": "題庫中有不少題目尚未附上 Outcome School 的解答，現有內容對特定領域的專家來說，也可能不夠深入。歡迎各領域的朋友參與討論，補充解法與實務經驗，一起完善這個 Repo。",

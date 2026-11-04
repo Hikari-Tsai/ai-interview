@@ -19,6 +19,7 @@ main{padding:43px 56px 24px;min-width:0;max-width:1130px;width:100%;margin:0 aut
 .header-actions{gap:18px}
 .project-star{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:36px;padding:7px 11px;border:1px solid var(--line);border-radius:6px;background:#fff9;font-size:14px;color:#64715f;white-space:nowrap}
 .project-star>svg{color:#a48951}
+.star-count{padding-left:7px;border-left:1px solid var(--line);font-variant-numeric:tabular-nums;font-weight:600;color:var(--ink)}
 .project-star:hover{background:#fff;border-color:#a8b7a7;color:var(--accent)}
 .footer-repositories{display:flex;align-items:center;justify-content:flex-end;gap:17px;flex-wrap:wrap}
 @media(max-width:760px){

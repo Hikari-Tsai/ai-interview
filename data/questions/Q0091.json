@@ -9,7 +9,7 @@
     "multimodal",
     "agents"
   ],
-  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent) and [What is barge-in in a voice AI agent?](https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent)",
+  "originalAnswer": "- Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent), [What is barge-in in a voice AI agent?](https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent) and [How does a voice agent tell a real interruption from a cough or background noise?](https://outcomeschool.com/blog/interruption-vs-background-noise)",
   "links": [
     {
       "title": "Design a Real-Time Voice AI Agent",
@@ -22,17 +22,21 @@
     {
       "title": "What is barge-in in a voice AI agent?",
       "url": "https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent"
+    },
+    {
+      "title": "How does a voice agent tell a real interruption from a cough or background noise?",
+      "url": "https://outcomeschool.com/blog/interruption-vs-background-noise"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "b64f9335977bf25abbe50f14157ec8fcae9d03f7",
+    "commit": "1a656489120ed712273580d64faa08fd18367996",
     "path": "README.md",
     "lineStart": 365,
     "lineEnd": 367,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/b64f9335977bf25abbe50f14157ec8fcae9d03f7/README.md#L365-L367"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1a656489120ed712273580d64faa08fd18367996/README.md#L365-L367"
   },
-  "contentHash": "291b1940046f961ab4824b6b775e3d9c7778a9e16feb5581a3d44f9211e85758",
+  "contentHash": "136b2f46e2b8275a631ae1eab5e852e6b8e6713e2b0b7f567d92095e19318436",
   "id": "Q0091",
   "number": 91,
   "active": true

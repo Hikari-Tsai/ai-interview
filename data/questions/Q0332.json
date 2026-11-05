@@ -8,7 +8,7 @@
   "tags": [
     "ml"
   ],
-  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)",
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning) and [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)",
   "links": [
     {
       "title": "Math Behind Cross-Entropy Loss",
@@ -17,17 +17,21 @@
     {
       "title": "What is Contrastive Learning?",
       "url": "https://outcomeschool.com/blog/contrastive-learning"
+    },
+    {
+      "title": "What is KL Divergence? The Math Explained Step by Step",
+      "url": "https://outcomeschool.com/blog/kl-divergence"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "1a656489120ed712273580d64faa08fd18367996",
+    "commit": "8aebbf3577d9ccd62aa2e7260b7ebbdcaf362ab5",
     "path": "README.md",
-    "lineStart": 1122,
-    "lineEnd": 1123,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1a656489120ed712273580d64faa08fd18367996/README.md#L1122-L1123"
+    "lineStart": 1123,
+    "lineEnd": 1124,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/8aebbf3577d9ccd62aa2e7260b7ebbdcaf362ab5/README.md#L1123-L1124"
   },
-  "contentHash": "05cb4fb615f0b077b4e4782eb6f987e2a503f4ffa0c917313934f82b292c48f6",
+  "contentHash": "3eb572556d97987f978022ec0fc4a573f388712c62b16110ae4cc342c0252a85",
   "id": "Q0332",
   "number": 332,
   "active": true

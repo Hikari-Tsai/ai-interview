@@ -8,22 +8,26 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)",
+  "originalAnswer": "- Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss) and [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)",
   "links": [
     {
       "title": "Math Behind Cross-Entropy Loss",
       "url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss"
+    },
+    {
+      "title": "What is KL Divergence? The Math Explained Step by Step",
+      "url": "https://outcomeschool.com/blog/kl-divergence"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "1a656489120ed712273580d64faa08fd18367996",
+    "commit": "8aebbf3577d9ccd62aa2e7260b7ebbdcaf362ab5",
     "path": "README.md",
-    "lineStart": 558,
-    "lineEnd": 559,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1a656489120ed712273580d64faa08fd18367996/README.md#L558-L559"
+    "lineStart": 559,
+    "lineEnd": 560,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/8aebbf3577d9ccd62aa2e7260b7ebbdcaf362ab5/README.md#L559-L560"
   },
-  "contentHash": "b7bf1c8cc8667bf512236dd668eb410fade65b2fea6b680484ec811ad9e954bd",
+  "contentHash": "338b2e6d7f1cf75579400e563dc2807025e73030f9a7017ef1c3883d95db0337",
   "id": "Q0169",
   "number": 169,
   "active": true

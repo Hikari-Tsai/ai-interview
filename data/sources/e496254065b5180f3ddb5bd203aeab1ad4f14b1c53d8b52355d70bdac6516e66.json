@@ -3,7 +3,7 @@
   "title": "Why Do We Scale Attention by √dₖ? The Math Behind the Scaling Factor",
   "status": "ok",
   "contentHash": "852712c40da09fc292fe68ca6c02065ad0908c7cb71ede004940ce5afef5ed16",
-  "checkedAt": "2026-10-29T02:26:11.070Z",
-  "etag": "W/\"4bf10a0f935800c12bcbeba498b6c64c\"",
-  "lastModified": "Wed, 28 Oct 2026 06:01:47 GMT"
+  "checkedAt": "2026-11-06T02:23:03.020Z",
+  "etag": "W/\"bb796cdefc3eda29f27cb2cc3c884e57\"",
+  "lastModified": "Thu, 05 Nov 2026 09:35:45 GMT"
 }

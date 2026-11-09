@@ -8,17 +8,22 @@
   "tags": [
     "ml"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [What is Policy Gradient? The REINFORCE Algorithm Explained](https://outcomeschool.com/blog/policy-gradient-reinforce)",
+  "links": [
+    {
+      "title": "What is Policy Gradient? The REINFORCE Algorithm Explained",
+      "url": "https://outcomeschool.com/blog/policy-gradient-reinforce"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "15a6daa8ff5764b0cd9506dc87bc8e36e619db04",
+    "commit": "6cd5e6e16efd5b5a3c22c547f5867c3b165f633d",
     "path": "README.md",
     "lineStart": 627,
-    "lineEnd": 627,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/15a6daa8ff5764b0cd9506dc87bc8e36e619db04/README.md#L627-L627"
+    "lineEnd": 628,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6cd5e6e16efd5b5a3c22c547f5867c3b165f633d/README.md#L627-L628"
   },
-  "contentHash": "463f9d90aa4820d59b4cc3a21a1f1f5f7dd442025fa534839e19ca7a6ab83f5c",
+  "contentHash": "2b59c15e0963e27c848d1bea0eb7de6430a40fdfd9aa5fc6481a55c7e2e91768",
   "id": "Q0198",
   "number": 198,
   "active": true

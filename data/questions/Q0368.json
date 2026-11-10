@@ -8,7 +8,7 @@
   "tags": [
     "inference"
   ],
-  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work) and [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)",
+  "originalAnswer": "- Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work) and [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [How does an LLM use GPU memory?](https://outcomeschool.com/blog/llm-gpu-memory)",
   "links": [
     {
       "title": "How does Model Quantization work?",
@@ -17,17 +17,21 @@
     {
       "title": "What is KV Cache in LLMs?",
       "url": "https://outcomeschool.com/blog/kv-cache-in-llms"
+    },
+    {
+      "title": "How does an LLM use GPU memory?",
+      "url": "https://outcomeschool.com/blog/llm-gpu-memory"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6cd5e6e16efd5b5a3c22c547f5867c3b165f633d",
+    "commit": "582548a0dcf820ed865c436e51ccfb6d380c132f",
     "path": "README.md",
     "lineStart": 1240,
     "lineEnd": 1241,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6cd5e6e16efd5b5a3c22c547f5867c3b165f633d/README.md#L1240-L1241"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/582548a0dcf820ed865c436e51ccfb6d380c132f/README.md#L1240-L1241"
   },
-  "contentHash": "06edd2141fce57862a134a26854f978b9f9cc8d1b25d33d2433710471b383f7c",
+  "contentHash": "6fb1eabd3595def1f19492e8b798c649e2939303e8bb2b0350b736d41e0cb4a1",
   "id": "Q0368",
   "number": 368,
   "active": true

@@ -8,7 +8,7 @@
   "tags": [
     "inference"
   ],
-  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)",
+  "originalAnswer": "- Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms) and [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms) and [How does an LLM use GPU memory?](https://outcomeschool.com/blog/llm-gpu-memory)",
   "links": [
     {
       "title": "What is KV Cache in LLMs?",
@@ -17,17 +17,21 @@
     {
       "title": "Paged Attention in LLMs",
       "url": "https://outcomeschool.com/blog/paged-attention-in-llms"
+    },
+    {
+      "title": "How does an LLM use GPU memory?",
+      "url": "https://outcomeschool.com/blog/llm-gpu-memory"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6cd5e6e16efd5b5a3c22c547f5867c3b165f633d",
+    "commit": "582548a0dcf820ed865c436e51ccfb6d380c132f",
     "path": "README.md",
     "lineStart": 185,
     "lineEnd": 187,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6cd5e6e16efd5b5a3c22c547f5867c3b165f633d/README.md#L185-L187"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/582548a0dcf820ed865c436e51ccfb6d380c132f/README.md#L185-L187"
   },
-  "contentHash": "1bad04ba83ee8b000c184efe216718515c172fc7bca03353f1a849f4f7e54c48",
+  "contentHash": "b69796954c82d76e5ecd16ea211df6c17b4b5a66e91bdb4116a737353a2e3d80",
   "id": "Q0024",
   "number": 24,
   "active": true

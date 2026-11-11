@@ -8,22 +8,26 @@
   "tags": [
     "finetuning"
   ],
-  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)",
+  "originalAnswer": "- Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf) and [What is Reward Hacking in Reinforcement Learning and How Do We Prevent It?](https://outcomeschool.com/blog/reward-hacking)",
   "links": [
     {
       "title": "Reinforcement Learning from Human Feedback (RLHF)",
       "url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf"
+    },
+    {
+      "title": "What is Reward Hacking in Reinforcement Learning and How Do We Prevent It?",
+      "url": "https://outcomeschool.com/blog/reward-hacking"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "582548a0dcf820ed865c436e51ccfb6d380c132f",
+    "commit": "7898044113685af3ce048b092902838661267834",
     "path": "README.md",
     "lineStart": 299,
     "lineEnd": 301,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/582548a0dcf820ed865c436e51ccfb6d380c132f/README.md#L299-L301"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/7898044113685af3ce048b092902838661267834/README.md#L299-L301"
   },
-  "contentHash": "d2e809fb93c43879fdbdeff2de3c7d376e07433edb15f8c00f98731c5020d37d",
+  "contentHash": "670c9c76d3e1548d3f41ef5711bb559193ad1cb3ed91b8df7674a431608ec489",
   "id": "Q0066",
   "number": 66,
   "active": true

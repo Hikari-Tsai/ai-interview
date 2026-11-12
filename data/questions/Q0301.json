@@ -8,22 +8,26 @@
   "tags": [
     "finetuning"
   ],
-  "originalAnswer": "- Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)",
+  "originalAnswer": "- Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo) and [What is Reinforcement Learning with Verifiable Rewards (RLVR)?](https://outcomeschool.com/blog/reinforcement-learning-with-verifiable-rewards-rlvr)",
   "links": [
     {
       "title": "Group Relative Policy Optimization (GRPO)",
       "url": "https://outcomeschool.com/blog/group-relative-policy-optimization-grpo"
+    },
+    {
+      "title": "What is Reinforcement Learning with Verifiable Rewards (RLVR)?",
+      "url": "https://outcomeschool.com/blog/reinforcement-learning-with-verifiable-rewards-rlvr"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "7898044113685af3ce048b092902838661267834",
+    "commit": "51f16cd48c71d08da565babf47be2a6aa3af8fb9",
     "path": "README.md",
-    "lineStart": 988,
-    "lineEnd": 989,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/7898044113685af3ce048b092902838661267834/README.md#L988-L989"
+    "lineStart": 990,
+    "lineEnd": 991,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/51f16cd48c71d08da565babf47be2a6aa3af8fb9/README.md#L990-L991"
   },
-  "contentHash": "8a0576ed01a3f087da3c346e2d15273e78633c5b5944bda468046efa498f0f8a",
+  "contentHash": "fae5aec4323053385ca6d5525f55fe1ec68be22d09da45a4c4f1c9a5645d9f78",
   "id": "Q0301",
   "number": 301,
   "active": true

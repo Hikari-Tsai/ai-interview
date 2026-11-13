@@ -8,17 +8,22 @@
   "tags": [
     "coding"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How do Greedy Decoding and Beam Search differ?](https://outcomeschool.com/blog/greedy-decoding-vs-beam-search)",
+  "links": [
+    {
+      "title": "How do Greedy Decoding and Beam Search differ?",
+      "url": "https://outcomeschool.com/blog/greedy-decoding-vs-beam-search"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "51f16cd48c71d08da565babf47be2a6aa3af8fb9",
+    "commit": "625743eabfde644441148e4e5ad88a4620be00d4",
     "path": "README.md",
     "lineStart": 1535,
-    "lineEnd": 1535,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/51f16cd48c71d08da565babf47be2a6aa3af8fb9/README.md#L1535-L1535"
+    "lineEnd": 1536,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/625743eabfde644441148e4e5ad88a4620be00d4/README.md#L1535-L1536"
   },
-  "contentHash": "0ed777036dc0d2e4989270efe8deec750463a58206c2c79b0e11574d810e53cd",
+  "contentHash": "dbdb20f141e6776dd69d945fa4cced61958223f0fc9ff0a7456e86926f0b69ba",
   "id": "Q0453",
   "number": 453,
   "active": true

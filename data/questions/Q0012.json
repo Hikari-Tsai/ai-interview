@@ -10,7 +10,7 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output) and [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work)",
+  "originalAnswer": "- Answer: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output) and [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) and [How do Greedy Decoding and Beam Search differ?](https://outcomeschool.com/blog/greedy-decoding-vs-beam-search)",
   "links": [
     {
       "title": "How does Temperature control LLM output?",
@@ -19,17 +19,21 @@
     {
       "title": "How do Top-k and Top-p Sampling work?",
       "url": "https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work"
+    },
+    {
+      "title": "How do Greedy Decoding and Beam Search differ?",
+      "url": "https://outcomeschool.com/blog/greedy-decoding-vs-beam-search"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "51f16cd48c71d08da565babf47be2a6aa3af8fb9",
+    "commit": "625743eabfde644441148e4e5ad88a4620be00d4",
     "path": "README.md",
     "lineStart": 148,
     "lineEnd": 150,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/51f16cd48c71d08da565babf47be2a6aa3af8fb9/README.md#L148-L150"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/625743eabfde644441148e4e5ad88a4620be00d4/README.md#L148-L150"
   },
-  "contentHash": "60786da7c53b8a4b360818f2218297651cf5b22ed738898c6bae741bbe8adfcf",
+  "contentHash": "9207ba2ebd35e14dbd422fc8c52c1779d297bb3791780299ab1df5ab704c8120",
   "id": "Q0012",
   "number": 12,
   "active": true

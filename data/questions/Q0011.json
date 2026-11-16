@@ -9,7 +9,7 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf) and [How does Pretraining work?](https://outcomeschool.com/blog/llm-pretraining)",
+  "originalAnswer": "- Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf) and [How does Pretraining work?](https://outcomeschool.com/blog/llm-pretraining) and [How does Instruction Tuning work?](https://outcomeschool.com/blog/instruction-tuning)",
   "links": [
     {
       "title": "Decoding InstructGPT",
@@ -22,17 +22,21 @@
     {
       "title": "How does Pretraining work?",
       "url": "https://outcomeschool.com/blog/llm-pretraining"
+    },
+    {
+      "title": "How does Instruction Tuning work?",
+      "url": "https://outcomeschool.com/blog/instruction-tuning"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "efee9953b8305af8dda2a64826f92c967b165021",
+    "commit": "05a33f766d1f7b80610d535ef683550445f323d0",
     "path": "README.md",
     "lineStart": 145,
     "lineEnd": 147,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/efee9953b8305af8dda2a64826f92c967b165021/README.md#L145-L147"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/05a33f766d1f7b80610d535ef683550445f323d0/README.md#L145-L147"
   },
-  "contentHash": "dcb87fcace7a44fac5f62b677cd6c2823268273d6171925581e72c0903cf1df4",
+  "contentHash": "deeb0308f9c960b25482ad24fe8d55ac7829f89d87242ac6c0eefed633257721",
   "id": "Q0011",
   "number": 11,
   "active": true

@@ -8,17 +8,22 @@
   "tags": [
     "system-design"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does a Recommendation System work?](https://outcomeschool.com/blog/recommendation-system)",
+  "links": [
+    {
+      "title": "How does a Recommendation System work?",
+      "url": "https://outcomeschool.com/blog/recommendation-system"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "efee9953b8305af8dda2a64826f92c967b165021",
+    "commit": "05a33f766d1f7b80610d535ef683550445f323d0",
     "path": "README.md",
     "lineStart": 1321,
-    "lineEnd": 1321,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/efee9953b8305af8dda2a64826f92c967b165021/README.md#L1321-L1321"
+    "lineEnd": 1322,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/05a33f766d1f7b80610d535ef683550445f323d0/README.md#L1321-L1322"
   },
-  "contentHash": "c934db243222891a904464e1b7cff0f78f638dba1b009641dab394af9d08f72a",
+  "contentHash": "16a921f87555562ea1b4e60ef928a928338adb63377387c5f5cde27f3109f604",
   "id": "Q0390",
   "number": 390,
   "active": true

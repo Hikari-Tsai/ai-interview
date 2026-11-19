@@ -11,17 +11,22 @@
   "tags": [
     "inference"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does distributed training work?](https://outcomeschool.com/blog/distributed-training)",
+  "links": [
+    {
+      "title": "How does distributed training work?",
+      "url": "https://outcomeschool.com/blog/distributed-training"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "f10cf6c06e4ef3fda152c6d8c152bd8b341fcb2d",
+    "commit": "6120b42164c3a2e1be83ee012ce3086019e1eac8",
     "path": "README.md",
     "lineStart": 183,
-    "lineEnd": 184,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f10cf6c06e4ef3fda152c6d8c152bd8b341fcb2d/README.md#L183-L184"
+    "lineEnd": 185,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6120b42164c3a2e1be83ee012ce3086019e1eac8/README.md#L183-L185"
   },
-  "contentHash": "65ecff9f3e7d2e0750ddfd8e8e1ff6ab952d98890a2ab69fd26ee04aa42ba456",
+  "contentHash": "6a7ef19e8354db105d1beecd39e269f4c81ad72f6c402b816504169f820df60a",
   "id": "Q0023",
   "number": 23,
   "active": true

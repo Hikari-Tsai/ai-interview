@@ -8,17 +8,22 @@
   "tags": [
     "agents"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does a voice agent transfer a call to a human with context?](https://outcomeschool.com/blog/call-transfer-with-context)",
+  "links": [
+    {
+      "title": "How does a voice agent transfer a call to a human with context?",
+      "url": "https://outcomeschool.com/blog/call-transfer-with-context"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6120b42164c3a2e1be83ee012ce3086019e1eac8",
+    "commit": "698a24e99a0f5673eed9c244b840a6a177dd71d9",
     "path": "README.md",
-    "lineStart": 1690,
-    "lineEnd": 1690,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6120b42164c3a2e1be83ee012ce3086019e1eac8/README.md#L1690-L1690"
+    "lineStart": 1691,
+    "lineEnd": 1692,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/698a24e99a0f5673eed9c244b840a6a177dd71d9/README.md#L1691-L1692"
   },
-  "contentHash": "b3699f857d31e94e043f815ea6e27e12ba0b9c609c6090ab99cf550136224d47",
+  "contentHash": "2c921aaf737f2fddbf0b39efa6163a5818997e8fa56380f47adfe7bd49920c7a",
   "id": "Q0495",
   "number": 495,
   "active": true

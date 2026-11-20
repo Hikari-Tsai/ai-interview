@@ -8,17 +8,22 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [What are the Chinchilla scaling laws?](https://outcomeschool.com/blog/chinchilla-scaling-laws)",
+  "links": [
+    {
+      "title": "What are the Chinchilla scaling laws?",
+      "url": "https://outcomeschool.com/blog/chinchilla-scaling-laws"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6120b42164c3a2e1be83ee012ce3086019e1eac8",
+    "commit": "698a24e99a0f5673eed9c244b840a6a177dd71d9",
     "path": "README.md",
     "lineStart": 140,
-    "lineEnd": 141,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6120b42164c3a2e1be83ee012ce3086019e1eac8/README.md#L140-L141"
+    "lineEnd": 142,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/698a24e99a0f5673eed9c244b840a6a177dd71d9/README.md#L140-L142"
   },
-  "contentHash": "32badfa107afaeca4f60186fae3b1fcb8716f56078e2cf32847c3e39edf2ce09",
+  "contentHash": "1b8c7b9a30b7fa1af8df4e1f4bde744fd50930c1275f034278456f97c893eb95",
   "id": "Q0009",
   "number": 9,
   "active": true

@@ -8,22 +8,26 @@
   "tags": [
     "ml"
   ],
-  "originalAnswer": "- Answer: [Recurrent Neural Network (RNN)](https://outcomeschool.com/blog/recurrent-neural-network)",
+  "originalAnswer": "- Answer: [Recurrent Neural Network (RNN)](https://outcomeschool.com/blog/recurrent-neural-network) and [How do LSTM and GRU work?](https://outcomeschool.com/blog/lstm-and-gru)",
   "links": [
     {
       "title": "Recurrent Neural Network (RNN)",
       "url": "https://outcomeschool.com/blog/recurrent-neural-network"
+    },
+    {
+      "title": "How do LSTM and GRU work?",
+      "url": "https://outcomeschool.com/blog/lstm-and-gru"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "698a24e99a0f5673eed9c244b840a6a177dd71d9",
+    "commit": "f8e5fe8cc2f7b017f55da0857f0dc429a433fe49",
     "path": "README.md",
-    "lineStart": 1133,
-    "lineEnd": 1134,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/698a24e99a0f5673eed9c244b840a6a177dd71d9/README.md#L1133-L1134"
+    "lineStart": 1134,
+    "lineEnd": 1135,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/f8e5fe8cc2f7b017f55da0857f0dc429a433fe49/README.md#L1134-L1135"
   },
-  "contentHash": "975b09fadc933a39b14dedddc58e2cf5f14b96f0eb9da957b47c540e1f5b8c45",
+  "contentHash": "4470b7f5a9ff284d7a49cb5b9e45697e7ea3b723a57aac1b092a1c3c75788ef3",
   "id": "Q0335",
   "number": 335,
   "active": true

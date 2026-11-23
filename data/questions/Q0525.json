@@ -8,7 +8,7 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) and [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)",
+  "originalAnswer": "- Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) and [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does a voice agent manage conversation state across a long call?](https://outcomeschool.com/blog/conversation-state-in-voice-agents)",
   "links": [
     {
       "title": "How does context compaction work?",
@@ -17,17 +17,21 @@
     {
       "title": "AI Agent Memory",
       "url": "https://outcomeschool.com/blog/ai-agent-memory"
+    },
+    {
+      "title": "How does a voice agent manage conversation state across a long call?",
+      "url": "https://outcomeschool.com/blog/conversation-state-in-voice-agents"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "12f04bc0c9ab57394eec3228e41683c9c7b68796",
+    "commit": "310cbb20ed56f370789da06eb03244bcb222a081",
     "path": "README.md",
-    "lineStart": 1815,
-    "lineEnd": 1816,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/12f04bc0c9ab57394eec3228e41683c9c7b68796/README.md#L1815-L1816"
+    "lineStart": 1816,
+    "lineEnd": 1817,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/310cbb20ed56f370789da06eb03244bcb222a081/README.md#L1816-L1817"
   },
-  "contentHash": "ed45d51fb23013946cfa6cc8fcb68243737e416f1fff7d991ab43be26be4ba31",
+  "contentHash": "c1df202c9818ad082c62637bc1b9eb7f2b12ccab7e5d3c0d7b497083dd2c3b37",
   "id": "Q0525",
   "number": 525,
   "active": true

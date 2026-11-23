@@ -8,17 +8,22 @@
   "tags": [
     "ml"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does a feature store work?](https://outcomeschool.com/blog/feature-store)",
+  "links": [
+    {
+      "title": "How does a feature store work?",
+      "url": "https://outcomeschool.com/blog/feature-store"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "12f04bc0c9ab57394eec3228e41683c9c7b68796",
+    "commit": "310cbb20ed56f370789da06eb03244bcb222a081",
     "path": "README.md",
     "lineStart": 1320,
-    "lineEnd": 1320,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/12f04bc0c9ab57394eec3228e41683c9c7b68796/README.md#L1320-L1320"
+    "lineEnd": 1321,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/310cbb20ed56f370789da06eb03244bcb222a081/README.md#L1320-L1321"
   },
-  "contentHash": "09d9698abfa024872b59031df49f4848aab829b7490a9ff7131a305570151648",
+  "contentHash": "c170bd5606d4047e63f689012ff74a938dc0da52a56f25a5fe986c208e917eec",
   "id": "Q0388",
   "number": 388,
   "active": true

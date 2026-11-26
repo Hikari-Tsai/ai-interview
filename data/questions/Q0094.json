@@ -10,17 +10,22 @@
     "multimodal",
     "production"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does a voice agent handle accents and noisy environments?](https://outcomeschool.com/blog/accents-and-noise-in-voice-agents)",
+  "links": [
+    {
+      "title": "How does a voice agent handle accents and noisy environments?",
+      "url": "https://outcomeschool.com/blog/accents-and-noise-in-voice-agents"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6f305e9fbfa431d91fbc27b148e8267086509e3b",
+    "commit": "9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8",
     "path": "README.md",
     "lineStart": 377,
-    "lineEnd": 378,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6f305e9fbfa431d91fbc27b148e8267086509e3b/README.md#L377-L378"
+    "lineEnd": 379,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8/README.md#L377-L379"
   },
-  "contentHash": "cd6ecaf4d51f853707a01bb8c460dfd40000c4b18be843414e1b6f5a66ebee72",
+  "contentHash": "c237334559a49e24c3b7df9eb50d70d98da7b3d50390487f719a9b4c488f47a2",
   "id": "Q0094",
   "number": 94,
   "active": true

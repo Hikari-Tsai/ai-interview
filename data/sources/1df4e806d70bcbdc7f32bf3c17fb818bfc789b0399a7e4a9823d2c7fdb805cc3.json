@@ -1,8 +1,7 @@
 {
   "url": "https://outcomeschool.substack.com/p/positional-embeddings-in-llms",
   "title": "Positional Embeddings in LLMs",
-  "status": "failed",
-  "contentHash": "ed3800b4b1d197e04fdef2924abef6ddf197f26b4e15984666b3146b12958570",
-  "checkedAt": "2026-11-25T11:14:06.834Z",
-  "error": "HTTP 403"
+  "status": "ok",
+  "contentHash": "de6643ca8777c0b3ca191dc05637bdbfdf8b9703b99a50cd9fd3fe03952f2e4a",
+  "checkedAt": "2026-11-26T10:50:47.469Z"
 }

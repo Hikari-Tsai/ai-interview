@@ -8,22 +8,26 @@
   "tags": [
     "agents"
   ],
-  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)",
+  "originalAnswer": "- Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms) and [How does Constrained Decoding work?](https://outcomeschool.com/blog/constrained-decoding)",
   "links": [
     {
       "title": "How does Function Calling work in LLMs?",
       "url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms"
+    },
+    {
+      "title": "How does Constrained Decoding work?",
+      "url": "https://outcomeschool.com/blog/constrained-decoding"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "6f305e9fbfa431d91fbc27b148e8267086509e3b",
+    "commit": "9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8",
     "path": "README.md",
-    "lineStart": 1196,
-    "lineEnd": 1197,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/6f305e9fbfa431d91fbc27b148e8267086509e3b/README.md#L1196-L1197"
+    "lineStart": 1197,
+    "lineEnd": 1198,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8/README.md#L1197-L1198"
   },
-  "contentHash": "f6fc9672f63f1361baae29f16077836701c32776dff9e94fdc905654ba844896",
+  "contentHash": "c935fca919984aa47e0851a06ac801c0e103cc9607bcfb9c52b19847ea36d65e",
   "id": "Q0354",
   "number": 354,
   "active": true

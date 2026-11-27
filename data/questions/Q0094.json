@@ -10,22 +10,26 @@
     "multimodal",
     "production"
   ],
-  "originalAnswer": "- Answer: [How does a voice agent handle accents and noisy environments?](https://outcomeschool.com/blog/accents-and-noise-in-voice-agents)",
+  "originalAnswer": "- Answer: [How does a voice agent handle accents and noisy environments?](https://outcomeschool.com/blog/accents-and-noise-in-voice-agents) and [How does a voice agent detect and switch the user's language mid-call?](https://outcomeschool.com/blog/language-switching-in-voice-agents)",
   "links": [
     {
       "title": "How does a voice agent handle accents and noisy environments?",
       "url": "https://outcomeschool.com/blog/accents-and-noise-in-voice-agents"
+    },
+    {
+      "title": "How does a voice agent detect and switch the user's language mid-call?",
+      "url": "https://outcomeschool.com/blog/language-switching-in-voice-agents"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8",
+    "commit": "1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6",
     "path": "README.md",
     "lineStart": 377,
     "lineEnd": 379,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8/README.md#L377-L379"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6/README.md#L377-L379"
   },
-  "contentHash": "c237334559a49e24c3b7df9eb50d70d98da7b3d50390487f719a9b4c488f47a2",
+  "contentHash": "980b001aaeb699523577eb516d84ca5a8baa75d65344634255e98f0e8dd07fc0",
   "id": "Q0094",
   "number": 94,
   "active": true

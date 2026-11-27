@@ -10,7 +10,7 @@
   "tags": [
     "rag"
   ],
-  "originalAnswer": "- Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work) and [How does BM25 work?](https://outcomeschool.com/blog/bm25)",
+  "originalAnswer": "- Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work) and [How does BM25 work?](https://outcomeschool.com/blog/bm25) and [How do sparse and dense embeddings differ?](https://outcomeschool.com/blog/sparse-vs-dense-embeddings)",
   "links": [
     {
       "title": "How does Hybrid Search work?",
@@ -19,17 +19,21 @@
     {
       "title": "How does BM25 work?",
       "url": "https://outcomeschool.com/blog/bm25"
+    },
+    {
+      "title": "How do sparse and dense embeddings differ?",
+      "url": "https://outcomeschool.com/blog/sparse-vs-dense-embeddings"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8",
+    "commit": "1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6",
     "path": "README.md",
     "lineStart": 214,
     "lineEnd": 216,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/9f7ef08f05c9c38679a5578f0c5cc0a90d13ece8/README.md#L214-L216"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6/README.md#L214-L216"
   },
-  "contentHash": "7c8957c62583b4e9c2e39855f6e9a9456d0b8580ddaa57a8a725211665dda431",
+  "contentHash": "13a76654ac3c1f97838ae073675d5e442ab41b9105f230b10d7ae635a51b2794",
   "id": "Q0033",
   "number": 33,
   "active": true

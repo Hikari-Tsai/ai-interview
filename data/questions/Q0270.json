@@ -8,17 +8,22 @@
   "tags": [
     "finetuning"
   ],
-  "originalAnswer": "",
-  "links": [],
+  "originalAnswer": "- Answer: [How does Mixed Precision Training work?](https://outcomeschool.com/blog/mixed-precision-training)",
+  "links": [
+    {
+      "title": "How does Mixed Precision Training work?",
+      "url": "https://outcomeschool.com/blog/mixed-precision-training"
+    }
+  ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6",
+    "commit": "1d8a413563ff671766f1b1f5091a68aa50dbbfe5",
     "path": "README.md",
-    "lineStart": 875,
-    "lineEnd": 875,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6/README.md#L875-L875"
+    "lineStart": 876,
+    "lineEnd": 877,
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d8a413563ff671766f1b1f5091a68aa50dbbfe5/README.md#L876-L877"
   },
-  "contentHash": "4c842a1f147656a16811ac1e659d7dd38bd75a10f81289f10fa950c690dca6a9",
+  "contentHash": "d05550f51383ef10ae08aa917300c79ba9153c145c8b83a585e44199417939c2",
   "id": "Q0270",
   "number": 270,
   "active": true

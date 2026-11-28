@@ -8,22 +8,26 @@
   "tags": [
     "llm"
   ],
-  "originalAnswer": "- Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)",
+  "originalAnswer": "- Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms) and [How does SwiGLU work?](https://outcomeschool.com/blog/swiglu)",
   "links": [
     {
       "title": "Feed-Forward Networks in LLMs",
       "url": "https://outcomeschool.com/blog/feed-forward-networks-in-llms"
+    },
+    {
+      "title": "How does SwiGLU work?",
+      "url": "https://outcomeschool.com/blog/swiglu"
     }
   ],
   "source": {
     "repo": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-    "commit": "1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6",
+    "commit": "1d8a413563ff671766f1b1f5091a68aa50dbbfe5",
     "path": "README.md",
     "lineStart": 157,
     "lineEnd": 159,
-    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d80cde8dcc6ff707466bb4afd09aa1ffc2821c6/README.md#L157-L159"
+    "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise/blob/1d8a413563ff671766f1b1f5091a68aa50dbbfe5/README.md#L157-L159"
   },
-  "contentHash": "3929ffb6de81de553bc9b464698afe6b8242955e378e0319b05c08e2d92af8c4",
+  "contentHash": "9436ed2c285b84eb5a512052ae4a5089bed5e3da35080abbceab925e3002fc58",
   "id": "Q0015",
   "number": 15,
   "active": true
